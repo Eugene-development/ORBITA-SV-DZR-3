@@ -28,6 +28,5 @@ export async function load() {
 	// 	}
 	// `;
 	const test888 = await request('https://gost-remont.com/graphql/', query);
-	console.log(test888);
 	if (test888) return { test888 };
 }
