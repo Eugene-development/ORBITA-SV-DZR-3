@@ -5,8 +5,7 @@
 
 
 
-	export let data
-    // console.log(data.data.test888);
+	// export let data
 
 </script>
 
@@ -14,6 +13,6 @@
 <p class="text-red-800">Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
 
 
-{#each data.data.test888.rubric as {value}}
+<!-- {#each data.data.test888.rubric as {value}}
     {value}
-{/each}
+{/each} -->
