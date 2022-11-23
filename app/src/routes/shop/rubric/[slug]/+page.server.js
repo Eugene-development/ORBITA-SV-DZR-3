@@ -8,7 +8,6 @@ export async function load({ params }) {
 		key: '1'
 	};
 
-	// console.log(variables);
 	const query = gql`
 		query catalog($slug: String!, $key: String!) {
 			catalog_one(slug: $slug, key: $key) {
@@ -29,11 +28,12 @@ export async function load({ params }) {
 	// 	}
 	// `;
 
-	const catalog = await request('http://127.0.0.1:8001/graphql', query, variables);
-	// const rubric = await request('https://gost-remont.com/graphql/', query);
+	const url = import.meta.env.VITE_URL;
+
+	const catalog = await request(url, query, variables);
 	if (catalog) return { catalog };
 
 	// const { slug } = params;
 	// console.log(rubric);
-	return { catalog };
+	// return { catalog };
 }

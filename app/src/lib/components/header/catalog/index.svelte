@@ -37,11 +37,12 @@
 						{#each catalog as { slug, name }}
 							<a
 								sveltekit:noscroll
+								sveltekit:prefetch
 								href="/shop/rubric/{slug}"
-								class="flex flex-col  border border-gray-200 p-4 text-center hover:border-red-800 hover:bg-gradient-to-l hover:from-red-900 hover:via-red-800 hover:to-red-900 sm:border-r sm:border-l { slug === "izolyatsiya"
-										
+								class="flex flex-col  border border-gray-200 p-4 text-center hover:border-red-800 hover:bg-gradient-to-l hover:from-red-900 hover:via-red-800 hover:to-red-900 sm:border-r sm:border-l 
+								{ slug === "izolyatsiya"
 											? 'bg-gradient-to-r from-red-900 via-red-800 to-red-900'
-											: 'bg-gradient-to-r from-cyan-900 via-cyan-800 to-cyan-900'} "
+											: 'bg-gradient-to-r from-cyan-900 via-cyan-800 to-cyan-900'}"
 							>
 								<span
 									class="delay-50 duration-50 order-2 text-sm font-medium leading-6 tracking-wider text-slate-50 transition ease-in-out hover:scale-110"
