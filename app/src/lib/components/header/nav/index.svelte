@@ -1,48 +1,48 @@
-	<div class="relative -mx-1 bg-white">
-		<div aria-hidden="true" class="pointer-events-none absolute inset-0 z-30 shadow" />
-		<div class="relative z-20">
-			<div
-				class="mx-auto flex max-w-full items-center justify-between px-2 py-4 sm:px-6 sm:py-3 md:space-x-8 lg:px-10"
-			>
-				<div>
-					<a class="flex" href="/">
-						<span class="sr-only">Logo</span>
-						<img
-							alt="Logo"
-							class="h-8 w-auto sm:h-8"
-							src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/logo/logo.png"
-						/>
-					</a>
-				</div>
+<div class="relative -mx-1 bg-white">
+	<div aria-hidden="true" class="pointer-events-none absolute inset-0 z-30 shadow" />
+	<div class="relative z-20">
+		<div
+			class="mx-auto flex max-w-full items-center justify-between px-2 py-4 sm:px-6 sm:py-3 md:space-x-8 lg:px-10"
+		>
+			<div>
+				<a class="flex" href="/">
+					<span class="sr-only">Logo</span>
+					<img
+						alt="Logo"
+						class="h-8 w-auto sm:h-8"
+						src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/logo/logo.png"
+					/>
+				</a>
+			</div>
 
-				<div class="flex items-center md:ml-12 lg:hidden">
-					<a
-						class="ml-8 inline-flex items-center justify-center rounded-md border border-transparent bg-gray-900 px-3 py-1 text-base font-medium text-white shadow-lg shadow-gray-700/50 hover:bg-gray-800"
-						href="/shop/cart"
-						sveltekit:noscroll
+			<div class="flex items-center md:ml-12 lg:hidden">
+				<a
+					class="ml-8 inline-flex items-center justify-center rounded-md border border-transparent bg-gray-900 px-3 py-1 text-base font-medium text-white shadow-lg shadow-gray-700/50 hover:bg-gray-800"
+					href="/shop/cart"
+					sveltekit:noscroll
+				>
+					<svg
+						class="mr-1 h-5 w-5"
+						fill="none"
+						stroke="currentColor"
+						viewBox="0 0 24 24"
+						xmlns="http://www.w3.org/2000/svg"
 					>
-						<svg
-							class="mr-1 h-5 w-5"
-							fill="none"
-							stroke="currentColor"
-							viewBox="0 0 24 24"
-							xmlns="http://www.w3.org/2000/svg"
-						>
-							<path
-								d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-							/>
-						</svg>
-						Корзина (
-						<!-- <div class="mx-1 text-red-500">{countLengthCart}</div> -->
-						)
-					</a>
-				</div>
+						<path
+							d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+						/>
+					</svg>
+					Корзина (
+					<!-- <div class="mx-1 text-red-500">{countLengthCart}</div> -->
+					)
+				</a>
+			</div>
 
-				<div class="-my-2 -mr-2 lg:hidden">
-					<!-- <button
+			<div class="-my-2 -mr-2 lg:hidden">
+				<!-- <button
 						aria-expanded="false"
 						class="inline-flex items-center justify-center rounded-md bg-white p-2 text-slate-500 hover:bg-slate-100 hover:text-slate-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500"
 						on:click={changeVisibleMobileMenu}
@@ -66,14 +66,14 @@
 							/>
 						</svg>
 					</button> -->
-				</div>
-				<div class="hidden sm:items-center sm:justify-between lg:flex lg:flex-1">
-					<nav class="flex space-x-8 font-semibold">
-						<a class="text-base text-cyan-900 hover:text-red-800 " href="/">Главная</a>
-						<a class="text-base text-cyan-900 hover:text-red-800" href="/about">Компания</a>
-						<!-- <div on:outclick={closeVisibleInformationMenu} use:clickOutside> -->
-							<!-- Item active: "text-slate-900", Item inactive: "text-slate-500" -->
-							<!-- <button
+			</div>
+			<div class="hidden sm:items-center sm:justify-between lg:flex lg:flex-1">
+				<nav class="flex space-x-8 font-semibold">
+					<a class="text-base text-cyan-900 hover:text-red-800 " href="/">Главная</a>
+					<a class="text-base text-cyan-900 hover:text-red-800" href="/about">Компания</a>
+					<!-- <div on:outclick={closeVisibleInformationMenu} use:clickOutside> -->
+					<!-- Item active: "text-slate-900", Item inactive: "text-slate-500" -->
+					<!-- <button
 								aria-expanded="false"
 								class="group inline-flex items-center rounded-md bg-white text-base text-cyan-900 hover:text-red-800 focus:text-red-700 focus:outline-none"
 								on:click={changeVisibleInformationMenu}
@@ -81,12 +81,12 @@
 								type="button"
 							>
 								<span class="font-semibold">Информация</span> -->
-								<!--
+					<!--
                                   Heroicon name: solid/chevron-down
 
                                   Item active: "text-gray-900", Item inactive: "text-slate-400"
                                 -->
-								<!-- <svg
+					<!-- <svg
 									aria-hidden="true"
 									class="ml-2 h-5 w-5 text-red-700"
 									fill="currentColor"
@@ -101,7 +101,7 @@
 								</svg>
 							</button> -->
 
-							<!--
+					<!--
                               'More' flyout menu, show/hide based on flyout menu state.
 
                               Entering: "transition ease-out duration-200"
@@ -111,21 +111,21 @@
                                 From: "opacity-100 translate-y-0"
                                 To: "opacity-0 -translate-y-1"
                             -->
-							{#if false}
-							<!-- {#if $informationMenu} -->
-								<div class="absolute inset-x-0 top-full z-10 hidden transform shadow-lg md:block">
-									<div class="absolute inset-0 flex">
-										<div class="w-1/2 bg-white" />
-										<div class="w-1/2 bg-slate-50" />
-									</div>
-									<div class="relative mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
-										<nav
-											class="grid gap-y-10 bg-white px-4 py-8 sm:grid-cols-2 sm:gap-x-8 sm:py-12 sm:px-6 lg:px-8 xl:pr-12"
-										>
-											<div>
-												<!--                                                <h3 class="text-sm font-medium tracking-wide text-slate-500 uppercase">Company</h3>-->
-												<ul class="mt-5 space-y-6">
-													<!-- {#each leftInfo as { href, displayName }}
+					{#if false}
+						<!-- {#if $informationMenu} -->
+						<div class="absolute inset-x-0 top-full z-10 hidden transform shadow-lg md:block">
+							<div class="absolute inset-0 flex">
+								<div class="w-1/2 bg-white" />
+								<div class="w-1/2 bg-slate-50" />
+							</div>
+							<div class="relative mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
+								<nav
+									class="grid gap-y-10 bg-white px-4 py-8 sm:grid-cols-2 sm:gap-x-8 sm:py-12 sm:px-6 lg:px-8 xl:pr-12"
+								>
+									<div>
+										<!--                                                <h3 class="text-sm font-medium tracking-wide text-slate-500 uppercase">Company</h3>-->
+										<ul class="mt-5 space-y-6">
+											<!-- {#each leftInfo as { href, displayName }}
 														<li class="flow-root">
 															<a
 																{href}
@@ -151,11 +151,11 @@
 															</a>
 														</li>
 													{/each} -->
-												</ul>
-											</div>
-											<div>
-												<ul class="mt-5 space-y-6">
-													<!-- {#each rightInfo as { href, displayName }}
+										</ul>
+									</div>
+									<div>
+										<ul class="mt-5 space-y-6">
+											<!-- {#each rightInfo as { href, displayName }}
 														<li class="flow-root">
 															<a
 																{href}
@@ -182,95 +182,94 @@
 															</a>
 														</li>
 													{/each} -->
-												</ul>
-											</div>
-										</nav>
-										<div class="bg-slate-50 px-4 py-8 sm:py-12 sm:px-6 lg:px-8 xl:pl-12">
-											<div>
-												<h3 class="text-sm font-medium uppercase tracking-wide text-slate-500">
-													Последнее из блога
-												</h3>
-												<!--                                                <ul role="list" class="mt-6 space-y-6">-->
-												<!--                                                    <li class="flow-root">-->
-												<!--                                                        <a href="#" class="-m-3 p-3 flex rounded-lg hover:bg-slate-100">-->
-												<!--                                                            <div class="hidden sm:block flex-shrink-0">-->
-												<!--                                                                <img class="w-32 h-20 object-cover rounded-md" src="https://images.unsplash.com/photo-1558478551-1a378f63328e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2849&q=80" alt="">-->
-												<!--                                                            </div>-->
-												<!--                                                            <div class="w-0 flex-1 sm:ml-8">-->
-												<!--                                                                <h4 class="text-base font-medium text-slate-900 truncate">Boost your conversion rate</h4>-->
-												<!--                                                                <p class="mt-1 text-sm text-slate-500">Eget ullamcorper ac ut vulputate fames nec mattis pellentesque elementum. Viverra tempor id mus.</p>-->
-												<!--                                                            </div>-->
-												<!--                                                        </a>-->
-												<!--                                                    </li>-->
+										</ul>
+									</div>
+								</nav>
+								<div class="bg-slate-50 px-4 py-8 sm:py-12 sm:px-6 lg:px-8 xl:pl-12">
+									<div>
+										<h3 class="text-sm font-medium uppercase tracking-wide text-slate-500">
+											Последнее из блога
+										</h3>
+										<!--                                                <ul role="list" class="mt-6 space-y-6">-->
+										<!--                                                    <li class="flow-root">-->
+										<!--                                                        <a href="#" class="-m-3 p-3 flex rounded-lg hover:bg-slate-100">-->
+										<!--                                                            <div class="hidden sm:block flex-shrink-0">-->
+										<!--                                                                <img class="w-32 h-20 object-cover rounded-md" src="https://images.unsplash.com/photo-1558478551-1a378f63328e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2849&q=80" alt="">-->
+										<!--                                                            </div>-->
+										<!--                                                            <div class="w-0 flex-1 sm:ml-8">-->
+										<!--                                                                <h4 class="text-base font-medium text-slate-900 truncate">Boost your conversion rate</h4>-->
+										<!--                                                                <p class="mt-1 text-sm text-slate-500">Eget ullamcorper ac ut vulputate fames nec mattis pellentesque elementum. Viverra tempor id mus.</p>-->
+										<!--                                                            </div>-->
+										<!--                                                        </a>-->
+										<!--                                                    </li>-->
 
-												<!--                                                    <li class="flow-root">-->
-												<!--                                                        <a href="#" class="-m-3 p-3 flex rounded-lg hover:bg-slate-100">-->
-												<!--                                                            <div class="hidden sm:block flex-shrink-0">-->
-												<!--                                                                <img class="w-32 h-20 object-cover rounded-md" src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2300&q=80" alt="">-->
-												<!--                                                            </div>-->
-												<!--                                                            <div class="w-0 flex-1 sm:ml-8">-->
-												<!--                                                                <h4 class="text-base font-medium text-slate-900 truncate">How to use search engine optimization to drive traffic to your site</h4>-->
-												<!--                                                                <p class="mt-1 text-sm text-slate-500">Eget ullamcorper ac ut vulputate fames nec mattis pellentesque elementum. Viverra tempor id mus.</p>-->
-												<!--                                                            </div>-->
-												<!--                                                        </a>-->
-												<!--                                                    </li>-->
-												<!--                                                </ul>-->
-											</div>
-											<div class="mt-6 text-sm font-medium">
-												<!-- <a
+										<!--                                                    <li class="flow-root">-->
+										<!--                                                        <a href="#" class="-m-3 p-3 flex rounded-lg hover:bg-slate-100">-->
+										<!--                                                            <div class="hidden sm:block flex-shrink-0">-->
+										<!--                                                                <img class="w-32 h-20 object-cover rounded-md" src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2300&q=80" alt="">-->
+										<!--                                                            </div>-->
+										<!--                                                            <div class="w-0 flex-1 sm:ml-8">-->
+										<!--                                                                <h4 class="text-base font-medium text-slate-900 truncate">How to use search engine optimization to drive traffic to your site</h4>-->
+										<!--                                                                <p class="mt-1 text-sm text-slate-500">Eget ullamcorper ac ut vulputate fames nec mattis pellentesque elementum. Viverra tempor id mus.</p>-->
+										<!--                                                            </div>-->
+										<!--                                                        </a>-->
+										<!--                                                    </li>-->
+										<!--                                                </ul>-->
+									</div>
+									<div class="mt-6 text-sm font-medium">
+										<!-- <a
 													href="/blog"
 													on:click={changeVisibleInformationMenu}
 													class="text-red-700 hover:text-red-800"
 												>
 													Перейти в блог <span aria-hidden="true">&rarr;</span></a
 												> -->
-											</div>
-										</div>
 									</div>
 								</div>
-							{/if}
-						<!-- </div> -->
-						<a class="text-base text-cyan-900 hover:text-red-800" href="/blog"> Блог </a>
-						<a class="text-base text-cyan-900 hover:text-red-800" href="/information/action">
-							Акции
-						</a>
-						<a class="text-base text-cyan-900 hover:text-red-800" href="/contact"> Контакты </a>
-						<!-- svelte-ignore security-anchor-rel-noreferrer -->
-						<a
-							class="text-base text-cyan-900 hover:text-red-800"
-							href="https://vk.com/orbita_stroy"
-							target="_blank"
+							</div>
+						</div>
+					{/if}
+					<!-- </div> -->
+					<a class="text-base text-cyan-900 hover:text-red-800" href="/blog"> Блог </a>
+					<a class="text-base text-cyan-900 hover:text-red-800" href="/information/action">
+						Акции
+					</a>
+					<a class="text-base text-cyan-900 hover:text-red-800" href="/contact"> Контакты </a>
+					<!-- svelte-ignore security-anchor-rel-noreferrer -->
+					<a
+						class="text-base text-cyan-900 hover:text-red-800"
+						href="https://vk.com/orbita_stroy"
+						target="_blank"
+					>
+						VK
+					</a>
+				</nav>
+				<div class="flex items-center md:ml-12">
+					<a
+						class="ml-8 inline-flex items-center justify-center rounded-md border border-transparent bg-cyan-900 px-4 py-1 text-base font-medium text-white shadow-lg shadow-gray-900/50 hover:bg-gray-800"
+						href="/shop/cart"
+						sveltekit:noscroll
+					>
+						<svg
+							class="mr-1 h-5 w-5"
+							fill="none"
+							stroke="currentColor"
+							viewBox="0 0 24 24"
+							xmlns="http://www.w3.org/2000/svg"
 						>
-							VK
-						</a>
-					</nav>
-					<div class="flex items-center md:ml-12">
-						<a
-							class="ml-8 inline-flex items-center justify-center rounded-md border border-transparent bg-cyan-900 px-4 py-1 text-base font-medium text-white shadow-lg shadow-gray-900/50 hover:bg-gray-800"
-							href="/shop/cart"
-							sveltekit:noscroll
-						>
-							<svg
-								class="mr-1 h-5 w-5"
-								fill="none"
-								stroke="currentColor"
-								viewBox="0 0 24 24"
-								xmlns="http://www.w3.org/2000/svg"
-							>
-								<path
-									d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
-								/>
-							</svg>
-							Корзина (
-							<!-- <div class="mx-1 text-red-500">{countLengthCart}</div> -->
-							)
-						</a>
-					</div>
+							<path
+								d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+							/>
+						</svg>
+						Корзина (
+						<!-- <div class="mx-1 text-red-500">{countLengthCart}</div> -->
+						)
+					</a>
 				</div>
 			</div>
 		</div>
-
 	</div>
+</div>

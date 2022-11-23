@@ -1,12 +1,11 @@
-	<script>
-        import {banner} from "$lib/store/stores.js"
-        import { useInvert } from '$lib/functions/invert';
-        const { invertToFalse } = useInvert;
+<script>
+	import { banner } from '$lib/store/stores.js';
+	import { useInvert } from '$lib/functions/invert';
+	const { invertToFalse } = useInvert;
+</script>
 
-    </script>
-
-    {#if $banner}
-            <div class="relative bg-gray-800">
+{#if $banner}
+	<div class="relative bg-gray-800">
 		<div class="mx-auto max-w-7xl py-2 px-3 sm:px-6 lg:px-8">
 			<div class="pr-16 sm:px-16 sm:text-center">
 				<p class="font-medium text-white antialiased">
@@ -50,5 +49,4 @@
 			</div>
 		</div>
 	</div>
-
-    {/if}
+{/if}

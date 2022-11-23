@@ -1,18 +1,18 @@
-		<div class="max-w-9xl mx-auto  px-4 sm:px-6 lg:px-8">
-			<div class="mx-auto  text-center">
-				<h2
-					class="py-6 text-4xl font-extrabold lowercase text-cyan-900 antialiased first-letter:uppercase sm:text-5xl lg:text-6xl"
-				>
-					<!-- {$pageTitle} -->
-				</h2>
-				<img
-					class="inset-0 mt-2 h-64 w-full  object-cover"
-					src="https://storage.yandexcloud.net/brand-logo/orbita/main-bg.jpeg"
-					alt="база строительных материалов"
-				/>
+<div class="max-w-9xl mx-auto  px-4 sm:px-6 lg:px-8">
+	<div class="mx-auto  text-center">
+		<h2
+			class="py-6 text-4xl font-extrabold lowercase text-cyan-900 antialiased first-letter:uppercase sm:text-5xl lg:text-6xl"
+		>
+			<!-- {$pageTitle} -->
+		</h2>
+		<img
+			class="inset-0 mt-2 h-64 w-full  object-cover"
+			src="https://storage.yandexcloud.net/brand-logo/orbita/main-bg.jpeg"
+			alt="база строительных материалов"
+		/>
 
-				<p class="mt-3 text-xl text-cyan-900 sm:mt-4">
-					При заказе через каталог стройматериалов на сайте для вас скидка 5%
-				</p>
-			</div>
-		</div>
+		<p class="mt-3 text-xl text-cyan-900 sm:mt-4">
+			При заказе через каталог стройматериалов на сайте для вас скидка 5%
+		</p>
+	</div>
+</div>
