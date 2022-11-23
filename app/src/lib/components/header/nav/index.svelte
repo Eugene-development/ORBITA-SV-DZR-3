@@ -111,7 +111,7 @@
                                 From: "opacity-100 translate-y-0"
                                 To: "opacity-0 -translate-y-1"
                             -->
-							{#if true}
+							{#if false}
 							<!-- {#if $informationMenu} -->
 								<div class="absolute inset-x-0 top-full z-10 hidden transform shadow-lg md:block">
 									<div class="absolute inset-0 flex">
@@ -235,6 +235,7 @@
 							Акции
 						</a>
 						<a class="text-base text-cyan-900 hover:text-red-800" href="/contact"> Контакты </a>
+						<!-- svelte-ignore security-anchor-rel-noreferrer -->
 						<a
 							class="text-base text-cyan-900 hover:text-red-800"
 							href="https://vk.com/orbita_stroy"

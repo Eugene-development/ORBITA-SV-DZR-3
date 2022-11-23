@@ -88,7 +88,7 @@
 				<div class="hidden lg:ml-4 lg:block">
 					<div class="flex items-center">
 						<div class="mr-8 flex items-center md:ml-12">
-							<!-- <button
+							<button
 								class=" inline-flex items-center justify-center rounded-md border  border-transparent bg-slate-100 py-0.5 pl-2 pr-12 text-base font-medium text-gray-500 hover:bg-slate-200  "
 								on:click={getAllProducts}
 								on:click={changeVisibleFormSearch}
@@ -107,7 +107,7 @@
 									/>
 								</svg>
 								Поиск товара
-							</button> -->
+							</button>
 						</div>
 
 						<button
