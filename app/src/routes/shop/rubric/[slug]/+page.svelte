@@ -1,6 +1,8 @@
 <script>
     /** @type {import('./$types').PageData} */
     export let data;
-    console.log(data);
+    console.log(data.catalog.catalog_one);
+    const catalog = data.catalog.catalog_one
 </script>
-<p>{data.rubric}</p>
+
+<p>{catalog}</p>
