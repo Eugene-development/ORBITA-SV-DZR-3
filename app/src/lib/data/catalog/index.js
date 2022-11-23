@@ -28,12 +28,12 @@ const catalog = [
 		id: 6,
 		name: 'Электротовары',
 		slug: 'elektrotovary'
-	},
-	{
-		id: 7,
-		name: 'Окна',
-		slug: 'okna'
 	}
+	// {
+	// 	id: 7,
+	// 	name: 'Окна',
+	// 	slug: 'okna'
+	// }
 ];
 
 export const contentCatalog = {

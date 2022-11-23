@@ -15,7 +15,7 @@
 				</h2>
 
 				<h1 class="text-3xl font-extrabold text-cyan-800 sm:text-4xl lg:text-5xl">
-					{catalog.value}
+					{data.catalog.catalog_one.value}
 				</h1>
 				<p class="text-xl text-slate-700">Выберите интересующую вас рубрику в этом разделе.</p>
 			</div>
@@ -28,7 +28,7 @@
 				<div
 					class="mt-12 space-y-4 sm:mt-16 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:mx-auto lg:max-w-4xl xl:mx-0 xl:max-w-none xl:grid-cols-3"
 				>
-					{#each catalog.rubric as { slug, value }}
+					{#each data.catalog.catalog_one.rubric as { slug, value }}
 						<div
 							class="flex flex-col overflow-hidden rounded-lg border-2 shadow-lg shadow-cyan-200/50"
 						>
@@ -38,7 +38,7 @@
 										class="inline-flex rounded-full bg-red-50 px-8 py-1  text-sm font-semibold uppercase tracking-wide text-red-900"
 										id="tier-standard"
 									>
-										{catalog.value}
+										{data.catalog.catalog_one.value}
 									</h3>
 								</div>
 								<div class="mt-4  items-baseline text-center text-2xl font-extrabold">
@@ -85,7 +85,7 @@
 						href="/information/action"
 						class="flex items-center justify-center rounded-md border border-transparent bg-slate-50 px-5 py-3 text-base font-medium text-slate-900 hover:bg-slate-100"
 					>
-						{catalog.value} со скидками и доставкой в Дзержинске.
+						{data.catalog.catalog_one.value} со скидками и доставкой в Дзержинске.
 					</a>
 				</div>
 			</div>
