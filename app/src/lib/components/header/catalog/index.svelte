@@ -8,7 +8,6 @@
 </script>
 
 {#if $visibleCatalog}
-	<!-- {#if $buttonVisibleCatalog} -->
 	<div class="mt-4 bg-white pb-4 sm:pb-6">
 		<div class="relative">
 			<div class="absolute inset-0 h-1/2 border-b border-slate-200 bg-white" />
@@ -16,7 +15,7 @@
 			<div class="relative mx-auto max-w-full px-4 sm:px-6 lg:px-8">
 				<div class="mx-auto w-full">
 					<div class="rounded-lg bg-white shadow-md shadow-gray-700/50 lg:hidden">
-						<!-- {#each head as { id, slug, name }}
+						<!-- {#each catalog as { id, slug, name }}
 									<a
 										sveltekit:noscroll
 										href="/shop/rubric/{slug}"
@@ -33,7 +32,7 @@
 					</div>
 
 					<div
-						class="hidden rounded-lg bg-white shadow-md shadow-gray-700/50 lg:block lg:grid lg:grid-cols-7"
+						class="hidden rounded-lg bg-white shadow-md shadow-gray-700/50 lg:grid lg:grid-cols-7"
 					>
 						{#each catalog as { id, slug, name }}
 							<a
