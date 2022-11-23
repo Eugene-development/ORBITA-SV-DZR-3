@@ -85,7 +85,7 @@
 						href="/information/action"
 						class="flex items-center justify-center rounded-md border border-transparent bg-slate-50 px-5 py-3 text-base font-medium text-slate-900 hover:bg-slate-100"
 					>
-						<!-- {nameHead} со скидкой -->
+						{catalog.value} со скидками и доставкой в Дзержинске.
 					</a>
 				</div>
 			</div>
