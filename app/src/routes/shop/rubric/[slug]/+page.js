@@ -1,6 +1,5 @@
 /** @type {import('./$types').PageLoad} */
-export async function load({ params }) {
-	console.log(params.slug);
-	const { slug } = params;
+export async function load({ data }) {
+	const { slug } = data;
 	return { slug };
 }
