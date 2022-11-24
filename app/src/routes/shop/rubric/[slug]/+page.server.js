@@ -1,5 +1,5 @@
 /** @type {import('./$types').PageServerLoad} */
-import { request, gql } from 'graphql-request';
+import { request } from 'graphql-request';
 import { ONE_CATALOG } from '$lib/GQL/query/catalog';
 
 export async function load({ params }) {

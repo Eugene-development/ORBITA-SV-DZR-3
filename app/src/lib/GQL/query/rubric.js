@@ -19,19 +19,28 @@ export const ALL_RUBRIC = gql`
 `;
 
 export const ONE_RUBRIC = gql`
-	query rubric_one($id: ID!) {
-		rubric_one(id: $id) {
+	query rubric($slug: String!, $key: String!) {
+		rubric_one(slug: $slug, key: $key) {
 			value
-			created_at
-			updated_at
-			parent: parentable {
-				... on Catalog {
-					value
-				}
+			category {
+				value
+				slug
 			}
 		}
 	}
 `;
+// export const ONE_RUBRIC = gql`
+// 	query rubric_one($id: ID!) {
+// 		rubric_one(id: $id) {
+// 			value
+// 			parent: parentable {
+// 				... on Catalog {
+// 					value
+// 				}
+// 			}
+// 		}
+// 	}
+// `;
 
 export const CREATE_RUBRIC = gql`
 	mutation create_rubric(
