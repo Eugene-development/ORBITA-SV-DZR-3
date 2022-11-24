@@ -7,13 +7,13 @@
 	<div class="pt-4 sm:pt-4 lg:pt-4">
 		<div class="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
 			<div class="mx-auto max-w-3xl space-y-2 lg:max-w-none">
-				<h2 class="text-lg font-semibold uppercase leading-6 tracking-wider text-slate-900">
+				<span class="text-lg font-semibold uppercase leading-6 tracking-wider text-cyan-900">
 					Раздел
-				</h2>
+				</span>
 
-				<h1 class="text-3xl font-extrabold text-cyan-800 sm:text-4xl lg:text-5xl">
+				<h2 class="text-3xl font-extrabold text-cyan-800 sm:text-4xl lg:text-5xl">
 					{data.catalog.catalog_one.value}
-				</h1>
+				</h2>
 				<p class="text-xl text-slate-700">Выберите интересующую вас рубрику в этом разделе.</p>
 			</div>
 		</div>
