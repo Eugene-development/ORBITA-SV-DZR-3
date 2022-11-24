@@ -1,10 +1,7 @@
 <script>
     /** @type {import('./$types').PageData} */
     export let data;
-    // console.log(data.catalog.catalog_one);
-    const catalog = data.catalog.catalog_one
 </script>
-
 
 <div class="bg-white">
 	<div class="pt-4 sm:pt-4 lg:pt-4">
