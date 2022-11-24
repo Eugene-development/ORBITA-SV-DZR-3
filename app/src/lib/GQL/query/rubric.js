@@ -25,6 +25,9 @@ export const ONE_RUBRIC = gql`
 			category {
 				value
 				slug
+				product {
+					value
+				}
 			}
 		}
 	}
