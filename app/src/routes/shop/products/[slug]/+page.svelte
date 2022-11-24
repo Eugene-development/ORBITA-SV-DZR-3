@@ -4,16 +4,11 @@
 </script>
 
 <div class="bg-gradient-to-b from-white  to-slate-50">
-	<!--  <div class="p-10 mx-auto sm:px-6 lg:px-8 bg-gradient-to-r from-slate-50 via-white to-slate-50 shadow-md shadow-slate-200/50 mb-4">-->
-	<!--    <div class="flex flex-col text-center w-full">-->
-	<!--      <h1 class=" text-5xl font-medium title-font text-slate-900 lowercase first-letter:uppercase">{ nameCategory } в Нижнем Новгороде</h1>-->
-	<!--    </div>-->
-	<!--  </div>-->
 
 	<div class="p-8">
 		<div class="mb-8 text-center">
 			<h2 class="text-2xl  font-medium leading-6 text-gray-900">
-				<!-- {data.category.category_one.value} в Дзержинске -->
+				{data.category.category_one.value} в Дзержинске
 			</h2>
 			<p class="mt-2  text-base text-gray-500 ">
 				В данной категории вы можете купить <span class="lowercase">{data.category.category_one.value}</span> по низким ценам
