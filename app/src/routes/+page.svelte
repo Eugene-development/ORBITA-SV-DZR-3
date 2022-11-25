@@ -1,5 +1,6 @@
 <script>
 	import Action from "$lib/components/action/index.svelte"
+	import Actual from "$lib/components/actual/index.svelte"
 	// export let data
 </script>
 
@@ -8,3 +9,4 @@
 {/each} -->
 
 <Action/>
+<Actual/>
