@@ -9,7 +9,7 @@
 	<div class="relative max-w-7xl mx-auto">
 		<div class="text-center">
 			<h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
-				Блог
+				Наш блог
 			</h2>
 			<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Интересные статьи на строительную тематику</p>
 		</div>
