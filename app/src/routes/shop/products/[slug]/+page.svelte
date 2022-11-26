@@ -1,18 +1,18 @@
 <script>
-    /** @type {import('./$types').PageData} */
-    export let data;
+	/** @type {import('./$types').PageData} */
+	export let data;
 </script>
 
 <div class="bg-gradient-to-b from-white  to-slate-50">
-
 	<div class="p-8">
 		<div class="mb-8 text-center">
 			<h2 class="text-2xl  font-medium leading-6 text-gray-900">
 				{data.category.category_one.value} в Дзержинске
 			</h2>
 			<p class="mt-2  text-base text-gray-500 ">
-				В данной категории вы можете купить <span class="lowercase">{data.category.category_one.value}</span> по низким ценам
-				с доставкой или самовывозом
+				В данной категории вы можете купить <span class="lowercase"
+					>{data.category.category_one.value}</span
+				> по низким ценам с доставкой или самовывозом
 			</p>
 		</div>
 
@@ -73,7 +73,7 @@
 										<span class="ml-3">В корзину</span>
 									</button>
 								{:else} -->
-									<!-- <button
+								<!-- <button
 										class="relative inline-flex w-0 flex-1 items-center justify-center rounded-bl-lg border border-transparent bg-cyan-900 py-4 text-sm font-medium text-slate-50 hover:text-slate-100 focus:outline-none"
 									>
 										<svg

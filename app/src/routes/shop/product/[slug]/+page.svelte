@@ -1,6 +1,6 @@
 <script>
-    /** @type {import('./$types').PageData} */
-    export let data;
+	/** @type {import('./$types').PageData} */
+	export let data;
 </script>
 
 <div>
@@ -60,10 +60,16 @@
 							</p>
 						{/if} -->
 
-						<a sveltekit:prefetch sveltekit:noscroll href="/shop/products/{data.product.product_one.parent.value}">
+						<a
+							sveltekit:prefetch
+							sveltekit:noscroll
+							href="/shop/products/{data.product.product_one.parent.value}"
+						>
 							<div class="flex border-t border-slate-200 py-2">
 								<span class="text-slate-500">Категория:</span>
-								<span class="ml-auto text-sm text-red-500 hover:text-red-600">{data.product.product_one.parent.value}</span>
+								<span class="ml-auto text-sm text-red-500 hover:text-red-600"
+									>{data.product.product_one.parent.value}</span
+								>
 							</div>
 						</a>
 
