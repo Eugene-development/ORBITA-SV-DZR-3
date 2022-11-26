@@ -1,19 +1,15 @@
-<!--
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
--->
+<script>
+	import { slideOne, slideTwo, slideThree, slideFour } from '$lib/store/stores.js';
+	let visibleSlideOne;
+	let visibleSlideTwo;
+	let visibleSlideTree;
+	let visibleSlideFour;
+	slideOne.subscribe((value) => (visibleSlideOne = value));
+	slideTwo.subscribe((value) => (visibleSlideTwo = value));
+	slideThree.subscribe((value) => (visibleSlideTree = value));
+	slideFour.subscribe((value) => (visibleSlideFour = value));
+</script>
+
 <div class="bg-white">
 	<section aria-labelledby="features-heading" class="mx-auto max-w-7xl py-32 sm:px-2 lg:px-8">
 		<div class="mx-auto max-w-7xl px-4 lg:max-w-none lg:px-0">
@@ -37,7 +33,10 @@
 							<!-- Current: "border-indigo-500 text-indigo-600", Default: "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300" -->
 							<button
 								id="features-tab-1"
-								class="border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap border-b-2 py-6 text-sm font-medium"
+								class="{visibleSlideOne
+									? 'border-cyan-500 text-cyan-600'
+									: 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'}
+									whitespace-nowrap border-b-2 py-6 text-sm font-medium"
 								aria-controls="features-panel-1"
 								role="tab"
 								type="button">Design</button
@@ -45,7 +44,10 @@
 
 							<button
 								id="features-tab-2"
-								class="border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap border-b-2 py-6 text-sm font-medium"
+								class="{visibleSlideTwo
+									? 'border-cyan-500 text-cyan-600'
+									: 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'}
+									whitespace-nowrap border-b-2 py-6 text-sm font-medium"
 								aria-controls="features-panel-2"
 								role="tab"
 								type="button">Material</button
@@ -53,7 +55,10 @@
 
 							<button
 								id="features-tab-3"
-								class="border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap border-b-2 py-6 text-sm font-medium"
+								class="{visibleSlideTree
+									? 'border-cyan-500 text-cyan-600'
+									: 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'}
+									whitespace-nowrap border-b-2 py-6 text-sm font-medium"
 								aria-controls="features-panel-3"
 								role="tab"
 								type="button">Considerations</button
@@ -61,7 +66,10 @@
 
 							<button
 								id="features-tab-4"
-								class="border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap border-b-2 py-6 text-sm font-medium"
+								class="{visibleSlideFour
+									? 'border-cyan-500 text-cyan-600'
+									: 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'}
+									whitespace-nowrap border-b-2 py-6 text-sm font-medium"
 								aria-controls="features-panel-4"
 								role="tab"
 								type="button">Included</button

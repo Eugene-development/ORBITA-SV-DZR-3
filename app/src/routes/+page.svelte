@@ -15,6 +15,6 @@
 <MonthProduct />
 <Slider />
 <Actual />
-<Testimonials/>
-<Message/>
-<Article/>
+<Testimonials />
+<Message />
+<Article />

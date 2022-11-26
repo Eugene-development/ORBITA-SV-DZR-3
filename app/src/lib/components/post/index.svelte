@@ -1,5 +1,5 @@
 <script>
-    export let textHTML;
+	export let textHTML;
 </script>
 
 {@html textHTML}

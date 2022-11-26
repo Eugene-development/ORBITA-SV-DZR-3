@@ -2,7 +2,6 @@
 	// import { pageTitle } from '$stores/store.js';
 
 	// pageTitle.update(() => 'Контакты');
-
 </script>
 
 <!-- <svelte:head>
