@@ -1,5 +1,5 @@
 <script>
-	import Action from '$lib/components/action/index.svelte';
+	import MonthProduct from '$lib/components/monthProduct/index.svelte';
 	import Slider from '$lib/components/slider/index.svelte';
 	import Actual from '$lib/components/actual/index.svelte';
 	import Testimonials from '$lib/components/testimonials/index.svelte';
@@ -12,7 +12,7 @@
     {value}
 {/each} -->
 
-<Action />
+<MonthProduct />
 <Slider />
 <Actual />
 <Testimonials/>
