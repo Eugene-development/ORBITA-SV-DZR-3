@@ -5,8 +5,8 @@
 			Распродажа товара со скидкой до 20%
 		</h2>
 
-		<div class="mt-6  grid grid-cols-1 gap-y-8 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
-			<div class="group rounded-md relative shadow-lg p-2">
+		<div class="mt-6 grid grid-cols-1 gap-y-8 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+			<div class="group rounded-md relative shadow-lg p-3">
 				<div
 					class=" aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none "
 				>

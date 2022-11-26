@@ -1,7 +1,7 @@
 <div class="my-12 ml-8 text-center text-base">
 	<div>
 		<h2 class="text-base font-semibold uppercase tracking-wide text-cyan-600">Товар месяца</h2>
-		<h3 class="mt-2 text-4xl font-extrabold leading-8 tracking-tight text-cyan-900 sm:text-5xl">
+		<h3 class="mt-2 text-4xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-5xl">
 			Ноябрь-Декабрь
 		</h3>
 	</div>
