@@ -1,5 +1,8 @@
 <script>
 	import { slideOne, slideTwo, slideThree, slideFour } from '$lib/store/stores.js';
+	import { useInvert } from '$lib/functions/invert';
+	const { invertToTrue, invertToFalse } = useInvert;
+
 	let visibleSlideOne;
 	let visibleSlideTwo;
 	let visibleSlideTree;
@@ -8,6 +11,32 @@
 	slideTwo.subscribe((value) => (visibleSlideTwo = value));
 	slideThree.subscribe((value) => (visibleSlideTree = value));
 	slideFour.subscribe((value) => (visibleSlideFour = value));
+
+	const changeVisibleSlideOne = () => {
+		slideOne.update(invertToTrue);
+		slideTwo.update(invertToFalse);
+		slideThree.update(invertToFalse);
+		slideFour.update(invertToFalse);
+	};
+	const changeVisibleSlideTwo = () => {
+		slideOne.update(invertToFalse);
+		slideTwo.update(invertToTrue);
+		slideThree.update(invertToFalse);
+		slideFour.update(invertToFalse);
+	};
+	const changeVisibleSlideThree = () => {
+		slideOne.update(invertToFalse);
+		slideTwo.update(invertToFalse);
+		slideThree.update(invertToTrue);
+		slideFour.update(invertToFalse);
+	};
+	const changeVisibleSlideFour = () => {
+		slideOne.update(invertToFalse);
+		slideTwo.update(invertToFalse);
+		slideThree.update(invertToFalse);
+		slideFour.update(invertToTrue);
+	};
+
 </script>
 
 <div class="bg-white">
@@ -31,6 +60,7 @@
 					<div class="flex-auto border-b border-gray-200 px-4 sm:px-0">
 						<div class="-mb-px flex space-x-10" aria-orientation="horizontal" role="tablist">
 							<button
+							    on:click={changeVisibleSlideOne}
 								id="features-tab-1"
 								class="{visibleSlideOne
 									? 'border-cyan-500 text-cyan-600'
@@ -42,6 +72,7 @@
 							>
 
 							<button
+								on:click={changeVisibleSlideTwo}
 								id="features-tab-2"
 								class="{visibleSlideTwo
 									? 'border-cyan-500 text-cyan-600'
@@ -53,6 +84,7 @@
 							>
 
 							<button
+								on:click={changeVisibleSlideThree}
 								id="features-tab-3"
 								class="{visibleSlideTree
 									? 'border-cyan-500 text-cyan-600'
@@ -64,6 +96,7 @@
 							>
 
 							<button
+								on:click={changeVisibleSlideFour}
 								id="features-tab-4"
 								class="{visibleSlideFour
 									? 'border-cyan-500 text-cyan-600'
