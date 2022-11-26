@@ -30,7 +30,6 @@
 				<div class="-mx-4 flex overflow-x-auto sm:mx-0">
 					<div class="flex-auto border-b border-gray-200 px-4 sm:px-0">
 						<div class="-mb-px flex space-x-10" aria-orientation="horizontal" role="tablist">
-							<!-- Current: "border-indigo-500 text-indigo-600", Default: "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300" -->
 							<button
 								id="features-tab-1"
 								class="{visibleSlideOne
@@ -79,6 +78,7 @@
 				</div>
 
 				<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+				{#if $slideOne}
 				<div
 					id="features-panel-1"
 					class="space-y-16 pt-10 lg:pt-16"
@@ -108,6 +108,13 @@
 						</div>
 					</div>
 				</div>
+				{:else if $slideTwo}
+				222
+				{:else if $slideThree}
+				333
+				{:else if $slideFour}
+				444
+				{/if}
 			</div>
 		</div>
 	</section>
