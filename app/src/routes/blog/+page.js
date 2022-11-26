@@ -1,4 +1,6 @@
 /** @type {import('./$types').PageLoad} */
+import { contentBlog } from '$lib/data/blog';
 export async function load() {
-	return {};
+	// console.log(contentBlog);
+	return { contentBlog };
 }
