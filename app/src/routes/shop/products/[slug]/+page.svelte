@@ -42,7 +42,7 @@
 									<span
 										class="rounded-full bg-cyan-900 px-3 py-1.5 text-base font-medium text-slate-100"
 										>{price.value}
-										р/{unit}</span
+										р/{unit.value}</span
 									>
 								</dd>
 							</dl>
