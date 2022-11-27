@@ -13,8 +13,8 @@
 {/each} -->
 
 <MonthProduct />
-<Slider />
 <Actual />
+<Slider />
 <Testimonials />
 <Message />
 <Article />
