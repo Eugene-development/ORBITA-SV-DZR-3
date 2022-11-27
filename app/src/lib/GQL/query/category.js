@@ -13,6 +13,10 @@ export const ONE_CATEGORY = gql`
 				unit {
 					value
 				}
+				image {
+					hash
+					alt
+				}
 			}
 		}
 	}

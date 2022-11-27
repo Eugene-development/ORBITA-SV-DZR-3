@@ -1,5 +1,6 @@
 /** @type {import('./$types').PageLoad} */
 export async function load({ data }) {
 	const { category } = data;
-	return { category };
+	const pathAWS = import.meta.env.VITE_IMAGE_PRODUCTS;
+	return { category, pathAWS };
 }

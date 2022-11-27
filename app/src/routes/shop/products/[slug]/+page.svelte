@@ -18,18 +18,20 @@
 
 		<ul class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
 			{#each data.category.category_one?.product as { id, value, slug, price, unit, image }}
+			<!-- {data.pathAWS}{image.hash} -->
 				<li
 					class="col-span-1 flex flex-col divide-y divide-slate-200 rounded-lg border-2 border-slate-100 bg-white text-center shadow-lg shadow-slate-200/50 ring-1 ring-slate-100 ring-offset-1"
 				>
 					<a sveltekit:prefetch href="/shop/product/{slug}">
 						<div class="flex flex-1 flex-col p-8">
-							<!-- {#if image[0]}
+							
+							{#if image.hash}
 								<img
-									src="{pathAWS}{image[0].filename}"
+									src="{data.pathAWS}{image.hash}"
 									alt="product"
 									class="mx-auto h-32 w-32 flex-shrink-0 object-contain"
 								/>
-							{/if} -->
+							{/if}
 							<h3
 								class="mt-6 h-10 text-sm font-medium lowercase text-slate-900 first-letter:uppercase"
 							>
