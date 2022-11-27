@@ -17,6 +17,7 @@ export const ONE_PRODUCT = gql`
 			parent: parentable {
 				... on Category {
 					value
+					slug
 				}
 			}
 		}

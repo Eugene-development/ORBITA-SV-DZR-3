@@ -63,7 +63,7 @@
 						<a
 							sveltekit:prefetch
 							sveltekit:noscroll
-							href="/shop/products/{data.product.product_one.parent.value}"
+							href="/shop/products/{data.product.product_one.parent.slug}"
 						>
 							<div class="flex border-t border-slate-200 py-2">
 								<span class="text-slate-500">Категория:</span>
