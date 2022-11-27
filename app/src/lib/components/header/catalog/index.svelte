@@ -1,4 +1,6 @@
 <script>
+	import { page } from '$app/stores';
+
 	import { visibleCatalog } from '$lib/store/stores.js';
 	import { useInvert } from '$lib/functions/broker';
 
@@ -30,7 +32,6 @@
 									</a>
 								{/each} -->
 				</div>
-
 				<div class="hidden rounded-lg bg-white shadow-md shadow-gray-700/50 lg:grid lg:grid-cols-6">
 					{#each catalog as { slug, name }}
 						<a
@@ -38,7 +39,7 @@
 							sveltekit:prefetch
 							href="/shop/rubric/{slug}"
 							class="flex flex-col  border border-gray-200 p-4 text-center hover:border-red-800 hover:bg-gradient-to-l hover:from-red-900 hover:via-red-800 hover:to-red-900 sm:border-r sm:border-l 
-								{slug === 'izolyatsiya'
+								{ $page.url.pathname === '/shop/rubric/' + slug
 								? 'bg-gradient-to-r from-red-900 via-red-800 to-red-900'
 								: 'bg-gradient-to-r from-cyan-900 via-cyan-800 to-cyan-900'}"
 						>
