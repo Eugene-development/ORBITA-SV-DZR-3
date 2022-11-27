@@ -10,6 +10,10 @@ export const ONE_PRODUCT = gql`
 			unit {
 				value
 			}
+			image {
+				hash
+				alt
+			}
 			parent: parentable {
 				... on Category {
 					value

@@ -141,13 +141,12 @@
 						</div>
 					</div>
 
-					<!-- {#if image[0]}
+					{#if data.product.product_one.image.hash}
 						<img
 							alt="ecommerce"
 							class="max-w-xl rounded border-2 border-slate-50 object-contain object-center p-8 shadow-lg shadow-slate-200/50 ring-1 ring-slate-50 ring-offset-1 lg:w-1/2"
-							src="{pathAWS}{image[0].filename}"
-						/>
-					{/if} -->
+src="{data.pathAWS}{data.product.product_one.image.hash}"						/>
+					{/if}
 				</div>
 			</div>
 		</section>
