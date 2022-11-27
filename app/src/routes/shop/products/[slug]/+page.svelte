@@ -17,7 +17,7 @@
 		</div>
 
 		<ul class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
-			{#each data.category.category_one.product as { id, value, slug, price, unit, image }}
+			{#each data.category.category_one?.product as { id, value, slug, price, unit, image }}
 				<li
 					class="col-span-1 flex flex-col divide-y divide-slate-200 rounded-lg border-2 border-slate-100 bg-white text-center shadow-lg shadow-slate-200/50 ring-1 ring-slate-100 ring-offset-1"
 				>
@@ -41,8 +41,8 @@
 								<dd class="mt-4">
 									<span
 										class="rounded-full bg-cyan-900 px-3 py-1.5 text-base font-medium text-slate-100"
-										>{price.value}
-										р/{unit.value}</span
+										>{price?.value}
+										р/{unit?.value}</span
 									>
 								</dd>
 							</dl>
