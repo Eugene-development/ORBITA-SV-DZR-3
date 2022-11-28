@@ -174,7 +174,7 @@
 							<p class="text-sm text-gray-500" />
 						</a>
 					</li>
-					<!-- {:else}
+					{:else}
 					<div class="py-14 mr-6 text-center text-sm sm:px-14 ">
 						<svg
 							class="mx-auto h-6 w-6 text-gray-400"
@@ -193,7 +193,7 @@
 						</svg>
 						<p class="mt-4 font-semibold text-gray-900">Здесь пока пусто</p>
 						<p class="mt-2 text-gray-500">Введите наименование товара</p>
-					</div> -->
+					</div>
 				{/each}
 			</ul>
 		</div>
