@@ -1,7 +1,8 @@
 <script>
     import axios from 'axios';
 
-	import { visibleSearch } from '$lib/store/stores.js';
+
+	import { visibleSearch, allProducts } from '$lib/store/stores.js';
 	import { useInvert } from '$lib/functions/invert';
 	const { invert } = useInvert;
 
@@ -32,9 +33,10 @@
 	let value = '';
 	let result = [];
 	$: if (value.length >= 3) {
-		let allProduct;
-		allProd.subscribe((value) => (allProduct = value));
-		const search = (query) => allProduct.filter(({ name }) => name.toLowerCase().includes(query));
+		// let allProduct;
+		// allProd.subscribe((value) => (allProduct = value));
+
+		const search = (query) => $allProducts.product.filter(({ value }) => value.toLowerCase().includes(query));
 		const query = value.toLowerCase();
 		result = search(query);
 	}
@@ -130,7 +132,7 @@
 			<ul class="max-h-96 scroll-py-3 overflow-y-auto p-3" id="options" role="listbox">
 				<!-- Active: "bg-gray-100" -->
 
-				{#each result as { name, size, slug }, i}
+				{#each result as { id, value, slug, price }, i}
 					<li
 						class="group flex cursor-default select-none rounded-xl p-3 hover:bg-slate-50"
 						id="option-1"
@@ -165,7 +167,7 @@
 						>
 							<!-- Active: "text-gray-900", Not Active: "text-gray-700" -->
 							<p class="text-sm font-medium lowercase  text-gray-700 first-letter:uppercase">
-								{name}
+								{value}
 							</p>
 							<!-- Active: "text-gray-700", Not Active: "text-gray-500" -->
 							<p class="text-sm text-gray-500" />
