@@ -9,7 +9,7 @@
 	export let catalog;
 </script>
 
-<!-- {#if $visibleCatalog} -->
+{#if $visibleCatalog}
 <div class="mt-4 bg-white pb-4 sm:pb-6">
 	<div class="relative">
 		<div class="absolute inset-0 h-1/2 border-b border-slate-200 bg-white" />
@@ -17,11 +17,11 @@
 		<div class="relative mx-auto max-w-full px-4 sm:px-6 lg:px-8">
 			<div class="mx-auto w-full">
 				<div class="rounded-lg bg-white shadow-md shadow-gray-700/50 lg:hidden">
-					<!-- {#each catalog as { id, slug, name }}
+					{#each catalog as { slug, name }}
 									<a
 										sveltekit:noscroll
 										href="/shop/rubric/{slug}"
-										on:click={() => buttonVisibleCatalog.update(invertToFalse)}
+										on:click={() => visibleCatalog.update(invert)}
 										class="flex flex-col border border-gray-200 bg-gradient-to-tr from-cyan-500 via-cyan-900 to-cyan-700 p-4 text-center hover:bg-gradient-to-bl sm:border-r sm:border-l"
 									>
 										<span
@@ -30,7 +30,7 @@
 											{name}
 										</span>
 									</a>
-								{/each} -->
+								{/each}
 				</div>
 				<div class="hidden rounded-lg bg-white shadow-md shadow-gray-700/50 lg:grid lg:grid-cols-6">
 					{#each catalog as { slug, name }}
@@ -55,7 +55,7 @@
 		</div>
 	</div>
 </div>
-<!-- {:else}
+{:else}
 	<div class="mt-4 bg-white pb-4 sm:pb-6">
 		<div class="relative">
 			<div class="absolute inset-0 h-1/2 border-b border-slate-200 bg-white" />
@@ -66,8 +66,8 @@
 						class="rounded-md border border-gray-200 bg-gradient-to-r from-cyan-700 via-cyan-600 to-cyan-700 text-center shadow-md shadow-gray-700/50 hover:from-cyan-800 hover:via-cyan-700 hover:to-cyan-800 "
 					>
 						<p class="p-3">
-							<span class="text-2xl font-medium tracking-wider text-white">
-								Наш каталог стройматериалов
+							<span class="text-2xl font-medium tracking-wider text-white animate-pulse">
+								Каталог стройматериалов
 							</span>
 						</p>
 					</div>
@@ -75,4 +75,4 @@
 			</div>
 		</div>
 	</div>
-{/if} -->
+{/if}
