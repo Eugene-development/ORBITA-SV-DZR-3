@@ -21,6 +21,8 @@
 </script>
 
 <nav class="bg-cyan-800">
+
+	<!-- PC  -->
 	<div class="py-1 mx-auto hidden max-w-full px-6 sm:px-8 lg:block lg:px-14">
 		<div class="relative flex h-12 items-center justify-between">
 			<div class="flex items-center px-1 lg:px-0">
@@ -216,14 +218,11 @@
 					/>
 				</svg> -->
 
-				<div class=" flex items-center">
+				<div class="justify-between flex items-center">
 					<button
-						class=" inline-flex items-center justify-center rounded-md border  border-transparent bg-slate-100 py-0.5 pl-2 pr-12 text-base font-medium text-gray-500 hover:bg-slate-200  "
-						on:click={handleSearch}
+					    on:click={handleSearch}
+						class=" inline-flex items-center justify-center rounded-md border  border-transparent bg-slate-100 py-0.5 pl-2 pr-4 text-base font-medium text-gray-500 hover:bg-slate-200  "
 					>
-						<button
-							class="mx-auto inline-flex items-center justify-center rounded-md border  border-transparent bg-slate-100 py-0.5 px-20 text-base font-medium text-gray-500 hover:bg-slate-200  "
-						>
 							<svg
 								aria-hidden="true"
 								class="mr-2 h-5 w-5 text-gray-500"
@@ -238,12 +237,9 @@
 								/>
 							</svg>
 							Поиск товара
-						</button>
 					</button>
-				</div>
-
-				<!-- <button
-					class="flex-shrink-0 rounded-full bg-red-500 p-1 text-slate-50 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+				<button
+					class="flex-shrink-0 rounded-full bg-red-500  p-1 text-slate-50 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
 					type="button"
 				>
 					<span class="sr-only">View notifications</span>
@@ -262,7 +258,10 @@
 							stroke-width="2"
 						/>
 					</svg>
-				</button> -->
+				</button>
+
+				</div>
+
 			</div>
 		</div>
 

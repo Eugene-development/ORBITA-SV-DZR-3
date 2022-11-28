@@ -6,6 +6,7 @@ export const visibleSearch = writable(false);
 export const banner = writable(true);
 
 export const allProducts = writable([]);
+export const lengthCart = writable(0);
 
 export const slideOne = writable(false);
 export const slideTwo = writable(true);

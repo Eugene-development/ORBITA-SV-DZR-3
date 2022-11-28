@@ -1,6 +1,6 @@
 <script>
 	import { useInvert } from '$lib/functions/broker';
-	import { visibleMobileMenu } from '$lib/store/stores.js';
+	import { visibleMobileMenu, lengthCart } from '$lib/store/stores.js';
 	const { invert } = useInvert;
 	
 </script>
@@ -21,6 +21,7 @@
 				</a>
 			</div>
 
+			<!-- Mobile -->
 			<div class="flex items-center md:ml-12 lg:hidden">
 				<a
 					class="ml-8 inline-flex items-center justify-center rounded-md border border-transparent bg-gray-900 px-3 py-1 text-base font-medium text-white shadow-lg shadow-gray-700/50 hover:bg-gray-800"
@@ -42,7 +43,7 @@
 						/>
 					</svg>
 					Корзина (
-					<!-- <div class="mx-1 text-red-500">{countLengthCart}</div> -->
+					<div class="mx-1 text-red-500">{$lengthCart}</div>
 					)
 				</a>
 			</div>
@@ -73,6 +74,8 @@
 						</svg>
 					</button>
 			</div>
+
+			<!-- PC -->
 			<div class="hidden sm:items-center sm:justify-between lg:flex lg:flex-1">
 				<nav class="flex space-x-8 font-semibold">
 					<a class="text-base text-cyan-900 hover:text-red-800 " href="/">Главная</a>
@@ -271,7 +274,7 @@
 							/>
 						</svg>
 						Корзина (
-						<!-- <div class="mx-1 text-red-500">{countLengthCart}</div> -->
+						<div class="mx-1 text-red-500">{$lengthCart}</div>
 						)
 					</a>
 				</div>
