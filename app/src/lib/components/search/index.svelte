@@ -132,31 +132,19 @@
 			<ul class="max-h-96 scroll-py-3 overflow-y-auto p-3" id="options" role="listbox">
 				<!-- Active: "bg-gray-100" -->
 
-				{#each result as { id, value, slug, price }, i}
+				{#each result as { id, value, slug, price, unit }, i}
 					<li
 						class="group flex cursor-default select-none rounded-xl p-3 hover:bg-slate-50"
 						id="option-1"
 						tabindex="-1"
 					>
 						<div
-							class="flex h-10 w-10 flex-none items-center justify-center rounded-lg bg-indigo-800"
+							class="flex h-6 w-6 flex-none items-center justify-center rounded-lg bg-cyan-800"
 						>
-							<!-- Heroicon name: outline/pencil-alt -->
-							<svg
-								class="h-6 w-6 text-white"
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								stroke="currentColor"
-								aria-hidden="true"
-							>
-								<path
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
-									d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
-								/>
-							</svg>
+							<svg class="h-4 w-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zM12 2.25V4.5m5.834.166l-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243l-1.59-1.59" />
+</svg>
+
 						</div>
 						<a
 							href="/shop/product/{slug}"
@@ -167,15 +155,14 @@
 						>
 							<!-- Active: "text-gray-900", Not Active: "text-gray-700" -->
 							<p class="text-sm font-medium lowercase  text-gray-700 first-letter:uppercase">
-								{value}
+								{value} - {price.value} руб/{unit.value}
 							</p>
 							<!-- Active: "text-gray-700", Not Active: "text-gray-500" -->
 							<p class="text-sm text-gray-500" />
 						</a>
 					</li>
-				{:else}
+				<!-- {:else}
 					<div class="py-14 mr-6 text-center text-sm sm:px-14 ">
-						<!-- Heroicon name: outline/exclamation-circle -->
 						<svg
 							class="mx-auto h-6 w-6 text-gray-400"
 							xmlns="http://www.w3.org/2000/svg"
@@ -193,7 +180,7 @@
 						</svg>
 						<p class="mt-4 font-semibold text-gray-900">Здесь пока пусто</p>
 						<p class="mt-2 text-gray-500">Введите наименование товара</p>
-					</div>
+					</div> -->
 				{/each}
 			</ul>
 		</div>
