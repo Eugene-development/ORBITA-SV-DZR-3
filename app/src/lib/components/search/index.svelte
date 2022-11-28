@@ -1,6 +1,5 @@
 <script>
-    import axios from 'axios';
-
+	import axios from 'axios';
 
 	import { visibleSearch, allProducts } from '$lib/store/stores.js';
 	import { useInvert } from '$lib/functions/invert';
@@ -8,8 +7,6 @@
 
 	import { fade } from 'svelte/transition';
 	// import { formSearch, allProd } from '$stores/store.js';
-
-
 
 	// const changeVisibleFormSearch = () => formSearch.update(invert); //Сеттер
 	// let visibleFormSearch;
@@ -33,10 +30,11 @@
 	let value = '';
 	let result = [];
 	$: if (value.length >= 3) {
-		// let allProduct;
-		// allProd.subscribe((value) => (allProduct = value));
+		// let products;
+		// allProducts.subscribe((value) => (products = value));
 
 		const search = (query) => $allProducts.product.filter(({ value }) => value.toLowerCase().includes(query));
+		// const search = (query) => products.product.filter(({ value }) => value.toLowerCase().includes(query));
 		const query = value.toLowerCase();
 		result = search(query);
 	}
@@ -138,30 +136,45 @@
 						id="option-1"
 						tabindex="-1"
 					>
-						<div
-							class="flex h-6 w-6 flex-none items-center justify-center rounded-lg bg-cyan-800"
-						>
-							<svg class="h-4 w-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zM12 2.25V4.5m5.834.166l-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243l-1.59-1.59" />
-</svg>
-
-						</div>
+						<span >
+							{i + 1}.
+							<!-- <svg
+								class="h-4 w-4 text-white"
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zM12 2.25V4.5m5.834.166l-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243l-1.59-1.59"
+								/>
+							</svg> -->
+						</span>
 						<a
 							href="/shop/product/{slug}"
 							sveltekit:prefetch
 							sveltekit:noscroll
-					        on:click={() => visibleSearch.update(invert)}
-							class="ml-4 flex-auto "
+							on:click={() => visibleSearch.update(invert)}
+							class="ml-4 mt-0.5 flex-auto "
 						>
 							<!-- Active: "text-gray-900", Not Active: "text-gray-700" -->
 							<p class="text-sm font-medium lowercase  text-gray-700 first-letter:uppercase">
-								{value} - {price.value} руб/{unit.value}
+								{value} - {price?.value} руб/{unit?.value}
 							</p>
+							<button
+								type="button"
+								class="mt-1 rounded-md text-sm text-gray-100 bg-cyan-600 hover:bg-cyan-700 px-2 py-0.5"
+								>В корзину</button
+							>
+
 							<!-- Active: "text-gray-700", Not Active: "text-gray-500" -->
 							<p class="text-sm text-gray-500" />
 						</a>
 					</li>
-				<!-- {:else}
+					<!-- {:else}
 					<div class="py-14 mr-6 text-center text-sm sm:px-14 ">
 						<svg
 							class="mx-auto h-6 w-6 text-gray-400"

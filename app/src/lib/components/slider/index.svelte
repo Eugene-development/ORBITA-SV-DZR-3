@@ -36,8 +36,8 @@
 		slideThree.update(invertToFalse);
 		slideFour.update(invertToTrue);
 	};
-
 </script>
+
 <div class="bg-white">
 	<section aria-labelledby="features-heading" class="mx-auto max-w-7xl py-32 sm:px-2 lg:px-8">
 		<div class="mx-auto max-w-7xl px-4 lg:max-w-none lg:px-0">
@@ -59,7 +59,7 @@
 					<div class="flex-auto border-b border-gray-200 px-4 sm:px-0">
 						<div class="-mb-px flex space-x-10" aria-orientation="horizontal" role="tablist">
 							<button
-							    on:click={changeVisibleSlideOne}
+								on:click={changeVisibleSlideOne}
 								id="features-tab-1"
 								class="{visibleSlideOne
 									? 'border-cyan-500 text-cyan-600'
@@ -111,41 +111,41 @@
 
 				<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
 				{#if $slideOne}
-				<div
-					id="features-panel-1"
-					class="space-y-16 pt-10 lg:pt-16"
-					aria-labelledby="features-tab-1"
-					role="tabpanel"
-					tabindex="0"
-				>
-					<div class="flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-x-8">
-						<div class="mt-6 lg:col-span-5 lg:mt-0">
-							<h3 class="text-lg font-medium text-gray-900">Adaptive and modular</h3>
-							<p class="mt-2 text-sm text-gray-500">
-								The Organize base set allows you to configure and evolve your setup as your items
-								and habits change. The included trays and optional add-ons are easily rearranged to
-								achieve that perfect setup.
-							</p>
-						</div>
-						<div class="lg:col-span-7">
-							<div
-								class="aspect-w-2 aspect-h-1 overflow-hidden rounded-lg bg-gray-100 sm:aspect-w-5 sm:aspect-h-2"
-							>
-								<img
-									src="https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-01.jpg"
-									alt="Maple organizer base with slots, supporting white polycarbonate trays of various sizes."
-									class="object-cover object-center"
-								/>
+					<div
+						id="features-panel-1"
+						class="space-y-16 pt-10 lg:pt-16"
+						aria-labelledby="features-tab-1"
+						role="tabpanel"
+						tabindex="0"
+					>
+						<div class="flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-x-8">
+							<div class="mt-6 lg:col-span-5 lg:mt-0">
+								<h3 class="text-lg font-medium text-gray-900">Adaptive and modular</h3>
+								<p class="mt-2 text-sm text-gray-500">
+									The Organize base set allows you to configure and evolve your setup as your items
+									and habits change. The included trays and optional add-ons are easily rearranged
+									to achieve that perfect setup.
+								</p>
+							</div>
+							<div class="lg:col-span-7">
+								<div
+									class="aspect-w-2 aspect-h-1 overflow-hidden rounded-lg bg-gray-100 sm:aspect-w-5 sm:aspect-h-2"
+								>
+									<img
+										src="https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-01.jpg"
+										alt="Maple organizer base with slots, supporting white polycarbonate trays of various sizes."
+										class="object-cover object-center"
+									/>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
 				{:else if $slideTwo}
-				222
+					222
 				{:else if $slideThree}
-				333
+					333
 				{:else if $slideFour}
-				444
+					444
 				{/if}
 			</div>
 		</div>

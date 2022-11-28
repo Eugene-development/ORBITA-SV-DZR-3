@@ -39,7 +39,7 @@
 							sveltekit:prefetch
 							href="/shop/rubric/{slug}"
 							class="flex flex-col  border border-gray-200 p-4 text-center hover:border-red-800 hover:bg-gradient-to-l hover:from-red-900 hover:via-red-800 hover:to-red-900 sm:border-r sm:border-l 
-								{ $page.url.pathname === '/shop/rubric/' + slug
+								{$page.url.pathname === '/shop/rubric/' + slug
 								? 'bg-gradient-to-r from-red-900 via-red-800 to-red-900'
 								: 'bg-gradient-to-r from-cyan-900 via-cyan-800 to-cyan-900'}"
 						>

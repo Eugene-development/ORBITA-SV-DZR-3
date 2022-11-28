@@ -84,7 +84,8 @@
 						<div class="flex">
 							<span
 								class="title-font rounded-2xl bg-cyan-900 py-2 px-4 text-lg font-medium text-slate-100"
-								>{data.product.product_one.price.value} р/{data.product.product_one.unit.value}.</span
+								>{data.product.product_one.price.value} р/{data.product.product_one.unit
+									.value}.</span
 							>
 							<!-- {#if !idProductsInCart.some((arrVal) => id === arrVal)}
 								<button
@@ -145,7 +146,8 @@
 						<img
 							alt="ecommerce"
 							class="max-w-xl rounded border-2 border-slate-50 object-contain object-center p-8 shadow-lg shadow-slate-200/50 ring-1 ring-slate-50 ring-offset-1 lg:w-1/2"
-src="{data.pathAWS}{data.product.product_one.image.hash}"						/>
+							src="{data.pathAWS}{data.product.product_one.image.hash}"
+						/>
 					{/if}
 				</div>
 			</div>

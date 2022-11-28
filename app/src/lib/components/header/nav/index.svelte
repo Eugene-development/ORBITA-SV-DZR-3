@@ -2,8 +2,8 @@
 	import { useInvert } from '$lib/functions/broker';
 	import { visibleMobileMenu } from '$lib/store/stores.js';
 	const { invert } = useInvert;
-	
 </script>
+
 <div class="px-4 relative -mx-1 bg-white">
 	<div aria-hidden="true" class="pointer-events-none absolute inset-0 z-30 shadow" />
 	<div class="relative z-20">
@@ -49,29 +49,29 @@
 
 			<div class="-my-2 -mr-2 lg:hidden">
 				<button
-						aria-expanded="false"
-						class="inline-flex items-center justify-center rounded-md bg-white p-2 text-slate-500 hover:bg-slate-100 hover:text-slate-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500"
-						on:click={() => visibleMobileMenu.update(invert)}
-						type="button"
+					aria-expanded="false"
+					class="inline-flex items-center justify-center rounded-md bg-white p-2 text-slate-500 hover:bg-slate-100 hover:text-slate-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500"
+					on:click={() => visibleMobileMenu.update(invert)}
+					type="button"
+				>
+					<span class="sr-only">Открыть меню</span>
+					<span class="mx-2">Меню</span>
+					<svg
+						aria-hidden="true"
+						class="h-6 w-6"
+						fill="none"
+						stroke="currentColor"
+						viewBox="0 0 24 24"
+						xmlns="http://www.w3.org/2000/svg"
 					>
-						<span class="sr-only">Открыть меню</span>
-						<span class="mx-2">Меню</span>
-						<svg
-							aria-hidden="true"
-							class="h-6 w-6"
-							fill="none"
-							stroke="currentColor"
-							viewBox="0 0 24 24"
-							xmlns="http://www.w3.org/2000/svg"
-						>
-							<path
-								d="M4 6h16M4 12h16M4 18h16"
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-							/>
-						</svg>
-					</button>
+						<path
+							d="M4 6h16M4 12h16M4 18h16"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+						/>
+					</svg>
+				</button>
 			</div>
 			<div class="hidden sm:items-center sm:justify-between lg:flex lg:flex-1">
 				<nav class="flex space-x-8 font-semibold">

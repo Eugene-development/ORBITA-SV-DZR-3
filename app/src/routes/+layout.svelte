@@ -9,7 +9,7 @@
 </script>
 
 <MobileMenu />
-<Search/>
+<Search />
 
 <Banner />
 <Header {...data.contentCatalog} />
