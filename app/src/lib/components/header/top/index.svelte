@@ -85,17 +85,17 @@
 			                   </div>
 			               </div> -->
 
-			<div class="hidden lg:ml-4 lg:block">
+			<div class=" hidden lg:ml-4 lg:block">
 				<div class="flex items-center">
 					<div class=" flex items-center md:ml-12">
 						<button
-							class=" inline-flex items-center justify-center rounded-md border  border-transparent bg-slate-100 py-0.5 pl-2 pr-12 text-base font-medium text-gray-500 hover:bg-slate-200  "
+							class=" inline-flex items-center justify-center rounded-md border  border-transparent bg-slate-100 py-0.5 pl-4 pr-10 text-base font-medium text-gray-500 hover:bg-slate-200  "
 							on:click={getAllProducts}
 							on:click={changeVisibleFormSearch}
 						>
 							<svg
 								aria-hidden="true"
-								class="mr-2 h-5 w-5 text-gray-500"
+								class="mr-3 h-6 w-6 text-gray-500"
 								fill="currentColor"
 								viewBox="0 0 20 20"
 								xmlns="http://www.w3.org/2000/svg"
@@ -106,7 +106,7 @@
 									fill-rule="evenodd"
 								/>
 							</svg>
-							Поиск товара
+							Поиск
 						</button>
 					</div>
 
@@ -196,14 +196,14 @@
 					/>
 				</svg> -->
 
-				<div class="mx-auto flex items-center">
+				<div class=" flex items-center">
 					<!-- <button
 							class=" inline-flex items-center justify-center rounded-md border  border-transparent bg-slate-100 py-0.5 pl-2 pr-12 text-base font-medium text-gray-500 hover:bg-slate-200  "
 							on:click={getAllProducts}
 							on:click={changeVisibleFormSearch}
 						> -->
 					<button
-							class=" inline-flex items-center justify-center rounded-md border  border-transparent bg-slate-100 py-0.5 pl-2 pr-12 text-base font-medium text-gray-500 hover:bg-slate-200  "
+							class="mx-auto inline-flex items-center justify-center rounded-md border  border-transparent bg-slate-100 py-0.5 px-20 text-base font-medium text-gray-500 hover:bg-slate-200  "
 						>
 							<svg
 								aria-hidden="true"
