@@ -23,3 +23,19 @@ export const ONE_PRODUCT = gql`
 		}
 	}
 `;
+
+export const ALL_PRODUCTS = gql`
+	query all_product {
+		product {
+			id
+			value
+			slug
+			price {
+				value
+			}
+			unit {
+				value
+			}
+		}
+	}
+`;

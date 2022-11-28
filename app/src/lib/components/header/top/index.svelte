@@ -3,6 +3,18 @@
 	import { useInvert } from '$lib/functions/invert';
 	const { invert } = useInvert;
 
+	import { request } from 'graphql-request';
+    import { ALL_PRODUCTS } from '$lib/GQL/query/product';
+
+	const getAllProducts = async () => {
+		const url = import.meta.env.VITE_URL;
+		const variables = {
+			key: '1'
+		};
+		const category = await request(url, ALL_PRODUCTS, variables);
+		console.log(category);
+	}
+
 </script>
 <nav class="bg-cyan-800">
 	<div class="py-1 mx-auto hidden max-w-full px-6 sm:px-8 lg:block lg:px-14">
@@ -94,9 +106,10 @@
 			<div class=" hidden lg:ml-4 lg:block">
 				<div class="flex items-center">
 					<div class=" flex items-center md:ml-12">
-						<button
-							class=" inline-flex items-center justify-center rounded-md border  border-transparent bg-slate-100 py-0.5 pl-4 pr-10 text-base font-medium text-gray-500 hover:bg-slate-200  "
-							on:click={() => visibleSearch.update(invert)}
+						<button class=" inline-flex items-center justify-center rounded-md border  border-transparent bg-slate-100 py-0.5 pl-4 pr-10 text-base font-medium text-gray-500 hover:bg-slate-200  "
+						on:click={getAllProducts}
+						on:click={() => visibleSearch.update(invert)}
+
 						>
 							<svg
 								aria-hidden="true"
