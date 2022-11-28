@@ -1,5 +1,5 @@
 <script>
-	import { visibleSearch } from '$lib/store/stores.js';
+	import { visibleSearch, allProducts } from '$lib/store/stores.js';
 	import { useInvert } from '$lib/functions/invert';
 	const { invert } = useInvert;
 
@@ -12,7 +12,11 @@
 			key: '1'
 		};
 		const category = await request(url, ALL_PRODUCTS, variables);
-		console.log(category);
+		allProducts.update(() => category);
+	}
+	const handleSearch = () => {
+		 if(!$allProducts.product) getAllProducts();		
+		 visibleSearch.update(invert);
 	}
 
 </script>
@@ -107,9 +111,7 @@
 				<div class="flex items-center">
 					<div class=" flex items-center md:ml-12">
 						<button class=" inline-flex items-center justify-center rounded-md border  border-transparent bg-slate-100 py-0.5 pl-4 pr-10 text-base font-medium text-gray-500 hover:bg-slate-200  "
-						on:click={getAllProducts}
-						on:click={() => visibleSearch.update(invert)}
-
+						on:click={handleSearch}
 						>
 							<svg
 								aria-hidden="true"
