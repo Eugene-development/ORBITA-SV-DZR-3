@@ -110,12 +110,11 @@
 						</button> -->
 					</div>
 
-					<button
+					<!-- <button
 						class="flex-shrink-0 rounded-full bg-red-500 p-1 text-gray-50 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
 						type="button"
 					>
 						<span class="sr-only">View notifications</span>
-						<!-- Heroicon name: outline/bell -->
 						<svg
 							aria-hidden="true"
 							class="h-6 w-6"
@@ -131,10 +130,10 @@
 								stroke-width="2"
 							/>
 						</svg>
-					</button>
+					</button> -->
 
 					<!-- Profile dropdown -->
-					<div class="relative ml-4 flex-shrink-0">
+					<!-- <div class="relative ml-4 flex-shrink-0"> -->
 						<!--                            <div>-->
 						<!--                                <button type="button" class="bg-gray-800 rounded-full flex text-sm text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" id="user-menu-button" aria-expanded="false" aria-haspopup="true">-->
 						<!--                                    <span class="sr-only">Open user menu</span>-->
@@ -142,7 +141,7 @@
 						<!--                                </button>-->
 						<!--                            </div>-->
 
-						<svg
+						<!-- <svg
 							class="h-5 w-5 text-red-500"
 							fill="currentColor"
 							viewBox="0 0 20 20"
@@ -153,7 +152,7 @@
 								d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
 								fill-rule="evenodd"
 							/>
-						</svg>
+						</svg> -->
 
 						<!--
                               Dropdown menu, show/hide based on menu state.
@@ -171,7 +170,7 @@
 						<!--                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-1">Settings</a>-->
 						<!--                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-2">Sign out</a>-->
 						<!--                            </div>-->
-					</div>
+					<!-- </div> -->
 				</div>
 			</div>
 		</div>
@@ -180,11 +179,11 @@
 	<!-- Mobile menu, show/hide based on menu state. -->
 	<div class="lg:hidden" id="mobile-menu">
 		<div class="border-t border-gray-700 pt-4 pb-3">
-			<div class="flex items-center px-5">
+			<div class="items-center px-5">
 				<!--                    <div class="flex-shrink-0">-->
 				<!--                        <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">-->
 				<!--                    </div>-->
-				<svg
+				<!-- <svg
 					class="h-6 w-6 text-red-500"
 					fill="currentColor"
 					viewBox="0 0 20 20"
@@ -195,13 +194,16 @@
 						d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
 						fill-rule="evenodd"
 					/>
-				</svg>
+				</svg> -->
 
 				<div class="mx-auto flex items-center">
 					<!-- <button
 							class=" inline-flex items-center justify-center rounded-md border  border-transparent bg-slate-100 py-0.5 pl-2 pr-12 text-base font-medium text-gray-500 hover:bg-slate-200  "
 							on:click={getAllProducts}
 							on:click={changeVisibleFormSearch}
+						> -->
+					<button
+							class=" inline-flex items-center justify-center rounded-md border  border-transparent bg-slate-100 py-0.5 pl-2 pr-12 text-base font-medium text-gray-500 hover:bg-slate-200  "
 						>
 							<svg
 								aria-hidden="true"
@@ -217,15 +219,14 @@
 								/>
 							</svg>
 							Поиск товара
-						</button> -->
+						</button>
 				</div>
 
-				<button
+				<!-- <button
 					class="flex-shrink-0 rounded-full bg-red-500 p-1 text-slate-50 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
 					type="button"
 				>
 					<span class="sr-only">View notifications</span>
-					<!-- Heroicon name: outline/bell -->
 					<svg
 						aria-hidden="true"
 						class="h-6 w-6"
@@ -241,7 +242,7 @@
 							stroke-width="2"
 						/>
 					</svg>
-				</button>
+				</button> -->
 			</div>
 		</div>
 

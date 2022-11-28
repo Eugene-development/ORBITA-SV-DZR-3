@@ -1,19 +1,19 @@
 <div class="my-12 ml-8 text-center text-base">
 	<div>
-		<h2 class="text-base font-semibold uppercase tracking-wide text-cyan-600">Товар месяца</h2>
+		<!-- <h2 class="text-base font-semibold uppercase tracking-wide text-cyan-600">Товар месяца</h2> -->
 		<h3 class="mt-2 text-4xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-5xl">
-			Ноябрь-Декабрь
+			Товар месяца
 		</h3>
 	</div>
 </div>
 
-<div class="relative overflow-hidden bg-gray-50">
-	<div class="mx-auto max-w-7xl">
+<div class="relative overflow-hidden bg-white">
+	<div class=" mx-auto max-w-full">
 		<div
-			class="relative z-10 bg-gray-50 pb-8 sm:pb-12 md:pb-16 lg:w-full lg:max-w-2xl lg:pb-20 xl:pb-24"
+			class="pl-20 relative z-10 bg-gray-50 pb-8 sm:pb-12 md:pb-16 lg:w-full lg:max-w-2xl lg:pb-20 xl:pb-24"
 		>
 			<svg
-				class="absolute inset-y-0 right-0 hidden h-full w-48 translate-x-1/2 transform text-gray-50 lg:block"
+				class="absolute inset-y-0 right-0 hidden h-full w-48 translate-x-1/2 transform text-white lg:block"
 				fill="currentColor"
 				viewBox="0 0 100 100"
 				preserveAspectRatio="none"
@@ -71,7 +71,7 @@
 	</div>
 	<div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
 		<img
-			class="h-56 w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full"
+			class="py-24 h-56 w-full object-cover sm:h-56 md:h-72 lg:h-full lg:w-full hidden md:block"
 			src="https://www.astmnsk.ru/image/cache/data/band2-600x315.jpg"
 			alt=""
 		/>
