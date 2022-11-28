@@ -217,11 +217,9 @@
 				</svg> -->
 
 				<div class=" flex items-center">
-					<!-- <button
-							class=" inline-flex items-center justify-center rounded-md border  border-transparent bg-slate-100 py-0.5 pl-2 pr-12 text-base font-medium text-gray-500 hover:bg-slate-200  "
-							on:click={getAllProducts}
-							on:click={changeVisibleFormSearch}
-						> -->
+					<button class=" inline-flex items-center justify-center rounded-md border  border-transparent bg-slate-100 py-0.5 pl-2 pr-12 text-base font-medium text-gray-500 hover:bg-slate-200  "
+						on:click={handleSearch}
+						>
 					<button
 							class="mx-auto inline-flex items-center justify-center rounded-md border  border-transparent bg-slate-100 py-0.5 px-20 text-base font-medium text-gray-500 hover:bg-slate-200  "
 						>
