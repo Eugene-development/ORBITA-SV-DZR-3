@@ -1,17 +1,22 @@
 <script>
 	import { browser } from '$app/environment';
 
+	import { lengthCart, idProductsInCart } from '$lib/store/stores.js';
+
 	/** @type {import('./$types').PageData} */
 	const sendToCart = (id) => {
 		console.log(id);
 		if (browser && localStorage.getItem('inCart') === null) {
 			browser && localStorage.setItem('inCart', JSON.stringify([id]));
 		} else {
-			console.log('123');
 			const itemsCart = JSON.parse(localStorage.getItem('inCart'));
 			const newItemsCart = [...itemsCart, id];
 			localStorage.setItem('inCart', JSON.stringify(newItemsCart));
 		}
+		const productsInCart = JSON.parse(localStorage.getItem('inCart'));
+		const visibleLengthCart = productsInCart.length;
+		lengthCart.update(() => visibleLengthCart);
+		// idProductsInCart.update(() => productsInCart);
 	}
 	export let data;
 </script>
