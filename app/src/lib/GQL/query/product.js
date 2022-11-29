@@ -3,6 +3,7 @@ import { gql } from 'graphql-request';
 export const ONE_PRODUCT = gql`
 	query product($slug: String!, $key: String!) {
 		product_one(slug: $slug, key: $key) {
+			id
 			value
 			price {
 				value
@@ -31,6 +32,7 @@ export const ALL_PRODUCTS = gql`
 			value
 			slug
 			price {
+				id
 				value
 			}
 			unit {

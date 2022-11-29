@@ -1,5 +1,18 @@
 <script>
+	import { browser } from '$app/environment';
+
 	/** @type {import('./$types').PageData} */
+	const sendToCart = (id) => {
+		console.log(id);
+		if (browser && localStorage.getItem('inCart') === null) {
+			browser && localStorage.setItem('inCart', JSON.stringify([id]));
+		} else {
+			console.log('123');
+			const itemsCart = JSON.parse(localStorage.getItem('inCart'));
+			const newItemsCart = [...itemsCart, id];
+			localStorage.setItem('inCart', JSON.stringify(newItemsCart));
+		}
+	}
 	export let data;
 </script>
 
@@ -84,12 +97,11 @@
 						<div class="flex">
 							<span
 								class="title-font rounded-2xl bg-cyan-900 py-2 px-4 text-lg font-medium text-slate-100"
-								>{data.product.product_one.price.value} р/{data.product.product_one.unit
-									.value}.</span
+								>{data.product.product_one.price.value} р/{data.product.product_one.unit.value}.</span
 							>
-							<!-- {#if !idProductsInCart.some((arrVal) => id === arrVal)}
+							<!-- {#if !idProductsInCart.some((arrVal) => id === arrVal)} -->
 								<button
-									on:click|preventDefault|once={sendToCart(id)}
+									on:click|preventDefault|once={sendToCart(data.product.product_one.id)}
 									type="button"
 									class="ml-auto flex items-center justify-center rounded-md border border-transparent bg-slate-50 py-2 px-6 text-sm font-medium text-slate-700 hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-slate-500 focus:ring-offset-2 focus:ring-offset-slate-50"
 								>
@@ -109,7 +121,7 @@
 									</svg>
 									<span class="ml-3">В корзину</span>
 								</button>
-							{:else}
+							<!-- {:else}
 								<button
 									class="ml-auto flex items-center justify-center rounded-md border border-transparent bg-cyan-900 py-2 px-6 text-base font-medium text-slate-100 "
 								>
