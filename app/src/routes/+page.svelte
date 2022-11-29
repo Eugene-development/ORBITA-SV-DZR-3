@@ -6,6 +6,10 @@
 	import Message from '$lib/components/message/index.svelte';
 	import Article from '$lib/components/article/index.svelte';
 
+
+	import { browser } from '$app/environment';
+
+	browser && console.log(localStorage.getItem('session_user'))
 	// import { browser, building, dev, version } from '$app/environment';
 
 	// const uuid = crypto.randomUUID();
