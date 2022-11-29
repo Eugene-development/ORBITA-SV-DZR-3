@@ -61,6 +61,7 @@
 			<div class="absolute inset-0 h-1/2 border-b border-slate-200 bg-white" />
 			<div class="relative mx-auto max-w-full px-4 sm:px-6 lg:px-8 ">
 				<div class="mx-auto w-full ">
+					<!-- svelte-ignore a11y-click-events-have-key-events -->
 					<div
 						on:click={() => visibleCatalog.update(invert)}
 						class="rounded-md border border-gray-200 bg-gradient-to-r from-cyan-700 via-cyan-600 to-cyan-700 text-center shadow-md shadow-gray-700/50 hover:from-cyan-800 hover:via-cyan-700 hover:to-cyan-800 "
