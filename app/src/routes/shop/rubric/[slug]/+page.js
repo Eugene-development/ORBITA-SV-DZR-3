@@ -1,6 +1,9 @@
 /** @type {import('./$types').PageLoad} */
+import { pageH1 } from '$lib/store/stores.js';
 
 export async function load({ data }) {
 	const { catalog } = data;
-	return { catalog };
+	pageH1.update(() => data.catalog.catalog_one.value);
+
+	return { catalog, pageH1 };
 }
