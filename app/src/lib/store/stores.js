@@ -13,4 +13,4 @@ export const slideTwo = writable(true);
 export const slideThree = writable(false);
 export const slideFour = writable(false);
 
-export const pageH1 = writable('База строительных материалов');
+export const pageH1 = writable('');
