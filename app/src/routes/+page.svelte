@@ -5,6 +5,16 @@
 	import Testimonials from '$lib/components/testimonials/index.svelte';
 	import Message from '$lib/components/message/index.svelte';
 	import Article from '$lib/components/article/index.svelte';
+
+	// import { browser, building, dev, version } from '$app/environment';
+
+	// const uuid = crypto.randomUUID();
+	// localStorage.setItem('dataS', uuid);
+// if ( localStorage.getItem('dataS') === null) {
+// 	localStorage.setItem('dataS', uuid);
+// }
+// console.log(uuid);
+
 	// export let data
 </script>
 
