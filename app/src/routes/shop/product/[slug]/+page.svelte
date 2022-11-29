@@ -5,7 +5,6 @@
 
 	/** @type {import('./$types').PageData} */
 	const sendToCart = (id) => {
-		console.log(id);
 		if (browser && localStorage.getItem('inCart') === null) {
 			browser && localStorage.setItem('inCart', JSON.stringify([id]));
 		} else {
@@ -14,9 +13,7 @@
 			localStorage.setItem('inCart', JSON.stringify(newItemsCart));
 		}
 		const productsInCart = JSON.parse(localStorage.getItem('inCart'));
-		const visibleLengthCart = productsInCart.length;
-		lengthCart.update(() => visibleLengthCart);
-		// idProductsInCart.update(() => productsInCart);
+		lengthCart.update(() => productsInCart.length);
 	}
 	export let data;
 </script>
