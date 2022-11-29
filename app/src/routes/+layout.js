@@ -12,8 +12,7 @@ browser && sessionUser.update(() => localStorage.getItem('session_user'));
 
 // Считаем количество элементов в корзине при перезагрузке страницы //
 const productsInCart = browser && JSON.parse(localStorage.getItem('inCart'));
-const visibleLengthCart = productsInCart.length;
-browser && lengthCart.update(() => visibleLengthCart);
+browser && lengthCart.update(() => productsInCart.length);
 // --- //
 
 export async function load() {
