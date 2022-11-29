@@ -21,7 +21,6 @@
 </script>
 
 <nav class="bg-cyan-800">
-
 	<!-- PC  -->
 	<div class="py-1 mx-auto hidden max-w-full px-6 sm:px-8 lg:block lg:px-14">
 		<div class="relative flex h-12 items-center justify-between">
@@ -88,7 +87,8 @@
 								d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
 							/>
 						</svg>
-						<span class="rounded-md mt-0.5 pr-2 text-xl font-medium text-white">info@orbita-stroy.com</span
+						<span class="rounded-md mt-0.5 pr-2 text-xl font-medium text-white"
+							>info@orbita-stroy.com</span
 						>
 					</div>
 				</div>
@@ -220,48 +220,46 @@
 
 				<div class="justify-between flex items-center">
 					<button
-					    on:click={handleSearch}
+						on:click={handleSearch}
 						class=" inline-flex items-center justify-center rounded-md border  border-transparent bg-slate-100 py-0.5 pl-2 pr-4 text-base font-medium text-gray-500 hover:bg-slate-200  "
 					>
-							<svg
-								aria-hidden="true"
-								class="mr-2 h-5 w-5 text-gray-500"
-								fill="currentColor"
-								viewBox="0 0 20 20"
-								xmlns="http://www.w3.org/2000/svg"
-							>
-								<path
-									clip-rule="evenodd"
-									d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
-									fill-rule="evenodd"
-								/>
-							</svg>
-							Поиск товара
+						<svg
+							aria-hidden="true"
+							class="mr-2 h-5 w-5 text-gray-500"
+							fill="currentColor"
+							viewBox="0 0 20 20"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								clip-rule="evenodd"
+								d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+								fill-rule="evenodd"
+							/>
+						</svg>
+						Поиск товара
 					</button>
-				<button
-					class="flex-shrink-0 rounded-full bg-red-500  p-1 text-slate-50 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
-					type="button"
-				>
-					<span class="sr-only">View notifications</span>
-					<svg
-						aria-hidden="true"
-						class="h-6 w-6"
-						fill="none"
-						stroke="currentColor"
-						viewBox="0 0 24 24"
-						xmlns="http://www.w3.org/2000/svg"
+					<button
+						class="flex-shrink-0 rounded-full bg-red-500  p-1 text-slate-50 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+						type="button"
 					>
-						<path
-							d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-						/>
-					</svg>
-				</button>
-
+						<span class="sr-only">View notifications</span>
+						<svg
+							aria-hidden="true"
+							class="h-6 w-6"
+							fill="none"
+							stroke="currentColor"
+							viewBox="0 0 24 24"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+							/>
+						</svg>
+					</button>
 				</div>
-
 			</div>
 		</div>
 

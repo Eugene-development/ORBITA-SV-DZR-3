@@ -33,7 +33,8 @@
 		// let products;
 		// allProducts.subscribe((value) => (products = value));
 
-		const search = (query) => $allProducts.product.filter(({ value }) => value.toLowerCase().includes(query));
+		const search = (query) =>
+			$allProducts.product.filter(({ value }) => value.toLowerCase().includes(query));
 		// const search = (query) => products.product.filter(({ value }) => value.toLowerCase().includes(query));
 		const query = value.toLowerCase();
 		result = search(query);
@@ -136,7 +137,7 @@
 						id="option-1"
 						tabindex="-1"
 					>
-						<span >
+						<span>
 							{i + 1}.
 							<!-- <svg
 								class="h-4 w-4 text-white"
@@ -174,7 +175,7 @@
 							<p class="text-sm text-gray-500" />
 						</a>
 					</li>
-					{:else}
+				{:else}
 					<div class="py-14 mr-6 text-center text-sm sm:px-14 ">
 						<svg
 							class="mx-auto h-6 w-6 text-gray-400"

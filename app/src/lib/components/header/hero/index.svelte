@@ -1,6 +1,7 @@
 <script>
-	import {pageH1} from '$lib/store/stores.js';
+	import { pageH1 } from '$lib/store/stores.js';
 </script>
+
 <div class="max-w-9xl mx-auto  px-4 sm:px-6 lg:px-8">
 	<div class="mx-auto  text-center">
 		<h2

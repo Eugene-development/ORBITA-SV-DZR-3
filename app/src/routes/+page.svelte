@@ -10,10 +10,10 @@
 
 	// const uuid = crypto.randomUUID();
 	// localStorage.setItem('dataS', uuid);
-// if ( localStorage.getItem('dataS') === null) {
-// 	localStorage.setItem('dataS', uuid);
-// }
-// console.log(uuid);
+	// if ( localStorage.getItem('dataS') === null) {
+	// 	localStorage.setItem('dataS', uuid);
+	// }
+	// console.log(uuid);
 
 	// export let data
 </script>
