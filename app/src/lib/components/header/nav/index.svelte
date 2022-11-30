@@ -80,22 +80,21 @@
 				<nav class="flex space-x-8 font-semibold">
 					<a class="text-base text-cyan-900 hover:text-red-800 " href="/">Главная</a>
 					<a class="text-base text-cyan-900 hover:text-red-800" href="/about">Компания</a>
+					<div on:outclick={closeVisibleInformationMenu} use:clickOutside>
 					<!-- <div on:outclick={closeVisibleInformationMenu} use:clickOutside> -->
 					<!-- Item active: "text-slate-900", Item inactive: "text-slate-500" -->
-					<!-- <button
+					 		<button
 								aria-expanded="false"
 								class="group inline-flex items-center rounded-md bg-white text-base text-cyan-900 hover:text-red-800 focus:text-red-700 focus:outline-none"
-								on:click={changeVisibleInformationMenu}
-								on:click={changeVisibleInformationMenu}
 								type="button"
 							>
-								<span class="font-semibold">Информация</span> -->
+								<span class="font-semibold">Информация</span> 
 					<!--
                                   Heroicon name: solid/chevron-down
 
                                   Item active: "text-gray-900", Item inactive: "text-slate-400"
                                 -->
-					<!-- <svg
+								 <svg
 									aria-hidden="true"
 									class="ml-2 h-5 w-5 text-red-700"
 									fill="currentColor"
@@ -108,7 +107,7 @@
 										fill-rule="evenodd"
 									/>
 								</svg>
-							</button> -->
+							</button> 
 
 					<!--
                               'More' flyout menu, show/hide based on flyout menu state.
@@ -238,7 +237,7 @@
 							</div>
 						</div>
 					{/if}
-					<!-- </div> -->
+					</div>
 					<a class="text-base text-cyan-900 hover:text-red-800" href="/blog"> Блог </a>
 					<a class="text-base text-cyan-900 hover:text-red-800" href="/information/action">
 						Акции
