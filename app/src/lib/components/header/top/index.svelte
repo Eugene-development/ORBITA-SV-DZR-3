@@ -164,7 +164,7 @@
 					<!--                            </div>-->
 
 					<svg
-							class="h-8 w-8 text-red-500"
+							class="h-8 w-8 text-red-600"
 							fill="currentColor"
 							viewBox="0 0 20 20"
 							xmlns="http://www.w3.org/2000/svg"
