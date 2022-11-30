@@ -22,7 +22,7 @@
 
 <nav class="bg-cyan-800">
 	<!-- PC  -->
-	<div class="py-1 mx-auto hidden max-w-full px-6 sm:px-8 lg:block lg:px-14">
+	<div class="py-1 mx-auto hidden max-w-full px-6 sm:px-8 lg:block lg:px-8">
 		<div class="relative flex h-12 items-center justify-between">
 			<div class="flex items-center px-1 lg:px-0">
 				<div class=" ">
@@ -112,12 +112,12 @@
 				<div class="flex items-center">
 					<div class=" flex items-center md:ml-12">
 						<button
-							class=" inline-flex items-center justify-center rounded-md border  border-transparent bg-slate-100 py-0.5 pl-4 pr-10 text-base font-medium text-gray-500 hover:bg-slate-200  "
+							class=" inline-flex items-center justify-center rounded-md border  border-transparent bg-slate-100 py-0.5 pl-3 pr-12 text-base font-medium text-gray-500 hover:bg-slate-200  "
 							on:click={handleSearch}
 						>
 							<svg
 								aria-hidden="true"
-								class="mr-3 h-6 w-6 text-gray-500"
+								class="mr-1 h-6 w-6 text-gray-500"
 								fill="currentColor"
 								viewBox="0 0 20 20"
 								xmlns="http://www.w3.org/2000/svg"
@@ -128,7 +128,7 @@
 									fill-rule="evenodd"
 								/>
 							</svg>
-							Поиск
+							Поиск товара
 						</button>
 					</div>
 
@@ -155,7 +155,7 @@
 					</button>
 
 					<!-- Profile dropdown -->
-					<!-- <div class="relative ml-4 flex-shrink-0"> -->
+					<div class="relative ml-4 flex-shrink-0">
 					<!--                            <div>-->
 					<!--                                <button type="button" class="bg-gray-800 rounded-full flex text-sm text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" id="user-menu-button" aria-expanded="false" aria-haspopup="true">-->
 					<!--                                    <span class="sr-only">Open user menu</span>-->
@@ -163,8 +163,8 @@
 					<!--                                </button>-->
 					<!--                            </div>-->
 
-					<!-- <svg
-							class="h-5 w-5 text-red-500"
+					<svg
+							class="h-8 w-8 text-red-500"
 							fill="currentColor"
 							viewBox="0 0 20 20"
 							xmlns="http://www.w3.org/2000/svg"
@@ -174,7 +174,7 @@
 								d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
 								fill-rule="evenodd"
 							/>
-						</svg> -->
+						</svg>
 
 					<!--
                               Dropdown menu, show/hide based on menu state.
@@ -192,7 +192,7 @@
 					<!--                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-1">Settings</a>-->
 					<!--                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-2">Sign out</a>-->
 					<!--                            </div>-->
-					<!-- </div> -->
+					</div>
 				</div>
 			</div>
 		</div>

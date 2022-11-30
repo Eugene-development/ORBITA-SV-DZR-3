@@ -1,10 +1,11 @@
 <script>
+	import axios from 'axios';
 	import { browser } from '$app/environment';
 
 	import { lengthCart, idProductsInCart } from '$lib/store/stores.js';
 
 	/** @type {import('./$types').PageData} */
-	const sendToCart = (id) => {
+	const sendToCart = async (id) => {
 		if (browser && localStorage.getItem('inCart') === null) {
 			browser && localStorage.setItem('inCart', JSON.stringify([id]));
 		} else {
@@ -14,6 +15,21 @@
 		}
 		const productsInCart = JSON.parse(localStorage.getItem('inCart'));
 		lengthCart.update(() => productsInCart.length);
+
+		const url = `/store-cart`;
+		const payloadCart = {
+			product_id: id,
+			sessionUser: localStorage.getItem('session_user')
+		};
+
+		const domain = import.meta.env.VITE_API_CART;
+		const apiCart = {
+			baseURL: `${domain}`,
+			headers: {
+				Authorization: `Bearer ${import.meta.env.VITE_TOKEN}`
+			}
+		};
+		await axios.post(url, payloadCart, apiCart);
 	}
 	export let data;
 </script>
