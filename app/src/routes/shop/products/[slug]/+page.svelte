@@ -1,5 +1,37 @@
 <script>
 	/** @type {import('./$types').PageData} */
+		import axios from 'axios';
+	import { browser } from '$app/environment';
+	import { lengthCart, idProductsInCart } from '$lib/store/stores.js';
+	
+	const sendToCart = async (id) => {
+		if (browser && localStorage.getItem('inCart') === null) {
+			browser && localStorage.setItem('inCart', JSON.stringify([id]));
+		} else {
+			const itemsCart = JSON.parse(localStorage.getItem('inCart'));
+			const newItemsCart = [...itemsCart, id];
+			localStorage.setItem('inCart', JSON.stringify(newItemsCart));
+		}
+
+		const productsInCart = JSON.parse(localStorage.getItem('inCart'));
+		lengthCart.update(() => productsInCart.length);
+		idProductsInCart.update(() => productsInCart);
+
+		const url = `/store-cart`;
+		const payloadCart = {
+			product_id: id,
+			sessionUser: localStorage.getItem('session_user')
+		};
+		const domain = import.meta.env.VITE_API_CART;
+		const apiCart = {
+			baseURL: `${domain}`,
+			headers: {
+				Authorization: `Bearer ${import.meta.env.VITE_TOKEN}`
+			}
+		};
+		await axios.post(url, payloadCart, apiCart);
+	}
+
 	export let data;
 </script>
 
@@ -52,7 +84,7 @@
 					<div>
 						<div class="-mt-px flex divide-x divide-slate-200">
 							<div class="flex w-0 flex-1">
-								<!-- {#if !idProductsInCart.some((arrVal) => id === arrVal)}
+								{#if (browser && !$idProductsInCart.some((arrVal) => id === arrVal))}
 									<button
 										on:click|preventDefault|once={sendToCart(id)}
 										class="relative inline-flex w-0 flex-1 items-center justify-center rounded-bl-lg border border-transparent py-4 text-sm font-medium text-slate-700 hover:text-slate-500"
@@ -73,12 +105,12 @@
 										</svg>
 										<span class="ml-3">В корзину</span>
 									</button>
-								{:else} -->
-								<!-- <button
+								{:else}
+								<button
 										class="relative inline-flex w-0 flex-1 items-center justify-center rounded-bl-lg border border-transparent bg-cyan-900 py-4 text-sm font-medium text-slate-50 hover:text-slate-100 focus:outline-none"
 									>
 										<svg
-											class="h-5 w-5 text-red-300"
+											class="h-5 w-5 text-red-100"
 											fill="none"
 											stroke="currentColor"
 											viewBox="0 0 24 24"
@@ -93,7 +125,7 @@
 										</svg>
 										<span class="ml-3">В корзине</span>
 									</button>
-								{/if} -->
+								{/if}
 							</div>
 
 							<div class="-ml-px flex w-0 flex-1">

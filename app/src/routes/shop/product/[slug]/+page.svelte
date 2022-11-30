@@ -1,10 +1,9 @@
 <script>
+	/** @type {import('./$types').PageData} */
 	import axios from 'axios';
 	import { browser } from '$app/environment';
-
 	import { lengthCart, idProductsInCart } from '$lib/store/stores.js';
 	
-	/** @type {import('./$types').PageData} */
 	const sendToCart = async (id) => {
 		if (browser && localStorage.getItem('inCart') === null) {
 			browser && localStorage.setItem('inCart', JSON.stringify([id]));
@@ -13,6 +12,7 @@
 			const newItemsCart = [...itemsCart, id];
 			localStorage.setItem('inCart', JSON.stringify(newItemsCart));
 		}
+
 		const productsInCart = JSON.parse(localStorage.getItem('inCart'));
 		lengthCart.update(() => productsInCart.length);
 		idProductsInCart.update(() => productsInCart);
@@ -22,7 +22,6 @@
 			product_id: id,
 			sessionUser: localStorage.getItem('session_user')
 		};
-
 		const domain = import.meta.env.VITE_API_CART;
 		const apiCart = {
 			baseURL: `${domain}`,
