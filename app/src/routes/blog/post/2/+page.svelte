@@ -4,4 +4,9 @@
 	export let data;
 </script>
 
+<svelte:head>
+	<title>"Орбита-Строй" | Пост компании на тематику строительных и отделочных материалов</title>
+	<meta name="description" content="Информационный пост от нашей компании по строительной тематике" />
+</svelte:head>
+
 <Post {...data.contentPost.post} />
