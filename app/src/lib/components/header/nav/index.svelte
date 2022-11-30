@@ -43,7 +43,7 @@
 						/>
 					</svg>
 					Корзина (
-					<div class="mx-1 text-red-400">{$lengthCart}</div>
+					<div class="mx-1 text-red-500">{$lengthCart}</div>
 					)
 				</a>
 			</div>
@@ -274,7 +274,7 @@
 							/>
 						</svg>
 						Корзина (
-						<div class="mx-1 text-red-400">{$lengthCart}</div>
+						<div class="mx-1 text-red-500">{$lengthCart}</div>
 						)
 					</a>
 				</div>
