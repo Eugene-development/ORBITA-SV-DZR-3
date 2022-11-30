@@ -8,7 +8,7 @@ export const banner = writable(true);
 
 export const allProducts = writable([]);
 export const lengthCart = writable(0);
-export const idProductsInCart = writable([]);
+export const idProductsInCart = writable();
 
 export const slideOne = writable(false);
 export const slideTwo = writable(true);

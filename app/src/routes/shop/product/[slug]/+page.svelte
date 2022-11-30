@@ -3,7 +3,7 @@
 	import { browser } from '$app/environment';
 
 	import { lengthCart, idProductsInCart } from '$lib/store/stores.js';
-
+	
 	/** @type {import('./$types').PageData} */
 	const sendToCart = async (id) => {
 		if (browser && localStorage.getItem('inCart') === null) {
@@ -15,6 +15,7 @@
 		}
 		const productsInCart = JSON.parse(localStorage.getItem('inCart'));
 		lengthCart.update(() => productsInCart.length);
+		idProductsInCart.update(() => productsInCart);
 
 		const url = `/store-cart`;
 		const payloadCart = {
@@ -117,7 +118,7 @@
 								class="title-font rounded-2xl bg-cyan-900 py-2 px-4 text-lg font-medium text-slate-100"
 								>{data.product.product_one.price.value} р/{data.product.product_one.unit.value}.</span
 							>
-							<!-- {#if !idProductsInCart.some((arrVal) => id === arrVal)} -->
+							{#if (browser && !$idProductsInCart.some((arrVal) => data.product.product_one.id === arrVal))}
 								<button
 									on:click|preventDefault|once={sendToCart(data.product.product_one.id)}
 									type="button"
@@ -139,7 +140,7 @@
 									</svg>
 									<span class="ml-3">В корзину</span>
 								</button>
-							<!-- {:else}
+							{:else}
 								<button
 									class="ml-auto flex items-center justify-center rounded-md border border-transparent bg-cyan-900 py-2 px-6 text-base font-medium text-slate-100 "
 								>
@@ -159,7 +160,7 @@
 									</svg>
 									<span class="ml-3">В корзине</span>
 								</button>
-							{/if} -->
+							{/if}
 							<!--                            <button-->
 							<!--                                    class="rounded-full w-10 h-10 bg-slate-100 p-0 border-0 inline-flex productsID-center justify-center text-slate-500 ml-4 hover:bg-red-900"-->
 							<!--                                    wfd-id="156">-->
