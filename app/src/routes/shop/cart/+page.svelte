@@ -84,7 +84,7 @@
 										<dt class="sr-only">Цена</dt>
 										<dd class="mt-1 truncate">
 											<span
-												class="inline-flex rounded-md bg-green-100 px-2 text-xs font-semibold leading-5 text-green-900"
+												class="inline-flex rounded-md bg-cyan-100 px-2 text-xs font-semibold leading-5 text-cyan-900"
 											>
 												Цена: {price.value} руб/{unit.value}
 											</span>
@@ -93,7 +93,7 @@
 										<dd class="mt-2 mr-20 truncate text-gray-500 sm:hidden">
 											<input
 												type="text"
-												class="block w-full rounded-md border-gray-300 pr-8 focus:border-indigo-800 focus:ring-red-800 sm:text-sm"
+												class="block w-full rounded-md border-cyan-300 pr-8 focus:border-cyan-600 focus:ring-cyan-600 sm:text-sm"
 												bind:value={quantity}
 											/>
 										</dd>
@@ -109,7 +109,7 @@
 								<td class="hidden px-3 py-4 text-sm text-gray-500 sm:table-cell">
 									<input
 										type="text"
-										class="-mr-48 block w-full rounded-md border-cyan-300 pr-16 focus:border-cyan-500 focus:ring-red-800 sm:text-sm"
+										class="-mr-48 block w-full rounded-md border-cyan-300 pr-16 focus:border-cyan-500 focus:ring-cyan-600 sm:text-sm"
 										bind:value={quantity}
 									/>
 								</td>
