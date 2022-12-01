@@ -15,8 +15,10 @@
 
     let paymentCart = false;
 
+	const sendOrder = () => {
+	};
+
     export let data;
-	console.log(data.productsInCart);
 </script>
 
 <svelte:head>
@@ -31,7 +33,7 @@
 	<!--    </div>-->
 	<!--  </div>-->
 
-	{#if data.productsInCart.length > 0}
+	{#if data.productsInCart}
 		<div class="px-4 sm:px-6 lg:px-8">
 			<div class="sm:flex sm:items-center">
 				<div class="sm:flex-auto">
@@ -174,7 +176,7 @@
 		</div>
 	{/if}
 
-	{#if data.productsInCart.length > 0}
+	{#if data.productsInCart}
 		<div class="m-8 text-right">
 			<span
 				class="inline-flex  rounded-md bg-green-100 px-3.5 py-1 text-xs font-medium text-green-800 sm:text-base"
