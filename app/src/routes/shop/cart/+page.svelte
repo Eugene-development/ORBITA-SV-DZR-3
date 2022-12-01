@@ -1,6 +1,7 @@
 <script>
     /** @type {import('./$types').PageData} */
 
+    $: quantity = 1;
     $: first_name = '';
 	$: phone = '';
 	$: address = '';
@@ -8,7 +9,8 @@
 
     let paymentCart = false;
 
-    // export let data;
+    export let data;
+	console.log(data.productsInCart);
 </script>
 
 <svelte:head>
@@ -23,8 +25,7 @@
 	<!--    </div>-->
 	<!--  </div>-->
 
-	{#if true}
-	<!-- {#if arrayCart.length > 0} -->
+	{#if data.productsInCart.length > 0}
 		<div class="px-4 sm:px-6 lg:px-8">
 			<div class="sm:flex sm:items-center">
 				<div class="sm:flex-auto">
@@ -65,19 +66,19 @@
 						</tr>
 					</thead>
 					<tbody class="divide-y divide-gray-200">
-						<!-- {#each arrayCart as { id, name, size, unit, quantity }, idx}
-							<tr>
+						{#each data.productsInCart as { id, value, price, unit, img }, idx}
+							<tr> 
 								<td
-									class="w-full max-w-0 py-4 pl-4 pr-3 text-sm font-medium lowercase text-gray-900 first-letter:uppercase sm:w-auto sm:max-w-none sm:pl-6"
+									class="w-full max-w-0 py-4 pl-4 pr-3 text-sm font-medium text-gray-900  sm:w-auto sm:max-w-none sm:pl-6"
 								>
-									{name}
+									 {idx + 1}. <span class=" first-letter:uppercase">{value}</span>
 									<dl class="font-normal lg:hidden">
 										<dt class="sr-only">Цена</dt>
 										<dd class="mt-1 truncate">
 											<span
 												class="inline-flex rounded-md bg-green-100 px-2 text-xs font-semibold leading-5 text-green-900"
 											>
-												Цена: {size[0].price.price} руб/{unit}
+												Цена: {price.value} руб/{unit.value}
 											</span>
 										</dd>
 										<dt class="sr-only sm:hidden">Количество</dt>
@@ -92,20 +93,20 @@
 								</td>
 								<td class="hidden px-3 py-4 text-sm text-gray-500 lg:table-cell ">
 									<span
-										class="inline-flex rounded-md bg-green-100 px-2 text-sm font-semibold leading-5 text-green-900"
+										class="inline-flex rounded-md bg-cyan-100 px-2 text-sm font-semibold leading-5 text-cyan-900"
 									>
-										{size[0].price.price} руб/{unit}
+										{price.value} руб/{unit.value}
 									</span>
 								</td>
 								<td class="hidden px-3 py-4 text-sm text-gray-500 sm:table-cell">
 									<input
 										type="text"
-										class="-mr-24 block w-full rounded-md border-gray-300 pr-8 focus:border-indigo-500 focus:ring-red-800 sm:text-sm"
+										class="-mr-48 block w-full rounded-md border-cyan-300 pr-16 focus:border-cyan-500 focus:ring-red-800 sm:text-sm"
 										bind:value={quantity}
 									/>
 								</td>
 								<td class="px-3 py-4 text-sm text-gray-500"
-									>{(size[0].price.price * quantity).toFixed(2)}</td
+									>{(price.value * quantity).toFixed(2)}</td
 								>
 								<td class="py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
 									<button
@@ -130,7 +131,7 @@
 									</button>
 								</td>
 							</tr>
-						{/each} -->
+						{/each}
 					</tbody>
 				</table>
 			</div>

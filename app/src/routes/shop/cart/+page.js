@@ -7,14 +7,11 @@ import { reject, without, pullAllBy, forEach, find, filter } from 'lodash';
 export async function load({ data }) {
 	const { allProducts } = data;
 	const idProductsInCart = browser && JSON.parse(localStorage.getItem('inCart'));
-	// console.log(productsInCart);
-	// const test = pullAllBy(allProducts.product, ['id': productsInCart], 'id');
 	let productsInCart = [];
 	forEach(idProductsInCart, function (product) {
 		productsInCart = [...productsInCart, find(allProducts.product, ['id', product])];
 	});
-	console.log(productsInCart);
 	pageH1.update(() => 'Корзина');
 
-	return {};
+	return { productsInCart };
 }
