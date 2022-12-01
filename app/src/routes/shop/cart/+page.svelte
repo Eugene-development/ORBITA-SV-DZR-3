@@ -1,5 +1,8 @@
 <script>
     /** @type {import('./$types').PageData} */
+	import {reject, without} from 'lodash';
+	import { lengthCart, idProductsInCart } from '$lib/store/stores.js';
+
 
     $: quantity = 1;
 	$: total = data.productsInCart.reduce((sum, product) => {
@@ -14,6 +17,19 @@
 	$: comments = '';
 
     let paymentCart = false;
+
+	const deleteProductFromCart = async (id) => {
+		arrayCart = reject(data.productsInCart, (item) => item.id === id);
+
+		const itemsCart = JSON.parse(localStorage.getItem('inCart'));
+		const newItemsCart = without(itemsCart, id);
+		localStorage.setItem('inCart', JSON.stringify(newItemsCart));
+
+		lengthCart.update(() => currentValue(arrayCart.length));
+
+		// arrayProductsInCart.update(() => arrayCart);
+	};
+
 
 	const sendOrder = () => {
 	};
@@ -166,7 +182,7 @@
 						</svg>
 					</div>
 					<div class="ml-3 flex-1 md:flex md:justify-between">
-						<p class="text-sm text-blue-700">Корзина пуста. Ждём вас снова за покупками.</p>
+						<p class="text-sm text-cyan-700">Корзина пуста. Ждём вас снова за покупками.</p>
 						<!--            <p class="mt-3 text-sm md:mt-0 md:ml-6">-->
 						<!--              <a href="#" class="whitespace-nowrap font-medium text-blue-700 hover:text-blue-600">Назад <span aria-hidden="true">&rarr;</span></a>-->
 						<!--            </p>-->
@@ -179,7 +195,7 @@
 	{#if data.productsInCart}
 		<div class="m-8 text-right">
 			<span
-				class="inline-flex  rounded-md bg-green-100 px-3.5 py-1 text-xs font-medium text-green-800 sm:text-base"
+				class="inline-flex  rounded-md bg-cyan-100 px-3.5 py-1 text-xs font-medium text-cyan-800 sm:text-base"
 				>ИТОГО (с учётом скидки 5%): {totalSum} руб.</span
 			>
 		</div>
