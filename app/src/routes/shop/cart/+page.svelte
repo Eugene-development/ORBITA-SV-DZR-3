@@ -2,6 +2,12 @@
     /** @type {import('./$types').PageData} */
 
     $: quantity = 1;
+	$: total = data.productsInCart.reduce((sum, product) => {
+		let price = product.price.value;
+		return sum + price * quantity;
+	}, 0);
+	$: totalSum = (total - total * 0.05).toFixed(2);
+
     $: first_name = '';
 	$: phone = '';
 	$: address = '';
@@ -168,8 +174,7 @@
 		</div>
 	{/if}
 
-	{#if false}
-	<!-- {#if productsInCart.length > 0} -->
+	{#if data.productsInCart.length > 0}
 		<div class="m-8 text-right">
 			<span
 				class="inline-flex  rounded-md bg-green-100 px-3.5 py-1 text-xs font-medium text-green-800 sm:text-base"
