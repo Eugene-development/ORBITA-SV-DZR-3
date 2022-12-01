@@ -1,6 +1,6 @@
 /** @type {import('./$types').PageLoad} */
 import { browser } from '$app/environment';
-import { pageH1 } from '$lib/store/stores.js';
+import { pageH1, prodInCart } from '$lib/store/stores.js';
 import { reject, without, pullAllBy, forEach, find, filter } from 'lodash';
 // import { idProductsInCart } from '$lib/store/stores.js';
 
@@ -11,7 +11,9 @@ export async function load({ data }) {
 	forEach(idProductsInCart, function (product) {
 		productsInCart = [...productsInCart, find(allProducts.product, ['id', product])];
 	});
+
+	prodInCart.update(() => productsInCart);
 	pageH1.update(() => 'Корзина');
 
-	return { productsInCart };
+	return {};
 }

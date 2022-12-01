@@ -1,16 +1,15 @@
 <script>
     /** @type {import('./$types').PageData} */
 	import {reject, without} from 'lodash';
-	import { lengthCart, idProductsInCart } from '$lib/store/stores.js';
-
+	import axios from 'axios';
+	import { lengthCart, idProductsInCart, prodInCart, allProducts } from '$lib/store/stores.js';
 
     $: quantity = 1;
-	$: total = data.productsInCart.reduce((sum, product) => {
+	$: total = $prodInCart.reduce((sum, product) => {
 		let price = product.price.value;
 		return sum + price * quantity;
 	}, 0);
 	$: totalSum = (total - total * 0.05).toFixed(2);
-
     $: first_name = '';
 	$: phone = '';
 	$: address = '';
@@ -18,23 +17,64 @@
 
     let paymentCart = false;
 
+	$: arrayCart = []
 	const deleteProductFromCart = async (id) => {
-		arrayCart = reject(data.productsInCart, (item) => item.id === id);
+		arrayCart = reject($prodInCart, (item) => item.id === id);
+	    prodInCart.update(() => arrayCart);
 
 		const itemsCart = JSON.parse(localStorage.getItem('inCart'));
 		const newItemsCart = without(itemsCart, id);
 		localStorage.setItem('inCart', JSON.stringify(newItemsCart));
 
-		lengthCart.update(() => currentValue(arrayCart.length));
-
-		// arrayProductsInCart.update(() => arrayCart);
+		lengthCart.update(() => arrayCart.length);
 	};
 
+	const sendMail = () => {
+		const informationForm = {
+			name: first_name,
+			phone,
+			address,
+			comments
+		};
+		const data = {
+			products: $prodInCart,
+			totalSum: totalSum,
+			information: informationForm
+		};
+		const apiMail = {
+			baseURL: `${import.meta.env.VITE_API_MAIL}`,
+			headers: {
+				Authorization: `Bearer ${import.meta.env.VITE_TOKEN}`
+			}
+		};
+		axios.post('/sendOrder', data, apiMail);
+	};
+	const payYouKassa = async () => {
+		if (paymentCart === true) {
+			const apiCart = {
+				baseURL: `${import.meta.env.VITE_API_CART}`,
+				headers: {
+					Authorization: `Bearer ${import.meta.env.VITE_TOKEN}`
+				}
+			};
+			const response = await axios.get('/yandex/' + totalSum, apiCart);
+			window.location =
+				'https://yoomoney.ru/api-pages/v2/payment-confirm/epl?orderId=' + response.data.id;
+		}
+	};
+	const cleanData = () => {
+		localStorage.removeItem('inCart');
+		lengthCart.update(() => 0);
+		prodInCart.update(() => []);
+		idProductsInCart.update(() => []);
+		allProducts.update(() => []);
+	};
 
 	const sendOrder = () => {
+		sendMail();
+		payYouKassa();
+		cleanData();
 	};
-
-    export let data;
 </script>
 
 <svelte:head>
@@ -49,7 +89,7 @@
 	<!--    </div>-->
 	<!--  </div>-->
 
-	{#if data.productsInCart}
+	{#if $prodInCart}
 		<div class="px-4 sm:px-6 lg:px-8">
 			<div class="sm:flex sm:items-center">
 				<div class="sm:flex-auto">
@@ -90,7 +130,7 @@
 						</tr>
 					</thead>
 					<tbody class="divide-y divide-gray-200">
-						{#each data.productsInCart as { id, value, price, unit, img }, idx}
+						{#each $prodInCart as { id, value, price, unit, img }, idx}
 							<tr> 
 								<td
 									class="w-full max-w-0 py-4 pl-4 pr-3 text-sm font-medium text-gray-900  sm:w-auto sm:max-w-none sm:pl-6"
@@ -192,7 +232,7 @@
 		</div>
 	{/if}
 
-	{#if data.productsInCart}
+	{#if $prodInCart}
 		<div class="m-8 text-right">
 			<span
 				class="inline-flex  rounded-md bg-cyan-100 px-3.5 py-1 text-xs font-medium text-cyan-800 sm:text-base"
