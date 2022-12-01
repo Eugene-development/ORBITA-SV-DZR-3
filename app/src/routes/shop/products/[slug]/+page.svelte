@@ -84,7 +84,8 @@
 					<div>
 						<div class="-mt-px flex divide-x divide-slate-200">
 							<div class="flex w-0 flex-1">
-								{#if (browser && !$idProductsInCart.some((arrVal) => id === arrVal))}
+								<!-- {#if (true)} -->
+								{#if (browser && !$idProductsInCart?.some((arrVal) => id === arrVal))}
 									<button
 										on:click|preventDefault|once={sendToCart(id)}
 										class="relative inline-flex w-0 flex-1 items-center justify-center rounded-bl-lg border border-transparent py-4 text-sm font-medium text-slate-700 hover:text-slate-500"

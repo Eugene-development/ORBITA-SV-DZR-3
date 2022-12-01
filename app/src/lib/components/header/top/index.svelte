@@ -11,6 +11,7 @@
 		const variables = {
 			key: '1'
 		};
+		// TODO: переименуй category
 		const category = await request(url, ALL_PRODUCTS, variables);
 		allProducts.update(() => category);
 	};
