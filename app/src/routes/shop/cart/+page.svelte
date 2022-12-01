@@ -71,7 +71,7 @@
 								<td
 									class="w-full max-w-0 py-4 pl-4 pr-3 text-sm font-medium text-gray-900  sm:w-auto sm:max-w-none sm:pl-6"
 								>
-									 {idx + 1}. <span class=" first-letter:uppercase">{value}</span>
+									 {idx + 1}. <span class="ml-1 first-letter:uppercase">{value}</span>
 									<dl class="font-normal lg:hidden">
 										<dt class="sr-only">Цена</dt>
 										<dd class="mt-1 truncate">
@@ -93,7 +93,7 @@
 								</td>
 								<td class="hidden px-3 py-4 text-sm text-gray-500 lg:table-cell ">
 									<span
-										class="inline-flex rounded-md bg-cyan-100 px-2 text-sm font-semibold leading-5 text-cyan-900"
+										class="inline-flex rounded-md bg-cyan-100 px-3 py-1 text-sm font-semibold leading-5 text-cyan-900"
 									>
 										{price.value} руб/{unit.value}
 									</span>
