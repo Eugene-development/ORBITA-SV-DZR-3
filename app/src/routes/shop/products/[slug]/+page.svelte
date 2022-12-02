@@ -3,8 +3,9 @@
 	import axios from 'axios';
 	import { browser } from '$app/environment';
 	import { lengthCart, idProductsInCart } from '$lib/store/stores.js';
-const itemsCart = JSON.parse(localStorage.getItem('inCart'));
-console.log(itemsCart);
+	let InCart;
+	idProductsInCart.subscribe((value) => (InCart = value));
+
 
 	const sendToCart = async (id) => {
 		if (browser && localStorage.getItem('inCart') === null) {
@@ -19,19 +20,19 @@ console.log(itemsCart);
 		lengthCart.update(() => productsInCart.length);
 		idProductsInCart.update(() => productsInCart);
 
-		const url = `/store-cart`;
-		const payloadCart = {
-			product_id: id,
-			sessionUser: localStorage.getItem('session_user')
-		};
-		const domain = import.meta.env.VITE_API_CART;
-		const apiCart = {
-			baseURL: `${domain}`,
-			headers: {
-				Authorization: `Bearer ${import.meta.env.VITE_TOKEN}`
-			}
-		};
-		await axios.post(url, payloadCart, apiCart);
+		// const url = `/store-cart`;
+		// const payloadCart = {
+		// 	product_id: id,
+		// 	sessionUser: localStorage.getItem('session_user')
+		// };
+		// const domain = import.meta.env.VITE_API_CART;
+		// const apiCart = {
+		// 	baseURL: `${domain}`,
+		// 	headers: {
+		// 		Authorization: `Bearer ${import.meta.env.VITE_TOKEN}`
+		// 	}
+		// };
+		// await axios.post(url, payloadCart, apiCart);
 	}
 
 	export let data;
@@ -90,7 +91,7 @@ console.log(itemsCart);
 					<div>
 						<div class="-mt-px flex divide-x divide-slate-200">
 							<div class="flex w-0 flex-1">
-								{#if (browser && !itemsCart.some((arrVal) => id === arrVal))}
+								{#if (browser && !InCart.some((arrVal) => id === arrVal))}
 									<button
 										on:click|preventDefault|once={sendToCart(id)}
 										class="relative inline-flex w-0 flex-1 items-center justify-center rounded-bl-lg border border-transparent py-4 text-sm font-medium text-slate-700 hover:text-slate-500"
