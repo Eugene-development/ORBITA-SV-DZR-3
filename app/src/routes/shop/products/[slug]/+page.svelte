@@ -1,9 +1,9 @@
 <script>
 	/** @type {import('./$types').PageData} */
-		import axios from 'axios';
+	import axios from 'axios';
 	import { browser } from '$app/environment';
 	import { lengthCart, idProductsInCart } from '$lib/store/stores.js';
-	
+
 	const sendToCart = async (id) => {
 		if (browser && localStorage.getItem('inCart') === null) {
 			browser && localStorage.setItem('inCart', JSON.stringify([id]));
@@ -88,7 +88,7 @@
 					<div>
 						<div class="-mt-px flex divide-x divide-slate-200">
 							<div class="flex w-0 flex-1">
-								{#if (browser && idProductsInCart?.some((arrVal) => id === arrVal))}
+								{#if (browser && ![].some((arrVal) => id === arrVal))}
 									<button
 										on:click|preventDefault|once={sendToCart(id)}
 										class="relative inline-flex w-0 flex-1 items-center justify-center rounded-bl-lg border border-transparent py-4 text-sm font-medium text-slate-700 hover:text-slate-500"

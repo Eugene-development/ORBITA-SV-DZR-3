@@ -1,5 +1,6 @@
 /** @type {import('./$types').PageLoad} */
-import { pageH1 } from '$lib/store/stores.js';
+import { browser } from '$app/environment';
+import { pageH1, idProductsInCart } from '$lib/store/stores.js';
 
 export async function load({ data }) {
 	const { category } = data;
