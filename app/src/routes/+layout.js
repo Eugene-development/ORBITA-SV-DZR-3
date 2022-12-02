@@ -12,13 +12,9 @@ browser && sessionUser.update(() => localStorage.getItem('session_user'));
 // --- //
 
 // Фиксируем и считаем количество элементов в корзине при перезагрузке страницы и записываем в стор //
-// browser &&
-// 	localStorage.getItem('inCart') === null &&
-// 	localStorage.setItem('inCart', JSON.stringify([]));
-// const productsInCart = browser && localStorage.getItem('inCart');
-// browser && idProductsInCart.update(() => productsInCart);
-// const pic = productsInCart.length;
-// browser && lengthCart.update(() => pic);
+const productsInCart = browser && JSON.parse(localStorage.getItem('inCart'));
+browser && idProductsInCart.update(() => productsInCart);
+browser && lengthCart.update(() => productsInCart.length);
 // --- //
 
 export async function load() {
