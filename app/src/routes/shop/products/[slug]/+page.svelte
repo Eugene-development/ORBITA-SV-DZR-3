@@ -35,22 +35,26 @@
 	export let data;
 </script>
 
-<div class="bg-gradient-to-b from-white  to-slate-50">
-	<div class="p-8">
-		<div class="mb-8 text-center">
-			<h2 class="text-2xl  font-medium leading-6 text-gray-900">
-				{data.category.category_one.value} в Дзержинске
-			</h2>
-			<p class="mt-2  text-base text-gray-500 ">
-				В данной категории вы можете купить <span class="lowercase"
-					>{data.category.category_one.value}</span
-				> по низким ценам с доставкой или самовывозом
-			</p>
+		<div class="py-8">
+			<div class="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
+				<div class="mx-auto max-w-3xl space-y-2 lg:max-w-none">
+					<span class="text-lg font-semibold uppercase leading-6 tracking-wider text-cyan-900">
+						Категория
+					</span>
+
+					<h2 class="text-3xl font-bold text-slate-800 sm:text-4xl lg:text-5xl">
+						{data.category.category_one.value}
+					</h2>
+					<p class="text-xl text-slate-800">Приобретайте товар "{data.category.category_one.value}" в Дзержинске по низким ценам с доставкой или самовывозом</p>
+				</div>
+			</div>
 		</div>
 
+
+<div class="bg-gradient-to-b from-white  to-slate-50">
+	<div class="p-8">
 		<ul class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
 			{#each data.category.category_one?.product as { id, value, slug, price, unit, image }}
-				<!-- {data.pathAWS}{image.hash} -->
 				<li
 					class="col-span-1 flex flex-col divide-y divide-slate-200 rounded-lg border-2 border-slate-100 bg-white text-center shadow-lg shadow-slate-200/50 ring-1 ring-slate-100 ring-offset-1"
 				>
@@ -84,8 +88,7 @@
 					<div>
 						<div class="-mt-px flex divide-x divide-slate-200">
 							<div class="flex w-0 flex-1">
-								<!-- {#if (true)} -->
-								{#if (browser && !$idProductsInCart?.some((arrVal) => id === arrVal))}
+								{#if (browser && idProductsInCart?.some((arrVal) => id === arrVal))}
 									<button
 										on:click|preventDefault|once={sendToCart(id)}
 										class="relative inline-flex w-0 flex-1 items-center justify-center rounded-bl-lg border border-transparent py-4 text-sm font-medium text-slate-700 hover:text-slate-500"

@@ -3,16 +3,22 @@
 	export let data;
 </script>
 
-<div>
-	<div
-		class="mx-auto  mb-4 bg-gradient-to-r from-gray-50 via-white to-gray-50 p-10 shadow-md shadow-gray-200/50 sm:px-6 lg:px-8"
-	>
-		<div class="flex w-full flex-col text-center">
-			<h2 class=" title-font text-4xl font-medium text-cyan-900">
-				{data.rubric.rubric_one.value} в Дзержинске
-			</h2>
+	<div class="py-8">
+		<div class="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
+			<div class="mx-auto max-w-3xl space-y-2 lg:max-w-none">
+				<span class="text-lg font-semibold uppercase leading-6 tracking-wider text-cyan-900">
+					Рубрика
+				</span>
+
+				<h2 class="text-3xl font-bold text-slate-800 sm:text-4xl lg:text-5xl">
+					{data.rubric.rubric_one.value}
+				</h2>
+				<p class="text-xl text-slate-800">Приобретайте товар "{data.rubric.rubric_one.value}" в Дзержинске по низким ценам</p>
+			</div>
 		</div>
 	</div>
+
+<div>
 
 	<div class="  ">
 		<!--        <div class="flex w-1/3 max-w-sm flex-col flex-grow border-r border-slate-200 pt-8 pb-4 overflow-y-auto hidden xl:block">-->

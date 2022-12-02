@@ -19,8 +19,8 @@
 	/>
 </svelte:head>
 
-<MonthProduct />
 <Actual />
+<MonthProduct />
 <Slider />
 <Testimonials />
 <Message />

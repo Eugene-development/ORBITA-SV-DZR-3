@@ -3,21 +3,22 @@
 	export let data;
 </script>
 
-<div class="bg-white">
-	<div class="pt-4 sm:pt-4 lg:pt-4">
+	<div class="py-8">
 		<div class="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
 			<div class="mx-auto max-w-3xl space-y-2 lg:max-w-none">
 				<span class="text-lg font-semibold uppercase leading-6 tracking-wider text-cyan-900">
 					Раздел
 				</span>
 
-				<h2 class="text-3xl font-extrabold text-cyan-800 sm:text-4xl lg:text-5xl">
+				<h2 class="text-3xl font-extrabold text-slate-800 sm:text-4xl lg:text-5xl">
 					{data.catalog.catalog_one.value}
 				</h2>
-				<p class="text-xl text-slate-700">Выберите интересующую вас рубрику в этом разделе.</p>
+				<p class="text-xl text-slate-800">Выберите интересующую вас рубрику в этом разделе.</p>
 			</div>
 		</div>
 	</div>
+
+<div class="bg-white">
 	<div class="bo mt-8 pb-12 sm:mt-12 sm:pb-16 lg:mt-16 lg:pb-24">
 		<div class="relative">
 			<div class="absolute inset-0 h-3/4" />
