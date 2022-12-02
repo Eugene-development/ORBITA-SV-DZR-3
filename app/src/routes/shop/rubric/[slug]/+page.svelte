@@ -1,7 +1,14 @@
 <script>
 	/** @type {import('./$types').PageData} */
 	export let data;
+
 </script>
+
+<svelte:head>
+	<title>{data.title}</title>
+	<meta name="description" content={data.description} />
+</svelte:head>
+
 
 	<div class="py-8">
 		<div class="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">

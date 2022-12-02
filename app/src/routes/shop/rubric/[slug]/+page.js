@@ -3,7 +3,14 @@ import { pageH1 } from '$lib/store/stores.js';
 
 export async function load({ data }) {
 	const { catalog } = data;
+	const title = "'Орбита-Строй' | " + data.catalog.catalog_one.value + ' в Дзержинске';
+	const description =
+		data.catalog.catalog_one.value +
+		' по низким ценам в Дзержинске и регионе. Предлагаем доставку и скидки для товара ' +
+		data.catalog.catalog_one.value +
+		'.';
+
 	pageH1.update(() => data.catalog.catalog_one.value);
 
-	return { catalog };
+	return { title, description, catalog };
 }
