@@ -7,7 +7,6 @@ import { browser } from '$app/environment';
 browser &&
 	localStorage.getItem('session_user') === null &&
 	localStorage.setItem('session_user', crypto.randomUUID());
-// localStorage.setItem('inCart', []);
 browser && sessionUser.update(() => localStorage.getItem('session_user'));
 
 // --- //
