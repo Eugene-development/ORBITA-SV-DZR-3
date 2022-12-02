@@ -56,10 +56,10 @@
 
 <div class="bg-gradient-to-b from-white  to-slate-50">
 	<div class="p-8">
-		<ul class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
+		<ul class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
 			{#each data.category.category_one?.product as { id, value, slug, price, unit, image }}
 				<li
-					class="col-span-1 flex flex-col divide-y divide-slate-200 rounded-lg border-2 border-slate-100 bg-white text-center shadow-lg shadow-slate-200/50 ring-1 ring-slate-100 ring-offset-1"
+					class="col-span-1 flex flex-col divide-y divide-slate-200 rounded-lg border-2 border-slate-100 bg-white text-center shadow-lg shadow-slate-500/50 ring-1 ring-slate-100 ring-offset-1"
 				>
 					<a sveltekit:prefetch href="/shop/product/{slug}">
 						<div class="flex flex-1 flex-col p-8">
@@ -93,10 +93,10 @@
 							<div class="flex w-0 flex-1">
 								{#if (browser && InCart.some((arrVal) => id === arrVal))}
 								<button
-										class="relative inline-flex w-0 flex-1 items-center justify-center rounded-bl-lg border border-transparent bg-cyan-900 py-4 text-sm font-medium text-slate-50 hover:text-slate-100 focus:outline-none"
+										class="relative inline-flex w-0 flex-1 items-center justify-center rounded-bl-lg border border-transparent bg-cyan-900 py-2 text-sm font-medium text-slate-50 hover:text-slate-100 focus:outline-none"
 									>
 										<svg
-											class="h-5 w-5 text-red-100"
+											class="h-6 w-6 text-gray-50"
 											fill="none"
 											stroke="currentColor"
 											viewBox="0 0 24 24"
@@ -114,10 +114,10 @@
 								{:else}
 									<button
 										on:click|preventDefault|once={sendToCart(id)}
-										class="relative inline-flex w-0 flex-1 items-center justify-center rounded-bl-lg border border-transparent py-4 text-sm font-medium text-slate-700 hover:text-slate-500"
+										class="relative inline-flex w-0 flex-1 items-center justify-center rounded-bl-lg border border-transparent py-2 text-sm font-medium text-slate-700 hover:text-slate-500"
 									>
 										<svg
-											class="h-5 w-5 text-red-800"
+											class="h-6 w-6 text-red-800"
 											fill="none"
 											stroke="currentColor"
 											viewBox="0 0 24 24"
@@ -153,10 +153,10 @@
 								<a
 									sveltekit:prefetch
 									href="/shop/product/{slug}"
-									class="relative -mr-px inline-flex w-0 flex-1 items-center justify-center rounded-bl-lg border border-transparent py-4 text-sm  font-medium text-slate-700 hover:text-slate-500"
+									class="relative -mr-px inline-flex w-0 flex-1 items-center justify-center rounded-bl-lg border border-transparent py-2 text-sm  font-medium text-slate-700 hover:text-slate-500"
 								>
 									<svg
-										class="h-5 w-5 text-red-800"
+										class="h-6 w-6 text-red-800"
 										fill="none"
 										stroke="currentColor"
 										viewBox="0 0 24 24"
