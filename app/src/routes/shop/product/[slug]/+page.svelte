@@ -3,7 +3,7 @@
 	import axios from 'axios';
 	import { browser } from '$app/environment';
 	import { lengthCart, idProductsInCart } from '$lib/store/stores.js';
-	
+
 	const sendToCart = async (id) => {
 		if (browser && localStorage.getItem('inCart') === null) {
 			browser && localStorage.setItem('inCart', JSON.stringify([id]));
@@ -30,9 +30,14 @@
 			}
 		};
 		await axios.post(url, payloadCart, apiCart);
-	}
+	};
 	export let data;
 </script>
+
+<svelte:head>
+	<title>{data.title}</title>
+	<meta name="description" content={data.description} />
+</svelte:head>
 
 <div>
 	<div>
@@ -115,9 +120,10 @@
 						<div class="flex">
 							<span
 								class="title-font rounded-2xl bg-cyan-900 py-2 px-4 text-lg font-medium text-slate-100"
-								>{data.product.product_one.price.value} р/{data.product.product_one.unit.value}.</span
+								>{data.product.product_one.price.value} р/{data.product.product_one.unit
+									.value}.</span
 							>
-							{#if (browser && !$idProductsInCart.some((arrVal) => data.product.product_one.id === arrVal))}
+							{#if browser && !$idProductsInCart.some((arrVal) => data.product.product_one.id === arrVal)}
 								<button
 									on:click|preventDefault|once={sendToCart(data.product.product_one.id)}
 									type="button"

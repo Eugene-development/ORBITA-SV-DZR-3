@@ -4,8 +4,12 @@ import { pageH1, idProductsInCart } from '$lib/store/stores.js';
 
 export async function load({ data }) {
 	const { category } = data;
+	const title =
+		'Орбита-Строй' + ' | ' + data.category.category_one.value + ' в Дзержинске по выгодным ценам';
+	const description =
+		'Продажа оптом и в розницу. ' + data.category.category_one.value + ' в Дзержинске и регионе.';
 	const pathAWS = import.meta.env.VITE_IMAGE_PRODUCTS;
 	pageH1.update(() => data.category.category_one.value);
 
-	return { category, pathAWS };
+	return { title, description, category, pathAWS };
 }

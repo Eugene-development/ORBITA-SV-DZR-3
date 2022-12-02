@@ -6,7 +6,6 @@
 	let InCart;
 	idProductsInCart.subscribe((value) => (InCart = value));
 
-
 	const sendToCart = async (id) => {
 		if (browser && localStorage.getItem('inCart') === null) {
 			browser && localStorage.setItem('inCart', JSON.stringify([id]));
@@ -33,26 +32,33 @@
 		// 	}
 		// };
 		// await axios.post(url, payloadCart, apiCart);
-	}
+	};
 
 	export let data;
 </script>
 
-		<div class="py-8">
-			<div class="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
-				<div class="mx-auto max-w-3xl space-y-2 lg:max-w-none">
-					<span class="text-lg font-semibold uppercase leading-6 tracking-wider text-cyan-700">
-						Категория
-					</span>
+<svelte:head>
+	<title>{data.title}</title>
+	<meta name="description" content={data.description} />
+</svelte:head>
 
-					<h2 class="text-3xl font-bold text-slate-800 sm:text-4xl lg:text-5xl">
-						{data.category.category_one.value}
-					</h2>
-					<p class="text-xl text-slate-800">Приобретайте товар "{data.category.category_one.value}" в Дзержинске по низким ценам с доставкой или самовывозом</p>
-				</div>
-			</div>
+<div class="py-8">
+	<div class="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
+		<div class="mx-auto max-w-3xl space-y-2 lg:max-w-none">
+			<span class="text-lg font-semibold uppercase leading-6 tracking-wider text-cyan-700">
+				Категория
+			</span>
+
+			<h2 class="text-3xl font-bold text-slate-800 sm:text-4xl lg:text-5xl">
+				{data.category.category_one.value}
+			</h2>
+			<p class="text-xl text-slate-800">
+				Приобретайте товар "{data.category.category_one.value}" в Дзержинске по низким ценам с
+				доставкой или самовывозом
+			</p>
 		</div>
-
+	</div>
+</div>
 
 <div class="bg-gradient-to-b from-white  to-slate-50">
 	<div class="p-8">
@@ -91,8 +97,8 @@
 					<div>
 						<div class="-mt-px flex divide-x divide-slate-200">
 							<div class="flex w-0 flex-1">
-								{#if (browser && InCart.some((arrVal) => id === arrVal))}
-								<button
+								{#if browser && InCart.some((arrVal) => id === arrVal)}
+									<button
 										class="relative inline-flex w-0 flex-1 items-center justify-center rounded-bl-lg border border-transparent bg-cyan-900 py-2 text-sm font-medium text-slate-50 hover:text-slate-100 focus:outline-none"
 									>
 										<svg
@@ -131,7 +137,7 @@
 											/>
 										</svg>
 										<span class="ml-3">В корзину</span>
-									</button>								
+									</button>
 								{/if}
 							</div>
 

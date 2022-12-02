@@ -1,26 +1,26 @@
 <script>
-    /** @type {import('./$types').PageData} */
-	import {reject, without} from 'lodash';
+	/** @type {import('./$types').PageData} */
+	import { reject, without } from 'lodash';
 	import axios from 'axios';
 	import { lengthCart, idProductsInCart, prodInCart, allProducts } from '$lib/store/stores.js';
 
-    $: quantity = 1;
+	$: quantity = 1;
 	$: total = $prodInCart.reduce((sum, product) => {
 		let price = product.price.value;
 		return sum + price * quantity;
 	}, 0);
 	$: totalSum = (total - total * 0.05).toFixed(2);
-    $: first_name = '';
+	$: first_name = '';
 	$: phone = '';
 	$: address = '';
 	$: comments = '';
 
-    let paymentCart = false;
+	let paymentCart = false;
 
-	$: arrayCart = []
+	$: arrayCart = [];
 	const deleteProductFromCart = async (id) => {
 		arrayCart = reject($prodInCart, (item) => item.id === id);
-	    prodInCart.update(() => arrayCart);
+		prodInCart.update(() => arrayCart);
 
 		const itemsCart = JSON.parse(localStorage.getItem('inCart'));
 		const newItemsCart = without(itemsCart, id);
@@ -79,7 +79,10 @@
 
 <svelte:head>
 	<title>"Орбита-строй" | Корзина</title>
-	<meta content="Корзина интернет-магазина стройматериалов компании 'Орбита строй'" name="description" />
+	<meta
+		content="Корзина интернет-магазина стройматериалов компании 'Орбита строй'"
+		name="description"
+	/>
 </svelte:head>
 
 <div class="">
@@ -131,11 +134,11 @@
 					</thead>
 					<tbody class="divide-y divide-gray-200">
 						{#each $prodInCart as { id, value, price, unit, img }, idx}
-							<tr> 
+							<tr>
 								<td
 									class="w-full max-w-0 py-4 pl-4 pr-3 text-sm font-medium text-gray-900  sm:w-auto sm:max-w-none sm:pl-6"
 								>
-									 {idx + 1}. <span class="ml-1 first-letter:uppercase">{value}</span>
+									{idx + 1}. <span class="ml-1 first-letter:uppercase">{value}</span>
 									<dl class="font-normal lg:hidden">
 										<dt class="sr-only">Цена</dt>
 										<dd class="mt-1 truncate">
@@ -312,7 +315,6 @@
 						{/if}
 					</div>
 				</div>
-
 
 				<div class="mt-8 flex justify-end">
 					<!--{#if (visibleSendOrder)}-->

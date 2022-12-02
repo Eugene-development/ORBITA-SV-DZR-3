@@ -80,9 +80,9 @@
 				<nav class="flex space-x-8 font-semibold">
 					<a class="text-base text-cyan-900 hover:text-red-800 " href="/">Главная</a>
 					<a class="text-base text-cyan-900 hover:text-red-800" href="/about">Компания</a>
-					<div >
-					<!-- <div on:outclick={closeVisibleInformationMenu} use:clickOutside> -->
-					<!-- Item active: "text-slate-900", Item inactive: "text-slate-500" -->
+					<div>
+						<!-- <div on:outclick={closeVisibleInformationMenu} use:clickOutside> -->
+						<!-- Item active: "text-slate-900", Item inactive: "text-slate-500" -->
 					</div>
 					<a class="text-base text-cyan-900 hover:text-red-800" href="/blog"> Блог </a>
 					<a class="text-base text-cyan-900 hover:text-red-800" href="/information/action">
