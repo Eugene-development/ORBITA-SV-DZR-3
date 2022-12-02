@@ -41,7 +41,7 @@
 		<div class="py-8">
 			<div class="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
 				<div class="mx-auto max-w-3xl space-y-2 lg:max-w-none">
-					<span class="text-lg font-semibold uppercase leading-6 tracking-wider text-cyan-900">
+					<span class="text-lg font-semibold uppercase leading-6 tracking-wider text-cyan-700">
 						Категория
 					</span>
 
