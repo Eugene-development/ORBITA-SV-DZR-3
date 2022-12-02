@@ -8,13 +8,14 @@ browser &&
 	localStorage.getItem('session_user') === null &&
 	localStorage.setItem('session_user', crypto.randomUUID());
 browser && sessionUser.update(() => localStorage.getItem('session_user'));
-
 // --- //
 
 // Фиксируем и считаем количество элементов в корзине при перезагрузке страницы и записываем в стор //
 const productsInCart = browser && JSON.parse(localStorage.getItem('inCart'));
-browser && idProductsInCart.update(() => productsInCart);
-browser && lengthCart.update(() => productsInCart.length);
+if (productsInCart !== null) {
+	idProductsInCart.update(() => productsInCart);
+	lengthCart.update(() => productsInCart.length);
+}
 // --- //
 
 export async function load() {
