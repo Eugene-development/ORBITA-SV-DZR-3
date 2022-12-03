@@ -1,33 +1,63 @@
 const actions = [
-	{
-		action: 'Шпаклевка гипсовая "ек" к 300 (20 кг)',
-		price: '487 рублей',
-		description: 'Предложение ограничено',
-		link: '/shop/product/spaklevka-gipsovaya-ek-k-300-20-kg'
-	},
-	{
-		action: 'Грунтовка универсальная "ек" g200 (10 л)',
-		price: '604 рубля',
-		description: 'Предложение ограничено',
-		link: '/shop/product/gruntovka-universalnaya-ek-g200-10-l'
-	},
+	// {
+	// 	action: 'Шпаклевка гипсовая "ек" к 300 (20 кг)',
+	// 	price: '487 рублей',
+	// 	description: 'Предложение ограничено',
+	// 	link: '/shop/product/spaklevka-gipsovaya-ek-k-300-20-kg'
+	// },
+	// {
+	// 	action: 'Грунтовка универсальная "ек" g200 (10 л)',
+	// 	price: '604 рубля',
+	// 	description: 'Предложение ограничено',
+	// 	link: '/shop/product/gruntovka-universalnaya-ek-g200-10-l'
+	// },
 	{
 		action: 'Грунтовка универсальная концентрированная "ек" g100 (10 л)',
-		price: '1020 рублей',
+		price: '1070',
 		description: 'Предложение ограничено',
-		link: '/shop/product/gruntovka-universalnaya-koncentrirovannaya-ek-g100-10-l'
+		link: '/shop/product/gruntovka-universalnaya-koncentrirovannaya-ek-g100-10-l',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-G100.png'
 	},
 	{
-		action: 'Cмесь для пола "юнис" горизонт универсальный (20 кг)',
-		price: '342 рубля',
+		action: 'Грунтовка универсальная "ек" g200 (5 л)',
+		price: '353',
 		description: 'Предложение ограничено',
-		link: '/shop/product/cmes-dlya-pola-yunis-gorizont-universalnyi-20-kg'
+		link: '/shop/product/gruntovka-universalnaya-ek-g200-5-l',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-G200.png'
 	},
+	// {
+	// 	action: 'Cмесь для пола "юнис" горизонт универсальный (20 кг)',
+	// 	price: '342 рубля',
+	// 	description: 'Предложение ограничено',
+	// 	link: '/shop/product/cmes-dlya-pola-yunis-gorizont-universalnyi-20-kg'
+	// },
 	{
 		action: 'Наливной пол "ек" level 2.0 быстротвердеющий влагостойкий (20 кг)',
-		price: '360 рублей',
+		price: '377',
 		description: 'Предложение ограничено',
-		link: '/shop/product/nalivnoi-pol-ek-level-20-bystrotverdeyushhii-vlagostoikii-20-kg'
+		link: '/shop/product/nalivnoi-pol-ek-level-20-bystrotverdeyushhii-vlagostoikii-20-kg',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-level-2.0.png'
+	},
+	{
+		action: 'Наливной пол "ек" level 2.1 быстротвердеющий (20 кг)',
+		price: '376',
+		description: 'Предложение ограничено',
+		link: '/shop/product/nalivnoi-pol-ek-level-21-bystrotverdeyushhii-20-kg',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-level-2.1.png'
+	},
+	{
+		action: 'Гкл "кнауф" даногипс 9,5мм (1,2х2,5)',
+		price: '280',
+		description: 'Предложение ограничено',
+		link: '/shop/product/gkl-knauf-danogips-95mm-12x25',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/m5NgzpdlHX02sqR1Mqu3YrUQJwqqDGUOuAeYV75Z.jpeg'
+	},
+	{
+		action: 'Гклв "кнауф" даногипс 9,5мм (1,2х2,5)',
+		price: '412',
+		description: 'Предложение ограничено',
+		link: '/shop/product/gklv-knauf-danogips-95mm-12x25',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/D2JsbwgeZcA0z4OLW242TuXbW5KFsDYQMR59VFSE.jpeg'
 	},
 	// {
 	//     action: 'Штукатурная смесь "кнауф ротбанд" белая (30 кг)',
@@ -35,12 +65,12 @@ const actions = [
 	//     description: 'Предложение ограничено',
 	//     link: '/shop/product/stukaturnaya-smes-knauf-rotband-belaya-30-kg'
 	// },
-	{
-		action: 'Утеплитель технониколь роклайт 1200*600*50',
-		price: '720 рублей',
-		description: 'Только в эти выходные',
-		link: '/shop/product/uteplitel-texnonikol-roklait-120060050'
-	},
+	// {
+	// 	action: 'Утеплитель технониколь роклайт 1200*600*50',
+	// 	price: '720 рублей',
+	// 	description: 'Только в эти выходные',
+	// 	link: '/shop/product/uteplitel-texnonikol-roklait-120060050'
+	// },
 	// {
 	// 	action: 'Утеплитель технониколь роклайт 1200*600*100',
 	// 	price: '1190 рубля',
@@ -49,10 +79,18 @@ const actions = [
 	// },
 	{
 		action: 'Штукатурная смесь "ек" tg 40 (30 кг)',
-		price: '451 рубль',
+		price: '440',
 		description: 'Предложение ограничено',
-		link: '/shop/product/stukaturnaya-smes-ek-tg-40-30-kg'
+		link: '/shop/product/stukaturnaya-smes-ek-tg-40-30-kg',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TG40.png'
 	},
+	{
+		action: 'Клей для плитки "ек" 3000 (25кг)',
+		price: '341',
+		description: 'Предложение ограничено',
+		link: '/shop/product/klei-dlya-plitki-ek-3000-25kg',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-3000-UNIVERSAL.png'
+	}
 	// {
 	// 	action: 'Штукатурная смесь "кнауф ротбанд" белая (30 кг)',
 	// 	price: '440 рублей',
@@ -65,12 +103,12 @@ const actions = [
 	// 	description: 'Предложение ограничено',
 	// 	link: '/shop/product/epp-xps30-200-texnopleks-118058050-l'
 	// },
-	{
-		action: 'Эпп xps30-200 техноплекс 1180*580*30-l',
-		price: '179 рублей',
-		description: 'Предложение ограничено',
-		link: '/shop/product/epp-xps30-200-texnopleks-118058030-l'
-	}
+	// {
+	// 	action: 'Эпп xps30-200 техноплекс 1180*580*30-l',
+	// 	price: '179 рублей',
+	// 	description: 'Предложение ограничено',
+	// 	link: '/shop/product/epp-xps30-200-texnopleks-118058030-l'
+	// }
 	// {
 	// 	action: 'Эпп xps30-200 техноплекс 1180*580*20-l',
 	// 	price: '130 рублей',
