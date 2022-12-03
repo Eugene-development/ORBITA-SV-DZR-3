@@ -4,10 +4,10 @@
 </script>
 
 <div class="bg-white">
-	<div class="mx-auto max-w-2xl py-4 px-4 sm:py-6 sm:px-6 lg:max-w-7xl lg:px-8">
-		<!-- <h2 class="text-2xl font-bold tracking-tight text-gray-900">
+	<div class="mx-auto max-w-2xl my-4 py-8 px-4 sm:py-12 sm:px-6 lg:max-w-full lg:px-8">
+		<h2 class="text-4xl text-center font-bold tracking-tight text-gray-900">
 			Распродажа товара со скидкой до 20%
-		</h2> -->
+		</h2>
 
 		<div class="mt-6 grid grid-cols-1 gap-y-8 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
 
@@ -20,10 +20,10 @@
 					<img
 						src="{img}"
 						alt=""
-						class=" my-4  object-contain "
+						class=" my-6  object-contain "
 					/>
 				</div>
-				<div class="mt-4 flex justify-between">
+				<div class="mt-4 h-16 flex justify-between">
 					<div>
 						<h3 class="pl-2 text-sm text-gray-700">
 							<span aria-hidden="true" class="inset-0" />
@@ -34,7 +34,7 @@
 				</div>
 				<button
 					type="button"
-					class="mt-2 align-bottom rounded-md text-sm text-gray-100 bg-cyan-600 hover:bg-cyan-700 px-2 py-0.5"
+					class="mt-2 align-bottom rounded-md text-base text-gray-100 bg-cyan-600 hover:bg-cyan-700 px-3 py-0.5"
 					>В корзину</button
 				>
 			</div>

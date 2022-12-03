@@ -12,14 +12,14 @@ const actions = [
 	// 	link: '/shop/product/gruntovka-universalnaya-ek-g200-10-l'
 	// },
 	{
-		action: 'Грунтовка универсальная концентрированная "ек" g100 (10 л)',
+		action: 'Грунтовка универсальная концентрированная "ек" g100 (10л)',
 		price: '1070',
 		description: 'Предложение ограничено',
 		link: '/shop/product/gruntovka-universalnaya-koncentrirovannaya-ek-g100-10-l',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-G100.png'
 	},
 	{
-		action: 'Грунтовка универсальная "ек" g200 (5 л)',
+		action: 'Грунтовка универсальная "ек" g200 (5л)',
 		price: '353',
 		description: 'Предложение ограничено',
 		link: '/shop/product/gruntovka-universalnaya-ek-g200-5-l',
@@ -32,14 +32,14 @@ const actions = [
 	// 	link: '/shop/product/cmes-dlya-pola-yunis-gorizont-universalnyi-20-kg'
 	// },
 	{
-		action: 'Наливной пол "ек" level 2.0 быстротвердеющий влагостойкий (20 кг)',
+		action: 'Наливной пол "ек" level 2.0 быстротвердеющий влагостойкий (20кг)',
 		price: '377',
 		description: 'Предложение ограничено',
 		link: '/shop/product/nalivnoi-pol-ek-level-20-bystrotverdeyushhii-vlagostoikii-20-kg',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-level-2.0.png'
 	},
 	{
-		action: 'Наливной пол "ек" level 2.1 быстротвердеющий (20 кг)',
+		action: 'Наливной пол "ек" level 2.1 быстротвердеющий (20кг)',
 		price: '376',
 		description: 'Предложение ограничено',
 		link: '/shop/product/nalivnoi-pol-ek-level-21-bystrotverdeyushhii-20-kg',
@@ -78,7 +78,7 @@ const actions = [
 	// 	link: '/shop/product/uteplitel-texnonikol-roklait-1200600100'
 	// },
 	{
-		action: 'Штукатурная смесь "ек" tg 40 (30 кг)',
+		action: 'Штукатурная смесь "ек" tg 40 (30кг)',
 		price: '440',
 		description: 'Предложение ограничено',
 		link: '/shop/product/stukaturnaya-smes-ek-tg-40-30-kg',
