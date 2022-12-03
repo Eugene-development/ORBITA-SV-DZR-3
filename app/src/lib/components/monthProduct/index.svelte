@@ -2,7 +2,7 @@
 	import { browser } from '$app/environment';
 	import { lengthCart, idProductsInCart } from '$lib/store/stores.js';
 
-		const sendToCart = async (id) => {
+	const sendToCart = async (id) => {
 		if (browser && localStorage.getItem('inCart') === null) {
 			browser && localStorage.setItem('inCart', JSON.stringify([id]));
 		} else {
@@ -15,8 +15,8 @@
 		lengthCart.update(() => productsInCart.length);
 		idProductsInCart.update(() => productsInCart);
 	};
-
 </script>
+
 <div class="my-12 text-center text-base">
 	<div>
 		<h2 class="text-base font-semibold uppercase tracking-wide text-cyan-600">акция</h2>
@@ -71,11 +71,11 @@
 					<div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
 						<div class="rounded-md shadow">
 							<button
-								on:click|preventDefault|once={() => sendToCart(436)}								
+								on:click|preventDefault|once={() => sendToCart('436')}
 								type="button"
 								class="flex w-full items-center justify-center rounded-md border border-transparent bg-cyan-600 px-8 py-3 text-base font-medium text-white hover:bg-cyan-700 md:py-4 md:px-10 md:text-lg"
-								>В корзину</button>
-							
+								>В корзину</button
+							>
 						</div>
 						<div class="mt-3 sm:mt-0 sm:ml-3">
 							<a

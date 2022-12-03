@@ -119,15 +119,16 @@
 						</div>
 						<div class="flex">
 							{#if data.product.product_one.price}
-							<span
-								class="title-font rounded-2xl bg-cyan-900 py-2 px-4 text-lg font-medium text-slate-100"
-								>{data.product.product_one.price?.value} р/{data.product.product_one.unit.value}.</span
-							>
+								<span
+									class="title-font rounded-2xl bg-cyan-900 py-2 px-4 text-lg font-medium text-slate-100"
+									>{data.product.product_one.price?.value} р/{data.product.product_one.unit
+										.value}.</span
+								>
 							{:else}
-							<span
-								class="title-font rounded-2xl bg-cyan-900 py-2 px-4 text-lg font-medium text-slate-100"
-								>Цена не указана</span
-							>
+								<span
+									class="title-font rounded-2xl bg-cyan-900 py-2 px-4 text-lg font-medium text-slate-100"
+									>Цена не указана</span
+								>
 							{/if}
 
 							{#if browser && !$idProductsInCart.some((arrVal) => data.product.product_one.id === arrVal) && data.product.product_one.price}
@@ -153,7 +154,7 @@
 									<span class="ml-3">В корзину</span>
 								</button>
 							{:else if !data.product.product_one.price}
-							<span class=""/>
+								<span class="" />
 							{:else}
 								<button
 									class="ml-auto flex items-center justify-center rounded-md border border-transparent bg-cyan-900 py-2 px-6 text-base font-medium text-slate-100 "

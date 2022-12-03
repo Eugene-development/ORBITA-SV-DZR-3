@@ -2,7 +2,7 @@
 	import { browser } from '$app/environment';
 	import { lengthCart, idProductsInCart } from '$lib/store/stores.js';
 
-		const sendToCart = async (id) => {
+	const sendToCart = async (id) => {
 		if (browser && localStorage.getItem('inCart') === null) {
 			browser && localStorage.setItem('inCart', JSON.stringify([id]));
 		} else {
@@ -14,9 +14,7 @@
 		const productsInCart = JSON.parse(localStorage.getItem('inCart'));
 		lengthCart.update(() => productsInCart.length);
 		idProductsInCart.update(() => productsInCart);
-
 	};
-
 
 	export let actions;
 </script>
@@ -28,37 +26,30 @@
 		</h2>
 
 		<div class="mt-6 grid grid-cols-1 gap-y-8 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
-
 			{#each actions as { id, action, price, description, link, img }}
-
-			<div class="group rounded-md relative shadow-lg shadow-slate-400/50 p-3">
-				<div
-					class="h-56 p-8 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md  group-hover:opacity-75 lg:aspect-none "
-				>
-					<img
-						src="{img}"
-						alt=""
-						class=" my-2  object-contain "
-					/>
-				</div>
-				<div class="mt-4 h-16 flex justify-between">
-					<div>
-						<h3 class="pl-2 text-sm text-gray-700">
-							<span aria-hidden="true" class="inset-0" />
-							{action}
-						</h3>
+				<div class="group rounded-md relative shadow-lg shadow-slate-400/50 p-3">
+					<div
+						class="h-56 p-8 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md  group-hover:opacity-75 lg:aspect-none "
+					>
+						<img src={img} alt="" class=" my-2  object-contain " />
 					</div>
-					<p class="ml-1 text-sm font-medium text-gray-900">{price}р.</p>
+					<div class="mt-4 h-16 flex justify-between">
+						<div>
+							<h3 class="pl-2 text-sm text-gray-700">
+								<span aria-hidden="true" class="inset-0" />
+								{action}
+							</h3>
+						</div>
+						<p class="ml-1 text-sm font-medium text-gray-900">{price}р.</p>
+					</div>
+					<button
+						on:click|preventDefault|once={sendToCart(id)}
+						type="button"
+						class="m-2 px-3 py-1 align-bottom rounded-md text-base text-gray-100 bg-cyan-600 hover:bg-cyan-700 "
+						>В корзину</button
+					>
 				</div>
-				<button
-					on:click|preventDefault|once={sendToCart(id)}
-
-					type="button"
-					class="m-2 px-3 py-1 align-bottom rounded-md text-base text-gray-100 bg-cyan-600 hover:bg-cyan-700 "
-					>В корзину</button
-				>
-			</div>
-	{/each}
+			{/each}
 		</div>
 	</div>
 </div>

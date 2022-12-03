@@ -21,7 +21,7 @@
 </svelte:head>
 
 <MonthProduct />
-<Actual {...data.contentActions}/>
+<Actual {...data.contentActions} />
 <!-- <Slider /> -->
 <Testimonials />
 <Message />

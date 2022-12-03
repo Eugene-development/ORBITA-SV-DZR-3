@@ -69,9 +69,15 @@
 				>
 					<a sveltekit:prefetch href="/shop/product/{slug}">
 						<div class="flex flex-1 flex-col p-8">
-							{#if image.hash}
+							{#if image}
 								<img
 									src="{data.pathAWS}{image.hash}"
+									alt="product"
+									class="mx-auto h-32 w-32 flex-shrink-0 object-contain"
+								/>
+							{:else}
+								<img
+									src="https://img2.freepng.ru/20181125/wbe/kisspng-apartment-renting-london-residential-house-product-5bfa6d06347989.212131131543138566215.jpg"
 									alt="product"
 									class="mx-auto h-32 w-32 flex-shrink-0 object-contain"
 								/>
@@ -86,16 +92,16 @@
 								<dt class="sr-only">Product</dt>
 								<dd class="mt-4">
 									{#if price}
-									<span
-										class="rounded-full bg-cyan-900 px-3 py-1.5 text-base font-medium text-slate-100"
-										>{price?.value}
-										р/{unit?.value}</span
-									>
+										<span
+											class="rounded-full bg-cyan-900 px-3 py-1.5 text-base font-medium text-slate-100"
+											>{price?.value}
+											р/{unit?.value}</span
+										>
 									{:else}
-									<span
-										class="rounded-full bg-cyan-900 px-3 py-1.5 text-base font-medium text-slate-100"
-										>Цена не указана</span
-									>
+										<span
+											class="rounded-full bg-cyan-900 px-3 py-1.5 text-base font-medium text-slate-100"
+											>Цена не указана</span
+										>
 									{/if}
 								</dd>
 							</dl>
@@ -125,8 +131,6 @@
 										<span class="ml-3">В корзине</span>
 									</button>
 								{:else if price}
-																		
-
 									<button
 										on:click|preventDefault|once={sendToCart(id)}
 										class="relative inline-flex w-0 flex-1 items-center justify-center rounded-bl-lg border border-transparent py-2 text-sm font-medium text-slate-700 hover:text-slate-500"
@@ -146,7 +150,6 @@
 											/>
 										</svg>
 										<span class="ml-3">В корзину</span>
-										
 									</button>
 								{/if}
 							</div>
