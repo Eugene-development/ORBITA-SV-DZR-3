@@ -22,7 +22,7 @@
 
 <MonthProduct />
 <Actual {...data.contentActions}/>
-<Slider />
+<!-- <Slider /> -->
 <Testimonials />
 <Message />
 <Article />
