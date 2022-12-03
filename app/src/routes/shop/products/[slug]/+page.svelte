@@ -85,11 +85,18 @@
 								<dt class="sr-only">Title</dt>
 								<dt class="sr-only">Product</dt>
 								<dd class="mt-4">
+									{#if price}
 									<span
 										class="rounded-full bg-cyan-900 px-3 py-1.5 text-base font-medium text-slate-100"
 										>{price?.value}
 										р/{unit?.value}</span
 									>
+									{:else}
+									<span
+										class="rounded-full bg-cyan-900 px-3 py-1.5 text-base font-medium text-slate-100"
+										>Цена не указана</span
+									>
+									{/if}
 								</dd>
 							</dl>
 						</div>
@@ -117,7 +124,9 @@
 										</svg>
 										<span class="ml-3">В корзине</span>
 									</button>
-								{:else}
+								{:else if price}
+																		
+
 									<button
 										on:click|preventDefault|once={sendToCart(id)}
 										class="relative inline-flex w-0 flex-1 items-center justify-center rounded-bl-lg border border-transparent py-2 text-sm font-medium text-slate-700 hover:text-slate-500"
@@ -137,6 +146,7 @@
 											/>
 										</svg>
 										<span class="ml-3">В корзину</span>
+										
 									</button>
 								{/if}
 							</div>

@@ -33,12 +33,12 @@
 
 			<div class="group rounded-md relative shadow-lg shadow-slate-400/50 p-3">
 				<div
-					class="h-56 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md  group-hover:opacity-75 lg:aspect-none "
+					class="h-56 p-8 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md  group-hover:opacity-75 lg:aspect-none "
 				>
 					<img
 						src="{img}"
 						alt=""
-						class=" my-6  object-contain "
+						class=" my-2  object-contain "
 					/>
 				</div>
 				<div class="mt-4 h-16 flex justify-between">

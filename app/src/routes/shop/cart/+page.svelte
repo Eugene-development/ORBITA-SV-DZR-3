@@ -6,7 +6,7 @@
 
 	$: quantity = 1;
 	$: total = $prodInCart.reduce((sum, product) => {
-		let price = product.price.value;
+		let price = product.price?.value;
 		return sum + price * quantity;
 	}, 0);
 	$: totalSum = (total - total * 0.05).toFixed(2);
@@ -145,7 +145,7 @@
 											<span
 												class="inline-flex rounded-md bg-cyan-100 px-2 text-xs font-semibold leading-5 text-cyan-900"
 											>
-												Цена: {price.value} руб/{unit.value}
+												Цена: {price?.value} руб/{unit?.value}
 											</span>
 										</dd>
 										<dt class="sr-only sm:hidden">Количество</dt>
@@ -162,7 +162,7 @@
 									<span
 										class="inline-flex rounded-md bg-cyan-100 px-3 py-1 text-sm font-semibold leading-5 text-cyan-900"
 									>
-										{price.value} руб/{unit.value}
+										{price?.value} руб/{unit?.value}
 									</span>
 								</td>
 								<td class="hidden px-3 py-4 text-sm text-gray-500 sm:table-cell">
@@ -173,7 +173,7 @@
 									/>
 								</td>
 								<td class="px-3 py-4 text-sm text-gray-500"
-									>{(price.value * quantity).toFixed(2)}</td
+									>{(price?.value * quantity).toFixed(2)}</td
 								>
 								<td class="py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
 									<button

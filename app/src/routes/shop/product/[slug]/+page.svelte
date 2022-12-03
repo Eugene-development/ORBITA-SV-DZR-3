@@ -118,12 +118,19 @@
 							<span class="ml-auto text-slate-900">Уточняйте у менеджера</span>
 						</div>
 						<div class="flex">
+							{#if data.product.product_one.price}
 							<span
 								class="title-font rounded-2xl bg-cyan-900 py-2 px-4 text-lg font-medium text-slate-100"
-								>{data.product.product_one.price.value} р/{data.product.product_one.unit
-									.value}.</span
+								>{data.product.product_one.price?.value} р/{data.product.product_one.unit.value}.</span
 							>
-							{#if browser && !$idProductsInCart.some((arrVal) => data.product.product_one.id === arrVal)}
+							{:else}
+							<span
+								class="title-font rounded-2xl bg-cyan-900 py-2 px-4 text-lg font-medium text-slate-100"
+								>Цена не указана</span
+							>
+							{/if}
+
+							{#if browser && !$idProductsInCart.some((arrVal) => data.product.product_one.id === arrVal) && data.product.product_one.price}
 								<button
 									on:click|preventDefault|once={sendToCart(data.product.product_one.id)}
 									type="button"
@@ -145,6 +152,8 @@
 									</svg>
 									<span class="ml-3">В корзину</span>
 								</button>
+							{:else if !data.product.product_one.price}
+							<span class=""/>
 							{:else}
 								<button
 									class="ml-auto flex items-center justify-center rounded-md border border-transparent bg-cyan-900 py-2 px-6 text-base font-medium text-slate-100 "
@@ -181,7 +190,7 @@
 					{#if data.product.product_one.image.hash}
 						<img
 							alt="ecommerce"
-							class="max-w-xl rounded border-2 border-slate-50 object-contain object-center p-8 shadow-lg shadow-slate-200/50 ring-1 ring-slate-50 ring-offset-1 lg:w-1/2"
+							class="max-w-xl rounded border-2 border-slate-50 object-contain object-center p-8 shadow-lg shadow-slate-500/50 ring-1 ring-slate-50 ring-offset-1 lg:w-1/2"
 							src="{data.pathAWS}{data.product.product_one.image.hash}"
 						/>
 					{/if}
