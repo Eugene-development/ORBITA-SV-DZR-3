@@ -12,6 +12,7 @@ const actions = [
 	// 	link: '/shop/product/gruntovka-universalnaya-ek-g200-10-l'
 	// },
 	{
+		id: '520',
 		action: 'Грунтовка универсальная концентрированная "ек" g100 (10л)',
 		price: '1070',
 		description: 'Предложение ограничено',
@@ -19,6 +20,7 @@ const actions = [
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-G100.png'
 	},
 	{
+		id: '523',
 		action: 'Грунтовка универсальная "ек" g200 (5л)',
 		price: '353',
 		description: 'Предложение ограничено',
@@ -32,6 +34,7 @@ const actions = [
 	// 	link: '/shop/product/cmes-dlya-pola-yunis-gorizont-universalnyi-20-kg'
 	// },
 	{
+		id: '463',
 		action: 'Наливной пол "ек" level 2.0 быстротвердеющий влагостойкий (20кг)',
 		price: '377',
 		description: 'Предложение ограничено',
@@ -39,6 +42,7 @@ const actions = [
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-level-2.0.png'
 	},
 	{
+		id: '464',
 		action: 'Наливной пол "ек" level 2.1 быстротвердеющий (20кг)',
 		price: '376',
 		description: 'Предложение ограничено',
@@ -46,6 +50,7 @@ const actions = [
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-level-2.1.png'
 	},
 	{
+		id: '1541',
 		action: 'Гкл "кнауф" даногипс 9,5мм (1,2х2,5)',
 		price: '280',
 		description: 'Предложение ограничено',
@@ -53,6 +58,7 @@ const actions = [
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/m5NgzpdlHX02sqR1Mqu3YrUQJwqqDGUOuAeYV75Z.jpeg'
 	},
 	{
+		id: '1543',
 		action: 'Гклв "кнауф" даногипс 9,5мм (1,2х2,5)',
 		price: '412',
 		description: 'Предложение ограничено',
@@ -78,6 +84,7 @@ const actions = [
 	// 	link: '/shop/product/uteplitel-texnonikol-roklait-1200600100'
 	// },
 	{
+		id: '431',
 		action: 'Штукатурная смесь "ек" tg 40 (30кг)',
 		price: '440',
 		description: 'Предложение ограничено',
@@ -85,6 +92,7 @@ const actions = [
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TG40.png'
 	},
 	{
+		id: '267',
 		action: 'Клей для плитки "ек" 3000 (25кг)',
 		price: '341',
 		description: 'Предложение ограничено',

@@ -1,4 +1,22 @@
 <script>
+	import { browser } from '$app/environment';
+	import { lengthCart, idProductsInCart } from '$lib/store/stores.js';
+
+		const sendToCart = async (id) => {
+		if (browser && localStorage.getItem('inCart') === null) {
+			browser && localStorage.setItem('inCart', JSON.stringify([id]));
+		} else {
+			const itemsCart = JSON.parse(localStorage.getItem('inCart'));
+			const newItemsCart = [...itemsCart, id];
+			localStorage.setItem('inCart', JSON.stringify(newItemsCart));
+		}
+
+		const productsInCart = JSON.parse(localStorage.getItem('inCart'));
+		lengthCart.update(() => productsInCart.length);
+		idProductsInCart.update(() => productsInCart);
+
+	};
+
 
 	export let actions;
 </script>
@@ -11,7 +29,7 @@
 
 		<div class="mt-6 grid grid-cols-1 gap-y-8 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
 
-				{#each actions as { action, price, description, link, img }}
+			{#each actions as { id, action, price, description, link, img }}
 
 			<div class="group rounded-md relative shadow-lg p-3">
 				<div
@@ -33,8 +51,10 @@
 					<p class="ml-1 text-sm font-medium text-gray-900">{price}р.</p>
 				</div>
 				<button
+					on:click|preventDefault|once={sendToCart(id)}
+
 					type="button"
-					class="mt-2 align-bottom rounded-md text-base text-gray-100 bg-cyan-600 hover:bg-cyan-700 px-3 py-0.5"
+					class="m-2 px-3 py-1 align-bottom rounded-md text-base text-gray-100 bg-cyan-600 hover:bg-cyan-700 "
 					>В корзину</button
 				>
 			</div>
