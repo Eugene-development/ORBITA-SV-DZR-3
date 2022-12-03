@@ -29,7 +29,7 @@
 <div class="relative overflow-hidden bg-white">
 	<div class=" mx-auto max-w-full">
 		<div
-			class="pl-24 relative z-10 bg-gray-50 pb-8 sm:pb-12 md:pb-16 lg:w-full lg:max-w-4xl lg:pb-20 xl:pb-24"
+			class="pl-24 relative z-10 bg-slate-100 pb-8 sm:pb-12 md:pb-16 lg:w-full lg:max-w-4xl lg:pb-20 xl:pb-24"
 		>
 			<svg
 				class="absolute inset-y-0 right-0 hidden h-full w-48 translate-x-1/2 transform text-white lg:block"
@@ -54,17 +54,17 @@
 						<span class="block text-cyan-600 xl:inline">KNAUF ROTBAND</span>
 					</h1>
 					<p
-						class="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0"
+						class="mt-3 text-base text-gray-700 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0"
 					>
 						440 рублей за упаковку 30 кг.
 					</p>
 					<p
-						class="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0"
+						class="mt-3 text-base text-gray-700 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0"
 					>
 						Цвет штукатурки - белый.
 					</p>
 					<p
-						class="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0"
+						class="mt-3 text-base text-gray-700 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0"
 					>
 						Уточняйте количество на складе.
 					</p>
