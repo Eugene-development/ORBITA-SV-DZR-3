@@ -11,10 +11,7 @@
 	const closeVisibleInformationMenu = () => {
 		visibleInformationMenu.update(invertToFalse);
 	};
-
-
 	export let informationMenu;
-	console.log(informationMenu);
 
 </script>
 	<div >

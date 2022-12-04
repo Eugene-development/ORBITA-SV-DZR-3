@@ -19,7 +19,8 @@
 					<div class="rounded-lg bg-white shadow-md shadow-gray-700/50 lg:hidden">
 						{#each catalog as { slug, name }}
 							<a
-								sveltekit:noscroll
+							data-sveltekit-prefetch
+							data-sveltekit-noscroll
 								href="/shop/rubric/{slug}"
 								on:click={() => visibleCatalog.update(invert)}
 								class="flex flex-col border border-gray-200 bg-gradient-to-tr from-cyan-500 via-cyan-900 to-cyan-700 p-4 text-center hover:bg-gradient-to-bl sm:border-r sm:border-l"
@@ -37,8 +38,8 @@
 					>
 						{#each catalog as { slug, name }}
 							<a
-								sveltekit:noscroll
-								sveltekit:prefetch
+							data-sveltekit-prefetch
+							data-sveltekit-noscroll
 								href="/shop/rubric/{slug}"
 								class="flex flex-col  border border-gray-200 p-4 text-center hover:border-red-800 hover:bg-gradient-to-l hover:from-red-900 hover:via-red-800 hover:to-red-900 sm:border-r sm:border-l 
 								{$page.url.pathname === '/shop/rubric/' + slug

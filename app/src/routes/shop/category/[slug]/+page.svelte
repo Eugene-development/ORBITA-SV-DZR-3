@@ -15,9 +15,9 @@
 				Рубрика
 			</span>
 
-			<h2 class="text-3xl font-bold text-slate-800 sm:text-4xl lg:text-5xl">
+			<h1 class="text-3xl font-bold text-slate-800 sm:text-4xl lg:text-5xl">
 				{data.rubric.rubric_one.value}
-			</h2>
+			</h1>
 			<p class="text-xl text-slate-800">
 				Приобретайте товар "{data.rubric.rubric_one.value}" в Дзержинске по низким ценам
 			</p>
@@ -212,7 +212,7 @@
 										</div>
 										<p class="mt-4 text-sm">
 											<a
-												sveltekit:prefetch
+							data-sveltekit-prefetch
 												href="/shop/products/{slug}"
 												class="font-medium text-gray-500 underline"
 											>
@@ -222,7 +222,7 @@
 										<div class="mt-6">
 											<div class="rounded-md shadow">
 												<a
-													sveltekit:prefetch
+							data-sveltekit-prefetch
 													href="/shop/products/{slug}"
 													class="flex items-center justify-center rounded-md border border-transparent bg-gradient-to-tr from-cyan-500 via-cyan-900 to-cyan-700 px-5 py-3 text-base font-medium text-white hover:bg-gradient-to-bl"
 												>

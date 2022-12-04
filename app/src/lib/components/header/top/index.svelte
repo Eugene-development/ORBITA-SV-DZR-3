@@ -113,6 +113,8 @@
 				<div class="flex items-center">
 					<div class=" flex items-center md:ml-12">
 						<button
+							data-sveltekit-prefetch
+							data-sveltekit-noscroll
 							class=" inline-flex items-center justify-center rounded-md border  border-transparent bg-slate-100 py-0.5 pl-3 pr-12 text-base font-medium text-gray-500 hover:bg-slate-200  "
 							on:click={handleSearch}
 						>

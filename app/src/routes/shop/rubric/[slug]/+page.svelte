@@ -15,9 +15,9 @@
 				Раздел
 			</span>
 
-			<h2 class="text-3xl font-extrabold text-slate-800 sm:text-4xl lg:text-5xl">
+			<h1 class="text-3xl font-extrabold text-slate-800 sm:text-4xl lg:text-5xl">
 				{data.catalog.catalog_one.value}
-			</h2>
+			</h1>
 			<p class="text-xl text-slate-800">Выберите интересующую вас рубрику в этом разделе.</p>
 		</div>
 	</div>
@@ -55,7 +55,7 @@
 								<ul class="space-y-2" />
 								<div class="mb-2 rounded-md shadow-lg shadow-cyan-500/50">
 									<a
-										sveltekit:prefetch
+							data-sveltekit-prefetch
 										href="/shop/category/{slug}"
 										class="block w-full rounded-md border border-cyan-900 bg-gradient-to-r from-cyan-500 via-cyan-800 to-cyan-500 py-2 text-center text-sm font-semibold text-white duration-300 ease-in hover:bg-cyan-900 hover:from-cyan-800 hover:via-cyan-500 hover:to-cyan-800"
 									>

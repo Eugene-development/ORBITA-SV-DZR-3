@@ -98,9 +98,10 @@
 				</nav>
 				<div class="flex items-center md:ml-12">
 					<a
+						data-sveltekit-prefetch
+						data-sveltekit-noscroll
 						class="ml-8 inline-flex items-center justify-center rounded-md border border-transparent bg-cyan-900 px-4 py-1 text-base font-medium text-white shadow-lg shadow-gray-900/50 hover:bg-gray-800"
 						href="/shop/cart"
-						sveltekit:noscroll
 					>
 						<svg
 							class="mr-1 h-5 w-5"

@@ -7,7 +7,8 @@
 		<h2
 			class="py-6 text-3xl font-bold text-cyan-900 antialiased lowercase first-letter:uppercase sm:text-4xl lg:text-5xl"
 		>
-			{$pageH1}
+			<!-- {$pageH1} -->
+			База строительных материалов
 		</h2>
 		<img
 			class="inset-0 mt-2 h-64 w-full object-cover"
