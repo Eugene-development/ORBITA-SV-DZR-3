@@ -1,5 +1,6 @@
 /** @type {import('./$types').LayoutLoad} */
 import { contentCatalog } from '$lib/data/catalog/index';
+import { contentInformationMenu } from '$lib/data/informationMenu/index';
 
 // Устанавливаем сессию юзера, если её нет для корзины и записываем в стор //
 import { sessionUser, lengthCart, idProductsInCart } from '$lib/store/stores.js';
@@ -19,5 +20,5 @@ if (productsInCart !== null) {
 // --- //
 
 export async function load() {
-	return { contentCatalog };
+	return { contentCatalog, contentInformationMenu };
 }

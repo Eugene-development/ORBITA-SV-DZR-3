@@ -46,17 +46,17 @@
 						<p class="mx-1 text-sm font-medium text-gray-900">{price}р.</p>
 					</div>
 					{#if browser && !InCart.some((arrVal) => id === arrVal)}
-					<button
-						on:click|preventDefault|once={sendToCart(id)}
-						type="button"
-						class="m-2 px-3 py-1 align-bottom rounded-md text-base text-gray-100 bg-cyan-600 hover:bg-cyan-700"
-						>В корзину</button
-					>
+						<button
+							on:click|preventDefault|once={sendToCart(id)}
+							type="button"
+							class="m-2 px-3 py-1 align-bottom rounded-md text-base text-gray-100 bg-cyan-600 hover:bg-cyan-700"
+							>В корзину</button
+						>
 					{:else}
-					<button
-						class="m-2 px-3 py-1 align-bottom rounded-md text-base text-gray-100 bg-cyan-800 hover:bg-cyan-700"
-						>В корзине</button
-					>
+						<button
+							class="m-2 px-3 py-1 align-bottom rounded-md text-base text-gray-100 bg-cyan-800 hover:bg-cyan-700"
+							>В корзине</button
+						>
 					{/if}
 				</div>
 			{/each}

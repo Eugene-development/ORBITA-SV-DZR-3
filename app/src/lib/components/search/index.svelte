@@ -43,7 +43,6 @@
 	import { browser } from '$app/environment';
 	import { lengthCart, idProductsInCart } from '$lib/store/stores.js';
 
-
 	let InCart;
 	idProductsInCart.subscribe((value) => (InCart = value));
 
@@ -153,15 +152,15 @@
 				<!-- Active: "bg-gray-100" -->
 
 				{#each result as { id, value, slug, price, unit }, i}
-				<div class="m-2">
-					<li
-						class="group flex cursor-default select-none rounded-xl p-2 hover:bg-slate-50"
-						id="option-1"
-						tabindex="-1"
-					>
-						<span>
-							{i + 1}.
-							<!-- <svg
+					<div class="m-2">
+						<li
+							class="group flex cursor-default select-none rounded-xl p-2 hover:bg-slate-50"
+							id="option-1"
+							tabindex="-1"
+						>
+							<span>
+								{i + 1}.
+								<!-- <svg
 								class="h-4 w-4 text-white"
 								xmlns="http://www.w3.org/2000/svg"
 								fill="none"
@@ -175,7 +174,7 @@
 									d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zM12 2.25V4.5m5.834.166l-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243l-1.59-1.59"
 								/>
 							</svg> -->
-						</span>
+							</span>
 							<a
 								href="/shop/product/{slug}"
 								sveltekit:prefetch
@@ -190,22 +189,20 @@
 								<!-- Active: "text-gray-700", Not Active: "text-gray-500" -->
 								<p class="text-sm text-gray-500" />
 							</a>
-					</li>
-					{#if browser && !InCart.some((arrVal) => id === arrVal)}
-					<button
-						on:click|preventDefault|once={sendToCart(id)}
-						type="button"
-						class="ml-10 rounded-md text-sm text-gray-100 bg-cyan-600 hover:bg-cyan-700 px-3 py-0.5"
-						>В корзину</button
-					>
-					{:else}
-					<button
-						class="ml-10 rounded-md text-sm text-gray-100 bg-cyan-800 px-3 py-0.5"
-						>В корзине</button
-					>
-					{/if}
-
-				</div>
+						</li>
+						{#if browser && !InCart.some((arrVal) => id === arrVal)}
+							<button
+								on:click|preventDefault|once={sendToCart(id)}
+								type="button"
+								class="ml-10 rounded-md text-sm text-gray-100 bg-cyan-600 hover:bg-cyan-700 px-3 py-0.5"
+								>В корзину</button
+							>
+						{:else}
+							<button class="ml-10 rounded-md text-sm text-gray-100 bg-cyan-800 px-3 py-0.5"
+								>В корзине</button
+							>
+						{/if}
+					</div>
 				{:else}
 					<div class="py-14 mr-6 text-center text-sm sm:px-14 ">
 						<svg

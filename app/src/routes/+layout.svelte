@@ -12,6 +12,6 @@
 <Search />
 
 <Banner />
-<Header {...data.contentCatalog} />
+<Header {...data.contentCatalog} {...data.contentInformationMenu} />
 <slot />
 <Footer />

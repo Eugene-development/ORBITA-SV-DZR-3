@@ -25,9 +25,7 @@
 		const newItemsCart = without(itemsCart, id);
 		localStorage.setItem('inCart', JSON.stringify(newItemsCart));
 
-		
 		lengthCart.update(() => arrayCart.length);
-
 
 		const productsInCart = JSON.parse(localStorage.getItem('inCart'));
 		idProductsInCart.update(() => productsInCart);

@@ -5,12 +5,12 @@
 	import Catalog from '$lib/components/header/catalog/index.svelte';
 
 	export let catalog;
+	export let informationMenu;
 </script>
 
 <header>
 	<Top />
-	<Nav />
+	<Nav {informationMenu}/>
 	<Hero />
 	<Catalog {catalog} />
-	<!-- <Search /> -->
 </header>
