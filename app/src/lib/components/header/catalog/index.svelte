@@ -25,7 +25,7 @@
 								class="flex flex-col border border-gray-200 bg-gradient-to-tr from-cyan-500 via-cyan-900 to-cyan-700 p-4 text-center hover:bg-gradient-to-bl sm:border-r sm:border-l"
 							>
 								<span
-									class="order-2 text-sm font-medium leading-6 tracking-wider text-slate-50 antialiased"
+									class="order-2 text-sm font-medium leading-6 tracking-wider text-white antialiased"
 								>
 									{name}
 								</span>
@@ -46,7 +46,7 @@
 									: 'bg-gradient-to-r from-cyan-900 via-cyan-800 to-cyan-900'}"
 							>
 								<span
-									class="delay-50 duration-50 order-2 text-sm font-medium leading-6 tracking-wider text-slate-50 transition ease-in-out hover:scale-110"
+									class="delay-50 duration-50 order-2 text-sm font-medium leading-6 tracking-wider text-white transition ease-in-out hover:scale-110"
 								>
 									{name}
 								</span>
