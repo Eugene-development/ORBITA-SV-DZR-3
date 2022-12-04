@@ -34,7 +34,7 @@
 		// allProducts.subscribe((value) => (products = value));
 
 		const search = (query) =>
-			$allProducts.product.filter(({ value }) => value.toLowerCase().includes(query));
+		$allProducts.product.filter(({ value }) => value.toLowerCase().includes(query));
 		// const search = (query) => products.product.filter(({ value }) => value.toLowerCase().includes(query));
 		const query = value.toLowerCase();
 		result = search(query);
@@ -171,6 +171,7 @@
 								/>
 							</svg> -->
 						</span>
+						<div>
 						<a
 							href="/shop/product/{slug}"
 							sveltekit:prefetch
@@ -182,6 +183,10 @@
 							<p class="text-sm font-medium lowercase  text-gray-700 first-letter:uppercase">
 								{value} - {price?.value} руб/{unit?.value}
 							</p>
+
+							<!-- Active: "text-gray-700", Not Active: "text-gray-500" -->
+							<p class="text-sm text-gray-500" />
+						</a>
 							<button
 							    on:click|preventDefault|once={sendToCart(id)}
 								type="button"
@@ -189,9 +194,8 @@
 								>В корзину</button
 							>
 
-							<!-- Active: "text-gray-700", Not Active: "text-gray-500" -->
-							<p class="text-sm text-gray-500" />
-						</a>
+						</div>
+
 					</li>
 				{:else}
 					<div class="py-14 mr-6 text-center text-sm sm:px-14 ">
