@@ -2,6 +2,9 @@
 	import { browser } from '$app/environment';
 	import { lengthCart, idProductsInCart } from '$lib/store/stores.js';
 
+	let InCart;
+	idProductsInCart.subscribe((value) => (InCart = value));
+
 	const sendToCart = async (id) => {
 		if (browser && localStorage.getItem('inCart') === null) {
 			browser && localStorage.setItem('inCart', JSON.stringify([id]));
@@ -42,12 +45,19 @@
 						</div>
 						<p class="mx-1 text-sm font-medium text-gray-900">{price}р.</p>
 					</div>
+					{#if browser && !InCart.some((arrVal) => id === arrVal)}
 					<button
 						on:click|preventDefault|once={sendToCart(id)}
 						type="button"
-						class="m-2 px-3 py-1 align-bottom rounded-md text-base text-gray-100 bg-cyan-600 hover:bg-cyan-700 "
+						class="m-2 px-3 py-1 align-bottom rounded-md text-base text-gray-100 bg-cyan-600 hover:bg-cyan-700"
 						>В корзину</button
 					>
+					{:else}
+					<button
+						class="m-2 px-3 py-1 align-bottom rounded-md text-base text-gray-100 bg-cyan-800 hover:bg-cyan-700"
+						>В корзине</button
+					>
+					{/if}
 				</div>
 			{/each}
 		</div>
