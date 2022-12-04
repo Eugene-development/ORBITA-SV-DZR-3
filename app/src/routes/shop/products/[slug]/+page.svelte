@@ -111,7 +111,7 @@
 						<div class="-mt-px flex divide-x divide-slate-200">
 							<div class="flex w-0 flex-1">
 								{#if browser && InCart.some((arrVal) => id === arrVal)}
-									<button
+									<div
 										class="relative inline-flex w-0 flex-1 items-center justify-center rounded-bl-lg border border-transparent bg-cyan-900 py-2 text-sm font-medium text-slate-50 hover:text-slate-100 focus:outline-none"
 									>
 										<svg
@@ -129,7 +129,7 @@
 											/>
 										</svg>
 										<span class="ml-3">В корзине</span>
-									</button>
+									</div>
 								{:else if price}
 									<button
 										on:click|preventDefault|once={sendToCart(id)}
