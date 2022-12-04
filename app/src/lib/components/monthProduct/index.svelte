@@ -2,6 +2,9 @@
 	import { browser } from '$app/environment';
 	import { lengthCart, idProductsInCart } from '$lib/store/stores.js';
 
+	let InCart;
+	idProductsInCart.subscribe((value) => (InCart = value));
+
 	const sendToCart = async (id) => {
 		if (browser && localStorage.getItem('inCart') === null) {
 			browser && localStorage.setItem('inCart', JSON.stringify([id]));
@@ -69,6 +72,7 @@
 						Уточняйте количество на складе.
 					</p>
 					<div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+						{#if browser && !InCart.some((arrVal) => '436' === arrVal)}
 						<div class="rounded-md shadow">
 							<button
 								on:click|preventDefault|once={() => sendToCart('436')}
@@ -77,6 +81,14 @@
 								>В корзину</button
 							>
 						</div>
+						{:else}
+						<div class="rounded-md shadow">
+							<div
+								class="flex w-full items-center justify-center rounded-md border border-transparent bg-cyan-800 px-8 py-3 text-base font-medium text-white hover:bg-cyan-700 md:py-4 md:px-10 md:text-lg"
+								>В корзине</div
+							>
+						</div>
+						{/if}
 						<div class="mt-3 sm:mt-0 sm:ml-3">
 							<a
 								href="/shop/product/stukaturnaya-smes-knauf-rotband-belaya-30-kg"

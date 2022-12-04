@@ -156,7 +156,7 @@
 							{:else if !data.product.product_one.price}
 								<span class="" />
 							{:else}
-								<button
+								<div
 									class="ml-auto flex items-center justify-center rounded-md border border-transparent bg-cyan-900 py-2 px-6 text-base font-medium text-slate-100 "
 								>
 									<svg
@@ -174,7 +174,7 @@
 										/>
 									</svg>
 									<span class="ml-3">В корзине</span>
-								</button>
+								</div>
 							{/if}
 							<!--                            <button-->
 							<!--                                    class="rounded-full w-10 h-10 bg-slate-100 p-0 border-0 inline-flex productsID-center justify-center text-slate-500 ml-4 hover:bg-red-900"-->
