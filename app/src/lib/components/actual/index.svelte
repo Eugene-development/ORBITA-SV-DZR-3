@@ -40,7 +40,7 @@
 								{action}
 							</h3>
 						</div>
-						<p class="ml-1 text-sm font-medium text-gray-900">{price}р.</p>
+						<p class="mx-1 text-sm font-medium text-gray-900">{price}р.</p>
 					</div>
 					<button
 						on:click|preventDefault|once={sendToCart(id)}
