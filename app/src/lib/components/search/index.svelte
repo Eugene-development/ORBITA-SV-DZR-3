@@ -39,6 +39,23 @@
 		const query = value.toLowerCase();
 		result = search(query);
 	}
+
+	import { browser } from '$app/environment';
+	import { lengthCart, idProductsInCart } from '$lib/store/stores.js';
+	const sendToCart = async (id) => {
+		if (browser && localStorage.getItem('inCart') === null) {
+			browser && localStorage.setItem('inCart', JSON.stringify([id]));
+		} else {
+			const itemsCart = JSON.parse(localStorage.getItem('inCart'));
+			const newItemsCart = [...itemsCart, id];
+			localStorage.setItem('inCart', JSON.stringify(newItemsCart));
+		}
+
+		const productsInCart = JSON.parse(localStorage.getItem('inCart'));
+		lengthCart.update(() => productsInCart.length);
+		idProductsInCart.update(() => productsInCart);
+	};
+
 </script>
 
 {#if $visibleSearch}
@@ -166,6 +183,7 @@
 								{value} - {price?.value} руб/{unit?.value}
 							</p>
 							<button
+							    on:click|preventDefault|once={sendToCart(id)}
 								type="button"
 								class="mt-1 rounded-md text-sm text-gray-100 bg-cyan-600 hover:bg-cyan-700 px-2 py-0.5"
 								>В корзину</button
