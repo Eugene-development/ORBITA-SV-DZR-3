@@ -10,6 +10,7 @@ export const allProducts = writable([]);
 export const lengthCart = writable(0);
 export const idProductsInCart = writable([]);
 export const prodInCart = writable([]);
+export const quantity = writable(1);
 
 export const slideOne = writable(false);
 export const slideTwo = writable(true);

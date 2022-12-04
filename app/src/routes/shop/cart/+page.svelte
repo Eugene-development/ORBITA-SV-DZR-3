@@ -4,10 +4,9 @@
 	import axios from 'axios';
 	import { lengthCart, idProductsInCart, prodInCart, allProducts } from '$lib/store/stores.js';
 
-	$: quantity = 1;
 	$: total = $prodInCart.reduce((sum, product) => {
 		let price = product.price?.value;
-		return sum + price * quantity;
+		return sum + price * product.quantity;
 	}, 0);
 	$: totalSum = (total - total * 0.05).toFixed(2);
 	$: first_name = '';
@@ -133,7 +132,7 @@
 						</tr>
 					</thead>
 					<tbody class="divide-y divide-gray-200">
-						{#each $prodInCart as { id, value, price, unit, img }, idx}
+						{#each $prodInCart as { id, value, price, unit, img, quantity }, idx}
 							<tr>
 								<td
 									class="w-full max-w-0 py-4 pl-4 pr-3 text-sm font-medium text-gray-900  sm:w-auto sm:max-w-none sm:pl-6"
@@ -198,6 +197,7 @@
 									</button>
 								</td>
 							</tr>
+
 						{/each}
 					</tbody>
 				</table>

@@ -11,6 +11,9 @@ export async function load({ data }) {
 	forEach(idProductsInCart, function (product) {
 		productsInCart = [...productsInCart, find(allProducts.product, ['id', product])];
 	});
+	forEach(productsInCart, function (item) {
+		item.quantity = 1;
+	});
 
 	prodInCart.update(() => productsInCart);
 	pageH1.update(() => 'Корзина');
