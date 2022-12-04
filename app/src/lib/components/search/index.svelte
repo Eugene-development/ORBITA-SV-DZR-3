@@ -34,7 +34,7 @@
 		// allProducts.subscribe((value) => (products = value));
 
 		const search = (query) =>
-		$allProducts.product.filter(({ value }) => value.toLowerCase().includes(query));
+			$allProducts.product.filter(({ value }) => value.toLowerCase().includes(query));
 		// const search = (query) => products.product.filter(({ value }) => value.toLowerCase().includes(query));
 		const query = value.toLowerCase();
 		result = search(query);
@@ -55,7 +55,6 @@
 		lengthCart.update(() => productsInCart.length);
 		idProductsInCart.update(() => productsInCart);
 	};
-
 </script>
 
 {#if $visibleSearch}
@@ -118,10 +117,10 @@
 				</button>
 			</div>
 
-			<div class="relative bg-slate-50">
+			<div class="relative bg-gray-700">
 				<!-- Heroicon name: solid/search -->
 				<svg
-					class="pointer-events-none absolute top-3.5 left-4 h-5 w-5 text-gray-400"
+					class="pointer-events-none absolute top-3.5 left-4 h-5 w-5 text-gray-50"
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 20 20"
 					fill="currentColor"
@@ -136,7 +135,7 @@
 				<input
 					bind:value
 					type="text"
-					class="h-12 w-full border-0 bg-transparent pl-11 pr-4 text-gray-800 placeholder-gray-400 focus:ring-0 sm:text-sm "
+					class="h-12 w-full border-0 bg-transparent pl-11 pr-4 text-gray-50 placeholder-gray-50 focus:ring-0 sm:text-sm "
 					placeholder="Введите наименование..."
 					role="combobox"
 					aria-expanded="false"
@@ -149,8 +148,9 @@
 				<!-- Active: "bg-gray-100" -->
 
 				{#each result as { id, value, slug, price, unit }, i}
+				<div class="m-2">
 					<li
-						class="group flex cursor-default select-none rounded-xl p-3 hover:bg-slate-50"
+						class="group flex cursor-default select-none rounded-xl p-2 hover:bg-slate-50"
 						id="option-1"
 						tabindex="-1"
 					>
@@ -171,32 +171,29 @@
 								/>
 							</svg> -->
 						</span>
-						<div>
-						<a
-							href="/shop/product/{slug}"
-							sveltekit:prefetch
-							sveltekit:noscroll
-							on:click={() => visibleSearch.update(invert)}
-							class="ml-4 mt-0.5 flex-auto "
-						>
-							<!-- Active: "text-gray-900", Not Active: "text-gray-700" -->
-							<p class="text-sm font-medium lowercase  text-gray-700 first-letter:uppercase">
-								{value} - {price?.value} руб/{unit?.value}
-							</p>
-
-							<!-- Active: "text-gray-700", Not Active: "text-gray-500" -->
-							<p class="text-sm text-gray-500" />
-						</a>
-							<button
-							    on:click|preventDefault|once={sendToCart(id)}
-								type="button"
-								class="mt-1 rounded-md text-sm text-gray-100 bg-cyan-600 hover:bg-cyan-700 px-2 py-0.5"
-								>В корзину</button
+							<a
+								href="/shop/product/{slug}"
+								sveltekit:prefetch
+								sveltekit:noscroll
+								on:click={() => visibleSearch.update(invert)}
+								class="ml-4 mt-0.5 flex-auto "
 							>
-
-						</div>
-
+								<!-- Active: "text-gray-900", Not Active: "text-gray-700" -->
+								<p class="text-sm font-medium lowercase  text-gray-700 first-letter:uppercase">
+									{value} - {price?.value} руб/{unit?.value}
+								</p>
+								<!-- Active: "text-gray-700", Not Active: "text-gray-500" -->
+								<p class="text-sm text-gray-500" />
+							</a>
 					</li>
+					<button
+						on:click|preventDefault|once={sendToCart(id)}
+						type="button"
+						class="ml-10 rounded-md text-sm text-gray-100 bg-cyan-600 hover:bg-cyan-700 px-2 py-0.5"
+						>В корзину</button
+					>
+
+				</div>
 				{:else}
 					<div class="py-14 mr-6 text-center text-sm sm:px-14 ">
 						<svg

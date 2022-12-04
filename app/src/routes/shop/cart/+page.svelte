@@ -197,7 +197,6 @@
 									</button>
 								</td>
 							</tr>
-
 						{/each}
 					</tbody>
 				</table>
