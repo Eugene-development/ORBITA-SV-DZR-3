@@ -53,7 +53,7 @@
 					<div class="mb-6 w-full lg:mb-0 lg:w-1/2 lg:py-6 lg:pr-12">
 						<h2 class="title-font text-base tracking-widest text-red-500">НАИМЕНОВАНИЕ</h2>
 						<h1
-							class="title-font my-4 text-2xl font-medium lowercase text-slate-900 first-letter:uppercase"
+							class="title-font my-4 text-xl font-medium lowercase text-slate-900 first-letter:uppercase"
 						>
 							{data.product.product_one.value}
 						</h1>
@@ -97,8 +97,7 @@
 						{/if} -->
 
 						<a
-							sveltekit:prefetch
-							sveltekit:noscroll
+data-sveltekit-prefetch
 							href="/shop/products/{data.product.product_one.parent.slug}"
 						>
 							<div class="flex border-t border-slate-200 py-2">

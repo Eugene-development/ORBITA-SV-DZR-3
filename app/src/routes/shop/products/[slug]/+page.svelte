@@ -85,7 +85,7 @@
 								/>
 							{/if}
 							<h3
-								class="mt-6 h-10 text-sm font-medium lowercase text-slate-900 first-letter:uppercase"
+								class="mt-6 h-10 text-sm font-medium lowercase text-slate-900 first-letter:uppercase whitespace-pre-wrap"
 							>
 								{value}
 							</h3>
