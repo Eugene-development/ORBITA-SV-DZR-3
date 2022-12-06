@@ -284,7 +284,7 @@
 						/>
 					</svg>
 					<a
-						class="rounded-md pl-1 text-base font-medium text-gray-200 sm:text-base md:text-lg"
+						class="rounded-md pl-1 text-sm font-medium text-gray-200 sm:text-base md:text-lg"
 						href="tel:+79023033654">8 902-303-36-54</a
 					>
 				</div>
@@ -305,7 +305,7 @@
 						/>
 					</svg>
 					<a
-						class="rounded-md pl-1 text-base font-medium text-gray-200 sm:text-base md:text-lg"
+						class="rounded-md pl-1 text-sm font-medium text-gray-200 sm:text-base md:text-lg"
 						href="tel:+79306888862">8 930-688-88-62</a
 					>
 				</div>

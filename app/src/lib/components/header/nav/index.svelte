@@ -46,7 +46,7 @@
 						/>
 					</svg>
 					Корзина (
-					<div class="mx-1 text-red-500">{$lengthCart}</div>
+					<div class="mx-none sm:mx-1 text-red-500">{$lengthCart}</div>
 					)
 				</a>
 			</div>
