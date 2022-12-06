@@ -51,11 +51,11 @@
 								<!--                                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.-->
 								<!--                                                  </p>-->
 							</div>
-							<div class="flex flex-1 flex-col justify-between px-6  sm:p-10 sm:pt-6">
+							<div class="flex flex-1 flex-col justify-between px-6  sm:p-10 sm:pt-6 transition ease-in-out hover:scale-105">
 								<ul class="space-y-2" />
 								<div class="mb-2 rounded-md shadow-lg shadow-cyan-500/50">
 									<a
-							data-sveltekit-prefetch
+							            data-sveltekit-prefetch
 										href="/shop/category/{slug}"
 										class="block w-full rounded-md border border-cyan-900 bg-gradient-to-r from-cyan-500 via-cyan-800 to-cyan-500 py-2 text-center text-sm font-semibold text-white duration-300 ease-in hover:bg-cyan-900 hover:from-cyan-800 hover:via-cyan-500 hover:to-cyan-800"
 									>
