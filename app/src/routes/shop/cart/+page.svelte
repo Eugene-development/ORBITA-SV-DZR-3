@@ -1,6 +1,6 @@
 <script>
 	/** @type {import('./$types').PageData} */
-	import { reject, without } from 'lodash';
+import { reject, without, pullAllBy, forEach, find, filter } from 'lodash';
 	import axios from 'axios';
 	import { lengthCart, idProductsInCart, prodInCart, allProducts } from '$lib/store/stores.js';
 
@@ -46,7 +46,10 @@
 		const apiMail = {
 			baseURL: `${import.meta.env.VITE_API_MAIL}`,
 			headers: {
-				Authorization: `Bearer ${import.meta.env.VITE_TOKEN}`
+				Authorization: `Bearer ${import.meta.env.VITE_TOKEN}`,
+				// 'access-control-allow-origin': "*",
+				// 'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+				// 'Access-Control-Allow-Methods': '*',
 			}
 		};
 		axios.post('/sendOrder', data, apiMail);
@@ -77,6 +80,26 @@
 		payYouKassa();
 		cleanData();
 	};
+
+
+
+
+	import { browser } from '$app/environment';
+
+	export let data;
+	// console.log(data);
+
+	const idProducts = browser && JSON.parse(localStorage.getItem('inCart'));
+	let productsInCart = [];
+	forEach(idProducts, function (product) {
+		productsInCart = [...productsInCart, find(data.ccc.product, ['id', product])];
+	});
+	forEach(productsInCart, function (item) {
+		item.quantity = 1;
+	});
+	prodInCart.update(() => productsInCart);
+
+
 </script>
 
 <svelte:head>
@@ -94,7 +117,7 @@
 	<!--    </div>-->
 	<!--  </div>-->
 
-	{#if $prodInCart}
+	{#if $lengthCart > 0}
 		<div class="px-4 sm:px-6 lg:px-8">
 			<div class="sm:flex sm:items-center">
 				<div class="sm:flex-auto">
@@ -135,6 +158,7 @@
 						</tr>
 					</thead>
 					<tbody class="divide-y divide-gray-200">
+						<!-- {#each productsInCart as { id, value, price, unit, img, quantity }, idx} -->
 						{#each $prodInCart as { id, value, price, unit, img, quantity }, idx}
 							<tr>
 								<td
@@ -237,7 +261,7 @@
 		</div>
 	{/if}
 
-	{#if $prodInCart}
+	{#if $lengthCart > 0}
 		<div class="m-8 text-right">
 			<span
 				class="inline-flex  rounded-md bg-cyan-100 px-3.5 py-1 text-xs font-medium text-cyan-800 sm:text-base"
