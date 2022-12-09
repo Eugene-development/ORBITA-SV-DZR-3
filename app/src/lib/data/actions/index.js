@@ -2,7 +2,7 @@ const actions = [
 	{
 		id: '448',
 		action: 'Шпаклевка гипсовая "ек" к 300 (20 кг)',
-		price: '510',
+		price: '536',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/spaklevka-gipsovaya-ek-k-300-20-kg',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-K300.png'
@@ -10,7 +10,7 @@ const actions = [
 	{
 		id: '522',
 		action: 'Грунтовка универсальная "ек" g200 (10 л)',
-		price: '633',
+		price: '667',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/gruntovka-universalnaya-ek-g200-10-l',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-G200.png'
@@ -18,19 +18,11 @@ const actions = [
 	{
 		id: '520',
 		action: 'Грунтовка универсальная концентрированная "ек" g100 (10 л)',
-		price: '1070',
+		price: '1126',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/gruntovka-universalnaya-koncentrirovannaya-ek-g100-10-l',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-G100.png'
 	},
-	// {
-	// 	id: '520',
-	// 	action: 'Грунтовка универсальная концентрированная "ек" g100 (10л)',
-	// 	price: '1070',
-	// 	description: 'При заказе через сайт дополнительная скидка 5%',
-	// 	link: '/shop/product/gruntovka-universalnaya-koncentrirovannaya-ek-g100-10-l',
-	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-G100.png'
-	// },
 	// {
 	// 	id: '523',
 	// 	action: 'Грунтовка универсальная "ек" g200 (5л)',
@@ -64,7 +56,7 @@ const actions = [
 	{
 		id: '1541',
 		action: 'Гкл "кнауф" даногипс 9,5мм (1,2х2,5)',
-		price: '262',
+		price: '275',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/gkl-knauf-danogips-95mm-12x25',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/m5NgzpdlHX02sqR1Mqu3YrUQJwqqDGUOuAeYV75Z.jpeg'
@@ -72,7 +64,7 @@ const actions = [
 	{
 		id: '1543',
 		action: 'Гклв "кнауф" даногипс 12,5мм (1,2х2,5)',
-		price: '402',
+		price: '423',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/gklv-knauf-danogips-125mm-12x25',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/lvfXJZnJe2ASRUHpI5X2dxVN30ZPHmVRFh0MDJyi.jpeg'
@@ -132,7 +124,7 @@ const actions = [
 	{
 		id: '267',
 		action: 'Клей для плитки "ек" 3000 (25кг)',
-		price: '327',
+		price: '363',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/klei-dlya-plitki-ek-3000-25kg',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-3000-UNIVERSAL.png'
@@ -236,7 +228,7 @@ const actions = [
 	{
 		id: '431',
 		action: 'Штукатурная смесь "ек" tg 40 (30 кг)',
-		price: '399',
+		price: '420',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/stukaturnaya-smes-ek-tg-40-30-kg',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TG40.png'
@@ -244,7 +236,7 @@ const actions = [
 	{
 		id: '432',
 		action: 'Штукатурная смесь "ек" tg 40 waite (30 кг)',
-		price: '403',
+		price: '424',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/stukaturnaya-smes-ek-tg-40-waite-30-kg',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TG40-WHITE.png'
