@@ -2,7 +2,7 @@
 	/** @type {import('./$types').PageData} */
 	import axios from 'axios';
 	import { browser } from '$app/environment';
-	import { lengthCart, idProductsInCart } from '$lib/store/stores.js';
+	import { lengthCart, idProductsInCart, visibleDescription, visiblePayment, visibleDelivery } from '$lib/store/stores.js';
 
 	const sendToCart = async (id) => {
 		if (browser && localStorage.getItem('inCart') === null) {
@@ -75,8 +75,11 @@
 							>
 						</div>
 
-						<!-- {#if visibleDescription}
-							<p class="mb-4 leading-relaxed ">{@html descriptionProduct}</p>
+						{#if visibleDescription }
+
+						<!-- TODO: переделать -->
+						 {#if data.product.product_one.text.value !== "NULL"} <p class="mb-4 leading-relaxed ">{@html data.product.product_one.text.value}</p> {:else} --- {/if}
+
 						{:else if visiblePayment}
 							<p class="mb-4 leading-relaxed">
 								Предлагаем следующие варианты оплаты: <br />
@@ -94,10 +97,10 @@
 								Дзержинску составляет 450 рублей до 1500 кг, в Нижний Новгород от 1200 рублей. Более
 								подробную информацию о стоимости за пределы города вы можете уточнить у менеджеров.
 							</p>
-						{/if} -->
+						{/if}
 
 						<a
-data-sveltekit-prefetch
+							data-sveltekit-prefetch
 							href="/shop/products/{data.product.product_one.parent.slug}"
 						>
 							<div class="flex border-t border-slate-200 py-2">
