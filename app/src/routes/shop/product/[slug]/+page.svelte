@@ -77,8 +77,8 @@
 
 						{#if visibleDescription }
 
-						<!-- TODO: переделать -->
-						 {#if data.product.product_one.text.value !== "NULL"} <p class="mb-4 leading-relaxed ">{@html data.product.product_one.text.value}</p> {:else} --- {/if}
+							<!-- TODO: переделать -->
+						 	{#if data.product.product_one.text} <p class="mb-4 leading-relaxed ">{@html data.product.product_one.text.value}</p> {:else} <p class="mb-4 leading-relaxed ">Описание товара отсутствует</p> {/if}
 
 						{:else if visiblePayment}
 							<p class="mb-4 leading-relaxed">
