@@ -45,17 +45,64 @@
 <div class="py-8">
 	<div class="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
 		<div class="mx-auto max-w-3xl space-y-2 lg:max-w-none">
-			<span class="text-lg font-semibold uppercase leading-6 tracking-wider text-cyan-700">
+			<!-- <span class="text-lg font-semibold uppercase leading-6 tracking-wider text-cyan-700">
 				Категория
-			</span>
+			</span> -->
 
-			<h1 class="text-3xl font-bold text-slate-800 sm:text-4xl lg:text-5xl">
+			<nav class="flex mb-6" aria-label="Breadcrumb">
+				<div  class="flex items-center space-x-4 mx-auto">
+					<div>
+						<div>
+							<a href="/" class="text-slate-500 hover:text-slate-600">
+							<!-- Heroicon name: mini/home -->
+							<svg class="h-6 w-6 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+								<path fill-rule="evenodd" d="M9.293 2.293a1 1 0 011.414 0l7 7A1 1 0 0117 11h-1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-3a1 1 0 00-1-1H9a1 1 0 00-1 1v3a1 1 0 01-1 1H5a1 1 0 01-1-1v-6H3a1 1 0 01-.707-1.707l7-7z" clip-rule="evenodd" />
+							</svg>
+							<span class="sr-only">Главная</span>
+							</a>
+						</div>
+					</div>
+
+					<div>
+						<div class="flex items-center">
+							<!-- Heroicon name: mini/chevron-right -->
+							<svg class="h-5 w-5 flex-shrink-0 text-slate-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+							<path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+							</svg>
+							<a  data-sveltekit-prefetch
+							    data-sveltekit-noscroll
+								href="/shop/rubric/{data.category.category_one.parent.parent.slug}" class="ml-4 text-xl font-medium text-slate-600 ">{data.category.category_one.parent.parent.value}</a>
+						</div>
+					</div>
+					
+					<div>
+						<div class="flex items-center">
+							<!-- Heroicon name: mini/chevron-right -->
+							<svg class="h-5 w-5 flex-shrink-0 text-slate-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+							<path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+							</svg>
+							<a  data-sveltekit-prefetch
+							    data-sveltekit-noscroll
+								href="/shop/category/{data.category.category_one.parent.slug}" class="ml-4 text-xl font-medium text-slate-600 ">{data.category.category_one.parent.value}</a>
+						</div>
+					</div>
+
+					<div>
+						<div class="flex items-center">
+							<!-- Heroicon name: mini/chevron-right -->
+							<svg class="h-5 w-5 flex-shrink-0 text-slate-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+							<path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+							</svg>
+							<span class="ml-4 text-xl font-medium text-slate-600 ">{data.category.category_one.value}</span>
+						</div>
+					</div>
+
+				</div>
+			</nav>
+
+			<h1 class="text-4xl font-bold text-slate-800 sm:text-5xl lg:text-6xl">
 				{data.category.category_one.value}
 			</h1>
-			<p class="text-xl text-slate-800">
-				Приобретайте товар "{data.category.category_one.value}" в Дзержинске по низким ценам с
-				доставкой или самовывозом
-			</p>
 		</div>
 	</div>
 </div>
@@ -212,11 +259,11 @@
 				<div class="rounded-lg bg-slate-50 px-6 py-8 sm:p-10 lg:flex lg:items-center">
 					<!--            <div v-for="(text, idx) of head.text" :key="text.id" class="rounded-lg bg-slate-50 px-6 py-8 sm:p-10 lg:flex lg:items-center">-->
 					<div class="flex-1">
-						<div>
+						<div class="-mx-2">
 							<h2
-								class="inline-flex rounded-full bg-white px-4 py-1 text-2xl font-semibold tracking-wide text-slate-800"
+								class="inline-flex rounded-full bg-white px-4 py-1 text-xl font-semibold tracking-wide text-slate-800"
 							>
-								 {data.category.category_one.value}. Цены, товарный ассортимент и услуги доставки.
+								 {data.category.category_one.value} со склада в Дзержинске. Цены, товарный ассортимент и услуги доставки.
 							</h2>
 						</div>
 						<div class="mt-8 text-lg text-slate-600">{@html data.category.category_one.text[0]?.value}</div>
