@@ -54,12 +54,12 @@
 				</div>
 			</nav>
 
-			<h1 class="text-3xl font-bold text-slate-800 sm:text-4xl lg:text-5xl">
+			<h1 class="text-4xl font-bold text-slate-800 sm:text-5xl lg:text-6xl">
 				{data.rubric.rubric_one.value}
 			</h1>
-			<p class="text-xl text-slate-600">
+			<!-- <p class="text-xl text-slate-600">
 				Приобретайте товар "{data.rubric.rubric_one.value}" в Дзержинске по низким ценам
-			</p>
+			</p> -->
 		</div>
 	</div>
 </div>

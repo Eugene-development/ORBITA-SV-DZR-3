@@ -42,10 +42,10 @@
 				</div>
 			</nav>
 
-			<h1 class="text-3xl font-extrabold text-slate-800 sm:text-4xl lg:text-5xl">
+			<h1 class="text-4xl font-extrabold text-slate-800 sm:text-5xl lg:text-6xl">
 				{data.catalog.catalog_one.value}
 			</h1>
-			<p class="text-xl pt-4 text-slate-600">Выберите интересующую вас рубрику в этом разделе. Наличие уточняйте у менеджеров по указанным телефонам. Если вы купите продукцию через сайт, то для вас будет дополнительная скидка 5%.</p>
+			<!-- <p class="text-xl pt-4 text-slate-600">Выберите интересующую вас рубрику в этом разделе. Наличие уточняйте у менеджеров по указанным телефонам. Если вы купите продукцию через сайт, то для вас будет дополнительная скидка 5%.</p> -->
 		</div>
 	</div>
 </div>
