@@ -8,7 +8,7 @@
 	<meta name="description" content={data.description} />
 </svelte:head>
 
-<div class="py-8">
+<div class="pt-8 pb-4">
 	<div class="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
 		<div class="mx-auto max-w-3xl space-y-2 lg:max-w-none">
 			<!-- <span class="text-lg font-semibold uppercase leading-6 tracking-wider text-cyan-700">
@@ -109,7 +109,7 @@
 		<!--        </div>-->
 
 		<!-- This example requires Tailwind CSS v2.0+ -->
-		<div class="relative px-2 pt-4 pb-4 sm:px-6 lg:px-8 lg:pt-4 lg:pb-8">
+		<div class="relative px-2 pb-4 sm:px-6 lg:px-8  lg:pb-8">
 			<div class="">
 				<!--                <div class="pt-12 sm:pt-16 lg:pt-20">-->
 				<!--                    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">-->
