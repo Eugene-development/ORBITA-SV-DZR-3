@@ -10,7 +10,7 @@
 </script>
 
 {#if $visibleCatalog}
-	<div class="mt-4 bg-white pb-4 sm:pb-6">
+	<div class="mt-3 bg-white pb-3 sm:pb-4">
 		<div class="relative">
 			<div class="absolute inset-0 h-1/2 border-b border-slate-200 bg-white" />
 			<!-- <div class="absolute inset-0 h-1/2 bg-gradient-to-r from-gray-200 via-slate-100 to-gray-200 border-b border-slate-200"></div> -->
@@ -59,7 +59,7 @@
 		</div>
 	</div>
 {:else}
-	<div class="mt-4 bg-white pb-4 sm:pb-6">
+	<div class="mt-4 bg-white pb-3 sm:pb-6">
 		<div class="relative">
 			<div class="absolute inset-0 h-1/2 border-b border-slate-200 bg-white" />
 			<div class="relative mx-auto max-w-full px-4 sm:px-6 lg:px-8 ">
