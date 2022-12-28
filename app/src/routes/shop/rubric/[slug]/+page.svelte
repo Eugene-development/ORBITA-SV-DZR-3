@@ -51,12 +51,12 @@
 </div>
 
 <div class="bg-white">
-	<div class="bo mt-8 pb-12 sm:mt-12 sm:pb-16 lg:mt-16 lg:pb-24">
+	<div class=" mt-6 pb-12  sm:pb-16  lg:pb-24">
 		<div class="relative">
 			<div class="absolute inset-0 h-3/4" />
 			<div class="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 				<div
-					class="mt-12 space-y-4 sm:mt-16 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:mx-auto lg:max-w-4xl xl:mx-0 xl:max-w-none xl:grid-cols-3"
+					class="mt-6 space-y-4 sm:mt-8 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:mx-auto lg:max-w-4xl xl:mx-0 xl:max-w-none xl:grid-cols-3"
 				>
 					{#each data.catalog.catalog_one.rubric as { slug, value }}
 						<div
