@@ -44,7 +44,10 @@
 			<h1 class="text-4xl font-extrabold text-slate-800 sm:text-5xl lg:text-6xl">
 				{data.catalog.catalog_one.value}
 			</h1>
-			<!-- <p class="text-xl pt-4 text-slate-600">Выберите интересующую вас рубрику в этом разделе. Наличие уточняйте у менеджеров по указанным телефонам. Если вы купите продукцию через сайт, то для вас будет дополнительная скидка 5%.</p> -->
+			<p class="max-w-3xl text-xl mx-auto text-slate-800">
+				Купите товар "{data.catalog.catalog_one.value}" в Дзержинске по низким ценам с
+				доставкой или самовывозом
+			</p>
 		</div>
 	</div>
 </div>
