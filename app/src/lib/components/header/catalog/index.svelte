@@ -9,7 +9,8 @@
 	export let catalog;
 </script>
 
-{#if $visibleCatalog}
+{#if true}
+<!-- {#if $visibleCatalog} -->
 	<div class="mt-3 bg-white pb-3 sm:pb-4">
 		<div class="relative">
 			<div class="absolute inset-0 h-1/2 border-b border-slate-200 bg-white" />
@@ -23,7 +24,7 @@
 							data-sveltekit-noscroll
 								href="/shop/rubric/{slug}"
 								on:click={() => visibleCatalog.update(invert)}
-								class="flex flex-col border border-gray-200 bg-gradient-to-tr from-cyan-500 via-cyan-900 to-cyan-700 p-4 text-center hover:bg-gradient-to-bl sm:border-r sm:border-l"
+								class="flex flex-col border border-gray-200 bg-gradient-to-tr from-cyan-500 via-cyan-900 to-cyan-700 px-4 py-2 text-center hover:bg-gradient-to-bl sm:border-r sm:border-l"
 							>
 								<span
 									class="order-2 text-sm font-medium leading-6 tracking-wider text-white antialiased"
