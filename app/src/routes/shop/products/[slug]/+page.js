@@ -5,12 +5,10 @@ import { pageH1, idProductsInCart } from '$lib/store/stores.js';
 export async function load({ data }) {
 	const { category } = data;
 	const title =
-		'Орбита-Строй' +
-		' | ' +
 		data.category.category_one.value +
-		'по выгодным ценам. Купить товар ' +
+		' по выгодным ценам. Купите товар ' +
 		data.category.category_one.value +
-		'В Дзержинске';
+		' В Дзержинске со склада';
 	const description =
 		data.category.category_one.value +
 		' оптом и в розницу по привлекательной цене. Данный товар можно купить на нашем сайте. ' +
