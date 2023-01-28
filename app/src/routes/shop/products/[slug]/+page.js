@@ -8,7 +8,7 @@ export async function load({ data }) {
 		data.category.category_one.value +
 		' по выгодным ценам. Купите товар ' +
 		data.category.category_one.value +
-		' В Дзержинске со склада';
+		' в Дзержинске со склада';
 	const description =
 		data.category.category_one.value +
 		' оптом и в розницу по привлекательной цене. Данный товар можно купить на нашем сайте. ' +

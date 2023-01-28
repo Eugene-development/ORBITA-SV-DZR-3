@@ -50,49 +50,98 @@
 			</span> -->
 
 			<nav class="flex mb-6" aria-label="Breadcrumb">
-				<div  class="flex items-center space-x-4 mx-auto">
+				<div class="flex items-center space-x-4 mx-auto">
 					<div>
 						<div>
 							<a href="/" class="text-slate-500 hover:text-slate-600">
-							<svg class="h-6 w-6 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd" d="M9.293 2.293a1 1 0 011.414 0l7 7A1 1 0 0117 11h-1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-3a1 1 0 00-1-1H9a1 1 0 00-1 1v3a1 1 0 01-1 1H5a1 1 0 01-1-1v-6H3a1 1 0 01-.707-1.707l7-7z" clip-rule="evenodd" />
-							</svg>
-							<span class="sr-only">Главная</span>
+								<svg
+									class="h-5 w-5 flex-shrink-0"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M9.293 2.293a1 1 0 011.414 0l7 7A1 1 0 0117 11h-1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-3a1 1 0 00-1-1H9a1 1 0 00-1 1v3a1 1 0 01-1 1H5a1 1 0 01-1-1v-6H3a1 1 0 01-.707-1.707l7-7z"
+										clip-rule="evenodd"
+									/>
+								</svg>
+								<span class="sr-only">Главная</span>
 							</a>
+						</div>
+					</div>
+
+					<div>
+						<div class="flex items-center">
+							<svg
+								class="h-5 w-5 flex-shrink-0 text-slate-500"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+									clip-rule="evenodd"
+								/>
+							</svg>
+							<a
+								data-sveltekit-prefetch
+								data-sveltekit-noscroll
+								href="/shop/rubric/{data.category.category_one.parent.parent.slug}"
+								class="ml-4 text-sm md:text-xl font-medium text-slate-600 "
+								>{data.category.category_one.parent.parent.value}</a
+							>
+						</div>
+					</div>
+
+					<div>
+						<div class="flex items-center">
+							<svg
+								class="h-5 w-5 flex-shrink-0 text-slate-500"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+									clip-rule="evenodd"
+								/>
+							</svg>
+							<a
+								data-sveltekit-prefetch
+								data-sveltekit-noscroll
+								href="/shop/category/{data.category.category_one.parent.slug}"
+								class="ml-4 text-sm md:text-xl font-medium text-slate-600 "
+								>{data.category.category_one.parent.value}</a
+							>
 						</div>
 					</div>
 
 					<div class="hidden md:block">
 						<div class="flex items-center">
-							<svg class="h-5 w-5 flex-shrink-0 text-slate-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+							<svg
+								class="h-5 w-5 flex-shrink-0 text-slate-500"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+									clip-rule="evenodd"
+								/>
 							</svg>
-							<a  data-sveltekit-prefetch
-							    data-sveltekit-noscroll
-								href="/shop/rubric/{data.category.category_one.parent.parent.slug}" class="ml-4 text-base md:text-xl font-medium text-slate-600 ">{data.category.category_one.parent.parent.value}</a>
+							<span class="ml-4 text-sm md:text-xl font-medium text-slate-600 "
+								>{data.category.category_one.value}</span
+							>
 						</div>
 					</div>
-					
-					<div>
-						<div class="flex items-center">
-							<svg class="h-5 w-5 flex-shrink-0 text-slate-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
-							</svg>
-							<a  data-sveltekit-prefetch
-							    data-sveltekit-noscroll
-								href="/shop/category/{data.category.category_one.parent.slug}" class="ml-4 text-base md:text-xl font-medium text-slate-600 ">{data.category.category_one.parent.value}</a>
-						</div>
-					</div>
-
-					<!-- <div>
-						<div class="flex items-center">
-							<svg class="h-5 w-5 flex-shrink-0 text-slate-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
-							</svg>
-							<span class="ml-4 text-base md:text-xl font-medium text-slate-600 ">{data.category.category_one.value}</span>
-						</div>
-					</div> -->
-
 				</div>
 			</nav>
 
@@ -100,10 +149,9 @@
 				{data.category.category_one.value}
 			</h1>
 			<p class="max-w-3xl text-xl mx-auto text-slate-800">
-				Купите товар "{data.category.category_one.value}" в Дзержинске по низким ценам с
-				доставкой или самовывозом
+				Купите товар "{data.category.category_one.value}" в Дзержинске по низким ценам с доставкой
+				или самовывозом
 			</p>
-
 		</div>
 	</div>
 </div>
@@ -115,9 +163,7 @@
 				<li
 					class="transition ease-in-out hover:scale-105 col-span-1 flex flex-col divide-y divide-slate-200 rounded-lg border-2 border-slate-100 bg-white text-center shadow-lg shadow-slate-500/50 ring-1 ring-slate-100 ring-offset-1"
 				>
-					<a 							
-					data-sveltekit-prefetch
- href="/shop/product/{slug}">
+					<a data-sveltekit-prefetch href="/shop/product/{slug}">
 						<div class="flex flex-1 flex-col p-8">
 							{#if image}
 								<img
@@ -220,7 +266,7 @@
 								<!--                  </svg>-->
 								<!--                </div>-->
 								<a
-							data-sveltekit-prefetch
+									data-sveltekit-prefetch
 									href="/shop/product/{slug}"
 									class="relative -mr-px inline-flex w-0 flex-1 items-center justify-center rounded-bl-lg border border-transparent py-2 text-sm  font-medium text-slate-700 hover:text-slate-500"
 								>
@@ -254,36 +300,34 @@
 		</ul>
 	</div>
 
-
 	<div class="relative mx-auto mt-8 max-w-7xl px-4 sm:px-6 lg:mt-8 lg:px-8">
-			<div class="mx-auto max-w-md lg:max-w-7xl">
-				<div class="rounded-lg bg-slate-50 px-6 py-8 sm:p-10 lg:flex lg:items-center">
-					<!--            <div v-for="(text, idx) of head.text" :key="text.id" class="rounded-lg bg-slate-50 px-6 py-8 sm:p-10 lg:flex lg:items-center">-->
-					<div class="flex-1">
-						<div class="-mx-2">
-							<h2
-								class="inline-flex rounded-full bg-white px-4 py-1 text-xl font-semibold tracking-wide text-slate-800"
-							>
-								 {data.category.category_one.value} со склада в Дзержинске. Цены, товарный ассортимент и услуги доставки.
-							</h2>
-						</div>
-					{#each data.category.category_one?.text as {key, value}}
-						{#if key === '1' }
-						<div class="mt-8 text-lg text-slate-600">{@html value}</div>
+		<div class="mx-auto max-w-md lg:max-w-7xl">
+			<div class="rounded-lg bg-slate-50 px-6 py-8 sm:p-10 lg:flex lg:items-center">
+				<!--            <div v-for="(text, idx) of head.text" :key="text.id" class="rounded-lg bg-slate-50 px-6 py-8 sm:p-10 lg:flex lg:items-center">-->
+				<div class="flex-1">
+					<div class="-mx-2">
+						<h2
+							class="inline-flex rounded-full bg-white px-4 py-1 text-xl font-semibold tracking-wide text-slate-800"
+						>
+							{data.category.category_one.value} со склада в Дзержинске. Цены, товарный ассортимент и
+							услуги доставки.
+						</h2>
+					</div>
+					{#each data.category.category_one?.text as { key, value }}
+						{#if key === '1'}
+							<div class="mt-8 text-lg text-slate-600">{@html value}</div>
 						{/if}
 					{/each}
-
-					</div>
-				</div>
-				<div class="mt-6 rounded-md shadow lg:flex-shrink-0">
-					<a
-						href="/information/action"
-						class="flex items-center justify-center rounded-md border border-transparent bg-slate-50 px-5 py-3 text-base font-medium text-slate-900 hover:bg-slate-100"
-					>
-						{data.category.category_one.value} по доступным ценам с доставкой в Дзержинске. Звоните и приезжайте!
-					</a>
 				</div>
 			</div>
+			<div class="mt-6 rounded-md shadow lg:flex-shrink-0">
+				<a
+					href="/information/action"
+					class="flex items-center justify-center rounded-md border border-transparent bg-slate-50 px-5 py-3 text-base font-medium text-slate-900 hover:bg-slate-100"
+				>
+					{data.category.category_one.value} по доступным ценам с доставкой в Дзержинске. Звоните и приезжайте!
+				</a>
+			</div>
 		</div>
-
+	</div>
 </div>
