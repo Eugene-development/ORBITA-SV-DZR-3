@@ -2,7 +2,13 @@
 	/** @type {import('./$types').PageData} */
 	import axios from 'axios';
 	import { browser } from '$app/environment';
-	import { lengthCart, idProductsInCart, visibleDescription, visiblePayment, visibleDelivery } from '$lib/store/stores.js';
+	import {
+		lengthCart,
+		idProductsInCart,
+		visibleDescription,
+		visiblePayment,
+		visibleDelivery
+	} from '$lib/store/stores.js';
 
 	const sendToCart = async (id) => {
 		if (browser && localStorage.getItem('inCart') === null) {
@@ -48,7 +54,7 @@
 		<!--        </div>-->
 
 		<section class="body-font overflow-hidden text-slate-600">
-			<div class="container mx-auto px-8 py-12">
+			<div class="container mx-auto py-12">
 				<div class="mx-auto flex flex-wrap">
 					<div class="mb-6 w-full lg:mb-0 lg:w-1/2 lg:py-6 lg:pr-12">
 						<h2 class="title-font text-base tracking-widest text-red-500">НАИМЕНОВАНИЕ</h2>
@@ -75,11 +81,13 @@
 							>
 						</div>
 
-						{#if visibleDescription }
-
+						{#if visibleDescription}
 							<!-- TODO: переделать -->
-						 	{#if data.product.product_one.text} <p class="mb-4 leading-relaxed ">{@html data.product.product_one.text.value}</p> {:else} <p class="mb-4 leading-relaxed ">Описание товара отсутствует</p> {/if}
-
+							{#if data.product.product_one.text}
+								<p class="mb-4 leading-relaxed ">{@html data.product.product_one.text.value}</p>
+							{:else}
+								<p class="mb-4 leading-relaxed ">Описание товара отсутствует</p>
+							{/if}
 						{:else if visiblePayment}
 							<p class="mb-4 leading-relaxed">
 								Предлагаем следующие варианты оплаты: <br />
@@ -99,13 +107,10 @@
 							</p>
 						{/if}
 
-						<a
-							data-sveltekit-prefetch
-							href="/shop/products/{data.product.product_one.parent.slug}"
-						>
+						<a data-sveltekit-prefetch href="/shop/products/{data.product.product_one.parent.slug}">
 							<div class="flex border-t border-slate-200 py-2">
-								<span class="text-slate-500">Категория:</span>
-								<span class="ml-auto text-sm text-red-500 hover:text-red-600"
+								<span class="text-slate-500">Вернуться в категорию:</span>
+								<span class="ml-auto text-base text-red-500 hover:text-red-600"
 									>{data.product.product_one.parent.value}</span
 								>
 							</div>
@@ -113,7 +118,11 @@
 
 						<div class="flex border-t border-slate-200 py-2">
 							<span class="text-slate-500">Единица измерения:</span>
-							<span class="ml-auto text-slate-900">{data.product.product_one.unit.value}</span>
+							{#if data.product.product_one.unit}
+								<span class="ml-auto text-slate-900">{data.product.product_one.unit?.value}</span>
+							{:else}
+								<span class="ml-auto text-slate-900">Не указано</span>
+							{/if}
 						</div>
 						<div class="mb-6 flex border-t border-b border-slate-200 py-2">
 							<span class="text-slate-500">Наличие:</span>
@@ -124,7 +133,7 @@
 								<span
 									class="title-font rounded-2xl bg-cyan-900 py-2 px-4 text-lg font-medium text-slate-100"
 									>{data.product.product_one.price?.value} р/{data.product.product_one.unit
-										.value}.</span
+										?.value}.</span
 								>
 							{:else}
 								<span
@@ -190,7 +199,7 @@
 						</div>
 					</div>
 
-					{#if data.product.product_one.image.hash}
+					{#if data.product.product_one.image?.hash}
 						<img
 							alt="ecommerce"
 							class="max-w-xl rounded border-2 border-slate-50 object-contain object-center p-8 shadow-lg shadow-slate-500/50 ring-1 ring-slate-50 ring-offset-1 lg:w-1/2"
