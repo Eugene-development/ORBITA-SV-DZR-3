@@ -21,7 +21,7 @@
 	};
 </script>
 
-<nav class="bg-cyan-600">
+<nav class="bg-cyan-700">
 	<!-- PC  -->
 	<div class="py-1 mx-auto hidden max-w-full px-6 sm:px-8 lg:block lg:px-8">
 		<div class="relative flex h-12 items-center justify-between">
@@ -38,7 +38,7 @@
 						<!--                            <p class="text-gray-300 pr-3 rounded-md text-base font-medium">8 (800) 555-8-111</p>-->
 
 						<svg
-							class="h-6 w-6 text-slate-700"
+							class="h-6 w-6 text-cyan-300"
 							fill="none"
 							stroke="currentColor"
 							stroke-width="2"
@@ -52,11 +52,11 @@
 							/>
 						</svg>
 						<a href="tel:+79023033654" class="rounded-md px-1  text-lg font-medium text-white"
-							>8 (902) 303-36-54</a
+							>8 (902) 303-36-54 (Эля),</a
 						>
 
-						<svg
-							class="h-6 w-6 text-slate-700"
+						<!-- <svg
+							class="h-6 w-6 text-cyan-300"
 							fill="none"
 							stroke="currentColor"
 							stroke-width="2"
@@ -68,13 +68,13 @@
 								stroke-linecap="round"
 								stroke-linejoin="round"
 							/>
-						</svg>
+						</svg> -->
 						<a href="tel:+79306888862" class="rounded-md px-1  text-lg font-medium text-white"
-							>8 (930) 688-88-62</a
+							>8 (930) 688-88-62 (Юля)</a
 						>
 
 						<svg
-							class="h-7 w-7 text-slate-700"
+							class="h-7 w-7 text-cyan-300"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="none"
 							viewBox="0 0 24 24"
@@ -285,7 +285,7 @@
 					</svg>
 					<a
 						class="rounded-md pl-1 text-sm font-medium text-gray-200 sm:text-base md:text-lg"
-						href="tel:+79023033654">8 902-303-36-54</a
+						href="tel:+79023033654">8 902-303-36-54 (Эля)</a
 					>
 				</div>
 
@@ -306,7 +306,7 @@
 					</svg>
 					<a
 						class="rounded-md pl-1 text-sm font-medium text-gray-200 sm:text-base md:text-lg"
-						href="tel:+79306888862">8 930-688-88-62</a
+						href="tel:+79306888862">8 930-688-88-62 (Юля)</a
 					>
 				</div>
 			</div>

@@ -18,7 +18,7 @@
 					<span class="sr-only">Logo</span>
 					<img
 						alt="Logo"
-						class="h-8 w-auto sm:h-10"
+						class="h-9 w-auto sm:h-12"
 						src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/logo/logo.png"
 					/>
 				</a>
