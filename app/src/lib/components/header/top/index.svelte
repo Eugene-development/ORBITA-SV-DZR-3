@@ -38,7 +38,7 @@
 						<!--                            <p class="text-gray-300 pr-3 rounded-md text-base font-medium">8 (800) 555-8-111</p>-->
 
 						<svg
-							class="h-6 w-6 text-red-900"
+							class="h-6 w-6 text-slate-700"
 							fill="none"
 							stroke="currentColor"
 							stroke-width="2"
@@ -51,12 +51,12 @@
 								stroke-linejoin="round"
 							/>
 						</svg>
-						<a href="tel:+79023033654" class="rounded-md px-2  text-lg font-medium text-white"
+						<a href="tel:+79023033654" class="rounded-md px-1  text-lg font-medium text-white"
 							>8 (902) 303-36-54</a
 						>
 
 						<svg
-							class="h-6 w-6 text-red-900"
+							class="h-6 w-6 text-slate-700"
 							fill="none"
 							stroke="currentColor"
 							stroke-width="2"
@@ -69,12 +69,12 @@
 								stroke-linejoin="round"
 							/>
 						</svg>
-						<a href="tel:+79306888862" class="rounded-md px-2  text-lg font-medium text-white"
+						<a href="tel:+79306888862" class="rounded-md px-1  text-lg font-medium text-white"
 							>8 (930) 688-88-62</a
 						>
 
 						<svg
-							class="h-7 w-7 text-red-900"
+							class="h-7 w-7 text-slate-700"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="none"
 							viewBox="0 0 24 24"
@@ -88,7 +88,7 @@
 								d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
 							/>
 						</svg>
-						<span class="rounded-md  px-2 text-xl font-medium text-white"
+						<span class="rounded-md  px-1 text-xl font-medium text-white"
 							>info@orbita-stroy.com</span
 						>
 					</div>
@@ -97,7 +97,7 @@
 			<!-- <div class="flex-1 flex justify-center px-2 lg:ml-6 ">
 			                   <div class="max-w-lg w-full lg:max-w-xs">
 			                       <label for="search" class="sr-only">Поиск</label>
-			                       <button id="search" class="ml-8 inline-flex items-center px-12 py-1 border border-transparent rounded-md text-base font-medium text-slate-800 bg-slate-100 hover:bg-slate-800 shadow-lg shadow-slate-700/50">
+			                       <button id="search" class="ml-8 inline-flex items-center px-12 py-1 border border-transparent rounded-md text-base font-medium text-slate-700 bg-slate-100 hover:bg-slate-700 shadow-lg shadow-slate-700/50">
 			                           <svg aria-hidden="true" class="h-5 w-5 text-gray-400 mr-4" fill="currentColor"
 			                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
 			                               <path clip-rule="evenodd"

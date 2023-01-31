@@ -10,7 +10,7 @@
 			База строительных материалов
 		</h2>
 		<img
-			class="inset-0 mt-2 h-64 w-full object-cover"
+			class="inset-0 mt-8 h-96 w-full object-cover"
 			src="https://storage.yandexcloud.net/brand-logo/orbita/main-bg.jpeg"
 			alt="база строительных материалов"
 		/>
