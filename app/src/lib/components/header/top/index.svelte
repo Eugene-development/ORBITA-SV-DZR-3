@@ -38,7 +38,7 @@
 						<!--                            <p class="text-gray-300 pr-3 rounded-md text-base font-medium">8 (800) 555-8-111</p>-->
 
 						<svg
-							class="h-7 w-7 text-red-700"
+							class="h-7 w-7 text-cyan-900"
 							fill="none"
 							stroke="currentColor"
 							stroke-width="2"
@@ -56,7 +56,7 @@
 						>
 
 						<svg
-							class="h-7 w-7 text-red-700"
+							class="h-7 w-7 text-cyan-900"
 							fill="none"
 							stroke="currentColor"
 							stroke-width="2"
@@ -74,7 +74,7 @@
 						>
 
 						<svg
-							class="h-8 w-8 text-red-700"
+							class="h-8 w-8 text-cyan-900"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="none"
 							viewBox="0 0 24 24"
@@ -167,7 +167,7 @@
 						<!--                            </div>-->
 
 						<svg
-							class="h-8 w-8 text-red-600"
+							class="h-8 w-8 text-red-700"
 							fill="currentColor"
 							viewBox="0 0 20 20"
 							xmlns="http://www.w3.org/2000/svg"
@@ -242,7 +242,7 @@
 						Поиск товара
 					</button>
 					<button
-						class="flex-shrink-0 rounded-full bg-red-500  p-1 text-slate-50 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+						class="flex-shrink-0 rounded-full bg-red-700  p-1 text-slate-50 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
 						type="button"
 					>
 						<span class="sr-only">View notifications</span>
@@ -270,7 +270,7 @@
 			<div class="mx-auto flex items-center justify-between px-4">
 				<div class="flex">
 					<svg
-						class="h-6 w-6 text-red-500"
+						class="h-6 w-6 text-red-700"
 						fill="none"
 						stroke="currentColor"
 						stroke-width="2"
@@ -291,7 +291,7 @@
 
 				<div class="flex">
 					<svg
-						class="h-6 w-6 text-red-500 "
+						class="h-6 w-6 text-red-700 "
 						fill="none"
 						stroke="currentColor"
 						stroke-width="2"
