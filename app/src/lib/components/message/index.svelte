@@ -8,8 +8,8 @@
 					class="aspect-w-10 aspect-h-6 sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none overflow-hidden rounded-xl shadow-2xl lg:h-full"
 				>
 					<img
-						class="object-contain lg:h-full lg:w-full"
-						src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/pages/stroimat.jpg"
+						class="object-contain py-24 px-2 lg:h-full lg:w-full"
+						src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/logo/logo.png"
 						alt=""
 					/>
 				</div>
