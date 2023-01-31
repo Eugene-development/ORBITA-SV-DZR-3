@@ -7,18 +7,18 @@
 	export let informationMenu;
 </script>
 
-<div class="px-4 relative -mx-1 bg-white">
-	<div aria-hidden="true" class="pointer-events-none absolute inset-0 z-30 shadow" />
+<div class=" relative -mx-1 bg-white">
+	<div aria-hidden="true" class="pointer-events-none absolute inset-0 z-30" />
 	<div class="relative z-20">
 		<div
-			class="mx-auto flex max-w-full items-center justify-between px-2 py-4 sm:px-6 sm:py-3 md:space-x-8 lg:px-10"
+			class="mx-auto flex max-w-full items-center justify-between px-6 py-4  sm:py-3 md:space-x-8 lg:px-10"
 		>
 			<div>
 				<a class="flex" href="/">
 					<span class="sr-only">Logo</span>
 					<img
 						alt="Logo"
-						class="h-8 w-auto sm:h-8"
+						class="h-8 w-auto sm:h-10"
 						src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/logo/logo.png"
 					/>
 				</a>
@@ -83,7 +83,7 @@
 				<nav class="flex space-x-8 font-semibold">
 					<a class="text-base text-cyan-900 hover:text-red-800 " href="/">Главная</a>
 					<a class="text-base text-cyan-900 hover:text-red-800" href="/about">Компания</a>
-					<Information {informationMenu}/>
+					<Information {informationMenu} />
 					<a class="text-base text-cyan-900 hover:text-red-800" href="/blog"> Блог </a>
 					<a class="text-base text-cyan-900 hover:text-red-800" href="/information/action">Акции</a>
 					<a class="text-base text-cyan-900 hover:text-red-800" href="/contact"> Контакты </a>
@@ -98,7 +98,7 @@
 				</nav>
 				<div class="flex items-center md:ml-12">
 					<a
-						class="ml-8 inline-flex items-center justify-center rounded-md border border-transparent bg-cyan-900 px-4 py-1 text-base font-medium text-white shadow-lg shadow-gray-900/50 hover:bg-gray-800"
+						class="ml-8 inline-flex items-center justify-center rounded-md border border-transparent bg-cyan-700 px-4 py-1 text-base font-medium text-white shadow-lg shadow-gray-900/50 hover:bg-gray-800"
 						href="/shop/cart"
 					>
 						<svg

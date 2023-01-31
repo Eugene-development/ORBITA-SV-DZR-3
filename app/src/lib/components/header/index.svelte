@@ -10,7 +10,7 @@
 
 <header>
 	<Top />
-	<Nav {informationMenu}/>
-	<Hero />
+	<Nav {informationMenu} />
 	<Catalog {catalog} />
+	<Hero />
 </header>

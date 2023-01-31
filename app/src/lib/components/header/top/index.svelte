@@ -21,7 +21,7 @@
 	};
 </script>
 
-<nav class="bg-cyan-800">
+<nav class="bg-cyan-600">
 	<!-- PC  -->
 	<div class="py-1 mx-auto hidden max-w-full px-6 sm:px-8 lg:block lg:px-8">
 		<div class="relative flex h-12 items-center justify-between">
@@ -38,7 +38,7 @@
 						<!--                            <p class="text-gray-300 pr-3 rounded-md text-base font-medium">8 (800) 555-8-111</p>-->
 
 						<svg
-							class="h-7 w-7 text-red-500"
+							class="h-7 w-7 text-red-700"
 							fill="none"
 							stroke="currentColor"
 							stroke-width="2"
@@ -56,7 +56,7 @@
 						>
 
 						<svg
-							class="h-7 w-7 text-red-500"
+							class="h-7 w-7 text-red-700"
 							fill="none"
 							stroke="currentColor"
 							stroke-width="2"
@@ -74,7 +74,7 @@
 						>
 
 						<svg
-							class="h-8 w-8 text-red-500"
+							class="h-8 w-8 text-red-700"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="none"
 							viewBox="0 0 24 24"
