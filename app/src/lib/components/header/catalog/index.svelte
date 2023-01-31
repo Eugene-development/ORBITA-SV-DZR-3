@@ -26,11 +26,28 @@
 								on:click={() => visibleCatalog.update(invert)}
 								class="flex flex-col border border-gray-200 bg-gradient-to-tr from-cyan-400 via-cyan-700 to-cyan-400 px-4 py-2 text-center hover:bg-gradient-to-bl sm:border-r sm:border-l"
 							>
-								<span
-									class="order-2 text-sm font-medium leading-6 tracking-wider text-white antialiased"
-								>
-									{name}
-								</span>
+								<div class="flex">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke-width="1.5"
+										stroke="currentColor"
+										class="w-6 h-6"
+									>
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"
+										/>
+									</svg>
+
+									<span
+										class="order-2 text-sm font-medium leading-6 tracking-wider text-white antialiased"
+									>
+										{name}
+									</span>
+								</div>
 							</a>
 						{/each}
 					</div>
@@ -47,11 +64,28 @@
 									? 'bg-gradient-to-r from-red-800 via-red-700 to-red-800'
 									: 'bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-500'}"
 							>
-								<span
-									class="delay-50 duration-50 order-2 text-sm font-medium leading-6 tracking-wider text-white transition ease-in-out hover:scale-110"
-								>
-									{name}
-								</span>
+								<div class="flex mx-auto text-white">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke-width="1.5"
+										stroke="currentColor"
+										class="w-6 h-6"
+									>
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											d="M8.25 4.5l7.5 7.5-7.5 7.5"
+										/>
+									</svg>
+
+									<span
+										class="ml-2 selection:delay-50 duration-50 order-2 text-sm font-medium leading-6 tracking-wider transition ease-in-out hover:scale-110"
+									>
+										{name}
+									</span>
+								</div>
 							</a>
 						{/each}
 					</div>

@@ -38,7 +38,7 @@
 						<!--                            <p class="text-gray-300 pr-3 rounded-md text-base font-medium">8 (800) 555-8-111</p>-->
 
 						<svg
-							class="h-7 w-7 text-cyan-900"
+							class="h-6 w-6 text-red-900"
 							fill="none"
 							stroke="currentColor"
 							stroke-width="2"
@@ -51,12 +51,12 @@
 								stroke-linejoin="round"
 							/>
 						</svg>
-						<a href="tel:+79023033654" class="rounded-md pr-2 mt-0.5 text-lg font-medium text-white"
+						<a href="tel:+79023033654" class="rounded-md px-2  text-lg font-medium text-white"
 							>8 (902) 303-36-54</a
 						>
 
 						<svg
-							class="h-7 w-7 text-cyan-900"
+							class="h-6 w-6 text-red-900"
 							fill="none"
 							stroke="currentColor"
 							stroke-width="2"
@@ -69,12 +69,12 @@
 								stroke-linejoin="round"
 							/>
 						</svg>
-						<a href="tel:+79306888862" class="rounded-md pr-2 mt-0.5 text-lg font-medium text-white"
+						<a href="tel:+79306888862" class="rounded-md px-2  text-lg font-medium text-white"
 							>8 (930) 688-88-62</a
 						>
 
 						<svg
-							class="h-8 w-8 text-cyan-900"
+							class="h-7 w-7 text-red-900"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="none"
 							viewBox="0 0 24 24"
@@ -88,7 +88,7 @@
 								d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
 							/>
 						</svg>
-						<span class="rounded-md mt-0.5 pr-2 text-xl font-medium text-white"
+						<span class="rounded-md  px-2 text-xl font-medium text-white"
 							>info@orbita-stroy.com</span
 						>
 					</div>

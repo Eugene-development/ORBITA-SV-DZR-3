@@ -5,7 +5,7 @@
 </script>
 
 {#if $banner}
-	<div class="relative bg-gray-800">
+	<div class="relative bg-cyan-900">
 		<div class="mx-auto max-w-7xl py-2 px-3 sm:px-6 lg:px-8">
 			<div class="pr-16 sm:px-16 sm:text-center">
 				<p class="font-medium text-white antialiased">
@@ -15,7 +15,7 @@
 					> -->
 					<span class="md:hidden">Обратите внимание на наши сезонные предложения.</span>
 					<span class="hidden md:inline">
-						Обратите внимание на наши сезонные предложения и акции.</span
+						Минус 10% на все товары ТОЛЬКО В ВОСКРЕСЕНЬЕ на Ярмарке (35 ангар)</span
 					>
 					<!-- <span class="block sm:ml-2 sm:inline-block">
 						<a href="/information/action" class="font-bold text-white underline">

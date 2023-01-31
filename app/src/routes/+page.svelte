@@ -20,8 +20,8 @@
 	/>
 </svelte:head>
 
-<MonthProduct />
 <Actual {...data.contentActions} />
+<MonthProduct />
 <!-- <Slider /> -->
 <Testimonials />
 <Message />
