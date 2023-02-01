@@ -20,7 +20,7 @@
 	<button
 		on:click={changeVisibleInformationMenu}
 		aria-expanded="false"
-		class="group inline-flex items-center rounded-md text-base text-cyan-900 hover:text-red-800 focus:text-red-700 focus:outline-none"
+		class="group inline-flex items-center rounded-md text-base text-gray-800 hover:text-red-800 focus:text-red-700 focus:outline-none"
 		type="button"
 	>
 		<span class="font-semibold">Информация</span>
