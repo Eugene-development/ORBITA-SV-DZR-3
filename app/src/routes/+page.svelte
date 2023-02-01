@@ -33,24 +33,20 @@
 </svelte:head>
 
 <Swiper
-	modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-	autoplay
-	spaceBetween={50}
-	navigation
+	modules={[Pagination, Scrollbar, A11y, Autoplay]}
+	autoplay={{ delay: 5000 }}
+	spaceBetween={40}
 	pagination={{ clickable: true }}
-	scrollbar={{ draggable: true }}
-	on:slideChange={() => console.log('slide change')}
-	on:swiper={(e) => console.log(e.detail[0])}
+	scrollbar={{ draggable: true, hide: true }}
 >
-	<SwiperSlide><Hero /></SwiperSlide>
-	<SwiperSlide><Hero /></SwiperSlide>
-	<SwiperSlide><Hero /></SwiperSlide>
-	<SwiperSlide><Hero /></SwiperSlide>
+	<SwiperSlide><MonthProduct /></SwiperSlide>
+	<SwiperSlide><MonthProduct /></SwiperSlide>
+	<SwiperSlide><MonthProduct /></SwiperSlide>
 	...
 </Swiper>
 <!-- <Hero /> -->
 <Actual {...data.contentActions} />
-<MonthProduct />
+<!-- <MonthProduct /> -->
 <!-- <Slider /> -->
 <Testimonials />
 <Message />

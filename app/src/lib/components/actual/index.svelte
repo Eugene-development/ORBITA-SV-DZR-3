@@ -31,35 +31,35 @@
 			При заказе через сайт дополнительная скидка 5%.
 		</p>
 
-		<div class="mt-8 grid grid-cols-1 gap-y-8 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+		<div class="mt-8 grid grid-cols-1 gap-y-8 gap-x-6 sm:grid-cols-2 lg:grid-cols-5 xl:gap-x-8">
 			{#each actions as { id, action, price, description, link, img }}
 				<div
-					class="group rounded-md relative shadow-lg shadow-slate-400/50 p-3 transition ease-in-out hover:scale-105"
+					class="group rounded-md relative shadow-lg shadow-slate-400/50 p-3 border-2 transition ease-in-out hover:scale-105"
 				>
 					<div
 						class="h-56 p-8 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md  group-hover:opacity-75 lg:aspect-none "
 					>
-						<img src={img} alt="" class=" my-2  object-contain " />
+						<img src={img} alt="" class="  object-contain " />
 					</div>
-					<div class="mt-4 h-16 flex justify-between">
+					<div class="h-16 flex justify-between">
 						<div>
-							<h3 class="pl-2 text-sm text-gray-700">
+							<h3 class="pl-2 text-xs text-gray-700">
 								<span aria-hidden="true" class="inset-0" />
 								{action}
 							</h3>
 						</div>
-						<p class="mx-1 text-sm font-medium text-gray-900">{price}р.</p>
+						<p class="ml-2 text-base font-medium text-gray-900">{price}р.</p>
 					</div>
 					{#if browser && !InCart.some((arrVal) => id === arrVal)}
 						<button
 							on:click|preventDefault|once={sendToCart(id)}
 							type="button"
-							class="m-2 px-3 py-1 align-bottom rounded-md text-base text-gray-100 bg-cyan-600 hover:bg-cyan-700"
+							class="mx-2 px-3 py-1 align-bottom rounded-md text-base text-gray-100 bg-cyan-600 hover:bg-cyan-700"
 							>В корзину</button
 						>
 					{:else}
 						<button
-							class="m-2 px-3 py-1 align-bottom rounded-md text-base text-gray-100 bg-cyan-800 hover:bg-cyan-700"
+							class="mx-2 px-3 py-1 align-bottom rounded-md text-base text-gray-100 bg-cyan-800 hover:bg-cyan-700"
 							>В корзине</button
 						>
 					{/if}

@@ -20,14 +20,14 @@
 	};
 </script>
 
-<div class="my-12 text-center text-base">
+<!-- <div class="my-12 text-center text-base">
 	<div>
 		<h2 class="text-base font-semibold uppercase tracking-wide text-cyan-600">акция</h2>
 		<h3 class="mt-2 text-4xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-5xl">
 			Товар месяца
 		</h3>
 	</div>
-</div>
+</div> -->
 
 <div class="relative overflow-hidden bg-white">
 	<div class=" mx-auto max-w-full">
@@ -48,9 +48,7 @@
 				<div class="relative px-4 pt-6 sm:px-6 lg:px-8" />
 			</div>
 
-			<main
-				class="mx-auto mt-10 max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"
-			>
+			<main class="mx-auto mt-10 max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-12 lg:mt-6 lg:px-8 xl:mt-20">
 				<div class="sm:text-center lg:text-left">
 					<h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
 						<span class="block xl:inline">Штукатурка</span> <br />
@@ -59,32 +57,32 @@
 					<p
 						class="mt-3 text-base text-gray-700 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0"
 					>
-						440 рублей при заказе на сайте
+						440 р/шт. При заказе на сайте дополнительная скидка 5%
 					</p>
-					<p
+					<!-- <p
 						class="mt-3 text-base text-gray-700 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0"
 					>
 						Цвет штукатурки - белый.
-					</p>
-					<p
+					</p> -->
+					<!-- <p
 						class="mt-3 text-base text-gray-700 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0"
 					>
 						Уточняйте количество на складе.
-					</p>
+					</p> -->
 					<div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
 						{#if browser && !InCart.some((arrVal) => '436' === arrVal)}
 							<div class="rounded-md shadow">
 								<button
 									on:click|preventDefault|once={() => sendToCart('436')}
 									type="button"
-									class="flex w-full items-center justify-center rounded-md border border-transparent bg-cyan-600 px-8 py-3 text-base font-medium text-white hover:bg-cyan-700 md:py-4 md:px-10 md:text-lg"
+									class="flex w-full items-center justify-center rounded-md border border-transparent bg-cyan-600 px-8 py-2 text-base font-medium text-white hover:bg-cyan-700 md:py-2 md:px-10 md:text-lg"
 									>В корзину</button
 								>
 							</div>
 						{:else}
 							<div class="rounded-md shadow">
 								<div
-									class="flex w-full items-center justify-center rounded-md border border-transparent bg-cyan-800 px-8 py-3 text-base font-medium text-white hover:bg-cyan-700 md:py-4 md:px-10 md:text-lg"
+									class="flex w-full items-center justify-center rounded-md border border-transparent bg-cyan-800 px-8 py-2 text-base font-medium text-white hover:bg-cyan-700 md:py-2 md:px-10 md:text-lg"
 								>
 									В корзине
 								</div>
@@ -93,7 +91,7 @@
 						<div class="mt-3 sm:mt-0 sm:ml-3">
 							<a
 								href="/shop/product/stukaturnaya-smes-knauf-rotband-belaya-30-kg"
-								class="flex w-full items-center justify-center rounded-md border border-transparent bg-cyan-100 px-8 py-3 text-base font-medium text-cyan-700 hover:bg-cyan-200 md:py-4 md:px-10 md:text-lg"
+								class="flex w-full items-center justify-center rounded-md border border-transparent bg-cyan-100 px-8 py-2 text-base font-medium text-cyan-700 hover:bg-cyan-200 md:py-2 md:px-10 md:text-lg"
 								>Подробнее</a
 							>
 						</div>
