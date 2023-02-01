@@ -27,7 +27,7 @@
 			<!-- Mobile -->
 			<div class="flex items-center md:ml-12 lg:hidden">
 				<a
-					class="ml-8 inline-flex items-center justify-center rounded-md border border-transparent bg-gray-900 px-3 py-1 text-base font-medium text-white shadow-lg shadow-gray-700/50 hover:bg-gray-800"
+					class="ml-8 inline-flex items-center justify-center rounded-md border border-transparent bg-cyan-700 px-3 py-1 text-base font-medium text-white shadow-lg shadow-gray-700/50 hover:bg-gray-800"
 					href="/shop/cart"
 					sveltekit:noscroll
 				>

@@ -270,7 +270,7 @@
 			<div class="mx-auto flex items-center justify-between px-4">
 				<div class="flex">
 					<svg
-						class="h-6 w-6 text-red-700"
+						class="h-5 w-5 text-cyan-300"
 						fill="none"
 						stroke="currentColor"
 						stroke-width="2"
@@ -291,7 +291,7 @@
 
 				<div class="flex">
 					<svg
-						class="h-6 w-6 text-red-700 "
+						class="h-5 w-5 text-cyan-300"
 						fill="none"
 						stroke="currentColor"
 						stroke-width="2"
@@ -305,7 +305,7 @@
 						/>
 					</svg>
 					<a
-						class="rounded-md pl-1 text-sm font-medium text-gray-200 sm:text-base md:text-lg"
+						class="rounded-md pl-1 text-sm  font-medium text-gray-200 sm:text-base md:text-lg"
 						href="tel:+79306888862">8 930-688-88-62 (Юля)</a
 					>
 				</div>
