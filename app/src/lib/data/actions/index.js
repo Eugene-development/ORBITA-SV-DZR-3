@@ -1,7 +1,7 @@
 const actions = [
 	{
 		id: '448',
-		action: 'Шпаклевка гипсовая "ек" к 300 (20 кг)',
+		action: 'Шпаклевка гипсовая "ЕК" к 300 (20 кг)',
 		price: '536',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/spaklevka-gipsovaya-ek-k-300-20-kg',
@@ -9,7 +9,7 @@ const actions = [
 	},
 	{
 		id: '522',
-		action: 'Грунтовка универсальная "ек" g200 (10 л)',
+		action: 'Грунтовка универсальная "ЕК" g200 (10 л)',
 		price: '667',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/gruntovka-universalnaya-ek-g200-10-l',
@@ -17,7 +17,7 @@ const actions = [
 	},
 	{
 		id: '520',
-		action: 'Грунтовка универсальная концентрированная "ек" g100 (10 л)',
+		action: 'Грунтовка универсальная концентрированная "ЕК" g100 (10 л)',
 		price: '1126',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/gruntovka-universalnaya-koncentrirovannaya-ek-g100-10-l',
@@ -25,7 +25,7 @@ const actions = [
 	},
 	// {
 	// 	id: '523',
-	// 	action: 'Грунтовка универсальная "ек" g200 (5л)',
+	// 	action: 'Грунтовка универсальная "ЕК" g200 (5л)',
 	// 	price: '353',
 	// 	description: 'При заказе через сайт дополнительная скидка 5%',
 	// 	link: '/shop/product/gruntovka-universalnaya-ek-g200-5-l',
@@ -39,7 +39,7 @@ const actions = [
 	// },
 	// {
 	// 	id: '463',
-	// 	action: 'Наливной пол "ек" level 2.0 быстротвердеющий влагостойкий (20кг)',
+	// 	action: 'Наливной пол "ЕК" level 2.0 быстротвердеющий влагостойкий (20кг)',
 	// 	price: '377',
 	// 	description: 'При заказе через сайт дополнительная скидка 5%',
 	// 	link: '/shop/product/nalivnoi-pol-ek-level-20-bystrotverdeyushhii-vlagostoikii-20-kg',
@@ -47,7 +47,7 @@ const actions = [
 	// },
 	// {
 	// 	id: '464',
-	// 	action: 'Наливной пол "ек" level 2.1 быстротвердеющий (20кг)',
+	// 	action: 'Наливной пол "ЕК" level 2.1 быстротвердеющий (20кг)',
 	// 	price: '376',
 	// 	description: 'При заказе через сайт дополнительная скидка 5%',
 	// 	link: '/shop/product/nalivnoi-pol-ek-level-21-bystrotverdeyushhii-20-kg',
@@ -55,7 +55,7 @@ const actions = [
 	// },
 	{
 		id: '1541',
-		action: 'Гкл "кнауф" даногипс 9,5мм (1,2х2,5)',
+		action: 'Гкл "Кнауф" даногипс 9,5мм (1,2х2,5)',
 		price: '275',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/gkl-knauf-danogips-95mm-12x25',
@@ -63,7 +63,7 @@ const actions = [
 	},
 	{
 		id: '1543',
-		action: 'Гклв "кнауф" даногипс 12,5мм (1,2х2,5)',
+		action: 'Гклв "Кнауф" даногипс 12,5мм (1,2х2,5)',
 		price: '423',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/gklv-knauf-danogips-125mm-12x25',
@@ -71,21 +71,21 @@ const actions = [
 	},
 	// {
 	// 	id: '1543',
-	// 	action: 'Гклв "кнауф" даногипс 9,5мм (1,2х2,5)',
+	// 	action: 'Гклв "Кнауф" даногипс 9,5мм (1,2х2,5)',
 	// 	price: '412',
 	// 	description: 'При заказе через сайт дополнительная скидка 5%',
 	// 	link: '/shop/product/gklv-knauf-danogips-95mm-12x25',
 	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/D2JsbwgeZcA0z4OLW242TuXbW5KFsDYQMR59VFSE.jpeg'
 	// },
 	// {
-	//     action: 'Штукатурная смесь "кнауф ротбанд" белая (30 кг)',
+	//     action: 'Штукатурная смесь "Кнауф ротбанд" белая (30 кг)',
 	//     price: '440 рублей',
 	//     description: 'При заказе через сайт дополнительная скидка 5%',
 	//     link: '/shop/product/stukaturnaya-smes-knauf-rotband-belaya-30-kg'
 	// },
 	{
 		id: '1661',
-		action: 'Утеплитель технониколь роклайт 1200*600*50',
+		action: 'Утеплитель Технониколь роклайт 1200*600*50',
 		price: '834',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/uteplitel-texnonikol-roklait-120060050',
@@ -93,7 +93,7 @@ const actions = [
 	},
 	{
 		id: '307',
-		action: 'Клей для плитки "кнауф" флизенклебер (25 кг)',
+		action: 'Клей для плитки "Кнауф" флизенклебер (25 кг)',
 		price: '448',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/klei-dlya-plitki-knauf-flizenkleber-25-kg',
@@ -101,21 +101,21 @@ const actions = [
 	},
 	{
 		id: '228',
-		action: 'Плита осб-3 2500*1250*9мм kronospan гост (влагостойкая)',
+		action: 'Плита осб-3 2500*1250*9мм Kronospan гост (влагостойкая)',
 		price: '489',
 		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/shop/product/plita-osb-3-250012509mm-kronospan-gost-vlagostoikaya',
+		link: '/shop/product/plita-osb-3-250012509mm-Kronospan-gost-vlagostoikaya',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/ilejI7dCV3zr72h4VudvlNrQLKBgHsrYwKd1HoAL.jpeg'
 	},
 	// {
-	// 	action: 'Утеплитель технониколь роклайт 1200*600*100',
+	// 	action: 'Утеплитель Технониколь роклайт 1200*600*100',
 	// 	price: '1190 рубля',
 	// 	description: 'При заказе через сайт дополнительная скидка 5%',
 	// 	link: '/shop/product/uteplitel-texnonikol-roklait-1200600100'
 	// },
 	// {
 	// 	id: '431',
-	// 	action: 'Штукатурная смесь "ек" tg 40 (30кг)',
+	// 	action: 'Штукатурная смесь "ЕК" tg 40 (30кг)',
 	// 	price: '440',
 	// 	description: 'При заказе через сайт дополнительная скидка 5%',
 	// 	link: '/shop/product/stukaturnaya-smes-ek-tg-40-30-kg',
@@ -123,14 +123,14 @@ const actions = [
 	// },
 	{
 		id: '267',
-		action: 'Клей для плитки "ек" 3000 (25кг)',
+		action: 'Клей для плитки "ЕК" 3000 (25кг)',
 		price: '363',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/klei-dlya-plitki-ek-3000-25kg',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-3000-UNIVERSAL.png'
 	},
 	// {
-	// 	action: 'Штукатурная смесь "кнауф ротбанд" белая (30 кг)',
+	// 	action: 'Штукатурная смесь "Кнауф ротбанд" белая (30 кг)',
 	// 	price: '440 рублей',
 	// 	description: 'При заказе через сайт дополнительная скидка 5%',
 	// 	link: '/shop/product/stukaturnaya-smes-knauf-rotband-belaya-30-kg'
@@ -154,7 +154,7 @@ const actions = [
 	// 	link: '/shop/product/epp-xps30-200-texnopleks-118058050-l'
 	// },
 	// {
-	// 	action: 'Гвлв "кнауф" 10 мм (1200*2500)',
+	// 	action: 'Гвлв "Кнауф" 10 мм (1200*2500)',
 	// 	price: '672 рублей',
 	// 	description: 'При заказе через сайт дополнительная скидка 5%',
 	// 	link: '/shop/product/gvlv-knauf-10-mm-12002500'
@@ -205,7 +205,7 @@ const actions = [
 	//     action: 'Плита ОСБ 9мм',
 	//     price: '520 рублей',
 	//     description: 'При заказе через сайт дополнительная скидка 5%',
-	//     link: '/shop/product/plita-osb-3-250012509mm-kronospan-gost-vlagostoikaya'
+	//     link: '/shop/product/plita-osb-3-250012509mm-Kronospan-gost-vlagostoikaya'
 	// },
 	// {
 	//     action: 'Клей для плитки "Вебер ветонит" изи фикс (25 кг)',
@@ -227,7 +227,7 @@ const actions = [
 	// },
 	{
 		id: '431',
-		action: 'Штукатурная смесь "ек" tg 40 (30 кг)',
+		action: 'Штукатурная смесь "ЕК" tg 40 (30 кг)',
 		price: '420',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/stukaturnaya-smes-ek-tg-40-30-kg',
@@ -235,7 +235,7 @@ const actions = [
 	},
 	{
 		id: '432',
-		action: 'Штукатурная смесь "ек" tg 40 waite (30 кг)',
+		action: 'Штукатурная смесь "ЕК" tg 40 waite (30 кг)',
 		price: '424',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/stukaturnaya-smes-ek-tg-40-waite-30-kg',
@@ -243,7 +243,7 @@ const actions = [
 	},
 	{
 		id: '463',
-		action: 'Наливной пол "ек" level 2.1 быстротвердеющий (20 кг)',
+		action: 'Наливной пол "ЕК" level 2.1 быстротвердеющий (20 кг)',
 		price: '396',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/nalivnoi-pol-ek-level-20-bystrotverdeyushhii-vlagostoikii-20-kg',
@@ -251,7 +251,7 @@ const actions = [
 	},
 	{
 		id: '464',
-		action: 'Наливной пол "ек" level 2.1 быстротвердеющий (20 кг)',
+		action: 'Наливной пол "ЕК" level 2.1 быстротвердеющий (20 кг)',
 		price: '396',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/nalivnoi-pol-ek-level-21-bystrotverdeyushhii-20-kg',

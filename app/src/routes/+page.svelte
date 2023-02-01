@@ -17,6 +17,9 @@
 	import 'swiper/css/pagination';
 	import 'swiper/css/scrollbar';
 
+	import { contentActions } from '$lib/data/actions';
+
+	console.log(contentActions);
 	export let data;
 </script>
 
@@ -39,10 +42,9 @@
 	pagination={{ clickable: true }}
 	scrollbar={{ draggable: true, hide: true }}
 >
-	<SwiperSlide><MonthProduct /></SwiperSlide>
-	<SwiperSlide><MonthProduct /></SwiperSlide>
-	<SwiperSlide><MonthProduct /></SwiperSlide>
-	...
+	{#each contentActions.actions as dataSlider}
+		<SwiperSlide><MonthProduct {dataSlider} /></SwiperSlide>
+	{/each}
 </Swiper>
 <!-- <Hero /> -->
 <Actual {...data.contentActions} />

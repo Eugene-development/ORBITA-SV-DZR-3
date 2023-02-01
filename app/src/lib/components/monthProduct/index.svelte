@@ -18,6 +18,8 @@
 		lengthCart.update(() => productsInCart.length);
 		idProductsInCart.update(() => productsInCart);
 	};
+	export let dataSlider;
+	const id = dataSlider.id;
 </script>
 
 <!-- <div class="my-12 text-center text-base">
@@ -28,7 +30,6 @@
 		</h3>
 	</div>
 </div> -->
-
 <div class="relative mt-2 overflow-hidden bg-white">
 	<div class=" mx-auto max-w-full">
 		<div
@@ -51,13 +52,13 @@
 			<main class="mx-auto mt-10 max-w-7xl px-4 lg:px-8 sm:mt-8 sm:px-6 md:mt-10 lg:mt-6 xl:mt-12 ">
 				<div class="sm:text-center lg:text-left">
 					<h1 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
-						<span class="block xl:inline">Штукатурка</span> <br />
-						<span class="block text-cyan-700 xl:inline">KNAUF ROTBAND</span>
+						<span class="block xl:inline">{dataSlider.action}</span> <br />
+						<!-- <span class="block text-cyan-700 xl:inline">{dataSlider.brand}</span> -->
 					</h1>
 					<p
 						class="mt-3 text-base text-gray-700 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0"
 					>
-						Цена <strong>440 р/шт</strong> со скидкой 5% при заказе на сайте
+						Цена <strong>{dataSlider.price} р/шт</strong> со скидкой 5% при заказе на сайте
 					</p>
 					<!-- <p
 						class="mt-3 text-base text-gray-700 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0"
@@ -70,10 +71,10 @@
 						Уточняйте количество на складе.
 					</p> -->
 					<div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-						{#if browser && !InCart.some((arrVal) => '436' === arrVal)}
+						{#if browser && !InCart.some((arrVal) => id === arrVal)}
 							<div class="rounded-md shadow">
 								<button
-									on:click|preventDefault|once={() => sendToCart('436')}
+									on:click|preventDefault|once={() => sendToCart(id)}
 									type="button"
 									class="flex w-full items-center justify-center rounded-md border border-transparent bg-cyan-600 px-8 py-2 text-base font-medium text-white hover:bg-cyan-700 md:py-2 md:px-10 md:text-lg"
 									>В корзину</button
@@ -90,7 +91,7 @@
 						{/if}
 						<div class="mt-3 sm:mt-0 sm:ml-3">
 							<a
-								href="/shop/product/stukaturnaya-smes-knauf-rotband-belaya-30-kg"
+								href={dataSlider.link}
 								class="flex w-full items-center justify-center rounded-md border border-transparent bg-cyan-100 px-8 py-2 text-base font-medium text-cyan-700 hover:bg-cyan-200 md:py-2 md:px-10 md:text-lg"
 								>Подробнее</a
 							>
@@ -103,7 +104,7 @@
 	<div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/3">
 		<img
 			class="py-2 h-56 w-full object-contain sm:h-56 md:h-72 lg:h-full lg:w-full hidden lg:block"
-			src="https://storage.yandexcloud.net/brand-logo/orbita/actions/act-rotband.jpeg"
+			src={dataSlider.img}
 			alt=""
 		/>
 		<!-- <img
