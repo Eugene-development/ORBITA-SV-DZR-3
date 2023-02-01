@@ -34,7 +34,7 @@
 
 <Swiper
 	modules={[Pagination, Scrollbar, A11y, Autoplay]}
-	autoplay={{ delay: 5000 }}
+	autoplay={{ delay: 6000 }}
 	spaceBetween={40}
 	pagination={{ clickable: true }}
 	scrollbar={{ draggable: true, hide: true }}

@@ -29,7 +29,7 @@
 	</div>
 </div> -->
 
-<div class="relative overflow-hidden bg-white">
+<div class="relative mt-2 overflow-hidden bg-white">
 	<div class=" mx-auto max-w-full">
 		<div
 			class="pl-24 relative z-10 bg-slate-100 pb-8 sm:pb-12 md:pb-16 lg:w-full lg:max-w-4xl lg:pb-20 xl:pb-24"
@@ -52,12 +52,12 @@
 				<div class="sm:text-center lg:text-left">
 					<h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
 						<span class="block xl:inline">Штукатурка</span> <br />
-						<span class="block text-cyan-600 xl:inline">KNAUF ROTBAND</span>
+						<span class="block text-cyan-700 xl:inline">KNAUF ROTBAND</span>
 					</h1>
 					<p
 						class="mt-3 text-base text-gray-700 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0"
 					>
-						440 р/шт. При заказе на сайте дополнительная скидка 5%
+						Цена <strong>440 р/шт</strong> со скидкой 5% при заказе на сайте
 					</p>
 					<!-- <p
 						class="mt-3 text-base text-gray-700 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0"
