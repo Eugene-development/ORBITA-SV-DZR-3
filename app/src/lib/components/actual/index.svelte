@@ -23,7 +23,7 @@
 </script>
 
 <div class="bg-white">
-	<div class="mx-auto max-w-2xl mt-4 py-8 px-4 sm:py-12 sm:px-6 lg:max-w-full lg:px-8">
+	<div class="mx-auto max-w-2xl py-8 px-4 sm:py-12 sm:px-6 lg:max-w-full lg:px-8">
 		<h2 class="py-2 text-5xl text-center font-bold tracking-tight text-gray-900">
 			Актуальные товары
 		</h2>
