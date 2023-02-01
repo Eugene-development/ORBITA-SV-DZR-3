@@ -24,9 +24,9 @@
 								data-sveltekit-noscroll
 								href="/shop/rubric/{slug}"
 								on:click={() => visibleCatalog.update(invert)}
-								class="flex flex-col border border-gray-200 bg-gradient-to-tr from-cyan-400 via-cyan-700 to-cyan-400 px-4 py-2 text-center hover:bg-gradient-to-bl sm:border-r sm:border-l"
+								class="flex flex-col border border-gray-200 bg-gradient-to-r from-cyan-700 via-cyan-600 to-cyan-700 px-4 py-2 text-center hover:bg-gradient-to-bl sm:border-r sm:border-l"
 							>
-								<div class="flex">
+								<div class="flex text-white">
 									<svg
 										xmlns="http://www.w3.org/2000/svg"
 										fill="none"
@@ -38,12 +38,12 @@
 										<path
 											stroke-linecap="round"
 											stroke-linejoin="round"
-											d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"
+											d="M8.25 4.5l7.5 7.5-7.5 7.5"
 										/>
 									</svg>
 
 									<span
-										class="order-2 text-sm font-medium leading-6 tracking-wider text-white antialiased"
+										class="order-2 ml-2 text-sm font-medium leading-6 tracking-wider text-white antialiased"
 									>
 										{name}
 									</span>
