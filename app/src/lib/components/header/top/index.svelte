@@ -27,7 +27,7 @@
 		<div class="relative flex h-12 items-center justify-between">
 			<div class="flex items-center px-1 lg:px-0">
 				<div class=" ">
-					<div class="flex space-x-1">
+					<div class="flex space-x-2 ">
 						<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
 						<!--                            <svg class="h-5 w-5 text-red-500" fill="none" stroke="currentColor"-->
 						<!--                                 stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">-->
@@ -51,8 +51,10 @@
 								stroke-linejoin="round"
 							/>
 						</svg>
-						<a href="tel:+79023033654" class="rounded-md px-1  text-lg font-medium text-white"
-							>8 (902) 303-36-54 (Эля),</a
+						<a
+							href="tel:+79023033654"
+							class="rounded-md px-1  text-lg font-medium text-white ring-2 ring-gray-50/10 hover:ring-gray-100/20"
+							>8 (902) 303-36-54 (Эля)</a
 						>
 
 						<!-- <svg
@@ -69,7 +71,9 @@
 								stroke-linejoin="round"
 							/>
 						</svg> -->
-						<a href="tel:+79306888862" class="rounded-md px-1  text-lg font-medium text-white"
+						<a
+							href="tel:+79306888862"
+							class="rounded-md px-1 mx-4 text-lg font-medium text-white ring-2 ring-gray-50/10 hover:ring-gray-100/20"
 							>8 (930) 688-88-62 (Юля)</a
 						>
 
@@ -284,7 +288,7 @@
 						/>
 					</svg>
 					<a
-						class="rounded-md pl-1 text-sm font-medium text-gray-200 sm:text-base md:text-lg"
+						class="rounded-md px-1 ml-2 text-sm font-medium text-gray-200 sm:text-base md:text-lg ring-2 ring-gray-50/10 hover:ring-gray-100/20"
 						href="tel:+79023033654">8 902-303-36-54 (Эля)</a
 					>
 				</div>
@@ -305,7 +309,7 @@
 						/>
 					</svg>
 					<a
-						class="rounded-md pl-1 text-sm  font-medium text-gray-200 sm:text-base md:text-lg"
+						class="rounded-md px-1 ml-2 text-sm  font-medium text-gray-200 sm:text-base md:text-lg ring-2 ring-gray-50/10 hover:ring-gray-100/20"
 						href="tel:+79306888862">8 930-688-88-62 (Юля)</a
 					>
 				</div>
