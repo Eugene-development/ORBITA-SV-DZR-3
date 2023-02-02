@@ -294,11 +294,11 @@
 			</div>
 		</div>
 
-		<div class="space-y-1 p-1 pt-2 pb-3 sm:px-4 md:px-8 ">
-			<div class="mx-auto flex items-center justify-between px-4">
+		<div class="space-y-1 p-1 pt-2 pb-3 sm:px-2 md:px-8 ">
+			<div class="mx-auto flex items-center justify-between px-2">
 				<div class="flex">
-					<svg
-						class="h-5 w-5 text-cyan-300"
+					<!-- <svg
+						class="h-4 w-4 text-cyan-300"
 						fill="none"
 						stroke="currentColor"
 						stroke-width="2"
@@ -310,16 +310,16 @@
 							stroke-linecap="round"
 							stroke-linejoin="round"
 						/>
-					</svg>
+					</svg> -->
 					<a
-						class="rounded-md p-1 ml-2 text-xs font-medium text-gray-200 sm:text-base md:text-lg ring-2 ring-gray-50/10 hover:ring-gray-100/20 bg-cyan-800"
+						class="rounded-md p-1 ml-1 text-xs font-medium text-gray-200 sm:text-base md:text-lg ring-2 ring-gray-50/10 hover:ring-gray-100/20 bg-cyan-800"
 						href="tel:+79023033654">8 902-303-36-54</a
 					>
 				</div>
 
 				<div class="flex">
-					<svg
-						class="h-5 w-5 text-cyan-300"
+					<!-- <svg
+						class="h-4 w-4 text-cyan-300"
 						fill="none"
 						stroke="currentColor"
 						stroke-width="2"
@@ -331,16 +331,16 @@
 							stroke-linecap="round"
 							stroke-linejoin="round"
 						/>
-					</svg>
+					</svg> -->
 					<a
-						class="rounded-md p-1 ml-2 text-xs  font-medium text-gray-200 sm:text-base md:text-lg ring-2 ring-gray-50/10 hover:ring-gray-100/20 bg-cyan-800"
-						href="tel:+7831310228">8 (831) 31-02-28</a
+						class="rounded-md p-1 ml-1 text-xs font-medium text-gray-200 sm:text-base md:text-lg ring-2 ring-gray-50/10 hover:ring-gray-100/20 bg-cyan-800"
+						href="tel:+79306888862">8 930-688-88-62</a
 					>
 				</div>
 
 				<div class="flex">
-					<svg
-						class="h-5 w-5 text-cyan-300"
+					<!-- <svg
+						class="h-4 w-4 text-cyan-300"
 						fill="none"
 						stroke="currentColor"
 						stroke-width="2"
@@ -352,10 +352,10 @@
 							stroke-linecap="round"
 							stroke-linejoin="round"
 						/>
-					</svg>
+					</svg> -->
 					<a
-						class="rounded-md p-1 ml-2 text-xs  font-medium text-gray-200 sm:text-base md:text-lg ring-2 ring-gray-50/10 hover:ring-gray-100/20 bg-cyan-800"
-						href="tel:+79306888862">8 930-688-88-62</a
+						class="rounded-md p-1 ml-1 text-xs font-medium text-gray-200 sm:text-base md:text-lg ring-2 ring-gray-50/10 hover:ring-gray-100/20 bg-cyan-800"
+						href="tel:+7831310228">8(831) 31-02-28</a
 					>
 				</div>
 			</div>
