@@ -233,12 +233,30 @@
 
 				<div class="justify-between flex items-center">
 					<button
+						class="flex-shrink-0 rounded-full bg-red-700  p-1 text-slate-50 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+						type="button"
+					>
+						<span class="sr-only">View notifications</span>
+						<svg
+							class="h-6 w-6 "
+							fill="currentColor"
+							viewBox="0 0 20 20"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								clip-rule="evenodd"
+								d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+								fill-rule="evenodd"
+							/>
+						</svg>
+					</button>
+					<button
 						on:click={handleSearch}
-						class=" inline-flex items-center justify-center rounded-md border  border-transparent bg-slate-100 py-0.5 pl-2 pr-4 text-base font-medium text-gray-500 hover:bg-slate-200  "
+						class=" inline-flex items-center justify-center rounded-md border  border-transparent bg-slate-100 py-0.5 pl-2 pr-10 text-base font-medium text-gray-500 hover:bg-slate-200  "
 					>
 						<svg
 							aria-hidden="true"
-							class="mr-2 h-5 w-5 text-gray-500"
+							class="h-5 w-5 mr-4"
 							fill="currentColor"
 							viewBox="0 0 20 20"
 							xmlns="http://www.w3.org/2000/svg"
