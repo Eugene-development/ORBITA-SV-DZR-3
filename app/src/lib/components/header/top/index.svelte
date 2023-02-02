@@ -53,8 +53,8 @@
 						</svg>
 						<a
 							href="tel:+79023033654"
-							class="rounded-md px-1  text-lg font-medium text-white ring-2 ring-gray-50/10 hover:ring-gray-100/20"
-							>8 (902) 303-36-54 (Эля)</a
+							class="rounded-md px-1.5  text-lg font-medium text-white ring-2 ring-gray-50/10 hover:ring-gray-100/20 bg-cyan-800"
+							>8 (902) 303-36-54</a
 						>
 
 						<!-- <svg
@@ -73,8 +73,14 @@
 						</svg> -->
 						<a
 							href="tel:+79306888862"
-							class="rounded-md px-1 mx-4 text-lg font-medium text-white ring-2 ring-gray-50/10 hover:ring-gray-100/20"
-							>8 (930) 688-88-62 (Юля)</a
+							class="rounded-md px-1.5 mx-4 text-lg font-medium text-white ring-2 ring-gray-50/10 hover:ring-gray-100/20 bg-cyan-800"
+							>8 (930) 688-88-62</a
+						>
+
+						<a
+							href="tel:+7831310228"
+							class="rounded-md px-1.5 mx-4 text-lg font-medium text-white ring-2 ring-gray-50/10 hover:ring-gray-100/20 bg-cyan-800"
+							>8 (831) 31-02-28</a
 						>
 
 						<svg
@@ -270,7 +276,7 @@
 			</div>
 		</div>
 
-		<div class="space-y-1 px-1 pt-2 pb-3 sm:px-4 md:px-8 ">
+		<div class="space-y-1 p-1 pt-2 pb-3 sm:px-4 md:px-8 ">
 			<div class="mx-auto flex items-center justify-between px-4">
 				<div class="flex">
 					<svg
@@ -288,8 +294,8 @@
 						/>
 					</svg>
 					<a
-						class="rounded-md px-1 ml-2 text-sm font-medium text-gray-200 sm:text-base md:text-lg ring-2 ring-gray-50/10 hover:ring-gray-100/20"
-						href="tel:+79023033654">8 902-303-36-54 (Эля)</a
+						class="rounded-md p-1 ml-2 text-xs font-medium text-gray-200 sm:text-base md:text-lg ring-2 ring-gray-50/10 hover:ring-gray-100/20 bg-cyan-800"
+						href="tel:+79023033654">8 902-303-36-54</a
 					>
 				</div>
 
@@ -309,8 +315,29 @@
 						/>
 					</svg>
 					<a
-						class="rounded-md px-1 ml-2 text-sm  font-medium text-gray-200 sm:text-base md:text-lg ring-2 ring-gray-50/10 hover:ring-gray-100/20"
-						href="tel:+79306888862">8 930-688-88-62 (Юля)</a
+						class="rounded-md p-1 ml-2 text-xs  font-medium text-gray-200 sm:text-base md:text-lg ring-2 ring-gray-50/10 hover:ring-gray-100/20 bg-cyan-800"
+						href="tel:+7831310228">8 (831) 31-02-28</a
+					>
+				</div>
+
+				<div class="flex">
+					<svg
+						class="h-5 w-5 text-cyan-300"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+						viewBox="0 0 24 24"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<path
+							d="M21 3l-6 6m0 0V4m0 5h5M5 3a2 2 0 00-2 2v1c0 8.284 6.716 15 15 15h1a2 2 0 002-2v-3.28a1 1 0 00-.684-.948l-4.493-1.498a1 1 0 00-1.21.502l-1.13 2.257a11.042 11.042 0 01-5.516-5.517l2.257-1.128a1 1 0 00.502-1.21L9.228 3.683A1 1 0 008.279 3H5z"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+						/>
+					</svg>
+					<a
+						class="rounded-md p-1 ml-2 text-xs  font-medium text-gray-200 sm:text-base md:text-lg ring-2 ring-gray-50/10 hover:ring-gray-100/20 bg-cyan-800"
+						href="tel:+79306888862">8 930-688-88-62</a
 					>
 				</div>
 			</div>
