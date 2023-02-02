@@ -30,13 +30,13 @@
 		</h3>
 	</div>
 </div> -->
-<div class="relative mt-2 overflow-hidden bg-white">
+<div class="relative mt-4 overflow-hidden bg-white">
 	<div class=" mx-auto max-w-full">
 		<div
-			class="pl-2 lg:pl-24 relative z-10 bg-slate-100 pb-8 sm:pb-10 md:pb-12 lg:pb-16 xl:pb-20 lg:w-full lg:max-w-4xl "
+			class="pl-2 lg:pl-16 relative z-10 bg-slate-100 pb-8 sm:pb-10 md:pb-12 lg:pb-16 xl:pb-20 lg:w-full lg:max-w-4xl "
 		>
 			<svg
-				class="absolute inset-y-0 right-0 hidden h-full w-48 translate-x-1/2 transform text-white lg:block"
+				class="absolute inset-y-0 right-0 hidden h-full w-40 translate-x-1/2 transform text-white lg:block"
 				fill="currentColor"
 				viewBox="0 0 100 100"
 				preserveAspectRatio="none"
@@ -51,7 +51,7 @@
 
 			<main class="mx-auto mt-10 max-w-7xl px-4 lg:px-8 sm:mt-8 sm:px-6 md:mt-10 lg:mt-6 xl:mt-12 ">
 				<div class="sm:text-center lg:text-left">
-					<h1 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
+					<h1 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-3xl md:text-4xl">
 						<span class="block xl:inline">{dataSlider.action}</span> <br />
 						<!-- <span class="block text-cyan-700 xl:inline">{dataSlider.brand}</span> -->
 					</h1>
