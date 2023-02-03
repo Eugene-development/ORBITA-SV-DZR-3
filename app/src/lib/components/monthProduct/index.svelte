@@ -77,7 +77,7 @@
 								<button
 									on:click|preventDefault|once={() => sendToCart(id)}
 									type="button"
-									class="flex w-full items-center justify-center rounded-md border border-transparent bg-cyan-600 px-8 py-2 text-base font-medium text-white hover:bg-cyan-700 md:py-2 md:px-10 md:text-lg"
+									class="flex w-full items-center justify-center rounded-md border border-transparent bg-cyan-700 px-8 py-2 text-base font-medium text-white hover:bg-cyan-800 md:py-2 md:px-10 md:text-lg"
 									>В корзину</button
 								>
 							</div>
@@ -93,7 +93,7 @@
 						<div class="mt-3 sm:mt-0 sm:ml-3">
 							<a
 								href={dataSlider.link}
-								class="flex w-full items-center justify-center rounded-md border border-transparent bg-cyan-100 px-8 py-2 text-base font-medium text-cyan-700 hover:bg-cyan-200 md:py-2 md:px-10 md:text-lg"
+								class="flex w-full items-center justify-center rounded-md border border-transparent bg-cyan-50 px-8 py-2 text-base font-medium text-cyan-700 hover:bg-cyan-200 md:py-2 md:px-10 md:text-lg"
 								>Подробнее</a
 							>
 						</div>
