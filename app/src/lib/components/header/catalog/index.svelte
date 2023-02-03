@@ -52,7 +52,7 @@
 						{/each}
 					</div>
 					<div
-						class="hidden rounded-lg bg-white shadow-md shadow-gray-700/50 lg:grid lg:grid-cols-6"
+						class="hidden rounded-lg bg-white shadow-lg shadow-gray-500/50 lg:grid lg:grid-cols-6"
 					>
 						{#each catalog as { slug, name }}
 							<a
