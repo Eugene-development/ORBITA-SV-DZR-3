@@ -6,14 +6,38 @@
 
 {#if $banner}
 	<div class="relative bg-gray-800">
-		<div class="mx-auto max-w-7xl py-2 px-3 sm:px-6 lg:px-8">
-			<div class="pr-16 sm:px-16 sm:text-center">
+		<div class="flex mx-auto max-w-full py-2 px-3 sm:px-6 lg:px-8">
+			<div class=" hidden md:block">
+				<div class="flex">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						class="w-5 h-5 text-white"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+						/>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+						/>
+					</svg>
+					<span class="text-white ml-2">Дзержинск</span>
+				</div>
+			</div>
+			<div class="mx-auto sm:text-center">
 				<p class="font-medium text-white antialiased">
 					<!-- <span class="md:hidden">Специальные цены на утеплитель от 725р.</span>
 					<span class="hidden md:inline">
 						Спецпредложение. Только в эти дни!!! Специальные цены на утеплитель от 725р.</span
 					> -->
-					<span class="md:hidden">Обратите внимание на наши сезонные предложения.</span>
+					<span class="md:hidden">Минус 10% на всё ТОЛЬКО В ВОСКРЕСЕНЬЕ на Ярмарке (35 ангар)</span>
 					<span class="hidden md:inline">
 						Минус 10% на все товары ТОЛЬКО В ВОСКРЕСЕНЬЕ на Ярмарке (35 ангар)</span
 					>

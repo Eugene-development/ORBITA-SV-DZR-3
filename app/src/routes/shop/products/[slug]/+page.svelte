@@ -179,7 +179,7 @@
 								/>
 							{/if}
 							<h3
-								class="mt-6 h-10 text-sm font-medium lowercase text-slate-900 first-letter:uppercase whitespace-normal"
+								class="mt-6 mb-2 h-10 text-sm font-medium lowercase text-slate-900 first-letter:uppercase whitespace-normal"
 							>
 								{value}
 							</h3>
@@ -189,7 +189,7 @@
 								<dd class="mt-4">
 									{#if price}
 										<span
-											class="rounded-full bg-cyan-900 px-3 py-1.5 text-base font-medium text-slate-100"
+											class="rounded-full bg-cyan-900 px-3  py-1.5 text-base font-medium text-slate-100"
 											>{price?.value}
 											р/{unit?.value}</span
 										>
