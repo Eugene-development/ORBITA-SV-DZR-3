@@ -46,7 +46,7 @@
 						/>
 					</svg>
 					Корзина (
-					<div class="mx-none sm:mx-1 text-red-500">{$lengthCart}</div>
+					<div class="mx-none sm:mx-1 text-red-500">{$lengthCart ? $lengthCart : 0}</div>
 					)
 				</a>
 			</div>
@@ -98,7 +98,7 @@
 				</nav>
 				<div class="flex items-center md:ml-12">
 					<a
-						class="ml-8 inline-flex items-center justify-center rounded-md border border-transparent bg-cyan-700 px-4 py-1 text-base font-medium text-white shadow-lg shadow-gray-900/50 hover:bg-gray-800"
+						class="ml-8 inline-flex items-center justify-center rounded-md border border-transparent bg-cyan-900 px-4 py-1 text-base font-medium text-white shadow-lg shadow-gray-900/50 hover:bg-gray-800"
 						href="/shop/cart"
 					>
 						<svg
@@ -116,7 +116,7 @@
 							/>
 						</svg>
 						Корзина (
-						<div class="mx-1 text-red-500">{$lengthCart}</div>
+						<div class="mx-1 text-red-400">{$lengthCart ? $lengthCart : 0}</div>
 						)
 					</a>
 				</div>
