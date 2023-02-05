@@ -24,7 +24,7 @@
 <nav class="bg-cyan-700">
 	<!-- PC  -->
 	<div class="py-1 mx-auto hidden max-w-full px-6 sm:px-8 lg:block lg:px-8">
-		<div class="relative flex h-12 items-center justify-between">
+		<div class="relative flex h-11 items-center justify-between">
 			<div class="flex items-center px-1 lg:px-0">
 				<div class=" ">
 					<div class="flex space-x-2 ">

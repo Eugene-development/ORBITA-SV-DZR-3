@@ -150,7 +150,7 @@
 			</h1>
 			<p class="max-w-3xl text-xl mx-auto text-slate-800">
 				Купите товар "{data.category.category_one.value}" в Дзержинске по низким ценам с доставкой
-				или самовывозом
+				или самовывозом со склада
 			</p>
 		</div>
 	</div>
