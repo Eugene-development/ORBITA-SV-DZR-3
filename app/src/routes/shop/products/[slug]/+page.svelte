@@ -301,16 +301,16 @@
 	</div>
 
 	<div class="relative mx-auto mt-8 max-w-7xl px-4 sm:px-6 lg:mt-8 lg:px-8">
-		<div class="mx-auto max-w-md lg:max-w-7xl">
+		<div class="mx-auto max-w-xl lg:max-w-7xl">
 			<div class="rounded-lg bg-slate-50 px-6 py-8 sm:p-10 lg:flex lg:items-center">
 				<!--            <div v-for="(text, idx) of head.text" :key="text.id" class="rounded-lg bg-slate-50 px-6 py-8 sm:p-10 lg:flex lg:items-center">-->
 				<div class="flex-1">
-					<div class="-mx-2">
-						<h2
-							class="inline-flex rounded-full bg-white px-4 py-1 text-xl font-semibold tracking-wide text-slate-800"
-						>
-							{data.category.category_one.value} со склада в Дзержинске. Цены, товарный ассортимент и
-							услуги доставки.
+					<div class="">
+						<h2 class="mx-auto px-4 py-1 text-xl text-center tracking-wide text-slate-800">
+							<strong class="text-3xl md:text-4xl"
+								>{data.category.category_one.value} со склада в Дзержинске.</strong
+							>
+							<br /> Цены, товарный ассортимент и описание продукции.
 						</h2>
 					</div>
 					{#each data.category.category_one?.text as { key, value }}
@@ -323,9 +323,10 @@
 			<div class="mt-6 rounded-md shadow lg:flex-shrink-0">
 				<a
 					href="/information/action"
-					class="flex items-center justify-center rounded-md border border-transparent bg-slate-50 px-5 py-3 text-base font-medium text-slate-900 hover:bg-slate-100"
+					class="flex items-center justify-center rounded-md border border-transparent bg-slate-700 px-5 py-3 text-base text-center font-medium text-slate-50 hover:bg-slate-800"
 				>
-					{data.category.category_one.value} по доступным ценам с доставкой в Дзержинске. Звоните и приезжайте!
+					{data.category.category_one.value} по доступным ценам с доставкой в Дзержинске. Cледите за
+					нашими акциями!
 				</a>
 			</div>
 		</div>

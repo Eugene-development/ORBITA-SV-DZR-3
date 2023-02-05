@@ -19,7 +19,7 @@
 
 	import { contentActions } from '$lib/data/actions';
 
-	console.log(contentActions);
+	// console.log(contentActions);
 	export let data;
 </script>
 
