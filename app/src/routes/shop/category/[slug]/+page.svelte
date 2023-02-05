@@ -43,7 +43,7 @@
 						<div class="flex items-center">
 							<!-- Heroicon name: mini/chevron-right -->
 							<svg
-								class="h-5 w-5 flex-shrink-0 text-slate-500"
+								class="h-5 w-5 flex-shrink-0 text-red-800"
 								xmlns="http://www.w3.org/2000/svg"
 								viewBox="0 0 20 20"
 								fill="currentColor"
@@ -68,7 +68,7 @@
 					<div>
 						<div class="flex items-center">
 							<svg
-								class="h-5 w-5 flex-shrink-0 text-slate-500"
+								class="h-5 w-5 flex-shrink-0 text-red-800"
 								xmlns="http://www.w3.org/2000/svg"
 								viewBox="0 0 20 20"
 								fill="currentColor"

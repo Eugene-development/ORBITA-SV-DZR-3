@@ -42,7 +42,7 @@
 					<div>
 						<div class="flex items-center">
 							<svg
-								class="h-6 w-6 flex-shrink-0 text-slate-500"
+								class="h-6 w-6 flex-shrink-0 text-red-800"
 								xmlns="http://www.w3.org/2000/svg"
 								viewBox="0 0 20 20"
 								fill="currentColor"
