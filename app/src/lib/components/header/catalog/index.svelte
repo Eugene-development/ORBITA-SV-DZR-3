@@ -59,12 +59,12 @@
 								data-sveltekit-prefetch
 								data-sveltekit-noscroll
 								href="/shop/rubric/{slug}"
-								class="flex flex-col  border border-gray-300 px-4 py-3 text-center hover:border-red-800 hover:bg-gradient-to-l hover:from-red-900 hover:via-red-800 hover:to-red-900 sm:border-r sm:border-l 
+								class="flex flex-col  border border-gray-300 px-4 py-3 text-center hover:border-cyan-900 hover:bg-gradient-to-l hover:from-cyan-700 hover:via-cyan-600 hover:to-cyan-700 sm:border-r sm:border-l 
 								{$page.url.pathname === '/shop/rubric/' + slug
-									? 'bg-gradient-to-r from-red-800 via-red-700 to-red-800'
-									: 'bg-gray-50'}"
+									? 'bg-gradient-to-r from-cyan-700 via-cyan-600 to-cyan-700'
+									: 'bg-gradient-to-r from-cyan-900 via-cyan-800 to-cyan-900'}"
 							>
-								<div class="flex mx-auto text-cyan-900">
+								<div class="flex mx-auto text-cyan-50 transition ease-in-out hover:scale-110">
 									<svg
 										xmlns="http://www.w3.org/2000/svg"
 										fill="none"
@@ -81,7 +81,7 @@
 									</svg>
 
 									<span
-										class="ml-2 selection:delay-50 duration-50 order-2 text-sm font-medium leading-6 tracking-wider transition ease-in-out hover:scale-110 text-cyan-900"
+										class="ml-2 selection:delay-50 duration-50 order-2 text-sm font-medium leading-6 tracking-wider text-white"
 									>
 										{name}
 									</span>

@@ -8,7 +8,7 @@
 	<meta name="description" content={data.description} />
 </svelte:head>
 
-<div class="py-8">
+<div class="py-12">
 	<div class="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
 		<div class="mx-auto max-w-3xl space-y-2 lg:max-w-none">
 			<!-- <span class="text-lg font-semibold uppercase leading-6 tracking-wider text-cyan-700">
@@ -16,28 +16,49 @@
 			</span> -->
 
 			<nav class="flex mb-6" aria-label="Breadcrumb">
-				<div  class="flex items-center space-x-4 mx-auto">
+				<div class="flex items-center space-x-4 mx-auto">
 					<div>
 						<div>
 							<a href="/" class="text-slate-500 hover:text-slate-600">
-							<!-- Heroicon name: mini/home -->
-							<svg class="h-6 w-6 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd" d="M9.293 2.293a1 1 0 011.414 0l7 7A1 1 0 0117 11h-1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-3a1 1 0 00-1-1H9a1 1 0 00-1 1v3a1 1 0 01-1 1H5a1 1 0 01-1-1v-6H3a1 1 0 01-.707-1.707l7-7z" clip-rule="evenodd" />
-							</svg>
-							<span class="sr-only">Главная</span>
+								<!-- Heroicon name: mini/home -->
+								<svg
+									class="h-6 w-6 flex-shrink-0"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M9.293 2.293a1 1 0 011.414 0l7 7A1 1 0 0117 11h-1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-3a1 1 0 00-1-1H9a1 1 0 00-1 1v3a1 1 0 01-1 1H5a1 1 0 01-1-1v-6H3a1 1 0 01-.707-1.707l7-7z"
+										clip-rule="evenodd"
+									/>
+								</svg>
+								<span class="sr-only">Главная</span>
 							</a>
 						</div>
 					</div>
 
 					<div>
 						<div class="flex items-center">
-							<svg class="h-6 w-6 flex-shrink-0 text-slate-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+							<svg
+								class="h-6 w-6 flex-shrink-0 text-slate-500"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+									clip-rule="evenodd"
+								/>
 							</svg>
-							<span class="ml-4 text-base md:text-xl font-medium text-slate-600 ">{data.catalog.catalog_one.value}</span>
+							<span class="ml-4 text-base md:text-xl font-medium text-slate-600 "
+								>{data.catalog.catalog_one.value}</span
+							>
 						</div>
 					</div>
-
 				</div>
 			</nav>
 
@@ -45,8 +66,8 @@
 				{data.catalog.catalog_one.value}
 			</h1>
 			<p class="max-w-3xl text-xl mx-auto text-slate-800">
-				Купите товар "{data.catalog.catalog_one.value}" в Дзержинске по низким ценам с
-				доставкой или самовывозом
+				Купите товар "{data.catalog.catalog_one.value}" в Дзержинске по низким ценам с доставкой или
+				самовывозом
 			</p>
 		</div>
 	</div>
@@ -80,11 +101,13 @@
 								<!--                                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.-->
 								<!--                                                  </p>-->
 							</div>
-							<div class="flex flex-1 flex-col justify-between px-6 pb-6 transition ease-in-out hover:scale-105">
+							<div
+								class="flex flex-1 flex-col justify-between px-6 pb-6 transition ease-in-out hover:scale-105"
+							>
 								<ul class="space-y-2" />
 								<div class="mb-2 rounded-md shadow-lg shadow-cyan-500/50">
 									<a
-							            data-sveltekit-prefetch
+										data-sveltekit-prefetch
 										href="/shop/category/{slug}"
 										class="block w-full rounded-md border border-cyan-900 bg-gradient-to-r from-cyan-500 via-cyan-800 to-cyan-500 py-2 text-center text-sm font-semibold text-white duration-300 ease-in hover:bg-cyan-900 hover:from-cyan-800 hover:via-cyan-500 hover:to-cyan-800"
 									>
@@ -106,10 +129,12 @@
 							<h2
 								class="inline-flex rounded-full bg-white px-4 py-1 text-2xl font-semibold tracking-wide text-slate-800"
 							>
-								 {data.catalog.catalog_one.value}. Цены, описание и услуги.
+								{data.catalog.catalog_one.value}. Цены, описание и услуги.
 							</h2>
 						</div>
-								<div class="mt-8 text-lg text-slate-600">{@html data.catalog.catalog_one.text[0]?.value}</div>
+						<div class="mt-8 text-lg text-slate-600">
+							{@html data.catalog.catalog_one.text[0]?.value}
+						</div>
 					</div>
 				</div>
 				<div class="mt-6 rounded-md shadow lg:flex-shrink-0">
