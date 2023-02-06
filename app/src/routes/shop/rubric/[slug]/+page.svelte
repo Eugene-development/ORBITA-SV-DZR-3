@@ -54,7 +54,7 @@
 									clip-rule="evenodd"
 								/>
 							</svg>
-							<span class="ml-4 text-base md:text-xl font-medium text-slate-600 "
+							<span class="ml-4 text-base md:text-xl font-medium text-slate-800 "
 								>{data.catalog.catalog_one.value}</span
 							>
 						</div>
