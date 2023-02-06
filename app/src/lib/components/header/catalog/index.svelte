@@ -51,6 +51,11 @@
 							</a>
 						{/each}
 					</div>
+					<div class="mb-2 text-2xl text-gray-800">
+						<span class="text-red-800">Наши</span> цены сэкономят
+						<span class="text-red-800">ваши</span> деньги
+					</div>
+
 					<div
 						class="hidden rounded-lg bg-white shadow-lg shadow-gray-500/50 lg:grid lg:grid-cols-6"
 					>

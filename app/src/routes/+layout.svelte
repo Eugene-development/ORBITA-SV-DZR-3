@@ -6,6 +6,11 @@
 	import Header from '$lib/components/header/index.svelte';
 	import Footer from '$lib/components/footer/index.svelte';
 	export let data;
+	//TODO Нужно, чтобы удалённые товары не приводили к 500.
+	import { browser } from '$app/environment';
+	import { lengthCart } from '$lib/store/stores.js';
+	browser && localStorage.removeItem('inCart');
+	lengthCart.update(() => 0);
 </script>
 
 <MobileMenu />

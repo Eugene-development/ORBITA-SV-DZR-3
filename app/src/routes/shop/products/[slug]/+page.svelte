@@ -53,7 +53,7 @@
 				<div class="flex items-center space-x-4 mx-auto">
 					<div>
 						<div>
-							<a href="/" class="text-slate-500 hover:text-slate-600">
+							<a href="/" class="text-slate-800 hover:text-slate-600">
 								<svg
 									class="h-5 w-5 flex-shrink-0"
 									xmlns="http://www.w3.org/2000/svg"
@@ -91,7 +91,7 @@
 								data-sveltekit-prefetch
 								data-sveltekit-noscroll
 								href="/shop/rubric/{data.category.category_one.parent.parent.slug}"
-								class="ml-4 text-sm md:text-xl font-medium text-slate-600 "
+								class="ml-4 text-sm md:text-xl font-medium text-slate-800 hover:text-slate-600"
 								>{data.category.category_one.parent.parent.value}</a
 							>
 						</div>
@@ -116,7 +116,7 @@
 								data-sveltekit-prefetch
 								data-sveltekit-noscroll
 								href="/shop/category/{data.category.category_one.parent.slug}"
-								class="ml-4 text-sm md:text-xl font-medium text-slate-600 "
+								class="ml-4 text-sm md:text-xl font-medium text-slate-800 hover:text-slate-600"
 								>{data.category.category_one.parent.value}</a
 							>
 						</div>
@@ -137,7 +137,7 @@
 									clip-rule="evenodd"
 								/>
 							</svg>
-							<span class="ml-4 text-sm md:text-xl font-medium text-slate-600 "
+							<span class="ml-4 text-sm md:text-xl font-medium text-slate-800 "
 								>{data.category.category_one.value}</span
 							>
 						</div>

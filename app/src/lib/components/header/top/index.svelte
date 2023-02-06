@@ -38,7 +38,7 @@
 						<!--                            <p class="text-gray-300 pr-3 rounded-md text-base font-medium">8 (800) 555-8-111</p>-->
 
 						<svg
-							class="h-5 w-5 text-cyan-50 mt-0.5"
+							class="h-5 w-5 text-white mt-1 animate-pulse"
 							fill="none"
 							stroke="currentColor"
 							stroke-width="2"
@@ -53,7 +53,7 @@
 						</svg>
 						<a
 							href="tel:+79023033654"
-							class="rounded-md px-1.5 py-0.5 text-base font-medium text-white ring-2 ring-gray-50/10 hover:ring-gray-100/20 bg-cyan-900"
+							class="rounded-md px-1.5 py-0.5 text-base font-medium text-white ring-2 ring-gray-50/10 hover:ring-gray-100/20 bg-cyan-700"
 							>8 (902) 303-36-54</a
 						>
 
@@ -73,18 +73,18 @@
 						</svg> -->
 						<a
 							href="tel:+79306888862"
-							class="rounded-md px-1.5 py-0.5 mx-4 text-base font-medium text-white ring-2 ring-gray-50/10 hover:ring-gray-100/20 bg-cyan-900"
+							class="rounded-md px-1.5 py-0.5 mx-4 text-base font-medium text-white ring-2 ring-gray-50/10 hover:ring-gray-100/20 bg-cyan-700"
 							>8 (930) 688-88-62</a
 						>
 
 						<a
 							href="tel:+7831310228"
-							class="rounded-md px-1.5 py-0.5 mx-4 text-base font-medium text-white ring-2 ring-gray-50/10 hover:ring-gray-100/20 bg-cyan-900"
+							class="rounded-md px-1.5 py-0.5 mx-4 text-base font-medium text-white ring-2 ring-gray-50/10 hover:ring-gray-100/20 bg-cyan-700"
 							>8 (831) 31-02-28</a
 						>
 
 						<svg
-							class="h-6 w-6 text-cyan-50 mt-0.5"
+							class="h-6 w-6 text-white mt-0.5 animate-pulse"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="none"
 							viewBox="0 0 24 24"
@@ -99,7 +99,7 @@
 							/>
 						</svg>
 						<span
-							class="rounded-md px-1.5 py-0.5 text-base font-medium text-white ring-2 ring-gray-50/10 hover:ring-gray-100/20 bg-cyan-900"
+							class="rounded-md px-1.5 py-0.5 text-base font-medium text-white ring-2 ring-gray-50/10 hover:ring-gray-100/20 bg-cyan-700"
 							>info@orbita-stroy.com</span
 						>
 					</div>

@@ -19,7 +19,7 @@
 				<div class="flex items-center space-x-4 mx-auto">
 					<div>
 						<div>
-							<a href="/" class="text-slate-500 hover:text-slate-600">
+							<a href="/" class="text-slate-800 hover:text-slate-600">
 								<!-- Heroicon name: mini/home -->
 								<svg
 									class="h-6 w-6 flex-shrink-0"

@@ -19,7 +19,7 @@
 				<div class="flex items-center space-x-4 mx-auto">
 					<div>
 						<div>
-							<a href="/" class="text-slate-500 hover:text-slate-600">
+							<a href="/" class="text-slate-800 hover:text-slate-600">
 								<!-- Heroicon name: mini/home -->
 								<svg
 									class="h-6 w-6 flex-shrink-0"
@@ -59,7 +59,7 @@
 								data-sveltekit-prefetch
 								data-sveltekit-noscroll
 								href="/shop/rubric/{data.rubric.rubric_one.parent.slug}"
-								class="ml-4 text-base md:text-xl font-medium text-slate-600 "
+								class="ml-4 text-base md:text-xl font-medium text-slate-800 hover:text-slate-600"
 								>{data.rubric.rubric_one.parent.value}</a
 							>
 						</div>
@@ -80,7 +80,7 @@
 									clip-rule="evenodd"
 								/>
 							</svg>
-							<span class="ml-4 text-base md:text-xl font-medium text-slate-600 "
+							<span class="ml-4 text-base md:text-xl font-medium text-slate-800 "
 								>{data.rubric.rubric_one.value}</span
 							>
 						</div>
