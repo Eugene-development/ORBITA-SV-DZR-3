@@ -52,8 +52,8 @@
 						{/each}
 					</div>
 					<div class="mb-2 text-2xl text-gray-800">
-						<span class="text-red-800">НАШИ</span> цены сэкономят
-						<span class="text-red-800">ВАШИ</span> деньги
+						<span class="text-red-800">Наши</span> цены сэкономят
+						<span class="text-red-800">ваши</span> деньги
 					</div>
 
 					<div

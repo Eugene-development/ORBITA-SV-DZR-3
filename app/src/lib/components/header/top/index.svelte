@@ -52,6 +52,11 @@
 							/>
 						</svg>
 						<a
+							href="tel:+7831310228"
+							class="rounded-md px-1.5 py-0.5 mx-4 text-base font-medium text-white ring-2 ring-gray-50/10 hover:ring-gray-100/20 bg-cyan-700"
+							>8 (831) 31-02-28</a
+						>
+						<a
 							href="tel:+79023033654"
 							class="rounded-md px-1.5 py-0.5 text-base font-medium text-white ring-2 ring-gray-50/10 hover:ring-gray-100/20 bg-cyan-700"
 							>8 (902) 303-36-54</a
@@ -75,12 +80,6 @@
 							href="tel:+79306888862"
 							class="rounded-md px-1.5 py-0.5 mx-4 text-base font-medium text-white ring-2 ring-gray-50/10 hover:ring-gray-100/20 bg-cyan-700"
 							>8 (930) 688-88-62</a
-						>
-
-						<a
-							href="tel:+7831310228"
-							class="rounded-md px-1.5 py-0.5 mx-4 text-base font-medium text-white ring-2 ring-gray-50/10 hover:ring-gray-100/20 bg-cyan-700"
-							>8 (831) 31-02-28</a
 						>
 
 						<svg
