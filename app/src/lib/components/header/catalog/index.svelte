@@ -51,7 +51,7 @@
 							</a>
 						{/each}
 					</div>
-					<div class="mb-2 text-2xl text-gray-800">
+					<div class="mb-2 mt-2 lg:mt-0 text-lg md:text-2xl text-gray-800 text-center lg:text-left">
 						<span class="text-red-800">Наши</span> цены сэкономят
 						<span class="text-red-800">ваши</span> деньги
 					</div>
