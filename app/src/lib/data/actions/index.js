@@ -8,21 +8,53 @@ const actions = [
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-K300.png'
 	},
 	{
-		id: '522',
-		action: 'Грунтовка универсальная "ЕК" g200 (10 л)',
-		price: '667',
+		id: '261',
+		action: 'ГВЛВ "Кнауф" 10 мм (1200*2500)',
+		price: '649',
 		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/shop/product/gruntovka-universalnaya-ek-g200-10-l',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-G200.png'
+		link: '/shop/product/gvlv-knauf-10-mm-12002500',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B3%D0%B2%D0%BB.jpg'
 	},
 	{
-		id: '520',
-		action: 'Грунтовка универсальная концентрированная "ЕК" g100 (10 л)',
-		price: '1126',
+		id: '2810',
+		action: 'Цемент м500 Евроцемент 40 кг',
+		price: '350',
 		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/shop/product/gruntovka-universalnaya-koncentrirovannaya-ek-g100-10-l',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-G100.png'
+		link: '/shop/product/cement-m500-evrocement-40-kg',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/AdAW50jMkTFDo4nUhEaxZUdxUkShNu2kf6HS4cMo.png'
 	},
+	{
+		id: '965',
+		action: 'ЭПП xps30-200 Техноплекс 1180*580*50-l',
+		price: '278',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/shop/product/epp-xps30-200-texnopleks-118058050-l',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/XPS-%D0%A2%D0%95%D0%A5%D0%9D%D0%9E%D0%9F%D0%9B%D0%95%D0%9A%D0%A1.png'
+	},
+	{
+		id: '964',
+		action: 'ЭПП xps30-200 Техноплекс 1180*580*30-l',
+		price: '178',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/shop/product/epp-xps30-200-texnopleks-118058030-l',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/XPS-%D0%A2%D0%95%D0%A5%D0%9D%D0%9E%D0%9F%D0%9B%D0%95%D0%9A%D0%A1.png'
+	},
+	// {
+	// 	id: '522',
+	// 	action: 'Грунтовка универсальная "ЕК" g200 (10 л)',
+	// 	price: '667',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/gruntovka-universalnaya-ek-g200-10-l',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-G200.png'
+	// },
+	// {
+	// 	id: '520',
+	// 	action: 'Грунтовка универсальная концентрированная "ЕК" g100 (10 л)',
+	// 	price: '1126',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/gruntovka-universalnaya-koncentrirovannaya-ek-g100-10-l',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-G100.png'
+	// },
 	// {
 	// 	id: '523',
 	// 	action: 'Грунтовка универсальная "ЕК" g200 (5л)',
@@ -56,7 +88,7 @@ const actions = [
 	{
 		id: '1541',
 		action: 'Гкл "Кнауф" даногипс 9,5мм (1,2х2,5)',
-		price: '275',
+		price: '310',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/gkl-knauf-danogips-95mm-12x25',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/m5NgzpdlHX02sqR1Mqu3YrUQJwqqDGUOuAeYV75Z.jpeg'
@@ -91,14 +123,14 @@ const actions = [
 		link: '/shop/product/uteplitel-texnonikol-roklait-120060050',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/c2eHGTqI7cLLb0g8nf4vlbuB6KENnH59Ukii45om.jpg'
 	},
-	{
-		id: '307',
-		action: 'Клей для плитки "Кнауф" флизенклебер (25 кг)',
-		price: '448',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/shop/product/klei-dlya-plitki-knauf-flizenkleber-25-kg',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%84%D0%BB%D0%B8%D0%B7%D0%B5%D0%BD.webp'
-	},
+	// {
+	// 	id: '307',
+	// 	action: 'Клей для плитки "Кнауф" флизенклебер (25 кг)',
+	// 	price: '448',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/klei-dlya-plitki-knauf-flizenkleber-25-kg',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%84%D0%BB%D0%B8%D0%B7%D0%B5%D0%BD.webp'
+	// },
 	{
 		id: '228',
 		action: 'Плита осб-3 2500*1250*9мм Kronospan гост (влагостойкая)',
@@ -121,14 +153,14 @@ const actions = [
 	// 	link: '/shop/product/stukaturnaya-smes-ek-tg-40-30-kg',
 	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TG40.png'
 	// },
-	{
-		id: '267',
-		action: 'Клей для плитки "ЕК" 3000 (25кг)',
-		price: '363',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/shop/product/klei-dlya-plitki-ek-3000-25kg',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-3000-UNIVERSAL.png'
-	},
+	// {
+	// 	id: '267',
+	// 	action: 'Клей для плитки "ЕК" 3000 (25кг)',
+	// 	price: '363',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/klei-dlya-plitki-ek-3000-25kg',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-3000-UNIVERSAL.png'
+	// },
 	// {
 	// 	action: 'Штукатурная смесь "Кнауф ротбанд" белая (30 кг)',
 	// 	price: '440 рублей',
