@@ -10,7 +10,7 @@ const actions = [
 	{
 		id: '261',
 		action: 'ГВЛВ "Кнауф" 10 мм (1200*2500)',
-		price: '649',
+		price: '683',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/gvlv-knauf-10-mm-12002500',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B3%D0%B2%D0%BB.jpg'
@@ -18,7 +18,7 @@ const actions = [
 	{
 		id: '2810',
 		action: 'Цемент м500 Евроцемент 40 кг',
-		price: '350',
+		price: '368',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/cement-m500-evrocement-40-kg',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/AdAW50jMkTFDo4nUhEaxZUdxUkShNu2kf6HS4cMo.png'
@@ -26,7 +26,7 @@ const actions = [
 	{
 		id: '965',
 		action: 'ЭПП xps30-200 Техноплекс 1180*580*50-l',
-		price: '278',
+		price: '292',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/epp-xps30-200-texnopleks-118058050-l',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/XPS-%D0%A2%D0%95%D0%A5%D0%9D%D0%9E%D0%9F%D0%9B%D0%95%D0%9A%D0%A1.png'
@@ -34,7 +34,7 @@ const actions = [
 	{
 		id: '964',
 		action: 'ЭПП xps30-200 Техноплекс 1180*580*30-l',
-		price: '178',
+		price: '187',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/epp-xps30-200-texnopleks-118058030-l',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/XPS-%D0%A2%D0%95%D0%A5%D0%9D%D0%9E%D0%9F%D0%9B%D0%95%D0%9A%D0%A1.png'
