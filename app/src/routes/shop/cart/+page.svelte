@@ -1,6 +1,6 @@
 <script>
 	/** @type {import('./$types').PageData} */
-import { reject, without, pullAllBy, forEach, find, filter } from 'lodash';
+	import { reject, without, pullAllBy, forEach, find, filter } from 'lodash';
 	import axios from 'axios';
 	import { lengthCart, idProductsInCart, prodInCart, allProducts } from '$lib/store/stores.js';
 
@@ -46,7 +46,7 @@ import { reject, without, pullAllBy, forEach, find, filter } from 'lodash';
 		const apiMail = {
 			baseURL: `${import.meta.env.VITE_API_MAIL}`,
 			headers: {
-				Authorization: `Bearer ${import.meta.env.VITE_TOKEN}`,
+				Authorization: `Bearer ${import.meta.env.VITE_TOKEN}`
 				// 'access-control-allow-origin': "*",
 				// 'Access-Control-Allow-Headers': 'Content-Type, Authorization',
 				// 'Access-Control-Allow-Methods': '*',
@@ -81,9 +81,6 @@ import { reject, without, pullAllBy, forEach, find, filter } from 'lodash';
 		cleanData();
 	};
 
-
-
-
 	import { browser } from '$app/environment';
 
 	export let data;
@@ -98,8 +95,6 @@ import { reject, without, pullAllBy, forEach, find, filter } from 'lodash';
 		item.quantity = 1;
 	});
 	prodInCart.update(() => productsInCart);
-
-
 </script>
 
 <svelte:head>
@@ -121,7 +116,7 @@ import { reject, without, pullAllBy, forEach, find, filter } from 'lodash';
 		<div class="px-4 sm:px-6 lg:px-8">
 			<div class="sm:flex sm:items-center">
 				<div class="sm:flex-auto">
-					<h1 class="text-xl font-semibold text-gray-900">Ваша корзина</h1>
+					<h1 class="text-2xl font-semibold text-gray-900">Ваша корзина</h1>
 					<p class="mt-2 text-sm text-gray-700">После отправки заказа с вами свяжется менеджер</p>
 				</div>
 				<!--      <div class="mt-4 sm:mt-0 sm:ml-16 sm:flex-none">-->
@@ -144,6 +139,12 @@ import { reject, without, pullAllBy, forEach, find, filter } from 'lodash';
 								class="hidden px-3 py-3.5 text-left text-sm font-semibold text-gray-900 lg:table-cell"
 								>Цена:</th
 							>
+							<th
+								scope="col"
+								class="hidden px-3 py-3.5 text-left text-sm font-semibold text-gray-900 lg:table-cell"
+								>Цена со скидкой:</th
+							>
+
 							<th
 								scope="col"
 								class="hidden px-3 py-3.5 text-left text-sm font-semibold text-gray-900 sm:table-cell"
@@ -174,6 +175,14 @@ import { reject, without, pullAllBy, forEach, find, filter } from 'lodash';
 												Цена: {price?.value} руб/{unit?.value}
 											</span>
 										</dd>
+										<dt class="sr-only">Цена</dt>
+										<dd class="mt-1 truncate">
+											<span
+												class="inline-flex rounded-md bg-cyan-100 px-2 text-xs font-semibold leading-5 text-cyan-900"
+											>
+												Цена со скидкой: {price?.value - price?.value * 0.05} руб/{unit?.value}
+											</span>
+										</dd>
 										<dt class="sr-only sm:hidden">Количество</dt>
 										<dd class="mt-2 mr-20 truncate text-gray-500 sm:hidden">
 											<input
@@ -191,6 +200,13 @@ import { reject, without, pullAllBy, forEach, find, filter } from 'lodash';
 										{price?.value} руб/{unit?.value}
 									</span>
 								</td>
+								<td class="hidden px-3 py-4 text-sm text-gray-500 lg:table-cell ">
+									<span
+										class="inline-flex rounded-md bg-cyan-100 px-3 py-1 text-sm font-semibold leading-5 text-cyan-900"
+									>
+										{price?.value - price?.value * 0.05} руб/{unit?.value}
+									</span>
+								</td>
 								<td class="hidden px-3 py-4 text-sm text-gray-500 sm:table-cell">
 									<input
 										type="text"
@@ -199,7 +215,7 @@ import { reject, without, pullAllBy, forEach, find, filter } from 'lodash';
 									/>
 								</td>
 								<td class="px-3 py-4 text-sm text-gray-500"
-									>{(price?.value * quantity).toFixed(2)}</td
+									>{((price?.value - price?.value * 0.05) * quantity).toFixed(2)}</td
 								>
 								<td class="py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
 									<button
