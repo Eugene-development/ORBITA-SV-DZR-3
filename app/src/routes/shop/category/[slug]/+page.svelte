@@ -144,7 +144,7 @@
 		<!--        </div>-->
 
 		<!-- This example requires Tailwind CSS v2.0+ -->
-		<div class="relative px-2 pb-4 sm:px-6 lg:px-8  lg:pb-8">
+		<div class="relative px-2 sm:px-6 lg:px-8">
 			<div class="">
 				<!--                <div class="pt-12 sm:pt-16 lg:pt-20">-->
 				<!--                    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">-->
@@ -412,6 +412,37 @@
 			<!--                    {/each}-->
 			<!--                </div>-->
 			<!--            </div>-->
+		</div>
+	</div>
+	<div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+		<div class="mx-auto max-w-xl lg:max-w-7xl">
+			<div class="rounded-lg bg-slate-50 px-6 py-8 sm:p-10 lg:flex lg:items-center">
+				<!--            <div v-for="(text, idx) of head.text" :key="text.id" class="rounded-lg bg-slate-50 px-6 py-8 sm:p-10 lg:flex lg:items-center">-->
+				<div class="flex-1">
+					<div class="">
+						<h2 class="mx-auto px-4 py-1 text-xl text-center tracking-wide text-slate-800">
+							<strong class="text-3xl md:text-4xl"
+								>{data.rubric.rubric_one.value} со склада в Дзержинске.</strong
+							>
+							<br /> Цены, товарный ассортимент и описание продукции.
+						</h2>
+					</div>
+					{#each data.rubric.rubric_one?.text as { key, value }}
+						{#if key === '1'}
+							<div class="mt-8 text-lg text-slate-600">{@html value}</div>
+						{/if}
+					{/each}
+				</div>
+			</div>
+			<div class="mt-6 rounded-md shadow lg:flex-shrink-0">
+				<a
+					href="/information/action"
+					class="flex items-center justify-center rounded-md border border-transparent bg-slate-700 px-5 py-3 text-base text-center font-medium text-slate-50 hover:bg-slate-800"
+				>
+					{data.rubric.rubric_one.value} по доступным ценам с доставкой в Дзержинске. Cледите за нашими
+					акциями!
+				</a>
+			</div>
 		</div>
 	</div>
 </div>
