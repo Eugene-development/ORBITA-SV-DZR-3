@@ -97,9 +97,9 @@
 								<div class="mt-4  items-baseline text-center text-2xl font-extrabold">
 									{value}
 								</div>
-								<!--                                                  <p class="mt-5 text-lg text-slate-500">-->
-								<!--                                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.-->
-								<!--                                                  </p>-->
+								<!-- <p class="mt-5 text-lg text-slate-500">
+									Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+								</p> -->
 							</div>
 							<div
 								class="flex flex-1 flex-col justify-between px-6 pb-6 transition ease-in-out hover:scale-105"
