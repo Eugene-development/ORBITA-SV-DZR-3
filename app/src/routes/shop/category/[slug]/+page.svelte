@@ -424,7 +424,8 @@
 							<strong class="text-3xl md:text-4xl"
 								>{data.rubric.rubric_one.value} со склада в Дзержинске.</strong
 							>
-							<br /> Цены, товарный ассортимент и описание продукции.
+							<br />
+							<p class="pt-2">Наши цены, ассортимент товаров и применение.</p>
 						</h2>
 					</div>
 					{#each data.rubric.rubric_one?.text as { key, value }}
@@ -439,8 +440,7 @@
 					href="/information/action"
 					class="flex items-center justify-center rounded-md border border-transparent bg-slate-700 px-5 py-3 text-base text-center font-medium text-slate-50 hover:bg-slate-800"
 				>
-					{data.rubric.rubric_one.value} по доступным ценам с доставкой в Дзержинске. Cледите за нашими
-					акциями!
+					{data.rubric.rubric_one.value} по низкой цене с доставкой в Дзержинске. Cледите за нашими акциями!
 				</a>
 			</div>
 		</div>

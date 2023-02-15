@@ -310,7 +310,8 @@
 							<strong class="text-3xl md:text-4xl"
 								>{data.category.category_one.value} со склада в Дзержинске.</strong
 							>
-							<br /> Цены, товарный ассортимент и описание продукции.
+							<br />
+							<p class="pt-3">Цены, товарный ассортимент и описание продукции.</p>
 						</h2>
 					</div>
 					{#each data.category.category_one?.text as { key, value }}
