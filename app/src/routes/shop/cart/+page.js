@@ -25,7 +25,7 @@ export async function load() {
 	// });
 
 	// prodInCart.update(() => productsInCart);
-	pageH1.update(() => 'Корзина');
+	// pageH1.update(() => 'Корзина');
 
 	return { ccc };
 }
