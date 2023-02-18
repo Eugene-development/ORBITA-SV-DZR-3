@@ -84,7 +84,7 @@
 	import { browser } from '$app/environment';
 
 	export let data;
-	// console.log(data);
+	console.log(data);
 
 	const idProducts = browser && JSON.parse(localStorage.getItem('inCart'));
 	let productsInCart = [];
@@ -94,7 +94,7 @@
 	forEach(productsInCart, function (item) {
 		item.quantity = 1;
 	});
-	prodInCart.update(() => productsInCart);
+	// prodInCart.update(() => productsInCart);
 </script>
 
 <svelte:head>
