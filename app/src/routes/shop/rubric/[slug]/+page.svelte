@@ -126,9 +126,7 @@
 					<!--            <div v-for="(text, idx) of head.text" :key="text.id" class="rounded-lg bg-slate-50 px-6 py-8 sm:p-10 lg:flex lg:items-center">-->
 					<div class="flex-1">
 						<div>
-							<h2
-								class="inline-flex rounded-full bg-white px-4 py-1 text-2xl font-semibold tracking-wide text-slate-800"
-							>
+							<h2 class="inline-flex px-4 py-1 text-2xl font-semibold tracking-wide text-slate-800">
 								{data.catalog.catalog_one.value}. Цены, описание и услуги.
 							</h2>
 						</div>
