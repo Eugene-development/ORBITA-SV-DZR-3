@@ -94,7 +94,7 @@
 	forEach(productsInCart, function (item) {
 		item.quantity = 1;
 	});
-	// prodInCart.update(() => productsInCart);
+	prodInCart.update(() => productsInCart);
 </script>
 
 <svelte:head>
@@ -160,8 +160,7 @@
 					</thead>
 					<tbody class="divide-y divide-gray-200">
 						<!-- {#each productsInCart as { id, value, price, unit, img, quantity }, idx} -->
-						{#each productsInCart as { id, value, price, unit, img, quantity }, idx}
-							<!-- {#each $prodInCart as { id, value, price, unit, img, quantity }, idx} -->
+						{#each $prodInCart as { id, value, price, unit, img, quantity }, idx}
 							<tr>
 								<td
 									class="w-full max-w-0 py-4 pl-4 pr-3 text-sm font-medium text-gray-900  sm:w-auto sm:max-w-none sm:pl-6"
