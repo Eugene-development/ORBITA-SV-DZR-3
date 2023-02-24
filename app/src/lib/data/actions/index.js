@@ -275,7 +275,7 @@ const actions = [
 	},
 	{
 		id: '463',
-		action: 'Наливной пол "ЕК" level 2.1 быстротвердеющий (20 кг)',
+		action: 'Наливной пол "ЕК" level 2.0 быстротвердеющий (20 кг)',
 		price: '396',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/nalivnoi-pol-ek-level-20-bystrotverdeyushhii-vlagostoikii-20-kg',
