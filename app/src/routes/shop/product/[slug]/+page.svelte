@@ -83,19 +83,19 @@
 						<div class="mb-4 flex">
 							<button
 								on:click={changeVisibleDescriptionInfo}
-								class="flex-grow border-slate-300  py-2 px-1 text-lg focus:outline-none {true
+								class="flex-grow border-slate-300  py-2 px-1 text-lg focus:outline-none {$visibleDescription
 									? 'border-b-2 font-bold'
 									: 'font-normal'}">Описание</button
 							>
 							<button
 								on:click={changeVisiblePaymentInfo}
-								class="flex-grow border-slate-300 py-2 px-1 text-lg focus:outline-none {false
+								class="flex-grow border-slate-300 py-2 px-1 text-lg focus:outline-none {$visiblePayment
 									? 'border-b-2 font-bold'
 									: 'font-normal '}">Оплата</button
 							>
 							<button
 								on:click={changeVisibleDeliveryInfo}
-								class="flex-grow border-slate-300 py-2 px-1 text-lg focus:outline-none {false
+								class="flex-grow border-slate-300 py-2 px-1 text-lg focus:outline-none {$visibleDelivery
 									? 'border-b-2 font-bold'
 									: 'font-normal '}">Доставка</button
 							>
