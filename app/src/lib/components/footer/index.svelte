@@ -415,8 +415,8 @@
 					<!--            </svg>-->
 					<!--          </a>-->
 				</div>
-				<p class="mt-8 text-base text-gray-400 md:order-1 md:mt-0">
-					&copy; 2015-{year} База строительных материалов "Орбита-строй".
+				<p class="mt-8 text-sm text-gray-400 md:order-1 md:mt-0">
+					&copy; 2015-{year} База строительных материалов "Орбита-строй". Интернет магазин стройматериалов.
 				</p>
 			</div>
 		</div>
