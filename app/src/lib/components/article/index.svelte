@@ -61,7 +61,7 @@
 							<img
 								class="rounded-lg object-cover object-center shadow-lg"
 								src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/pages/serv_4.jpg"
-								alt="stroymat"
+								alt="интернет магазин стройматериалов"
 								width="1184"
 								height="1376"
 							/>
