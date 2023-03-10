@@ -33,7 +33,7 @@
 <div class="relative mt-4 overflow-hidden bg-white">
 	<div class=" mx-auto max-w-full">
 		<div
-			class="pl-2 lg:pl-16 relative z-10 bg-slate-100 pb-8 sm:pb-10 md:pb-12 lg:pb-16 xl:pb-20 lg:w-full lg:max-w-4xl "
+			class="pl-2 lg:pl-8 relative z-10 bg-slate-100 pb-8 sm:pb-8 md:pb-10 lg:pb-12 xl:pb-16 lg:w-full lg:max-w-4xl "
 		>
 			<svg
 				class="absolute inset-y-0 right-0 hidden h-full w-40 translate-x-1/2 transform text-white lg:block"
@@ -51,16 +51,22 @@
 
 			<main class="mx-auto mt-10 max-w-7xl px-4 lg:px-8 sm:mt-8 sm:px-6 md:mt-10 lg:mt-6 xl:mt-12 ">
 				<div class="sm:text-center lg:text-left">
-					<h1 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-3xl md:text-4xl">
+					<h1 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-2xl md:text-3xl">
 						<span class="block xl:inline">{dataSlider.action}</span> <br />
 						<!-- <span class="block text-cyan-700 xl:inline">{dataSlider.brand}</span> -->
 					</h1>
 					<p
+						class="mt-3 text-sm text-gray-700 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-base md:mt-5 lg:mx-0"
+					>
+						Цена <strong>{Math.round(dataSlider.price - dataSlider.price * 0.05)} р/шт</strong> со скидкой
+						5% через наш строительный интернет магазин
+					</p>
+					<!-- <p
 						class="mt-3 text-base text-gray-700 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0"
 					>
 						Цена <strong>{Math.round(dataSlider.price - dataSlider.price * 0.05)} р/шт</strong> со скидкой
 						5% при заказе на сайте
-					</p>
+					</p> -->
 					<!-- <p
 						class="mt-3 text-base text-gray-700 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0"
 					>
@@ -77,14 +83,14 @@
 								<button
 									on:click|preventDefault|once={() => sendToCart(id)}
 									type="button"
-									class="flex w-full items-center justify-center rounded-md border border-transparent bg-cyan-700 px-8 py-2 text-base font-medium text-white hover:bg-cyan-800 md:py-2 md:px-10 md:text-lg"
+									class="flex w-full items-center justify-center rounded-md border border-transparent bg-cyan-700 px-8 py-1 text-base font-medium text-white hover:bg-cyan-800  md:px-10 md:text-lg"
 									>В корзину</button
 								>
 							</div>
 						{:else}
 							<div class="rounded-md shadow">
 								<div
-									class="flex w-full items-center justify-center rounded-md border border-transparent bg-cyan-800 px-8 py-2 text-base font-medium text-white hover:bg-cyan-700 md:py-2 md:px-10 md:text-lg"
+									class="flex w-full items-center justify-center rounded-md border border-transparent bg-cyan-800 px-8 py-1 text-base font-medium text-white hover:bg-cyan-700  md:px-10 md:text-lg"
 								>
 									В корзине
 								</div>
@@ -93,7 +99,7 @@
 						<div class="mt-3 sm:mt-0 sm:ml-3">
 							<a
 								href={dataSlider.link}
-								class="flex w-full items-center justify-center rounded-md border border-transparent bg-cyan-50 px-8 py-2 text-base font-medium text-cyan-900 hover:bg-cyan-200 md:py-2 md:px-10 md:text-lg"
+								class="flex w-full items-center justify-center rounded-md border border-transparent bg-cyan-50 px-8 py-1 text-base font-medium text-cyan-900 hover:bg-cyan-200 md:px-10 md:text-lg"
 								>Подробнее</a
 							>
 						</div>
