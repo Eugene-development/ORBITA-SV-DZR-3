@@ -28,18 +28,20 @@
 							d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
 						/>
 					</svg>
-					<span class="text-white ml-2">Дзержинск</span>
+					<span class="text-white ml-2 text-sm">Дзержинск</span>
 				</div>
 			</div>
-			<div class="mx-auto sm:text-center">
-				<p class="font-medium text-white antialiased">
+			<div class="mx-auto px-2 sm:text-center">
+				<p class="font-medium text-sm text-white antialiased">
 					<!-- <span class="md:hidden">Специальные цены на утеплитель от 725р.</span>
 					<span class="hidden md:inline">
 						Спецпредложение. Только в эти дни!!! Специальные цены на утеплитель от 725р.</span
 					> -->
-					<span class="md:hidden">Минус 10% на всё ТОЛЬКО В ВОСКРЕСЕНЬЕ на Ярмарке (35 ангар)</span>
+					<span class="md:hidden"
+						>Купите строительные материалы со скидкой 10% В ВОСКРЕСЕНЬЕ на Ярмарке (35 ангар)</span
+					>
 					<span class="hidden md:inline">
-						Минус 10% на все товары ТОЛЬКО В ВОСКРЕСЕНЬЕ на Ярмарке (35 ангар)</span
+						Купите строительные материалы со скидкой 10% В ВОСКРЕСЕНЬЕ на Ярмарке (35 ангар)</span
 					>
 					<!-- <span class="block sm:ml-2 sm:inline-block">
 						<a href="/information/action" class="font-bold text-white underline">
@@ -59,7 +61,7 @@
 					<span class="sr-only">Dismiss</span>
 					<!-- Heroicon name: outline/x -->
 					<svg
-						class="h-4 w-4 text-white"
+						class="h-3 w-3 text-white"
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
 						viewBox="0 0 24 24"
