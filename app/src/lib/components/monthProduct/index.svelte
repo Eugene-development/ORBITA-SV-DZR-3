@@ -112,7 +112,7 @@
 		<img
 			class="py-2 h-56 w-full object-contain sm:h-56 md:h-72 lg:h-full lg:w-full hidden lg:block"
 			src={dataSlider.img}
-			alt=""
+			alt="стройматериалы"
 		/>
 		<!-- <img
 			class="h-56 w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full"
