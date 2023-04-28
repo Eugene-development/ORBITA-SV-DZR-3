@@ -128,7 +128,7 @@ const actions = [
 	{
 		id: '1661',
 		action: 'Утеплитель Технониколь роклайт 1200*600*50',
-		price: '834',
+		price: '980',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/uteplitel-texnonikol-roklait-120060050',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/c2eHGTqI7cLLb0g8nf4vlbuB6KENnH59Ukii45om.jpg'
@@ -144,7 +144,7 @@ const actions = [
 	{
 		id: '228',
 		action: 'Плита осб-3 2500*1250*9мм Kronospan ГОСТ (влагостойкая)',
-		price: '438',
+		price: '480',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/plita-osb-3-250012509mm-Kronospan-gost-vlagostoikaya',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/ilejI7dCV3zr72h4VudvlNrQLKBgHsrYwKd1HoAL.jpeg'
@@ -168,7 +168,7 @@ const actions = [
 	{
 		id: '2766',
 		action: 'Поликарбонат сотовый прозрачный 4мм (г. Богородск)',
-		price: '5747',
+		price: '5421',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/polikarbonat-sotovyi-prozracnyi-4mm',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/lSHy2nYTCubCyXeSrG38YM8CD4DPL88MeYQzrSSw.png'
