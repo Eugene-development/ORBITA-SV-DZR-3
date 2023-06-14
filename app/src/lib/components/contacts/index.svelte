@@ -301,6 +301,25 @@
 						<div class="space-y-6 xl:space-y-10">
 							<img
 								class="mx-auto h-48 w-40 rounded-2xl xl:h-64 xl:w-56"
+								src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/team/sxCcH7B4ptttgnTmCGxUq0WLyMS59OxIh169wWfn.jpeg"
+								alt="Kozhevnikova"
+							/>
+							<div class="space-y-2 xl:flex xl:items-center xl:justify-between">
+								<div class="space-y-1 text-lg font-medium leading-6">
+									<h3 class="text-white">Кожевникова Юля</h3>
+									<p class="text-indigo-400">менеджер</p>
+									<p class="text-indigo-400">8 (951) 919-26-06</p>
+									<p class="text-indigo-400">manager@orbita-stroy.com</p>
+									<p class="text-indigo-400">orbita88yuliya@mail.ru</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="rounded-lg bg-gray-800 py-10 px-6 text-center xl:px-10 xl:text-left">
+						<div class="space-y-6 xl:space-y-10">
+							<img
+								class="mx-auto h-48 w-40 rounded-2xl xl:h-64 xl:w-56"
 								src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/team/fANB4m5y0UU9DaBVNL7WNuPNAy4EwWQ8MA85e3s3.jpeg"
 								alt="Popova"
 							/>
@@ -368,23 +387,6 @@
 									<p class="text-indigo-400">менеджер</p>
 									<p class="text-indigo-400">8-987-082-64-23</p>
 									<p class="text-indigo-400">orbitaira@yandex.ru</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="rounded-lg bg-gray-800 py-10 px-6 text-center xl:px-10 xl:text-left">
-						<div class="space-y-6 xl:space-y-10">
-							<img
-								class="mx-auto h-48 w-40 rounded-2xl xl:h-64 xl:w-56"
-								src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/team/sxCcH7B4ptttgnTmCGxUq0WLyMS59OxIh169wWfn.jpeg"
-								alt="Kozhevnikova"
-							/>
-							<div class="space-y-2 xl:flex xl:items-center xl:justify-between">
-								<div class="space-y-1 text-lg font-medium leading-6">
-									<h3 class="text-white">Кожевникова Юля</h3>
-									<p class="text-indigo-400">менеджер</p>
-									<p class="text-indigo-400">89519192606</p>
-									<p class="text-indigo-400">orbita88ydiviya@mail.ru</p>
 								</div>
 							</div>
 						</div>
