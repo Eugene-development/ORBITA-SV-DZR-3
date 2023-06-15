@@ -187,6 +187,20 @@
 		</div>
 	</div>
 
+	<!-- Карта -->
+	<div class="my-8 p-2 bg-gray-50 mx-16 overflow-hidden sm:rounded-lg shadow-xl">
+		<div class="px-4 py-4 sm:p-6 ">
+			<iframe
+				class="mx-auto"
+				src="https://yandex.ru/map-widget/v1/?um=constructor%3Aca61ff22a5f3ccf0758454d96fa4428e6873fcc111a287ffc09faaef74d17234&amp;source=constructor"
+				width="1174"
+				height="461"
+				frameborder="0"
+				title="Map"
+			/>
+		</div>
+	</div>
+
 	<!-- This example requires Tailwind CSS v2.0+ -->
 	<div class="bg-gray-900">
 		<div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8 lg:py-24">
