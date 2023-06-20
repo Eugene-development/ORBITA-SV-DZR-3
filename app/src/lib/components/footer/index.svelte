@@ -73,7 +73,7 @@
 											stroke-width="2"
 										/>
 									</svg>
-									8 (8313) 31-02-28
+									8 (8314) 23-70-96
 								</div>
 
 								<p class="text-base text-gray-100 hover:text-white">

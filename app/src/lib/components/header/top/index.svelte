@@ -54,7 +54,7 @@
 						<a
 							href="tel:+7831310228"
 							class="rounded-md px-1.5 py-0.5 mx-4 text-base font-medium text-white ring-2 ring-gray-50/10 hover:ring-gray-100/20 bg-cyan-700"
-							>8 (831) 31-02-28</a
+							>8 (8314) 23-70-96</a
 						>
 						<a
 							href="tel:+79023033654"
@@ -313,7 +313,7 @@
 					</svg> -->
 					<a
 						class="rounded-md p-1 ml-1 text-xs font-medium text-gray-200 sm:text-base md:text-lg ring-2 ring-gray-50/10 hover:ring-gray-100/20 bg-cyan-900"
-						href="tel:+7831310228">8(831) 31-02-28</a
+						href="tel:+7831310228">8 (8314) 23-70-96</a
 					>
 				</div>
 

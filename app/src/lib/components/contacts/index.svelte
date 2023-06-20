@@ -52,7 +52,7 @@
 								</svg>
 							</div>
 							<div class="ml-3 text-base">
-								<p>+7 (8313) 31-02-28</p>
+								<p>8 (8314) 23-70-96</p>
 							</div>
 						</div>
 						<div class="mt-6 flex">
