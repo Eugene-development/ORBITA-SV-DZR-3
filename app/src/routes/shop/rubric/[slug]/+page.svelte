@@ -126,8 +126,8 @@
 					<!--            <div v-for="(text, idx) of head.text" :key="text.id" class="rounded-lg bg-slate-50 px-6 py-8 sm:p-10 lg:flex lg:items-center">-->
 					<div class="flex-1">
 						<div>
-							<h2 class="inline-flex px-4 py-1 text-2xl font-semibold tracking-wide text-slate-800">
-								{data.catalog.catalog_one.value}. Цены, описание и услуги.
+							<h2 class="inline-flex py-1 text-2xl font-semibold tracking-wide text-slate-800">
+								{data.catalog.catalog_one.value}. Цены, описание и применение.
 							</h2>
 						</div>
 						<div class="mt-8 text-lg text-slate-600">
