@@ -38,7 +38,16 @@
 			address,
 			comments
 		};
+
+		// Текущая дата
+		var currentDate = new Date();
+		var day = currentDate.getDate();
+		var month = currentDate.getMonth() + 1; // Месяцы в объекте Date нумеруются с 0, поэтому добавляем 1
+		var year = currentDate.getFullYear();
+		const date = day + '.' + month + '.' + year;
+
 		const data = {
+			date,
 			products: $prodInCart,
 			totalSum: totalSum,
 			information: informationForm
