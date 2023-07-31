@@ -6,7 +6,10 @@
 
 <svelte:head>
 	<title>"Орбита-строй" | Стройматериалы по акции</title>
-	<meta name="description" content="Акции на стройматериалы от компании 'Орбита строй'" />
+	<meta
+		name="description"
+		content="Акции на строительные и отделочные материалы от компании 'Орбита строй'"
+	/>
 </svelte:head>
 
 <Actions {...data.contentActions} />

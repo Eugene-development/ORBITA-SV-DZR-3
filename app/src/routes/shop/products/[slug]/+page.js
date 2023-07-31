@@ -6,14 +6,16 @@ export async function load({ data }) {
 	const { category } = data;
 	const title =
 		data.category.category_one.value +
-		' по выгодным ценам. Купите товар ' +
+		' по ценам ниже конкурентов. Купите товар "' +
 		data.category.category_one.value +
-		' в Дзержинске со склада';
+		'" в Дзержинске с нашего склада.';
 	const description =
 		data.category.category_one.value +
-		' оптом и в розницу по привлекательной цене. Данный товар можно купить на нашем сайте. ' +
+		' по привлекательной цене оптом и в розницу. Данный товар "' +
 		data.category.category_one.value +
-		' в Дзержинске и регионе с доставкой.';
+		'" можно купить на нашем сайте или напрямую со склада. Актуальная акция: "' +
+		data.category.category_one.value +
+		' в Дзержинске с доставкой до объекта".';
 	const pathAWS = import.meta.env.VITE_IMAGE_PRODUCTS;
 	// pageH1.update(() => data.category.category_one.value);
 
