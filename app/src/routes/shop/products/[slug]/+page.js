@@ -11,11 +11,11 @@ export async function load({ data }) {
 		'" в Дзержинске с нашего склада.';
 	const description =
 		data.category.category_one.value +
-		' по привлекательной цене оптом и в розницу. Данный товар "' +
+		' по привлекательной цене оптом и в розницу. Данный товар ' +
 		data.category.category_one.value +
-		'" можно купить на нашем сайте или напрямую со склада. Актуальная акция: "' +
+		' можно купить на нашем сайте или напрямую со склада. Актуальная акция: ' +
 		data.category.category_one.value +
-		' в Дзержинске с доставкой до объекта".';
+		' в Дзержинске с доставкой до объекта.';
 	const pathAWS = import.meta.env.VITE_IMAGE_PRODUCTS;
 	// pageH1.update(() => data.category.category_one.value);
 
