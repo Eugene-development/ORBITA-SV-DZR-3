@@ -23,14 +23,14 @@ const actions = [
 	// 	link: '/shop/product/spaklevka-ek-vh-80-fasadnaya-belaya-20-kg',
 	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-VH80.png'
 	// },
-	// {
-	// 	id: '261',
-	// 	action: 'ГВЛВ "Кнауф" 10 мм (1200*2500)',
-	// 	price: '683',
-	// 	description: 'При заказе через сайт дополнительная скидка 5%',
-	// 	link: '/shop/product/gvlv-knauf-10-mm-12002500',
-	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B3%D0%B2%D0%BB.jpg'
-	// },
+	{
+		id: '261',
+		action: 'ГВЛВ "Кнауф" 10 мм (1200*2500)',
+		price: '790',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/shop/product/gvlv-knauf-10-mm-12002500',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B3%D0%B2%D0%BB.jpg'
+	},
 	// {
 	// 	id: '2810',
 	// 	action: 'Цемент м500 Евроцемент 40 кг',
@@ -79,12 +79,14 @@ const actions = [
 	// 	link: '/shop/product/gruntovka-universalnaya-ek-g200-5-l',
 	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-G200.png'
 	// },
-	// {
-	// 	action: 'Cмесь для пола "юнис" горизонт универсальный (20 кг)',
-	// 	price: '342 рубля',
-	// 	description: 'При заказе через сайт дополнительная скидка 5%',
-	// 	link: '/shop/product/cmes-dlya-pola-yunis-gorizont-universalnyi-20-kg'
-	// },
+	{
+		id: '466',
+		action: 'Cмесь для пола "Юнис" горизонт универсальный (20 кг)',
+		price: '360',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/shop/product/cmes-dlya-pola-yunis-gorizont-universalnyi-20-kg',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%8E%D1%83.jpg'
+	},
 	// {
 	// 	id: '463',
 	// 	action: 'Наливной пол "ЕК" level 2.0 быстротвердеющий влагостойкий (20кг)',
@@ -142,13 +144,38 @@ const actions = [
 	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%84%D0%BB%D0%B8%D0%B7%D0%B5%D0%BD.webp'
 	// },
 	{
-		id: '2946',
-		action: 'Плита осб-3 2500*1250*6мм Kronospan ГОСТ (влагостойкая)',
-		price: '500',
+		id: '314',
+		action:
+			'Клей для плитки и керамогранита "Церезит см 14 extra" для улицы и теплых полов (25 кг)',
+		price: '710',
 		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/shop/product/plita-osb-3-250012506mm-kronospan-gost-vlagostoykaya',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/YBbav3JxXOKl8hYDTen6CzCa1TUlMBagzDxTXlFO.png'
+		link: '/shop/product/klei-dlya-plitki-i-keramogranita-cerezit-sm-14-extra-dlya-ulicy-i-teplyx-polov-25-kg',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%81%D0%BC14.jpg'
 	},
+	{
+		id: '121',
+		action: 'Линокром ткп сланец серый (10 м2)',
+		price: '1700',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/shop/product/linokrom-tkp-slanec-seryi-10-m',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BB%D0%B8%D0%BD%D0%BE%D0%BA%D1%80%D0%BE%D0%BC.jpg'
+	},
+	{
+		id: '123',
+		action: 'Линокром тпп (15 м2)',
+		price: '2340',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/shop/product/linokrom-tpp-15-m2',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BB%D0%B8%D0%BD%D0%BE%D0%BA%D1%80%D0%BE%D0%BC.jpg'
+	}
+	// {
+	// 	id: '2946',
+	// 	action: 'Плита осб-3 2500*1250*6мм Kronospan ГОСТ (влагостойкая)',
+	// 	price: '500',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/plita-osb-3-250012506mm-kronospan-gost-vlagostoykaya',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/YBbav3JxXOKl8hYDTen6CzCa1TUlMBagzDxTXlFO.png'
+	// },
 	// {
 	// 	id: '228',
 	// 	action: 'Плита осб-3 2500*1250*9мм Kronospan ГОСТ (влагостойкая)',
@@ -157,14 +184,14 @@ const actions = [
 	// 	link: '/shop/product/plita-osb-3-250012509mm-Kronospan-gost-vlagostoikaya',
 	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/ilejI7dCV3zr72h4VudvlNrQLKBgHsrYwKd1HoAL.jpeg'
 	// },
-	{
-		id: '1421',
-		action: 'Плита ОСБ-3 2500*1250*12мм Kronospan ГОСТ (влагостойкая)',
-		price: '750',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/shop/product/plita-osb-3-2500125012mm-kronospan-gost-vlagostoikaya',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/14ztRKlEjShs6Hnr5L5moOWqn7cOCpDhgEbYd7uG.jpeg'
-	},
+	// {
+	// 	id: '1421',
+	// 	action: 'Плита ОСБ-3 2500*1250*12мм Kronospan ГОСТ (влагостойкая)',
+	// 	price: '750',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/plita-osb-3-2500125012mm-kronospan-gost-vlagostoikaya',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/14ztRKlEjShs6Hnr5L5moOWqn7cOCpDhgEbYd7uG.jpeg'
+	// },
 	// {
 	// 	id: '470',
 	// 	action: 'Смесь сухая универсальная м-150 (25 кг)',
@@ -181,22 +208,22 @@ const actions = [
 	// 	link: '/shop/product/peskobeton-m-300-25-kg',
 	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BF%D0%B5%D1%81.jpg'
 	// },
-	{
-		id: '2766',
-		action: 'Мастика гидроизоляционная 20 кг. "Альфатехмаст"',
-		price: '1750',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/shop/product/mastika-gidroizolyacionnaya-20-kg-alfatexmast',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/qxoqQpTjJzhnAIzNEo9kjXtMHpNxo5oXEOfRYwGq.jpg'
-	},
-	{
-		id: '1734',
-		action: 'Поликарбонат сотовый прозрачный 4мм (г. Богородск)',
-		price: '5525',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/shop/product/polikarbonat-sotovyi-prozracnyi-4mm',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/lSHy2nYTCubCyXeSrG38YM8CD4DPL88MeYQzrSSw.png'
-	},
+	// {
+	// 	id: '2766',
+	// 	action: 'Мастика гидроизоляционная 20 кг. "Альфатехмаст"',
+	// 	price: '1750',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/mastika-gidroizolyacionnaya-20-kg-alfatexmast',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/qxoqQpTjJzhnAIzNEo9kjXtMHpNxo5oXEOfRYwGq.jpg'
+	// },
+	// {
+	// 	id: '1734',
+	// 	action: 'Поликарбонат сотовый прозрачный 4мм (г. Богородск)',
+	// 	price: '5525',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/polikarbonat-sotovyi-prozracnyi-4mm',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/lSHy2nYTCubCyXeSrG38YM8CD4DPL88MeYQzrSSw.png'
+	// },
 	// {
 	// 	action: 'Утеплитель Технониколь роклайт 1200*600*100',
 	// 	price: '1190 рубля',
@@ -219,30 +246,30 @@ const actions = [
 	// 	link: '/shop/product/klei-dlya-plitki-ek-3000-25kg',
 	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-3000-UNIVERSAL.png'
 	// },
-	{
-		id: '436',
-		action: 'Штукатурная смесь "Кнауф Ротбанд" белая (30 кг)',
-		price: '545',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/shop/product/stukaturnaya-smes-knauf-rotband-belaya-30-kg',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/020_original.jpg'
-	},
-	{
-		id: '965',
-		action: 'Эпп Технониколь 1180*580*50-l',
-		price: '348',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/shop/product/epp-xps30-200-texnopleks-118058050-l',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/XPS-%D0%A2%D0%95%D0%A5%D0%9D%D0%9E%D0%9F%D0%9B%D0%95%D0%9A%D0%A1.png'
-	},
-	{
-		id: '964',
-		action: 'Эпп Технониколь 1180*580*30-l',
-		price: '200',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/shop/product/epp-xps30-200-texnopleks-118058030-l',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/XPS-%D0%A2%D0%95%D0%A5%D0%9D%D0%9E%D0%9F%D0%9B%D0%95%D0%9A%D0%A1.png'
-	},
+	// {
+	// 	id: '436',
+	// 	action: 'Штукатурная смесь "Кнауф Ротбанд" белая (30 кг)',
+	// 	price: '545',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/stukaturnaya-smes-knauf-rotband-belaya-30-kg',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/020_original.jpg'
+	// },
+	// {
+	// 	id: '965',
+	// 	action: 'Эпп Технониколь 1180*580*50-l',
+	// 	price: '348',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/epp-xps30-200-texnopleks-118058050-l',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/XPS-%D0%A2%D0%95%D0%A5%D0%9D%D0%9E%D0%9F%D0%9B%D0%95%D0%9A%D0%A1.png'
+	// },
+	// {
+	// 	id: '964',
+	// 	action: 'Эпп Технониколь 1180*580*30-l',
+	// 	price: '200',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/epp-xps30-200-texnopleks-118058030-l',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/XPS-%D0%A2%D0%95%D0%A5%D0%9D%D0%9E%D0%9F%D0%9B%D0%95%D0%9A%D0%A1.png'
+	// },
 	// {
 	// 	id: '70',
 	// 	action: 'Утеплитель техновент стандарт (1200*600*50 мм), 0,216 м3',
@@ -278,12 +305,6 @@ const actions = [
 	// 	price: '130 рублей',
 	// 	description: 'При заказе через сайт дополнительная скидка 5%',
 	// 	link: '/shop/product/epp-xps30-200-texnopleks-118058050-l'
-	// },
-	// {
-	// 	action: 'Гвлв "Кнауф" 10 мм (1200*2500)',
-	// 	price: '672 рублей',
-	// 	description: 'При заказе через сайт дополнительная скидка 5%',
-	// 	link: '/shop/product/gvlv-knauf-10-mm-12002500'
 	// },
 	// {
 	//     action: 'Пена пистолетная kudo proff 65+ всесезон',
@@ -345,14 +366,14 @@ const actions = [
 	//     description: 'При заказе через сайт дополнительная скидка 5%',
 	//     link: '/shop/product/sofit-izol-d-gidro-paroizolyaciya-15m-70-m2'
 	// },
-	{
-		id: '431',
-		action: 'Штукатурная смесь "ЕК" tg 40 (30 кг)',
-		price: '460',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/shop/product/stukaturnaya-smes-ek-tg-40-30-kg',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TG40.png'
-	}
+	// {
+	// 	id: '431',
+	// 	action: 'Штукатурная смесь "ЕК" tg 40 (30 кг)',
+	// 	price: '460',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/stukaturnaya-smes-ek-tg-40-30-kg',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TG40.png'
+	// }
 	// {
 	// 	id: '432',
 	// 	action: 'Штукатурная смесь "ЕК" tg 40 waite (30 кг)',
