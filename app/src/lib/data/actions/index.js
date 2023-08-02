@@ -167,6 +167,14 @@ const actions = [
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/linokrom-tpp-15-m2',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BB%D0%B8%D0%BD%D0%BE%D0%BA%D1%80%D0%BE%D0%BC.jpg'
+	},
+	{
+		id: '1826',
+		action: 'Профнастил с-21 ral 8017 1054*2000',
+		price: '850',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/shop/product/profnastil-s-21-ral-8017-10542000',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/rvvzF15GbXg2v7TOeDZIyunJBLtXDBSHCaI1NQEJ.jpg'
 	}
 	// {
 	// 	id: '2946',
