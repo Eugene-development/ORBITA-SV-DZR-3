@@ -79,14 +79,14 @@ const actions = [
 	// 	link: '/shop/product/gruntovka-universalnaya-ek-g200-5-l',
 	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-G200.png'
 	// },
-	{
-		id: '466',
-		action: 'Cмесь для пола "Юнис" горизонт универсальный (20 кг)',
-		price: '360',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/shop/product/cmes-dlya-pola-yunis-gorizont-universalnyi-20-kg',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%8E%D1%83.jpg'
-	},
+	// {
+	// 	id: '466',
+	// 	action: 'Cмесь для пола "Юнис" горизонт универсальный (20 кг)',
+	// 	price: '360',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/cmes-dlya-pola-yunis-gorizont-universalnyi-20-kg',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%8E%D1%83.jpg'
+	// },
 	// {
 	// 	id: '463',
 	// 	action: 'Наливной пол "ЕК" level 2.0 быстротвердеющий влагостойкий (20кг)',
@@ -143,15 +143,15 @@ const actions = [
 	// 	link: '/shop/product/klei-dlya-plitki-knauf-flizenkleber-25-kg',
 	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%84%D0%BB%D0%B8%D0%B7%D0%B5%D0%BD.webp'
 	// },
-	{
-		id: '314',
-		action:
-			'Клей для плитки и керамогранита "Церезит см 14 extra" для улицы и теплых полов (25 кг)',
-		price: '710',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/shop/product/klei-dlya-plitki-i-keramogranita-cerezit-sm-14-extra-dlya-ulicy-i-teplyx-polov-25-kg',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%81%D0%BC14.jpg'
-	},
+	// {
+	// 	id: '314',
+	// 	action:
+	// 		'Клей для плитки и керамогранита "Церезит см 14 extra" для улицы и теплых полов (25 кг)',
+	// 	price: '710',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/klei-dlya-plitki-i-keramogranita-cerezit-sm-14-extra-dlya-ulicy-i-teplyx-polov-25-kg',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%81%D0%BC14.jpg'
+	// },
 	{
 		id: '121',
 		action: 'Линокром ткп сланец серый (10 м2)',
@@ -167,15 +167,15 @@ const actions = [
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/linokrom-tpp-15-m2',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BB%D0%B8%D0%BD%D0%BE%D0%BA%D1%80%D0%BE%D0%BC.jpg'
-	},
-	{
-		id: '1826',
-		action: 'Профнастил с-21 ral 8017 1054*2000',
-		price: '850',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/shop/product/profnastil-s-21-ral-8017-10542000',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/rvvzF15GbXg2v7TOeDZIyunJBLtXDBSHCaI1NQEJ.jpg'
 	}
+	// {
+	// 	id: '1826',
+	// 	action: 'Профнастил с-21 ral 8017 1054*2000',
+	// 	price: '850',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/profnastil-s-21-ral-8017-10542000',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/rvvzF15GbXg2v7TOeDZIyunJBLtXDBSHCaI1NQEJ.jpg'
+	// }
 	// {
 	// 	id: '2946',
 	// 	action: 'Плита осб-3 2500*1250*6мм Kronospan ГОСТ (влагостойкая)',

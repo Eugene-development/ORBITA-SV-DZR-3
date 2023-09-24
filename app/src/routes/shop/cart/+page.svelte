@@ -61,6 +61,7 @@
 				// 'Access-Control-Allow-Methods': '*',
 			}
 		};
+		// console.log(data);
 		axios.post('/sendOrder', data, apiMail);
 	};
 	const payYouKassa = async () => {
