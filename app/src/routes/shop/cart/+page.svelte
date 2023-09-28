@@ -1,5 +1,6 @@
 <script>
 	/** @type {import('./$types').PageData} */
+	import { goto } from '$app/navigation';
 	import { reject, without, pullAllBy, forEach, find, filter } from 'lodash';
 	import axios from 'axios';
 	import { lengthCart, idProductsInCart, prodInCart, allProducts } from '$lib/store/stores.js';
@@ -89,6 +90,8 @@
 		sendMail();
 		payYouKassa();
 		cleanData();
+		goto('/spasibo');
+		// window.location = 'https://xn----7sbc2ahzelejid.xn--p1ai/spasibo';
 	};
 
 	import { browser } from '$app/environment';

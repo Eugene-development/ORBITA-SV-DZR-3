@@ -52,6 +52,7 @@
 			}
 		};
 		await axios.post(url, payloadCart, apiCart);
+		// window.location.href = 'https://xn----7sbc2ahzelejid.xn--p1ai/spasibo';
 	};
 
 	export let data;
