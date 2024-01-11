@@ -42,6 +42,7 @@
 					<!-- <span class="hidden md:inline">
 						У торговой точки на Ярмарке в воскресенье выходной день</span
 					> -->
+					<span class="hidden md:inline"> Весь январь скидка 10% на весь ассортимент товара</span>
 					<!-- <span class="block sm:ml-2 sm:inline-block">
 						<a href="/information/action" class="font-bold text-white underline">
 							Подробнее <span aria-hidden="true">&rarr;</span></a
