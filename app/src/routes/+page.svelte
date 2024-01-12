@@ -32,7 +32,7 @@
 	/>
 </svelte:head>
 
-<section class="py-24">
+<section class="py-16">
 	<div class="grid max-w-7xl px-2 py-2 mx-auto lg:gap-8 xl:gap-0 lg:py-2  lg:grid-cols-12">
 		<div class="mr-auto place-self-center lg:col-span-7">
 			<h2
@@ -68,7 +68,8 @@
 	{/each}
 </Swiper>
 <!-- <Hero /> -->
-<Actual {...data.contentActions} />
+<!-- <Actual {...data.contentActions} /> -->
+<Actual />
 <!-- <MonthProduct /> -->
 <!-- <Slider /> -->
 <Testimonials />
