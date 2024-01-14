@@ -17,7 +17,7 @@ const actions = [
 	},
 	{
 		id: '1661',
-		action: 'Утеплитель Технониколь роклайт 1200*600*50',
+		action: 'Утеплитель Технониколь Роклайт 1200*600*50',
 		price: '1075',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/uteplitel-texnonikol-roklait-120060050',
@@ -32,7 +32,7 @@ const actions = [
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%84%D0%B0%D0%BD%D0%B5%D1%80%D0%B0.jpg'
 	},
 	{
-		id: '311',
+		id: '312',
 		action: 'Клей для керамгранита "Церезит СМ 11" (25 кг)',
 		price: '480',
 		description: 'При заказе через сайт дополнительная скидка 5%',

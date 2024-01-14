@@ -9,7 +9,7 @@
 		let price = product.price?.value;
 		return sum + price * product.quantity;
 	}, 0);
-	$: totalSum = (total - total * 0.05).toFixed(2);
+	$: totalSum = (total - total * 0.1).toFixed(2);
 	$: first_name = '';
 	$: phone = '';
 	$: address = '';
@@ -193,7 +193,7 @@
 											<span
 												class="inline-flex rounded-md bg-cyan-100 px-2 text-xs font-semibold leading-5 text-cyan-900"
 											>
-												Цена со скидкой: {price?.value - price?.value * 0.05} руб/{unit?.value}
+												Цена со скидкой: {price?.value - price?.value * 0.1} руб/{unit?.value}
 											</span>
 										</dd>
 										<dt class="sr-only sm:hidden">Количество</dt>
@@ -217,7 +217,7 @@
 									<span
 										class="inline-flex rounded-md bg-cyan-100 px-3 py-1 text-sm font-semibold leading-5 text-cyan-900"
 									>
-										{price?.value - price?.value * 0.05} руб/{unit?.value}
+										{price?.value - price?.value * 0.1} руб/{unit?.value}
 									</span>
 								</td>
 								<td class="hidden px-3 py-4 text-sm text-gray-500 sm:table-cell">
@@ -228,7 +228,7 @@
 									/>
 								</td>
 								<td class="px-3 py-4 text-sm text-gray-500"
-									>{((price?.value - price?.value * 0.05) * quantity).toFixed(2)}</td
+									>{((price?.value - price?.value * 0.1) * quantity).toFixed(2)}</td
 								>
 								<td class="py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
 									<button
@@ -294,7 +294,7 @@
 		<div class="m-8 text-right">
 			<span
 				class="inline-flex  rounded-md bg-cyan-100 px-3.5 py-1 text-xs font-medium text-cyan-800 sm:text-base"
-				>ИТОГО (с учётом скидки 5%): {totalSum} руб.</span
+				>ИТОГО (с учётом скидки 10%): {totalSum} руб.</span
 			>
 		</div>
 
