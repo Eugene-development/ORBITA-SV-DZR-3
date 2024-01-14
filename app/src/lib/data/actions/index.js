@@ -32,13 +32,12 @@ const actions = [
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%84%D0%B0%D0%BD%D0%B5%D1%80%D0%B0.jpg'
 	},
 	{
-		id: '',
-		action:
-			'Клей для плитки и керамогранита "Церезит СМ 14 extra" для улицы и теплых полов (25 кг)',
-		price: '822',
+		id: '311',
+		action: 'Клей для керамгранита "Церезит СМ 11" (25 кг)',
+		price: '480',
 		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/shop/product/klei-dlya-plitki-i-keramogranita-cerezit-sm-14-extra-dlya-ulicy-i-teplyx-polov-25-kg',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%81%D0%BC14.jpg'
+		link: '/shop/product/klei-dlya-keramgranita-cerezit-sm-11-25-kg',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%81%D0%BC%2011%20%D0%BF%D0%BB.jpeg'
 	},
 	{
 		id: '965',
