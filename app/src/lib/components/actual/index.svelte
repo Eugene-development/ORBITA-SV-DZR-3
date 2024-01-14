@@ -324,6 +324,14 @@
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/YBbav3JxXOKl8hYDTen6CzCa1TUlMBagzDxTXlFO.png'
 		},
 		{
+			id: '161',
+			action: 'Пена пистолетная "KUDO Home 65" всесезонная',
+			price: '440',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/pena-pistoletnaya-kudo-home-65-vsesezonnaya',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/96cddb9d3879573617bbb8e8fdccfc3b.jpg'
+		},
+		{
 			id: '343',
 			action: 'Кабель ВВГ  3*2,5 ГОСТ',
 			price: '100',

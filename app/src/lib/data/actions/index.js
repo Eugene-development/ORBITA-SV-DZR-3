@@ -8,6 +8,14 @@ const actions = [
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B3%D0%B2%D0%BB.jpg'
 	},
 	{
+		id: '1543',
+		action: 'Гклв "Кнауф" даногипс 12,5мм (1,2х2,5)',
+		price: '500',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/shop/product/gklv-knauf-danogips-125mm-12x25',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/lvfXJZnJe2ASRUHpI5X2dxVN30ZPHmVRFh0MDJyi.jpeg'
+	},
+	{
 		id: '1661',
 		action: 'Утеплитель Технониколь роклайт 1200*600*50',
 		price: '1195',
@@ -22,6 +30,15 @@ const actions = [
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/fanera-10mm-sort-34-15251525',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%84%D0%B0%D0%BD%D0%B5%D1%80%D0%B0.jpg'
+	},
+	{
+		id: '',
+		action:
+			'Клей для плитки и керамогранита "Церезит СМ 14 extra" для улицы и теплых полов (25 кг)',
+		price: '822',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/shop/product/klei-dlya-plitki-i-keramogranita-cerezit-sm-14-extra-dlya-ulicy-i-teplyx-polov-25-kg',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%81%D0%BC14.jpg'
 	},
 	{
 		id: '965',
