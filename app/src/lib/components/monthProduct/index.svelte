@@ -33,7 +33,7 @@
 <div class="relative mt-4 overflow-hidden bg-white">
 	<div class=" mx-auto max-w-full">
 		<div
-			class="pl-2 lg:pl-8 relative z-10 bg-slate-100 pb-8 sm:pb-8 md:pb-10 lg:pb-12 xl:pb-16 lg:w-full lg:max-w-4xl "
+			class="pl-2 lg:pl-8 relative z-10 bg-slate-100 pb-8 sm:pb-8 md:pb-10 lg:pb-12 xl:pb-16 lg:w-full lg:max-w-5xl "
 		>
 			<svg
 				class="absolute inset-y-0 right-0 hidden h-full w-40 translate-x-1/2 transform text-white lg:block"
