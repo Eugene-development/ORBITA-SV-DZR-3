@@ -2,7 +2,7 @@ const actions = [
 	{
 		id: '261',
 		action: 'ГВЛВ "Кнауф" 10 мм (1200*2500)',
-		price: '789',
+		price: '710',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/gvlv-knauf-10-mm-12002500',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B3%D0%B2%D0%BB.jpg'
@@ -18,7 +18,7 @@ const actions = [
 	{
 		id: '1661',
 		action: 'Утеплитель Технониколь роклайт 1200*600*50',
-		price: '1195',
+		price: '1075',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/uteplitel-texnonikol-roklait-120060050',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/c2eHGTqI7cLLb0g8nf4vlbuB6KENnH59Ukii45om.jpg'
@@ -26,7 +26,7 @@ const actions = [
 	{
 		id: '235',
 		action: 'Фанера 10мм, сорт 3/4 (1,525*1,525)',
-		price: '822',
+		price: '739',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/fanera-10mm-sort-34-15251525',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%84%D0%B0%D0%BD%D0%B5%D1%80%D0%B0.jpg'
@@ -42,7 +42,7 @@ const actions = [
 	{
 		id: '965',
 		action: 'Эпп технониколь 1180*580*50-l',
-		price: '356',
+		price: '320',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/epp-xps30-200-texnopleks-118058050-l',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/XPS-%D0%A2%D0%95%D0%A5%D0%9D%D0%9E%D0%9F%D0%9B%D0%95%D0%9A%D0%A1.png'
