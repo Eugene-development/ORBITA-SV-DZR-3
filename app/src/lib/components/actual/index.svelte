@@ -259,7 +259,7 @@
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/020_original.jpg'
 		},
 		{
-			id: '317',
+			id: '448',
 			action: 'Шпаклевка гипсовая "ек" к 300 (20 кг)',
 			price: '535',
 			description: 'При заказе через сайт дополнительная скидка 5%',
