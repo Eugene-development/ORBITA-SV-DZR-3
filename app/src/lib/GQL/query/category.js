@@ -10,6 +10,7 @@ export const ONE_CATEGORY = gql`
 			}
 			product {
 				id
+				is_active
 				value
 				slug
 				price {
