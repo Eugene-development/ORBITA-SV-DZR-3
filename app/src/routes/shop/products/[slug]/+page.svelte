@@ -202,9 +202,10 @@
 									{/if}
 									{#if !is_active}
 										<span
-											class="rounded-full bg-red-900 px-3 py-1.5 text-sm font-medium text-slate-100"
-											>Нет в наличии</span
+											class="mt-3 rounded-full bg-red-900 px-3 py-1.5 text-sm font-medium text-slate-100 whitespace-nowrap"
 										>
+											Нет в наличии
+										</span>
 									{/if}
 								</dd>
 							</dl>
