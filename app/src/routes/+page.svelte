@@ -38,7 +38,7 @@
 			<h2
 				class="max-w-7xl mb-4 text-5xl font-bold tracking-tight leading-none md:text-5xl xl:text-8xl dark:text-gray-800"
 			>
-				Весь январь &#10052;
+				Весь февраль &#10052;
 			</h2>
 			<p
 				class="max-w-2xl mb-6 font-light text-gray-500 lg:my-8 md:text-lg lg:text-xl dark:text-gray-400"

@@ -236,16 +236,16 @@
 		// },
 		{
 			id: '431',
-			action: 'Штукатурная смесь "ЕК" TG 40 (30кг)',
-			price: '425',
+			action: 'Штукатурная смесь "ЕК" TG 40 (30кг) беж',
+			price: '430',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/stukaturnaya-smes-ek-tg-40-30-kg',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TG40.png'
 		},
 		{
 			id: '432',
-			action: 'Штукатурная смесь "ЕК" TG 40 (30кг)',
-			price: '450',
+			action: 'Штукатурная смесь "ЕК" TG 40 (30кг) white',
+			price: '505',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/stukaturnaya-smes-ek-tg-40-waite-30-kg',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TG40-WHITE.png'
@@ -260,8 +260,8 @@
 		},
 		{
 			id: '448',
-			action: 'Шпаклевка гипсовая "ЕК" к 300 (20 кг)',
-			price: '535',
+			action: 'Шпаклевка гипсовая "ЕК" к 300 (25 кг)',
+			price: '580',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/spaklevka-gipsovaya-ek-k-300-20-kg',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-K300.png'
@@ -269,7 +269,7 @@
 		{
 			id: '464',
 			action: 'Наливной пол "ЕК" level 2.1 быстротвердеющий (20 кг)',
-			price: '335',
+			price: '370',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/nalivnoi-pol-ek-level-21-bystrotverdeyushhii-20-kg',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-level-2.1.png'
@@ -310,7 +310,7 @@
 		{
 			id: '520',
 			action: 'Грунтовка универсальная концентрированная "ЕК" g100 (10 л)',
-			price: '1100',
+			price: '1200',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/gruntovka-universalnaya-koncentrirovannaya-ek-g100-10-l',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-G100.png'
