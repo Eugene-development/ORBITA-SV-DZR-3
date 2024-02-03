@@ -32,8 +32,10 @@
 	/>
 </svelte:head>
 
-<section class="py-16">
-	<div class="grid max-w-7xl px-2 py-2 mx-auto lg:gap-8 xl:gap-0 lg:py-2  lg:grid-cols-12">
+<section class="py-12">
+	<div
+		class="grid max-w-full px-2 lg:px-24 py-2 mx-auto lg:gap-8 xl:gap-0 lg:py-2  lg:grid-cols-12"
+	>
 		<div class="mr-auto place-self-center lg:col-span-7">
 			<h2
 				class="max-w-7xl mb-4 text-5xl font-bold tracking-tight leading-none md:text-5xl xl:text-8xl dark:text-gray-800"
@@ -41,10 +43,13 @@
 				Весь февраль &#10052;
 			</h2>
 			<p
-				class="max-w-2xl mb-6 font-light text-gray-500 lg:my-8 md:text-lg lg:text-xl dark:text-gray-400"
+				class="max-w-3xl mb-6 font-light text-gray-500 lg:my-8 md:text-lg lg:text-xl dark:text-gray-400"
 			>
-				Наша зимняя акция для всех клиентов в Новом году!!! <br /> На весь ассортимент мы предлагаем
-				скидку в 10 процентов до 31 января 2024 года. Ждём Вас на нашей базе стройматериалов.
+				Отзывчивость к нашим клиентам и стремление быть максимально клиентоориентированными
+				подтолкнули нас к решению продлить акцию. Теперь вы можете воспользоваться <span
+					class="text-red-700">скидкой в 10 процентов</span
+				> не только посетив нашу базу строительных материалов, но и делая заказы через наш интернет-магазин
+				стройматериалов до 29 февраля 2024 года.
 			</p>
 		</div>
 		<div class="hidden px-12 lg:mt-0 lg:col-span-5 lg:flex">
