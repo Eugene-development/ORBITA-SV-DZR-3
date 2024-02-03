@@ -13,8 +13,6 @@
 	import 'swiper/css/pagination';
 	import 'swiper/css/scrollbar';
 	import { contentActions } from '$lib/data/actions';
-
-	export let data;
 </script>
 
 <!-- {#each data.data.test888.rubric as {value}}
@@ -32,7 +30,7 @@
 	/>
 </svelte:head>
 
-<section class="py-12">
+<section class="py-14">
 	<div
 		class="grid max-w-full px-2 lg:px-24 py-2 mx-auto lg:gap-8 xl:gap-0 lg:py-2  lg:grid-cols-12"
 	>

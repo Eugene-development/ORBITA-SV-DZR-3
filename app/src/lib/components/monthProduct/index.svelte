@@ -30,7 +30,7 @@
 		</h3>
 	</div>
 </div> -->
-<div class="relative mt-4 overflow-hidden bg-white">
+<div class="relative mt-2 overflow-hidden bg-white">
 	<div class=" mx-auto max-w-full">
 		<div
 			class="pl-2 lg:pl-8 relative z-10 bg-slate-100 pb-8 sm:pb-8 md:pb-10 lg:pb-12 xl:pb-16 lg:w-full lg:max-w-5xl "
@@ -46,7 +46,7 @@
 			</svg>
 
 			<div>
-				<div class="relative px-4 pt-6 sm:px-6 lg:px-8" />
+				<div class="relative px-4 pt-2 sm:px-6 lg:px-8" />
 			</div>
 
 			<main class="mx-auto mt-10 max-w-7xl px-4 lg:px-8 sm:mt-8 sm:px-6 md:mt-10 lg:mt-6 xl:mt-12 ">
@@ -114,7 +114,7 @@
 		<img
 			class="py-2 h-56 w-full object-contain sm:h-56 md:h-72 lg:h-full lg:w-full hidden lg:block"
 			src={dataSlider.img}
-			alt="стройматериалы"
+			alt={dataSlider.action}
 		/>
 		<!-- <img
 			class="h-56 w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full"
