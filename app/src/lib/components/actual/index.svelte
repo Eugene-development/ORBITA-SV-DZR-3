@@ -237,7 +237,7 @@
 		{
 			id: '431',
 			action: 'Штукатурная смесь "ЕК" TG 40 (30кг) беж',
-			price: '430',
+			price: '480',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/stukaturnaya-smes-ek-tg-40-30-kg',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TG40.png'
