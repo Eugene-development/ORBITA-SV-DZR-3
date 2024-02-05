@@ -511,7 +511,7 @@
 			Актуальные товары по низким ценам
 		</h2>
 		<p class="py-2 text-xl text-center tracking-tight text-gray-900">
-			Плюс скидка 5% при заказе через интернет магазин стройматериалов.
+			Плюс <span class="text-red-800">скидка 10%</span> при заказе через интернет магазин стройматериалов.
 		</p>
 
 		<div class="mt-8 grid grid-cols-1 gap-y-8 gap-x-6 sm:grid-cols-2 lg:grid-cols-5 xl:gap-x-8">
