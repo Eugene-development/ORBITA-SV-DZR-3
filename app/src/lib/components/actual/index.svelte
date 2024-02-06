@@ -285,7 +285,7 @@
 		{
 			id: '267',
 			action: 'Клей для плитки "ЕК" 3000 (25кг)',
-			price: '340',
+			price: '370',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/klei-dlya-plitki-ek-3000-25kg',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-3000-UNIVERSAL.png'
