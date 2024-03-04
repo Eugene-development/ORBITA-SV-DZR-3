@@ -37,12 +37,16 @@
 					<span class="hidden md:inline">
 						Спецпредложение. Только в эти дни!!! Специальные цены на утеплитель от 725р.</span
 					> -->
-					<span class="md:hidden">Весь март скидка 5% на весь ассортимент товара</span>
+					<span class="md:hidden"
+						>-7% на весь ассортимент при заказе с Ярмарки, т. 8 (902) 303-36-54</span
+					>
 					<!-- <span class="md:hidden">У торговой точки на Ярмарке в воскресенье выходной день</span> -->
 					<!-- <span class="hidden md:inline">
 						У торговой точки на Ярмарке в воскресенье выходной день</span
 					> -->
-					<span class="hidden md:inline"> Весь март скидка 5% на весь ассортимент товара</span>
+					<span class="hidden md:inline">
+						-7% на весь ассортимент при заказе с Ярмарки, т. 8 (902) 303-36-54</span
+					>
 					<!-- <span class="block sm:ml-2 sm:inline-block">
 						<a href="/information/action" class="font-bold text-white underline">
 							Подробнее <span aria-hidden="true">&rarr;</span></a
