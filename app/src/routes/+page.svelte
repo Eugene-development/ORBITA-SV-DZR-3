@@ -1,5 +1,6 @@
 <script>
 	import MonthProduct from '$lib/components/monthProduct/index.svelte';
+	import ActionProduct from '$lib/components/actionProduct/index.svelte';
 	import Actual from '$lib/components/actual/index.svelte';
 	import Testimonials from '$lib/components/testimonials/index.svelte';
 	import Message from '$lib/components/message/index.svelte';
@@ -77,6 +78,7 @@
 		<SwiperSlide><MonthProduct {dataSlider} /></SwiperSlide>
 	{/each}
 </Swiper>
+<ActionProduct />
 <!-- <Hero /> -->
 <!-- <Actual {...data.contentActions} /> -->
 <Actual />
