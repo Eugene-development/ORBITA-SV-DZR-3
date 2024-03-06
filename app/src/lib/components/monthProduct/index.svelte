@@ -33,7 +33,7 @@
 <div class="relative mt-2 overflow-hidden bg-white">
 	<div class=" mx-auto max-w-full">
 		<div
-			class="pl-2 lg:pl-8 relative z-10 bg-slate-100 pb-8 sm:pb-8 md:pb-10 lg:pb-12 xl:pb-16 lg:w-full lg:max-w-5xl "
+			class="pl-2 lg:pl-8 relative z-10 bg-slate-100 pb-8 sm:pb-8 md:pb-10 lg:pb-12 xl:pb-16 lg:w-full lg:max-w-3xl "
 		>
 			<svg
 				class="absolute inset-y-0 right-0 hidden h-full w-40 translate-x-1/2 transform text-white lg:block"
@@ -51,12 +51,12 @@
 
 			<main class="mx-auto mt-10 max-w-7xl px-4 lg:px-8 sm:mt-8 sm:px-6 md:mt-10 lg:mt-6 xl:mt-12 ">
 				<div class="sm:text-center lg:text-left">
-					<h1 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-2xl md:text-3xl">
+					<h1 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-2xl md:text-2xl">
 						<span class="block xl:inline">{dataSlider.action}</span> <br />
 						<!-- <span class="block text-cyan-700 xl:inline">{dataSlider.brand}</span> -->
 					</h1>
 					<p
-						class="mt-3 text-sm text-gray-700 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-base md:mt-5 lg:mx-0"
+						class="mt-3 text-sm text-gray-700 sm:mx-auto sm:mt-2 sm:max-w-xl sm:text-base md:mt-2 lg:mx-0"
 					>
 						<strong>{Math.round(dataSlider.price)} р/шт</strong> со скидкой
 						<!-- <strong>{Math.round(dataSlider.price - dataSlider.price * 0.1)} р/шт</strong> со скидкой -->
@@ -79,7 +79,7 @@
 					>
 						Уточняйте количество на складе.
 					</p> -->
-					<div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+					<div class="mt-2 sm:mt-4 sm:flex sm:justify-center lg:justify-start">
 						{#if browser && !InCart.some((arrVal) => id === arrVal)}
 							<div class="rounded-md shadow">
 								<button
@@ -110,9 +110,9 @@
 			</main>
 		</div>
 	</div>
-	<div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/3">
+	<div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
 		<img
-			class="py-2 h-56 w-full object-contain sm:h-56 md:h-72 lg:h-full lg:w-full hidden lg:block"
+			class="py-2 h-56 w-full object-contain sm:h-56 md:h-72 lg:h-full lg:w-full hidden xl:block"
 			src={dataSlider.img}
 			alt={dataSlider.action}
 		/>
