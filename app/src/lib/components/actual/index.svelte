@@ -48,7 +48,7 @@
 		{
 			id: '534',
 			action: 'Грунтовка для впитывающих оснований "CERESIT CT 17" (10 л)',
-			price: '',
+			price: '1020',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/gruntovka-dlya-vpityvayushhix-osnovanii-cerezit-st-17-10-l',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/5.png'
@@ -64,7 +64,7 @@
 		{
 			id: '1566',
 			action: 'ЦСП 3200*1250 (10мм)',
-			price: '',
+			price: '2000',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/csp-32001250-10mm',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/wZELb17Oyadmk5gfUtaMK39XagKoWwt6iCw2ROpv.jpeg'
