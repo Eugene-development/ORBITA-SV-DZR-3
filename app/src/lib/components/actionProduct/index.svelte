@@ -1,10 +1,10 @@
-<div class="relative bg-gray-800 my-12">
+<div class="relative bg-gray-800 my-12 md:my-24">
 	<div
-		class="relative my-8 h-80 overflow-hidden bg-gray-800 md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2"
+		class="hidden md:block relative pt-12 h-80 overflow-hidden bg-white md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2"
 	>
 		<img
-			class="h-full w-full object-fill"
-			src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TG40.png"
+			class="h-full w-full object-contain"
+			src="https://радуга-ремонта.рф/image/cache/catalog/37520-1000x1000.jpg"
 			alt="Стройматериалы по акции"
 		/>
 	</div>
