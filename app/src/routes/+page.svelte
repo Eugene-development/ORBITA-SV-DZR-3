@@ -30,9 +30,9 @@
 	/>
 </svelte:head>
 
-<section class="py-16">
+<section class="py-4 lg:py-16">
 	<div
-		class="grid max-w-full px-2 lg:px-24 py-2 mx-auto lg:gap-8 xl:gap-0 lg:py-2  lg:grid-cols-12"
+		class="grid max-w-full px-6 lg:px-24 py-2 mx-auto lg:gap-8 xl:gap-0 lg:py-2  lg:grid-cols-12"
 	>
 		<div class="mr-auto place-self-center lg:col-span-7">
 			<h2
