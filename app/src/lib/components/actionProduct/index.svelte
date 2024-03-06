@@ -26,20 +26,20 @@
 	>
 		<img
 			class="h-full w-full object-contain"
-			src="https://радуга-ремонта.рф/image/cache/catalog/37520-1000x1000.jpg"
+			src="https://storage.yandexcloud.net/orbita/actions/37520-1000x1000%20(1).jpg"
 			alt="Стройматериалы по акции"
 		/>
 	</div>
 	<div class="relative mx-auto max-w-7xl py-24 sm:py-32 lg:px-8 lg:py-32">
 		<div class="pl-6 pr-6 md:ml-auto md:w-2/3 md:pl-16 lg:w-1/2 lg:pl-24 lg:pr-0 xl:pl-32">
 			<h2 class="text-base font-semibold leading-7 text-cyan-400">Предложение месяца</h2>
-			<p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
-				Штукатурка ЕК ТГ 40 30 кг - 460 руб.
+			<p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-5xl">
+				Штукатурка ЕК TG 40
 			</p>
+			<p class="mt-4 text-3xl font-semibold tracking-tight text-white sm:text-4xl">460 руб/30кг</p>
 			<p class="mt-6 text-base leading-7 text-gray-300">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam
-				sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat
-				quisque ut interdum tincidunt duis.
+				Предлагаем приобрести штукатурку гипсовую ЕК TG 40 на нашей базе стройматериалов по
+				специальной цене.
 			</p>
 			{#if browser && !InCart.some((arrVal) => '431' === arrVal)}
 				<div class="mt-8">
@@ -49,15 +49,6 @@
 						>В корзину</button
 					>
 				</div>
-
-				<!-- <div class="rounded-md shadow">
-					<button
-						
-						type="button"
-						class="flex w-full items-center justify-center rounded-md border border-transparent bg-cyan-700 px-8 py-1 text-base font-medium text-white hover:bg-cyan-800  md:px-10 md:text-lg"
-						>В корзину</button
-					>
-				</div> -->
 			{:else}
 				<div class="mt-8">
 					<button
