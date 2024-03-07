@@ -36,7 +36,7 @@
 			<p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-5xl">
 				Штукатурка ЕК TG 40
 			</p>
-			<p class="mt-4 text-3xl font-semibold tracking-tight text-white sm:text-4xl">460 руб/30кг</p>
+			<p class="mt-4 text-3xl font-semibold tracking-tight text-white sm:text-4xl">458 руб/30кг</p>
 			<p class="mt-6 text-base leading-7 text-gray-300">
 				Предлагаем приобрести штукатурку гипсовую ЕК TG 40 на нашей базе стройматериалов по
 				специальной цене.

@@ -606,15 +606,16 @@
 					>
 						<img src={img} alt="" class="  object-contain " />
 					</div>
-					<div class="h-16 flex justify-between">
+					<div class="h-8 mt-2 flex justify-between">
 						<div>
 							<h3 class="pl-2 text-xs text-gray-700">
 								<span aria-hidden="true" class="inset-0" />
 								{action}
 							</h3>
 						</div>
-						<p class="ml-2 text-base font-medium text-gray-900">{price}р.</p>
 					</div>
+					<p class="m-2 text-base font-medium text-gray-900">{price}р.</p>
+
 					{#if browser && !InCart.some((arrVal) => id === arrVal)}
 						<button
 							on:click|preventDefault|once={sendToCart(id)}
