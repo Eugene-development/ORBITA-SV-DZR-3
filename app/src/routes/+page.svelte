@@ -14,6 +14,26 @@
 	import 'swiper/css/pagination';
 	import 'swiper/css/scrollbar';
 	import { contentActions } from '$lib/data/actions';
+
+	import { browser } from '$app/environment';
+	import { lengthCart, idProductsInCart } from '$lib/store/stores.js';
+
+	let InCart;
+	idProductsInCart.subscribe((value) => (InCart = value));
+
+	const sendToCart = async (id) => {
+		if (browser && localStorage.getItem('inCart') === null) {
+			browser && localStorage.setItem('inCart', JSON.stringify([id]));
+		} else {
+			const itemsCart = JSON.parse(localStorage.getItem('inCart'));
+			const newItemsCart = [...itemsCart, id];
+			localStorage.setItem('inCart', JSON.stringify(newItemsCart));
+		}
+
+		const productsInCart = JSON.parse(localStorage.getItem('inCart'));
+		lengthCart.update(() => productsInCart.length);
+		idProductsInCart.update(() => productsInCart);
+	};
 </script>
 
 <!-- {#each data.data.test888.rubric as {value}}
@@ -31,17 +51,25 @@
 	/>
 </svelte:head>
 
-<section class="py-4 lg:py-16">
-	<div
-		class="grid max-w-full px-6 lg:px-24 py-2 mx-auto lg:gap-8 xl:gap-0 lg:py-2  lg:grid-cols-12"
-	>
+<section class="py-4 lg:py-16 ">
+	<div class="grid max-w-full px-6 lg:px-24  mx-auto lg:gap-8 xl:gap-0  lg:grid-cols-12">
 		<div class="mr-auto place-self-center lg:col-span-7">
 			<h2
 				class="max-w-7xl mb-4 text-5xl font-bold tracking-tight leading-none md:text-5xl xl:text-8xl dark:text-gray-800"
 			>
 				Весь МАРТ
 			</h2>
+
+			<p class="max-w-4xl mb-6 font-light text-red-800 lg:my-8 md:text-lg lg:text-2xl">
+				Штукатурка ЕК TG40 458 руб/30кг
+			</p>
 			<p
+				class="max-w-3xl mb-6 font-light text-gray-600 lg:my-8 md:text-lg lg:text-lg dark:text-gray-500"
+			>
+				Предлагаем приобрести штукатурку гипсовую ЕК TG 40 на нашей базе стройматериалов по
+				специальной цене. Имеется услуга доставки до объекта.
+			</p>
+			<!-- <p
 				class="max-w-4xl mb-6 font-light text-gray-600 lg:my-8 md:text-lg lg:text-lg dark:text-gray-500"
 			>
 				Отзывчивость к нашим клиентам и стремление быть максимально клиентоориентированными
@@ -49,14 +77,41 @@
 					class="text-red-800">скидкой в 5 процентов</span
 				> не только посетив нашу базу строительных материалов, но и делая заказы через наш интернет-магазин
 				стройматериалов до 31 марта 2024 года.
-			</p>
+			</p> -->
+
+			{#if browser && !InCart.some((arrVal) => '431' === arrVal)}
+				<div class="mt-8">
+					<button
+						on:click|preventDefault|once={() => sendToCart('431')}
+						class="inline-flex rounded-md bg-gray-600 px-16 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-cyan-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+						>В корзину</button
+					>
+				</div>
+			{:else}
+				<div class="mt-8">
+					<button
+						class="inline-flex rounded-md px-16 py-2.5 text-sm font-semibold text-white shadow-sm bg-cyan-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+						>В корзине</button
+					>
+				</div>
+			{/if}
 		</div>
 		<div class="hidden px-16 lg:mt-0 lg:col-span-5 lg:flex">
 			<img
 				class=""
-				src="https://avatars.mds.yandex.net/get-tycoon/742106/2a0000017cbcc1394a569016ca2347baf6b8/priority-promotion"
+				src="https://storage.yandexcloud.net/orbita/actions/-TG40-458-30-09-03-2024%20(1).png"
 				alt="скидка"
 			/>
+			<!-- <img
+				class="h-96"
+				src="https://storage.yandexcloud.net/orbita/actions/37520-1000x1000%20(1).jpg"
+				alt="скидка"
+			/> -->
+			<!-- <img
+				class=""
+				src="https://avatars.mds.yandex.net/get-tycoon/742106/2a0000017cbcc1394a569016ca2347baf6b8/priority-promotion"
+				alt="скидка"
+			/> -->
 		</div>
 		<!-- <div class="hidden px-16 lg:mt-0 lg:col-span-5 lg:flex">
 			<img
@@ -66,7 +121,6 @@
 		</div> -->
 	</div>
 </section>
-
 <Swiper
 	modules={[Pagination, Scrollbar, A11y, Autoplay]}
 	autoplay={{ delay: 6000 }}
@@ -78,7 +132,7 @@
 		<SwiperSlide><MonthProduct {dataSlider} /></SwiperSlide>
 	{/each}
 </Swiper>
-<ActionProduct />
+<!-- <ActionProduct /> -->
 <!-- <Hero /> -->
 <!-- <Actual {...data.contentActions} /> -->
 <Actual />
