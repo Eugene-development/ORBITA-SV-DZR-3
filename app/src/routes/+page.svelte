@@ -51,24 +51,52 @@
 	/>
 </svelte:head>
 
-<section class="py-4 lg:py-16 ">
+<section class="py-4 lg:py-12 ">
 	<div class="grid max-w-full px-6 lg:px-24  mx-auto lg:gap-8 xl:gap-0  lg:grid-cols-12">
 		<div class="mr-auto place-self-center lg:col-span-7">
-			<h2
-				class="max-w-7xl mb-4 text-5xl font-bold tracking-tight leading-none md:text-5xl xl:text-8xl dark:text-gray-800"
-			>
-				Весь МАРТ
-			</h2>
+			<div class="flex">
+				<div>
+					<h2
+						class="max-w-7xl mb-4 text-5xl font-bold tracking-tight leading-none md:text-5xl xl:text-7xl dark:text-gray-800"
+					>
+						Весь МАРТ
+					</h2>
+					<p class="max-w-lg mb-6 font-light text-red-800 lg:my-8 md:text-lg lg:text-2xl">
+						Штукатурка ЕК TG40 458 руб/30кг
+					</p>
+					<p
+						class="max-w-lg font-light text-gray-600 lg:my-8 md:text-lg lg:text-lg dark:text-gray-500"
+					>
+						Предлагаем приобрести штукатурку гипсовую ЕК TG 40 на нашей базе стройматериалов по
+						специальной цене. Имеется услуга доставки до объекта.
+					</p>
+					{#if browser && !InCart.some((arrVal) => '431' === arrVal)}
+						<div class="mt-2 md:mt-0">
+							<button
+								on:click|preventDefault|once={() => sendToCart('431')}
+								class="inline-flex rounded-md bg-gray-600 px-16 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-cyan-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+								>В корзину</button
+							>
+						</div>
+					{:else}
+						<div class="mt-2 md:mt-0">
+							<button
+								class="inline-flex rounded-md px-16 py-2.5 text-sm font-semibold text-white shadow-sm bg-cyan-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+								>В корзине</button
+							>
+						</div>
+					{/if}
+				</div>
 
-			<p class="max-w-4xl mb-6 font-light text-red-800 lg:my-8 md:text-lg lg:text-2xl">
-				Штукатурка ЕК TG40 458 руб/30кг
-			</p>
-			<p
-				class="max-w-3xl mb-6 font-light text-gray-600 lg:my-8 md:text-lg lg:text-lg dark:text-gray-500"
-			>
-				Предлагаем приобрести штукатурку гипсовую ЕК TG 40 на нашей базе стройматериалов по
-				специальной цене. Имеется услуга доставки до объекта.
-			</p>
+				<div class="h-80 overflow-hidden ">
+					<img
+						class="h-full w-full object-contain"
+						src="https://storage.yandexcloud.net/orbita/actions/37520-1000x1000%20(1).jpg"
+						alt="Стройматериалы по акции"
+					/>
+				</div>
+			</div>
+
 			<!-- <p
 				class="max-w-4xl mb-6 font-light text-gray-600 lg:my-8 md:text-lg lg:text-lg dark:text-gray-500"
 			>
@@ -78,23 +106,6 @@
 				> не только посетив нашу базу строительных материалов, но и делая заказы через наш интернет-магазин
 				стройматериалов до 31 марта 2024 года.
 			</p> -->
-
-			{#if browser && !InCart.some((arrVal) => '431' === arrVal)}
-				<div class="mt-8">
-					<button
-						on:click|preventDefault|once={() => sendToCart('431')}
-						class="inline-flex rounded-md bg-gray-600 px-16 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-cyan-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-						>В корзину</button
-					>
-				</div>
-			{:else}
-				<div class="mt-8">
-					<button
-						class="inline-flex rounded-md px-16 py-2.5 text-sm font-semibold text-white shadow-sm bg-cyan-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-						>В корзине</button
-					>
-				</div>
-			{/if}
 		</div>
 		<div class="hidden px-16 lg:mt-0 lg:col-span-5 lg:flex">
 			<img
