@@ -589,12 +589,12 @@
 
 <div class="bg-white">
 	<div class="mx-auto max-w-2xl py-8 px-4 sm:py-12 sm:px-6 lg:max-w-full lg:px-8">
-		<h2 class="py-2 text-5xl text-center font-bold tracking-tight text-gray-900">
+		<h2 class="py-4 text-3xl md:text-5xl text-center font-bold tracking-tight text-gray-900">
 			Актуальные товары по низким ценам
 		</h2>
-		<p class="py-2 text-xl text-center tracking-tight text-gray-900">
+		<!-- <p class="py-2 text-xl text-center tracking-tight text-gray-900">
 			Цены на стройматериалы указаны <span class="text-red-800">со скидкой 5%</span>
-		</p>
+		</p> -->
 
 		<div class="mt-8 grid grid-cols-1 gap-y-8 gap-x-6 sm:grid-cols-2 lg:grid-cols-5 xl:gap-x-8">
 			{#each actualProducts as { id, action, price, description, link, img }}
