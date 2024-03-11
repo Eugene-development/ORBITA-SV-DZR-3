@@ -51,7 +51,7 @@
 	/>
 </svelte:head>
 
-<section class="py-4 lg:py-12 ">
+<section class="py-4 lg:py-16 ">
 	<div class="grid max-w-full px-6 lg:px-24  mx-auto lg:gap-8 xl:gap-0  lg:grid-cols-12">
 		<div class="mr-auto place-self-center lg:col-span-7">
 			<div class="flex">
@@ -61,7 +61,7 @@
 					>
 						Весь МАРТ
 					</h2>
-					<p class="max-w-lg mb-6 font-light text-red-800 lg:my-8 md:text-lg lg:text-2xl">
+					<p class="max-w-lg mb-6 font-light text-red-800 lg:my-4 md:text-lg lg:text-2xl">
 						Штукатурка ЕК TG40 458 руб/30кг
 					</p>
 					<p
