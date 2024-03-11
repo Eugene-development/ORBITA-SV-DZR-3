@@ -79,7 +79,7 @@
 						<h1
 							class="title-font my-4 text-xl font-medium lowercase text-slate-900 first-letter:uppercase"
 						>
-							{data.product.product_one.value}-{data.product.product_one.id}
+							{data.product.product_one.value}
 							<!-- {data.product.product_one.value}-{data.product.product_one.id} -->
 						</h1>
 						<div class="mb-4 flex">
