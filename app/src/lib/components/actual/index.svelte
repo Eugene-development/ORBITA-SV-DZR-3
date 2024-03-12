@@ -100,6 +100,41 @@
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/uteplitel-texnonikol-roklait-120060050',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/c2eHGTqI7cLLb0g8nf4vlbuB6KENnH59Ukii45om.jpg'
+		},
+		{
+			id: '345',
+			action: 'Кабель ВВГ ПНГ-ls 2*2,5 гост плоский',
+			price: '65',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/kabel-vvg-png-ls-225-gost-ploskii-arzamasskii-kabelnyi-zavod',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/2%D0%BD%D0%B02.5.jpeg'
+		},
+
+		{
+			id: '1654',
+			action: 'Труба д20 l-4m серая',
+			price: '185',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/truba-d20-l-4m-seraya',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/ki77k2qf8lk4N8oWkfjflmkvOUhbn8CmX0TfEJ4A.jpg'
+		},
+
+		{
+			id: '1687',
+			action: 'Труба д25 l-4m. серая',
+			price: '472',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/truba-d25-l-4m-seraya',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/vayfYRfvBskPU7aAU9eQ6TuEwa9zNehdHOLv14Zi.jpg'
+		},
+
+		{
+			id: '2958',
+			action: 'Краска моющаяся для наружных и внутренних работ Pelligrina',
+			price: '2715',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/kraskka-peligrinna',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/peligrinnakraska.jpg'
 		}
 
 		// {
@@ -592,9 +627,10 @@
 		<h2 class="py-4 text-3xl md:text-5xl text-center font-bold tracking-tight text-gray-900">
 			Актуальные товары по низким ценам
 		</h2>
-		<!-- <p class="py-2 text-xl text-center tracking-tight text-gray-900">
-			Цены на стройматериалы указаны <span class="text-red-800">со скидкой 5%</span>
-		</p> -->
+		<p class="py-2 text-xl text-center tracking-tight text-gray-900">
+			Стройматериалы, цена которых вас приятно удивит в этом сезоне.
+			<!-- Цены на стройматериалы указаны <span class="text-red-800">со скидкой 5%</span> -->
+		</p>
 
 		<div class="mt-8 grid grid-cols-1 gap-y-8 gap-x-6 sm:grid-cols-2 lg:grid-cols-5 xl:gap-x-8">
 			{#each actualProducts as { id, action, price, description, link, img }}
