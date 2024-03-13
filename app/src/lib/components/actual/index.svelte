@@ -135,6 +135,14 @@
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/kraskka-peligrinna',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/peligrinnakraska.jpg'
+		},
+		{
+			id: '436',
+			action: 'Штукатурная смесь KNAUF ROTBAND белая (30 кг)',
+			price: '530',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/stukaturnaya-smes-knauf-rotband-belaya-30-kg',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/020_original.jpg'
 		}
 
 		// {
