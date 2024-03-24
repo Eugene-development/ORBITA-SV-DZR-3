@@ -1,5 +1,13 @@
 const actions = [
 	{
+		id: '2766',
+		action: 'Поликарбонат сотовый прозрачный 4мм (г. Богородск',
+		price: '6175',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/shop/product/polikarbonat-sotovyi-prozracnyi-4mm',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/lSHy2nYTCubCyXeSrG38YM8CD4DPL88MeYQzrSSw.png'
+	},
+	{
 		id: '314',
 		action: 'Клей для плитки и керамогранита "CERESIT CM 14 extra"',
 		price: '735',

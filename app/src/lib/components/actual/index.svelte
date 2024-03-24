@@ -346,7 +346,7 @@
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/qxoqQpTjJzhnAIzNEo9kjXtMHpNxo5oXEOfRYwGq.jpg'
 		// },
 		// {
-		// 	id: '1734',
+		// 	id: '',
 		// 	action: 'Поликарбонат сотовый прозрачный 4мм (г. Богородск)',
 		// 	price: '5525',
 		// 	description: 'При заказе через сайт дополнительная скидка 5%',
