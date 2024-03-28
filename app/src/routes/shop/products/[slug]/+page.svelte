@@ -191,7 +191,7 @@
 									{#if price}
 										<span
 											class="rounded-full bg-cyan-900 px-3  py-1.5 text-base font-medium text-slate-100"
-											>{price?.value}
+											>{Math.ceil(price?.value - price?.value * 0.05)}
 											р/{unit?.value}</span
 										>
 									{:else}

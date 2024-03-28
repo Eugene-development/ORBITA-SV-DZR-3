@@ -152,8 +152,10 @@
 							{#if data.product.product_one.price}
 								<span
 									class="title-font rounded-2xl bg-cyan-900 py-2 px-4 text-lg font-medium text-slate-100"
-									>{data.product.product_one.price?.value} р/{data.product.product_one.unit
-										?.value || ''}.</span
+									>{Math.ceil(
+										data.product.product_one.price?.value -
+											data.product.product_one.price?.value * 0.05
+									)} р/{data.product.product_one.unit?.value || ''}.</span
 								>
 							{:else}
 								<span

@@ -193,7 +193,7 @@
 											<span
 												class="inline-flex rounded-md bg-cyan-100 px-2 text-xs font-semibold leading-5 text-cyan-900"
 											>
-												Цена со скидкой: {price?.value - price?.value * 0.05} руб/{unit?.value}
+												Цена со скидкой: {Math.ceil(price?.value - price?.value * 0.05)} руб/{unit?.value}
 											</span>
 										</dd>
 										<dt class="sr-only sm:hidden">Количество</dt>
@@ -217,7 +217,7 @@
 									<span
 										class="inline-flex rounded-md bg-cyan-100 px-3 py-1 text-sm font-semibold leading-5 text-cyan-900"
 									>
-										{price?.value - price?.value * 0.05} руб/{unit?.value}
+										{Math.ceil(price?.value - price?.value * 0.05)} руб/{unit?.value}
 									</span>
 								</td>
 								<td class="hidden px-3 py-4 text-sm text-gray-500 sm:table-cell">
@@ -227,9 +227,9 @@
 										bind:value={quantity}
 									/>
 								</td>
-								<td class="px-3 py-4 text-sm text-gray-500"
-									>{((price?.value - price?.value * 0.05) * quantity).toFixed(2)}</td
-								>
+								<td class="px-3 py-4 text-sm text-gray-500 whitespace-nowrap"
+									>{Math.ceil(((price?.value - price?.value * 0.05) * quantity).toFixed(2))} руб.
+								</td>
 								<td class="py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
 									<button
 										on:click={deleteProductFromCart(id)}
@@ -294,7 +294,7 @@
 		<div class="m-8 text-right">
 			<span
 				class="inline-flex  rounded-md bg-cyan-100 px-3.5 py-1 text-xs font-medium text-cyan-800 sm:text-base"
-				>ИТОГО (с учётом скидки 5%): {totalSum} руб.</span
+				>ИТОГО (с учётом скидки 5%): {Math.ceil(totalSum)} руб.</span
 			>
 		</div>
 
