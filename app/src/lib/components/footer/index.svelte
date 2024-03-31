@@ -356,7 +356,7 @@
 						Подписаться на новости
 					</h3>
 					<p class="mt-4 text-base text-gray-300">
-						Будьте в курсе новинок и спец предложений на строительные материалы от нашей компании.
+						Будьте в курсе новинок и спец предложений на стройматериалы в Дзержинске.
 					</p>
 					<form class="mt-4 sm:flex sm:max-w-md">
 						<label for="emailAddress" class="sr-only">Email address</label>

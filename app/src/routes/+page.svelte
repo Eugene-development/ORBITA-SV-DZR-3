@@ -59,7 +59,7 @@
 					<h2
 						class="max-w-7xl mb-4  font-bold tracking-tight leading-none text-3xl md:text-5xl xl:text-7xl dark:text-gray-800"
 					>
-						Весь МАРТ
+						Весь АПРЕЛЬ
 					</h2>
 					<p class="max-w-lg mb-6 font-light text-red-800 lg:my-4 md:text-lg xl:text-2xl">
 						Штукатурка ЕК TG40 458 руб/30кг

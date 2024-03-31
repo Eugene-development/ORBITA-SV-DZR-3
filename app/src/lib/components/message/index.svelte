@@ -10,7 +10,7 @@
 					<img
 						class="object-contain py-24 px-2 h-full w-full"
 						src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/logo/logo.png"
-						alt="интернет магазин стройматериалов"
+						alt="Стройматериалы в Дзержинске"
 					/>
 				</div>
 			</div>
