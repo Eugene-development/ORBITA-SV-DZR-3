@@ -6,8 +6,7 @@
 				class="text-3xl font-extrabold tracking-tight text-white sm:text-4xl"
 			>
 				<span class="mb-6 block text-5xl text-cyan-400">"Орбита-Строй"</span>
-				<span class="block text-white">это база строительных и отделочных материалов</span>
-				<span class="block text-gray-100">в Дзержинске</span>
+				<span class="block text-white">это база стройматериалов в Дзержинске</span>
 			</h2>
 			<p class="mt-3 text-lg text-gray-300 max-w-4xl mx-auto">
 				Осуществляем оптовую и розничную продажу стройматериалов в Дзержинске. Широкий ассортимент и
