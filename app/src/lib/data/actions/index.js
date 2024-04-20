@@ -2,7 +2,7 @@ const actions = [
 	{
 		id: '2766',
 		action: 'Поликарбонат сотовый прозрачный 4мм',
-		price: '6175',
+		price: '5800',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/polikarbonat-sotovyi-prozracnyi-4mm',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/lSHy2nYTCubCyXeSrG38YM8CD4DPL88MeYQzrSSw.png'
