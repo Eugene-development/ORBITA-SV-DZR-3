@@ -51,26 +51,33 @@
 	/>
 </svelte:head>
 
-<section class="py-4 lg:py-16 ">
+<section class="py-4 lg:py-2 ">
 	<div class="grid max-w-full px-6 lg:px-24  mx-auto lg:gap-8 xl:gap-0  lg:grid-cols-12">
 		<div class="mr-auto place-self-center lg:col-span-7">
 			<div class="flex">
 				<div>
 					<h2
-						class="max-w-7xl mb-4  font-bold tracking-tight leading-none text-3xl md:text-5xl xl:text-7xl dark:text-gray-800"
+						class="max-w-7xl mb-4 font-bold tracking-tight leading-none text-3xl md:text-5xl xl:text-7xl dark:text-green-600"
 					>
-						Весь АПРЕЛЬ
+						Весь МАЙ
 					</h2>
-					<p class="max-w-lg mb-6 font-light text-red-800 lg:my-4 md:text-lg xl:text-2xl">
-						Штукатурка ЕК TG40 458 руб/30кг
+					<p class="max-w-lg mb-6 font-light text-red-700 lg:my-4 md:text-lg xl:text-2xl">
+						Всем скидка 15% на ассортимент бренда UNIS
 					</p>
 					<p
-						class="max-w-lg font-light text-gray-600 lg:my-8 text-sm md:text-base xl:text-lg dark:text-gray-500"
+						class="max-w-3xl font-light text-gray-600 lg:my-8 text-sm md:text-base xl:text-lg dark:text-gray-500"
 					>
-						Предлагаем приобрести штукатурку гипсовую ЕК TG 40 на нашей базе стройматериалов по
-						специальной цене. Имеется услуга доставки до объекта.
+						Предлагаем приобрести продукцию производителя UNIS на нашей базе стройматериалов по
+						специальной цене. Телефон вашего менеджера <span class="text-green-600 font-bold"
+							>8 (902) 303-36-54</span
+						>
 					</p>
-					{#if browser && !InCart.some((arrVal) => '431' === arrVal)}
+					<p
+						class="max-w-3xl font-light text-gray-600 lg:my-2 text-sm md:text-base xl:text-lg dark:text-gray-500"
+					>
+						Имеется услуга доставки стройматериалов до объекта.
+					</p>
+					<!-- {#if browser && !InCart.some((arrVal) => '431' === arrVal)}
 						<div class="mt-4 md:mt-0">
 							<button
 								on:click|preventDefault|once={() => sendToCart('431')}
@@ -85,16 +92,23 @@
 								>В корзине</button
 							>
 						</div>
-					{/if}
+					{/if} -->
 				</div>
 
-				<div class="hidden md:block h-80 overflow-hidden ">
+				<!-- <div class="hidden md:block h-80 overflow-hidden ">
+					<img
+						class="h-full w-full object-contain"
+						src="https://utepliteli-77.ru/files/brands/unis-logo.png"
+						alt="Стройматериалы по акции"
+					/>
+				</div> -->
+				<!-- <div class="hidden md:block h-80 overflow-hidden ">
 					<img
 						class="h-full w-full object-contain"
 						src="https://storage.yandexcloud.net/orbita/actions/37520-1000x1000%20(1).jpg"
 						alt="Стройматериалы по акции"
 					/>
-				</div>
+				</div> -->
 			</div>
 
 			<!-- <p
@@ -108,11 +122,12 @@
 			</p> -->
 		</div>
 		<div class="hidden px-16 lg:mt-0 lg:col-span-5 lg:flex">
-			<img
+			<img class="" src="https://utepliteli-77.ru/files/brands/unis-logo.png" alt="скидка" />
+			<!-- <img
 				class=""
 				src="https://storage.yandexcloud.net/orbita/actions/-TG40-458-30-09-03-2024%20(1).png"
 				alt="скидка"
-			/>
+			/> -->
 			<!-- <img
 				class="h-96"
 				src="https://storage.yandexcloud.net/orbita/actions/37520-1000x1000%20(1).jpg"
