@@ -51,32 +51,38 @@
 	/>
 </svelte:head>
 
-<section class="py-4 lg:py-2 ">
-	<div class="grid max-w-full px-6 lg:px-24  mx-auto lg:gap-8 xl:gap-0  lg:grid-cols-12">
+<section class="py-4 lg:py-12 ">
+	<div class="grid max-w-full px-6 lg:px-48 mx-auto lg:gap-8 xl:gap-0  lg:grid-cols-12">
 		<div class="mr-auto place-self-center lg:col-span-7">
 			<div class="flex">
-				<div>
-					<h2
+				<div class="mt-4">
+					<!-- <h2
 						class="max-w-7xl mb-4 font-bold tracking-tight leading-none text-3xl md:text-5xl xl:text-7xl dark:text-green-600"
 					>
 						Весь МАЙ
-					</h2>
-					<p class="max-w-lg mb-6 font-light text-red-700 lg:my-4 md:text-lg xl:text-2xl">
-						Всем скидка 15% на ассортимент бренда UNIS
+					</h2> -->
+					<p class="max-w-lg mb-6 font-extrabold text-red-700 lg:my-4 md:text-lg xl:text-7xl">
+						ВСЕМ!!!
 					</p>
-					<p
+					<p class="max-w-lg mb-6 font-extrabold text-green-700 lg:my-4 md:text-lg xl:text-7xl">
+						ВСЕМ!!!
+					</p>
+					<p class="max-w-lg mb-6 font-extrabold text-cyan-700 lg:my-4 md:text-lg xl:text-7xl">
+						ВСЕМ!!!
+					</p>
+					<!-- <p
 						class="max-w-3xl font-light text-gray-600 lg:my-8 text-sm md:text-base xl:text-lg dark:text-gray-500"
 					>
 						Предлагаем приобрести продукцию производителя UNIS на нашей базе стройматериалов по
 						специальной цене. Телефон вашего менеджера <span class="text-green-600 font-bold"
 							>8 (902) 303-36-54</span
 						>
-					</p>
-					<p
+					</p> -->
+					<!-- <p
 						class="max-w-3xl font-light text-gray-600 lg:my-2 text-sm md:text-base xl:text-lg dark:text-gray-500"
 					>
 						Имеется услуга доставки стройматериалов до объекта.
-					</p>
+					</p> -->
 					<!-- {#if browser && !InCart.some((arrVal) => '431' === arrVal)}
 						<div class="mt-4 md:mt-0">
 							<button
@@ -95,6 +101,13 @@
 					{/if} -->
 				</div>
 
+				<div class="hidden md:block h-80 overflow-hidden ml-36">
+					<img
+						class="h-full w-full object-contain"
+						src="https://ceresitshop.ru/assets/images/products/613/big_c/cm14-25.webp"
+						alt="Стройматериалы по акции"
+					/>
+				</div>
 				<!-- <div class="hidden md:block h-80 overflow-hidden ">
 					<img
 						class="h-full w-full object-contain"
@@ -122,7 +135,12 @@
 			</p> -->
 		</div>
 		<div class="hidden px-16 lg:mt-0 lg:col-span-5 lg:flex">
-			<img class="" src="https://utepliteli-77.ru/files/brands/unis-logo.png" alt="скидка" />
+			<img
+				class=""
+				src="https://gas-kvas.com/grafic/uploads/posts/2024-01/gas-kvas-com-p-znachok-aktsiya-na-prozrachnom-fone-19.png"
+				alt="скидка"
+			/>
+			<!-- <img class="" src="https://utepliteli-77.ru/files/brands/unis-logo.png" alt="скидка" /> -->
 			<!-- <img
 				class=""
 				src="https://storage.yandexcloud.net/orbita/actions/-TG40-458-30-09-03-2024%20(1).png"
