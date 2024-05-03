@@ -52,7 +52,7 @@
 </svelte:head>
 
 <section class="py-4 lg:py-12 ">
-	<div class="grid max-w-full px-6 lg:px-48 mx-auto lg:gap-8 xl:gap-0  lg:grid-cols-12">
+	<div class="grid max-w-full px-4 lg:px-12 xl:px-48 mx-auto lg:gap-8 xl:gap-0  lg:grid-cols-12">
 		<div class="mr-auto place-self-center lg:col-span-7">
 			<div class="flex">
 				<div class="mt-4">
@@ -61,15 +61,9 @@
 					>
 						Весь МАЙ
 					</h2> -->
-					<p class="max-w-lg mb-6 font-extrabold text-red-700 lg:my-4 md:text-lg xl:text-7xl">
-						ВСЕМ!!!
-					</p>
-					<p class="max-w-lg mb-6 font-extrabold text-green-700 lg:my-4 md:text-lg xl:text-7xl">
-						ВСЕМ!!!
-					</p>
-					<p class="max-w-lg mb-6 font-extrabold text-cyan-700 lg:my-4 md:text-lg xl:text-7xl">
-						ВСЕМ!!!
-					</p>
+					<p class=" mb-6 font-extrabold text-red-600 lg:my-4 text-5xl xl:text-7xl">ВСЕМ!!!</p>
+					<p class=" mb-6 font-extrabold text-green-700 lg:my-4 text-5xl xl:text-7xl">ВСЕМ!!!</p>
+					<p class=" mb-6 font-extrabold text-cyan-700 lg:my-4 text-5xl xl:text-7xl">ВСЕМ!!!</p>
 					<!-- <p
 						class="max-w-3xl font-light text-gray-600 lg:my-8 text-sm md:text-base xl:text-lg dark:text-gray-500"
 					>
@@ -137,7 +131,7 @@
 		<div class="hidden px-16 lg:mt-0 lg:col-span-5 lg:flex">
 			<img
 				class=""
-				src="https://gas-kvas.com/grafic/uploads/posts/2024-01/gas-kvas-com-p-znachok-aktsiya-na-prozrachnom-fone-19.png"
+				src="https://storage.yandexcloud.net/orbita/actions/b6a24951-cfef-49c8-a850-648cfb6a6a42.jpeg"
 				alt="скидка"
 			/>
 			<!-- <img class="" src="https://utepliteli-77.ru/files/brands/unis-logo.png" alt="скидка" /> -->
