@@ -51,19 +51,19 @@
 	/>
 </svelte:head>
 
-<section class="py-4 lg:py-12 ">
-	<div class="grid max-w-full px-4 lg:px-12 xl:px-48 mx-auto lg:gap-8 xl:gap-0  lg:grid-cols-12">
+<section class="py-4 lg:py-6 ">
+	<div class="grid max-w-full px-4 lg:px-12 xl:px-24 mx-auto lg:gap-8 xl:gap-0  lg:grid-cols-12">
 		<div class="mr-auto place-self-center lg:col-span-7">
 			<div class="flex">
-				<div class="mt-4">
+				<div class="hidden lg:block mt-4">
 					<!-- <h2
 						class="max-w-7xl mb-4 font-bold tracking-tight leading-none text-3xl md:text-5xl xl:text-7xl dark:text-green-600"
 					>
 						Весь МАЙ
 					</h2> -->
-					<p class=" mb-6 font-extrabold text-red-600 lg:my-4 text-5xl xl:text-7xl">ВСЕМ!!!</p>
-					<p class=" mb-6 font-extrabold text-green-700 lg:my-4 text-5xl xl:text-7xl">ВСЕМ!!!</p>
-					<p class=" mb-6 font-extrabold text-cyan-700 lg:my-4 text-5xl xl:text-7xl">ВСЕМ!!!</p>
+					<p class=" mb-6 font-extrabold text-red-600 lg:my-4 text-6xl xl:text-7xl">ВСЕМ!!!</p>
+					<p class=" mb-6 font-extrabold text-green-700 lg:my-4 text-6xl xl:text-7xl">ВСЕМ!!!</p>
+					<p class=" mb-6 font-extrabold text-cyan-700 lg:my-4 text-6xl xl:text-7xl">ВСЕМ!!!</p>
 					<!-- <p
 						class="max-w-3xl font-light text-gray-600 lg:my-8 text-sm md:text-base xl:text-lg dark:text-gray-500"
 					>
@@ -95,7 +95,7 @@
 					{/if} -->
 				</div>
 
-				<div class="hidden md:block h-80 overflow-hidden ml-36">
+				<div class="hidden lg:block h-80 overflow-hidden ml-36">
 					<img
 						class="h-full w-full object-contain"
 						src="https://ceresitshop.ru/assets/images/products/613/big_c/cm14-25.webp"
