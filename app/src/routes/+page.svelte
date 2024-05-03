@@ -128,7 +128,7 @@
 				стройматериалов до 31 марта 2024 года.
 			</p> -->
 		</div>
-		<div class="hidden px-16 lg:mt-0 lg:col-span-5 lg:flex">
+		<div class="hidden lg:block px-16 lg:mt-0 lg:col-span-5 ">
 			<img
 				class=""
 				src="https://storage.yandexcloud.net/orbita/actions/b6a24951-cfef-49c8-a850-648cfb6a6a42.jpeg"
