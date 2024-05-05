@@ -96,7 +96,7 @@
 		{
 			id: '1661',
 			action: 'Утеплитель Технониколь Роклайт 1200*600*50',
-			price: '1150',
+			price: '1300',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/uteplitel-texnonikol-roklait-120060050',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/c2eHGTqI7cLLb0g8nf4vlbuB6KENnH59Ukii45om.jpg'

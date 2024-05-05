@@ -10,7 +10,7 @@ const actions = [
 	{
 		id: '314',
 		action: 'Клей для плитки и керамогранита "CERESIT CM 14 extra"',
-		price: '735',
+		price: '765',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/klei-dlya-plitki-i-keramogranita-cerezit-sm-14-extra-dlya-ulicy-i-teplyx-polov-25-kg',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%81%D0%BC14.jpg'
@@ -26,7 +26,7 @@ const actions = [
 	{
 		id: '234',
 		action: 'Фанера 8мм, сорт 3/4 (1,525*1,525)',
-		price: '640',
+		price: '726',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/fanera-8mm-sort-34-15251525',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%84%D0%B0%D0%BD%D0%B5%D1%80%D0%B0.jpg'
