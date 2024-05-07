@@ -1,7 +1,7 @@
 const actions = [
 	{
 		id: '2766',
-		action: 'Поликарбонат сотовый прозрачный 4мм',
+		action: 'Поликарбонат сотовый прозрачный (размер 12х2.1м, 4мм)',
 		price: '5800',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/polikarbonat-sotovyi-prozracnyi-4mm',
