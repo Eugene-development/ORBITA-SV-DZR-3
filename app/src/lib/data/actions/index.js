@@ -7,14 +7,14 @@ const actions = [
 		link: '/shop/product/polikarbonat-sotovyi-prozracnyi-4mm',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/lSHy2nYTCubCyXeSrG38YM8CD4DPL88MeYQzrSSw.png'
 	},
-	{
-		id: '314',
-		action: 'Клей для плитки и керамогранита "CERESIT CM 14 extra"',
-		price: '765',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/shop/product/klei-dlya-plitki-i-keramogranita-cerezit-sm-14-extra-dlya-ulicy-i-teplyx-polov-25-kg',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%81%D0%BC14.jpg'
-	},
+	// {
+	// 	id: '314',
+	// 	action: 'Клей для плитки и керамогранита "CERESIT CM 14 extra"',
+	// 	price: '765',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/klei-dlya-plitki-i-keramogranita-cerezit-sm-14-extra-dlya-ulicy-i-teplyx-polov-25-kg',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%81%D0%BC14.jpg'
+	// },
 	{
 		id: '655',
 		action: 'Шпаклевка финишная "KNAUF ROTBAND" паста (18 кг)',
@@ -54,7 +54,16 @@ const actions = [
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/gklv-knauf-125-mm-12002500',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BE%D0%BF%D1%82.webp'
-	}
+	},
+	{
+		id: '200',
+		action: 'Доска обрезная обработанная',
+		price: '17000',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/shop/products/doska-obreznaya-obrabotannaya',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B4%D0%BE%D1%81%D0%BA%D0%B0.jpg'
+	},
+
 	// {
 	// 	id: '261',
 	// 	action: 'ГВЛВ "Кнауф" 10 мм (1200*2500)',
