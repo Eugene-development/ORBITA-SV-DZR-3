@@ -62,13 +62,21 @@
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BF%D0%B5%D0%BD%D0%BE%D0%B3%D0%B0%D0%B7.jpg'
 		},
 		{
-			id: '1566',
-			action: 'ЦСП 3200*1250 (10мм)',
-			price: '2000',
+			id: '200',
+			action: 'Доска обрезная обработанная',
+			price: '17000',
 			description: 'При заказе через сайт дополнительная скидка 5%',
-			link: '/shop/product/csp-32001250-10mm',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/wZELb17Oyadmk5gfUtaMK39XagKoWwt6iCw2ROpv.jpeg'
+			link: '/shop/products/doska-obreznaya-obrabotannaya',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B4%D0%BE%D1%81%D0%BA%D0%B0.jpg'
 		},
+		// {
+		// 	id: '1566',
+		// 	action: 'ЦСП 3200*1250 (10мм)',
+		// 	price: '2000',
+		// 	description: 'При заказе через сайт дополнительная скидка 5%',
+		// 	link: '/shop/product/csp-32001250-10mm',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/wZELb17Oyadmk5gfUtaMK39XagKoWwt6iCw2ROpv.jpeg'
+		// },
 		{
 			id: '954',
 			action: 'Бетонконтакт "CERESIT CT 19" (15 кг)',
@@ -658,7 +666,7 @@
 							</h3>
 						</div>
 					</div>
-					<p class="m-2 text-base font-medium text-gray-900">{price}р.</p>
+					<p class="m-2 text-base font-medium text-gray-900">{price} р.</p>
 
 					{#if browser && !InCart.some((arrVal) => id === arrVal)}
 						<button
