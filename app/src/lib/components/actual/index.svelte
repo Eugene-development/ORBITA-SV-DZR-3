@@ -64,7 +64,7 @@
 		{
 			id: '200',
 			action: 'Доска обрезная обработанная',
-			price: '17000 м3',
+			price: '17000',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/products/doska-obreznaya-obrabotannaya',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B4%D0%BE%D1%81%D0%BA%D0%B0.jpg'
@@ -656,7 +656,7 @@
 					<div
 						class="h-56 p-8 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md  group-hover:opacity-75 lg:aspect-none "
 					>
-						<img src={img} alt="" class="  object-contain " />
+						<img src={img} alt="" class="object-contain" />
 					</div>
 					<div class="h-8 mt-2 flex justify-between">
 						<div>
@@ -666,7 +666,9 @@
 							</h3>
 						</div>
 					</div>
-					<p class="m-2 text-base font-medium text-gray-900">{price} р.</p>
+					<p class="m-2 text-base font-medium text-gray-900">
+						{price} руб.{#if id === '200'}/м<sup>3</sup>{/if}
+					</p>
 
 					{#if browser && !InCart.some((arrVal) => id === arrVal)}
 						<button

@@ -58,7 +58,10 @@
 					<p
 						class="mt-3 text-sm text-gray-700 sm:mx-auto sm:mt-2 sm:max-w-xl sm:text-base md:mt-2 lg:mx-0"
 					>
-						<strong>{dataSlider.price} руб.</strong> со скидкой
+						<strong
+							>{dataSlider.price} руб.{#if id === '200'}/м<sup>3</sup>{/if}</strong
+						>
+						со скидкой
 						<!-- <strong>{Math.round(dataSlider.price)} руб.</strong> со скидкой -->
 						<!-- <strong>{Math.round(dataSlider.price - dataSlider.price * 0.1)} р/шт</strong> со скидкой -->
 						<!-- Цена <strong>{Math.round(dataSlider.price - dataSlider.price * 0.05)} р/шт</strong> со скидкой -->
