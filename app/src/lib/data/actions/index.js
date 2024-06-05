@@ -58,7 +58,7 @@ const actions = [
 	{
 		id: '200',
 		action: 'Доска обрезная обработанная',
-		price: '17000',
+		price: '17500',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/products/doska-obreznaya-obrabotannaya',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B4%D0%BE%D1%81%D0%BA%D0%B0.jpg'
