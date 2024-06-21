@@ -253,7 +253,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="rounded-lg bg-gray-800 py-10 px-6 text-center xl:px-10 xl:text-left">
+					<!-- <div class="rounded-lg bg-gray-800 py-10 px-6 text-center xl:px-10 xl:text-left">
 						<div class="space-y-6 xl:space-y-10">
 							<img
 								class="mx-auto h-48 w-40 rounded-2xl xl:h-64 xl:w-56"
@@ -293,7 +293,7 @@
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> -->
 					<div class="rounded-lg bg-gray-800 py-10 px-6 text-center xl:px-10 xl:text-left">
 						<div class="space-y-6 xl:space-y-10">
 							<img
