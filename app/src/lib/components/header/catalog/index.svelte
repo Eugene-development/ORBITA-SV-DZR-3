@@ -64,10 +64,10 @@
 								data-sveltekit-prefetch
 								data-sveltekit-noscroll
 								href="/shop/rubric/{slug}"
-								class="flex flex-col  border border-gray-300 px-2 py-3 text-center hover:border-cyan-900 hover:bg-gradient-to-l hover:from-cyan-700 hover:via-cyan-600 hover:to-cyan-700 sm:border-r sm:border-l 
+								class="flex flex-col  border border-gray-300 px-2 py-3 text-center  hover:bg-gradient-to-l hover:from-cyan-300 hover:via-cyan-200 hover:to-cyan-300 sm:border-r sm:border-l 
 								{$page.url.pathname === '/shop/rubric/' + slug
-									? 'bg-gradient-to-r from-cyan-700 via-cyan-600 to-cyan-700'
-									: 'bg-gradient-to-r from-cyan-900 via-cyan-800 to-cyan-900'}"
+									? 'bg-gradient-to-r from-cyan-300 via-cyan-200 to-cyan-300'
+									: 'bg-gradient-to-r from-cyan-500 via-cyan-300 to-cyan-500'}"
 							>
 								<div class="flex mx-auto text-cyan-50 transition ease-in-out hover:scale-110">
 									<svg
@@ -76,7 +76,7 @@
 										viewBox="0 0 24 24"
 										stroke-width="1.5"
 										stroke="currentColor"
-										class="w-5 h-5 mt-0.5"
+										class="w-5 h-5 mt-0.5 text-red-700"
 									>
 										<path
 											stroke-linecap="round"
@@ -86,7 +86,7 @@
 									</svg>
 
 									<span
-										class="ml-1 selection:delay-50 duration-50 order-2 text-base font-medium leading-6 tracking-wider text-red-600"
+										class="ml-1 selection:delay-50 duration-50 order-2 text-base font-medium leading-6 tracking-wider text-red-700"
 									>
 										{name}
 									</span>
