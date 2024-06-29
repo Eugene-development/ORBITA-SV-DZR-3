@@ -69,14 +69,16 @@
 									? 'bg-gradient-to-r from-cyan-300 via-cyan-200 to-cyan-300'
 									: 'bg-gradient-to-r from-cyan-500 via-cyan-300 to-cyan-500'}"
 							>
-								<div class="flex mx-auto text-cyan-50 transition ease-in-out hover:scale-110">
+								<div
+									class="flex mx-auto text-cyan-50 transition ease-in-out hover:scale-110 items-center"
+								>
 									<svg
 										xmlns="http://www.w3.org/2000/svg"
 										fill="none"
 										viewBox="0 0 24 24"
 										stroke-width="1.5"
 										stroke="currentColor"
-										class="w-5 h-5 mt-0.5 text-red-700"
+										class="w-4 h-4 mt-0.5 text-red-700"
 									>
 										<path
 											stroke-linecap="round"
@@ -86,7 +88,7 @@
 									</svg>
 
 									<span
-										class="ml-1 selection:delay-50 duration-50 order-2 text-base font-medium leading-6 tracking-wider text-red-700"
+										class="ml-1 selection:delay-50 duration-50 order-2 text-base font-medium leading-6 tracking-wider text-red-800"
 									>
 										{name}
 									</span>
