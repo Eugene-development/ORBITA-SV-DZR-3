@@ -98,7 +98,7 @@
 				<div class="hidden lg:block h-80 overflow-hidden ml-36">
 					<img
 						class="h-full w-full object-contain"
-						src="https://ceresitshop.ru/assets/images/products/613/big_c/cm14-25.webp"
+						src="https://stroimaks.ru/wa-data/public/shop/products/95/55/15595/images/28398/28398.970.jpg"
 						alt="Стройматериалы по акции"
 					/>
 				</div>
@@ -131,7 +131,7 @@
 		<div class="hidden lg:block px-16 lg:mt-0 lg:col-span-5 ">
 			<img
 				class=""
-				src="https://storage.yandexcloud.net/orbita/actions/b6a24951-cfef-49c8-a850-648cfb6a6a42.jpeg"
+				src="https://storage.yandexcloud.net/orbita/actions/actions222.jpeg"
 				alt="скидка"
 			/>
 			<!-- <img class="" src="https://utepliteli-77.ru/files/brands/unis-logo.png" alt="скидка" /> -->

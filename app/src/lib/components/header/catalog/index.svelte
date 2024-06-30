@@ -78,7 +78,7 @@
 										viewBox="0 0 24 24"
 										stroke-width="1.5"
 										stroke="currentColor"
-										class="w-4 h-4 mt-0.5 text-red-700"
+										class="w-4 h-4 mt-0.5 text-red-900"
 									>
 										<path
 											stroke-linecap="round"
@@ -88,7 +88,7 @@
 									</svg>
 
 									<span
-										class="ml-1 selection:delay-50 duration-50 order-2 text-base font-medium leading-6 tracking-wider text-red-800"
+										class="ml-1 selection:delay-50 duration-50 order-2 text-base font-medium leading-6 tracking-wider text-red-900"
 									>
 										{name}
 									</span>
