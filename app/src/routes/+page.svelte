@@ -61,9 +61,9 @@
 					>
 						Весь МАЙ
 					</h2> -->
-					<p class=" mb-6 font-extrabold text-red-600 lg:my-4 text-6xl xl:text-7xl">Акция</p>
-					<p class=" mb-6 font-extrabold text-green-700 lg:my-4 text-6xl xl:text-7xl">Июль!!!</p>
-					<p class=" mb-6 font-extrabold text-cyan-700 lg:my-4 text-6xl xl:text-7xl">Суперцена</p>
+					<p class=" mb-6 font-extrabold text-red-600 lg:my-4 text-6xl xl:text-8xl">Акция</p>
+					<p class=" mb-6 font-extrabold text-green-700 lg:my-4 text-6xl xl:text-8xl">Июль!!!</p>
+					<p class=" mb-6 font-extrabold text-cyan-700 lg:my-4 text-6xl xl:text-8xl">Суперцена</p>
 					<!-- <p
 						class="max-w-3xl font-light text-gray-600 lg:my-8 text-sm md:text-base xl:text-lg dark:text-gray-500"
 					>
@@ -95,13 +95,14 @@
 					{/if} -->
 				</div>
 
-				<div class="hidden lg:block h-80 overflow-hidden ml-36">
+				<!-- СРЕДНЯЯ ЧАСТЬ -->
+				<!-- <div class="hidden lg:block h-80 overflow-hidden ml-36">
 					<img
 						class="h-full w-full object-contain"
 						src="https://stroimaks.ru/wa-data/public/shop/products/95/55/15595/images/28398/28398.970.jpg"
 						alt="Стройматериалы по акции"
 					/>
-				</div>
+				</div> -->
 				<!-- <div class="hidden md:block h-80 overflow-hidden ">
 					<img
 						class="h-full w-full object-contain"
@@ -130,8 +131,8 @@
 		</div>
 		<div class="hidden lg:block px-16 lg:mt-0 lg:col-span-5 ">
 			<img
-				class=""
-				src="https://storage.yandexcloud.net/orbita/actions/actions222.jpeg"
+				class="h-96"
+				src="https://storage.yandexcloud.net/orbita/actions/17343.440%402x.jpg"
 				alt="скидка"
 			/>
 			<!-- <img class="" src="https://utepliteli-77.ru/files/brands/unis-logo.png" alt="скидка" /> -->

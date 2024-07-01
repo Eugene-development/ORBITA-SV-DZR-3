@@ -15,14 +15,22 @@ const actions = [
 	// 	link: '/shop/product/klei-dlya-plitki-i-keramogranita-cerezit-sm-14-extra-dlya-ulicy-i-teplyx-polov-25-kg',
 	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%81%D0%BC14.jpg'
 	// },
-	{
-		id: '655',
-		action: 'Шпаклевка финишная "KNAUF ROTBAND" паста (18 кг)',
-		price: '1595',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/shop/product/spaklevka-finisnaya-knauf-rotband-pasta-18-kg',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/3696355.jpg'
-	},
+	// {
+	// 	id: '655',
+	// 	action: 'Шпаклевка финишная "KNAUF ROTBAND" паста (18 кг)',
+	// 	price: '1595',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/spaklevka-finisnaya-knauf-rotband-pasta-18-kg',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/3696355.jpg'
+	// },
+	// {
+	// 	id: '450',
+	// 	action: 'Шпаклевка "EK" VH80 фасадная белая (20 кг)',
+	// 	price: '',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/spaklevka-ek-vh-80-fasadnaya-belaya-20-kg',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-VH80.png'
+	// },
 	{
 		id: '234',
 		action: 'Фанера 8мм, сорт 3/4 (1,525*1,525)',
