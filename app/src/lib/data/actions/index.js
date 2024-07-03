@@ -31,14 +31,23 @@ const actions = [
 		link: '/shop/product/spaklevka-ek-vh-80-fasadnaya-belaya-20-kg',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-VH80.png'
 	},
+	// {
+	// 	id: '234',
+	// 	action: 'Фанера 8мм, сорт 3/4 (1,525*1,525)',
+	// 	price: '726',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/fanera-8mm-sort-34-15251525',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%84%D0%B0%D0%BD%D0%B5%D1%80%D0%B0.jpg'
+	// },
 	{
-		id: '234',
-		action: 'Фанера 8мм, сорт 3/4 (1,525*1,525)',
-		price: '726',
+		id: '235',
+		action: 'Фанера 10мм, сорт 3/4 (1,525*1,525)',
+		price: '948',
 		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/shop/product/fanera-8mm-sort-34-15251525',
+		link: '/shop/product/fanera-10mm-sort-34-15251525',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%84%D0%B0%D0%BD%D0%B5%D1%80%D0%B0.jpg'
 	},
+
 	{
 		id: '356',
 		action: 'Профиль направляющий 27/28 толщ. 0,5 мм (3 м)',
@@ -95,14 +104,6 @@ const actions = [
 	// 	description: 'При заказе через сайт дополнительная скидка 5%',
 	// 	link: '/shop/product/uteplitel-texnonikol-roklait-120060050',
 	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/c2eHGTqI7cLLb0g8nf4vlbuB6KENnH59Ukii45om.jpg'
-	// },
-	// {
-	// 	id: '235',
-	// 	action: 'Фанера 10мм, сорт 3/4 (1,525*1,525)',
-	// 	price: '780',
-	// 	description: 'При заказе через сайт дополнительная скидка 5%',
-	// 	link: '/shop/product/fanera-10mm-sort-34-15251525',
-	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%84%D0%B0%D0%BD%D0%B5%D1%80%D0%B0.jpg'
 	// },
 	// {
 	// 	id: '312',
