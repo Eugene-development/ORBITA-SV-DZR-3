@@ -59,6 +59,14 @@
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/kraskka-peligrinna',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/peligrinnakraska.jpg'
+		},
+		{
+			id: '434',
+			action: 'Штукатурная смесь "ЕК" TT 30 фасадная (25 кг)',
+			price: '315',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/stukaturnaya-smes-ek-tt-30-fasadnaya-25-kg',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TT30.png'
 		}
 
 		// {
