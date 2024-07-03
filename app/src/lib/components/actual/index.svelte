@@ -99,6 +99,38 @@
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/products/doska-obreznaya-obrabotannaya',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B4%D0%BE%D1%81%D0%BA%D0%B0.jpg'
+		},
+		{
+			id: '345',
+			action: 'Кабель ВВГ ПНГ-ls 2*2,5 гост плоский',
+			price: '69',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/kabel-vvg-png-ls-225-gost-ploskii-arzamasskii-kabelnyi-zavod',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/2%D0%BD%D0%B02.5.jpeg'
+		},
+		{
+			id: '1654',
+			action: 'Труба д20 l-4m серая',
+			price: '195',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/truba-d20-l-4m-seraya',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/ki77k2qf8lk4N8oWkfjflmkvOUhbn8CmX0TfEJ4A.jpg'
+		},
+		{
+			id: '1687',
+			action: 'Труба д25 l-4m. серая',
+			price: '497',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/truba-d25-l-4m-seraya',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/vayfYRfvBskPU7aAU9eQ6TuEwa9zNehdHOLv14Zi.jpg'
+		},
+		{
+			id: '91',
+			action: 'Пенопласт ПСБ-С-15 1000*1000*100',
+			price: '240',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/penoplast-psb-s-15-10001000100',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BF%D0%B5%D0%BD%D0%BE%D0%BF%D0%BB%D0%B0%D1%81%D1%82.jpg'
 		}
 
 		// {
@@ -180,22 +212,6 @@
 		// 	description: 'При заказе через сайт дополнительная скидка 5%',
 		// 	link: '/shop/product/kabel-vvg-png-ls-225-gost-ploskii-arzamasskii-kabelnyi-zavod',
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/2%D0%BD%D0%B02.5.jpeg'
-		// },
-		// {
-		// 	id: '1654',
-		// 	action: 'Труба д20 l-4m серая',
-		// 	price: '185',
-		// 	description: 'При заказе через сайт дополнительная скидка 5%',
-		// 	link: '/shop/product/truba-d20-l-4m-seraya',
-		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/ki77k2qf8lk4N8oWkfjflmkvOUhbn8CmX0TfEJ4A.jpg'
-		// },
-		// {
-		// 	id: '1687',
-		// 	action: 'Труба д25 l-4m. серая',
-		// 	price: '472',
-		// 	description: 'При заказе через сайт дополнительная скидка 5%',
-		// 	link: '/shop/product/truba-d25-l-4m-seraya',
-		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/vayfYRfvBskPU7aAU9eQ6TuEwa9zNehdHOLv14Zi.jpg'
 		// },
 		// {
 		// 	id: '999',
