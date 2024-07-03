@@ -35,6 +35,14 @@
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/epp-xps30-200-texnopleks-118058030-l',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/XPS-%D0%A2%D0%95%D0%A5%D0%9D%D0%9E%D0%9F%D0%9B%D0%95%D0%9A%D0%A1.png'
+		},
+		{
+			id: '69',
+			action: 'Утеплитель Техноблок 1200х600х50',
+			price: '1680',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/uteplitel-texnoblok-standart-120060050-mm-0288-m3',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/nt[yj,kjr.jpg'
 		}
 
 		// {
