@@ -9,7 +9,8 @@
 		let price = product.price?.value;
 		return sum + price * product.quantity;
 	}, 0);
-	$: totalSum = (total - total * 0.05).toFixed(2);
+	$: totalSum = total.toFixed(2);
+	// $: totalSum = (total - total * 0.05).toFixed(2);
 	$: first_name = '';
 	$: phone = '';
 	$: address = '';
@@ -152,11 +153,11 @@
 								class="hidden px-3 py-3.5 text-left text-sm font-semibold text-gray-900 lg:table-cell"
 								>Цена:</th
 							>
-							<th
+							<!-- <th
 								scope="col"
 								class="hidden px-3 py-3.5 text-left text-sm font-semibold text-gray-900 lg:table-cell"
 								>Цена со скидкой:</th
-							>
+							> -->
 
 							<th
 								scope="col"
@@ -189,13 +190,20 @@
 											</span>
 										</dd>
 										<dt class="sr-only">Цена</dt>
-										<dd class="mt-1 truncate">
+										<!-- <dd class="mt-1 truncate">
+											<span
+												class="inline-flex rounded-md bg-cyan-100 px-2 text-xs font-semibold leading-5 text-cyan-900"
+											>
+												Цена со скидкой: {Math.ceil(price?.value)} руб/{unit?.value}
+											</span>
+										</dd> -->
+										<!-- <dd class="mt-1 truncate">
 											<span
 												class="inline-flex rounded-md bg-cyan-100 px-2 text-xs font-semibold leading-5 text-cyan-900"
 											>
 												Цена со скидкой: {Math.ceil(price?.value - price?.value * 0.05)} руб/{unit?.value}
 											</span>
-										</dd>
+										</dd> -->
 										<dt class="sr-only sm:hidden">Количество</dt>
 										<dd class="mt-2 mr-20 truncate text-gray-500 sm:hidden">
 											<input
@@ -213,13 +221,13 @@
 										{price?.value} руб/{unit?.value}
 									</span>
 								</td>
-								<td class="hidden px-3 py-4 text-sm text-gray-500 lg:table-cell ">
+								<!-- <td class="hidden px-3 py-4 text-sm text-gray-500 lg:table-cell ">
 									<span
 										class="inline-flex rounded-md bg-cyan-100 px-3 py-1 text-sm font-semibold leading-5 text-cyan-900"
 									>
 										{Math.ceil(price?.value - price?.value * 0.05)} руб/{unit?.value}
 									</span>
-								</td>
+								</td> -->
 								<td class="hidden px-3 py-4 text-sm text-gray-500 sm:table-cell">
 									<input
 										type="text"
@@ -228,8 +236,11 @@
 									/>
 								</td>
 								<td class="px-3 py-4 text-sm text-gray-500 whitespace-nowrap"
-									>{Math.ceil(((price?.value - price?.value * 0.05) * quantity).toFixed(2))} руб.
+									>{Math.ceil((price?.value * quantity).toFixed(2))} руб.
 								</td>
+								<!-- <td class="px-3 py-4 text-sm text-gray-500 whitespace-nowrap"
+									>{Math.ceil(((price?.value - price?.value * 0.05) * quantity).toFixed(2))} руб.
+								</td> -->
 								<td class="py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
 									<button
 										on:click={deleteProductFromCart(id)}
@@ -294,9 +305,15 @@
 		<div class="m-8 text-right">
 			<span
 				class="inline-flex  rounded-md bg-cyan-100 px-3.5 py-1 text-xs font-medium text-cyan-800 sm:text-base"
-				>ИТОГО (с учётом скидки 5%): {Math.ceil(totalSum)} руб.</span
+				>ИТОГО: {Math.ceil(totalSum)} руб.</span
 			>
 		</div>
+		<!-- <div class="m-8 text-right">
+			<span
+				class="inline-flex  rounded-md bg-cyan-100 px-3.5 py-1 text-xs font-medium text-cyan-800 sm:text-base"
+				>ИТОГО (с учётом скидки 5%): {Math.ceil(totalSum)} руб.</span
+			>
+		</div> -->
 
 		<form
 			class="m-8 space-y-6 rounded-md border-2 border-slate-100 bg-gray-50"
