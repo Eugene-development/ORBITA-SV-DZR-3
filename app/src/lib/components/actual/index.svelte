@@ -27,6 +27,14 @@
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/linokrom-tpp-15-m2',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BB%D0%B8%D0%BD%D0%BE%D0%BA%D1%80%D0%BE%D0%BC.jpg'
+		},
+		{
+			id: '964',
+			action: 'Эпп Технониколь 1180*580*30-l',
+			price: '206',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/epp-xps30-200-texnopleks-118058030-l',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/XPS-%D0%A2%D0%95%D0%A5%D0%9D%D0%9E%D0%9F%D0%9B%D0%95%D0%9A%D0%A1.png'
 		}
 
 		// {

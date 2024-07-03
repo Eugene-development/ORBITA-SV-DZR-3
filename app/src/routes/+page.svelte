@@ -51,7 +51,7 @@
 	/>
 </svelte:head>
 
-<section class="py-4 lg:py-6 ">
+<section class="py-4 lg:py-6">
 	<div class="grid max-w-full px-4 lg:px-12 xl:px-24 mx-auto lg:gap-8 xl:gap-0  lg:grid-cols-12">
 		<div class="mr-auto place-self-center lg:col-span-7">
 			<div class="flex">
