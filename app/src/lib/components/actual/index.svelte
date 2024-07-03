@@ -83,6 +83,22 @@
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/klei-dlya-plitki-elasticnyi-cerezit-sm-16-25-kg',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%81%D0%BC16.jpeg'
+		},
+		{
+			id: '436',
+			action: 'Штукатурная смесь KNAUF ROTBAND белая (30 кг)',
+			price: '530',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/stukaturnaya-smes-knauf-rotband-belaya-30-kg',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/020_original.jpg'
+		},
+		{
+			id: '200',
+			action: 'Доска обрезная обработанная',
+			price: '17500',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/products/doska-obreznaya-obrabotannaya',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B4%D0%BE%D1%81%D0%BA%D0%B0.jpg'
 		}
 
 		// {
@@ -116,14 +132,6 @@
 		// 	description: 'При заказе через сайт дополнительная скидка 5%',
 		// 	link: '/shop/product/klei-dlya-penogazobetona-finitex-kf-17-prestiz-25-kg',
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BF%D0%B5%D0%BD%D0%BE%D0%B3%D0%B0%D0%B7.jpg'
-		// },
-		// {
-		// 	id: '200',
-		// 	action: 'Доска обрезная обработанная',
-		// 	price: '17500',
-		// 	description: 'При заказе через сайт дополнительная скидка 5%',
-		// 	link: '/shop/products/doska-obreznaya-obrabotannaya',
-		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B4%D0%BE%D1%81%D0%BA%D0%B0.jpg'
 		// },
 		// {
 		// 	id: '1566',
@@ -189,14 +197,6 @@
 		// 	link: '/shop/product/truba-d25-l-4m-seraya',
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/vayfYRfvBskPU7aAU9eQ6TuEwa9zNehdHOLv14Zi.jpg'
 		// },
-		// {
-		// 	id: '436',
-		// 	action: 'Штукатурная смесь KNAUF ROTBAND белая (30 кг)',
-		// 	price: '530',
-		// 	description: 'При заказе через сайт дополнительная скидка 5%',
-		// 	link: '/shop/product/stukaturnaya-smes-knauf-rotband-belaya-30-kg',
-		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/020_original.jpg'
-		// }
 		// {
 		// 	id: '999',
 		// 	action: 'Вагонка евро ель (ав) (13*90*6000)',
