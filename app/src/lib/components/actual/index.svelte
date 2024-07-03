@@ -21,54 +21,62 @@
 
 	export let actualProducts = [
 		{
-			id: '307',
-			action: 'Клей для плитки KNAUF FLIESEN (25 кг)',
-			price: '455',
+			id: '123',
+			action: 'Линокром ТПП (15 м2)',
+			price: '2520',
 			description: 'При заказе через сайт дополнительная скидка 5%',
-			link: '/shop/product/klei-dlya-plitki-knauf-flizenkleber-25-kg',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%84%D0%BB%D0%B8%D0%B7%D0%B5%D0%BD.webp'
-		},
+			link: '/shop/product/linokrom-tpp-15-m2',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BB%D0%B8%D0%BD%D0%BE%D0%BA%D1%80%D0%BE%D0%BC.jpg'
+		}
 
-		{
-			id: '161',
-			action: 'Пена пистолетная "KUDO home 65" всесезонная',
-			price: '470',
-			description: 'При заказе через сайт дополнительная скидка 5%',
-			link: '/shop/product/pena-pistoletnaya-kudo-home-65-vsesezonnaya',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/96cddb9d3879573617bbb8e8fdccfc3b.jpg'
-		},
-		{
-			id: '1748',
-			action: 'Грунтовка KNAUF Тифенгрунт 10л.',
-			price: '1190',
-			description: 'При заказе через сайт дополнительная скидка 5%',
-			link: '/shop/product/gruntovka-tifengrunt-10l',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/saRoC4NYpSCQwOak4vzX8D4hJeKuJ9ftTLfp6ixk.jpg'
-		},
-		{
-			id: '534',
-			action: 'Грунтовка для впитывающих оснований "CERESIT CT 17" (10 л)',
-			price: '1020',
-			description: 'При заказе через сайт дополнительная скидка 5%',
-			link: '/shop/product/gruntovka-dlya-vpityvayushhix-osnovanii-cerezit-st-17-10-l',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/5.png'
-		},
-		{
-			id: '310',
-			action: 'Клей для пеногазобетона "FINITEX KF 17" престиж (25 кг)',
-			price: '260',
-			description: 'При заказе через сайт дополнительная скидка 5%',
-			link: '/shop/product/klei-dlya-penogazobetona-finitex-kf-17-prestiz-25-kg',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BF%D0%B5%D0%BD%D0%BE%D0%B3%D0%B0%D0%B7.jpg'
-		},
-		{
-			id: '200',
-			action: 'Доска обрезная обработанная',
-			price: '17500',
-			description: 'При заказе через сайт дополнительная скидка 5%',
-			link: '/shop/products/doska-obreznaya-obrabotannaya',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B4%D0%BE%D1%81%D0%BA%D0%B0.jpg'
-		},
+		// {
+		// 	id: '307',
+		// 	action: 'Клей для плитки KNAUF FLIESEN (25 кг)',
+		// 	price: '455',
+		// 	description: 'При заказе через сайт дополнительная скидка 5%',
+		// 	link: '/shop/product/klei-dlya-plitki-knauf-flizenkleber-25-kg',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%84%D0%BB%D0%B8%D0%B7%D0%B5%D0%BD.webp'
+		// },
+		// {
+		// 	id: '161',
+		// 	action: 'Пена пистолетная "KUDO home 65" всесезонная',
+		// 	price: '470',
+		// 	description: 'При заказе через сайт дополнительная скидка 5%',
+		// 	link: '/shop/product/pena-pistoletnaya-kudo-home-65-vsesezonnaya',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/96cddb9d3879573617bbb8e8fdccfc3b.jpg'
+		// },
+		// {
+		// 	id: '1748',
+		// 	action: 'Грунтовка KNAUF Тифенгрунт 10л.',
+		// 	price: '1190',
+		// 	description: 'При заказе через сайт дополнительная скидка 5%',
+		// 	link: '/shop/product/gruntovka-tifengrunt-10l',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/saRoC4NYpSCQwOak4vzX8D4hJeKuJ9ftTLfp6ixk.jpg'
+		// },
+		// {
+		// 	id: '534',
+		// 	action: 'Грунтовка для впитывающих оснований "CERESIT CT 17" (10 л)',
+		// 	price: '1020',
+		// 	description: 'При заказе через сайт дополнительная скидка 5%',
+		// 	link: '/shop/product/gruntovka-dlya-vpityvayushhix-osnovanii-cerezit-st-17-10-l',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/5.png'
+		// },
+		// {
+		// 	id: '310',
+		// 	action: 'Клей для пеногазобетона "FINITEX KF 17" престиж (25 кг)',
+		// 	price: '260',
+		// 	description: 'При заказе через сайт дополнительная скидка 5%',
+		// 	link: '/shop/product/klei-dlya-penogazobetona-finitex-kf-17-prestiz-25-kg',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BF%D0%B5%D0%BD%D0%BE%D0%B3%D0%B0%D0%B7.jpg'
+		// },
+		// {
+		// 	id: '200',
+		// 	action: 'Доска обрезная обработанная',
+		// 	price: '17500',
+		// 	description: 'При заказе через сайт дополнительная скидка 5%',
+		// 	link: '/shop/products/doska-obreznaya-obrabotannaya',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B4%D0%BE%D1%81%D0%BA%D0%B0.jpg'
+		// },
 		// {
 		// 	id: '1566',
 		// 	action: 'ЦСП 3200*1250 (10мм)',
@@ -77,82 +85,78 @@
 		// 	link: '/shop/product/csp-32001250-10mm',
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/wZELb17Oyadmk5gfUtaMK39XagKoWwt6iCw2ROpv.jpeg'
 		// },
-		{
-			id: '954',
-			action: 'Бетонконтакт "CERESIT CT 19" (15 кг)',
-			price: '1750',
-			description: 'При заказе через сайт дополнительная скидка 5%',
-			link: '/shop/product/betonkontakt-cerezit-st-19-15-kg',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/betonokontakt_ceresit_st19_5_l.jpg'
-		},
-		{
-			id: '456',
-			action: 'Шпаклевка готовая "SHEETROCK" (28 кг)',
-			price: '2600',
-			description: 'При заказе через сайт дополнительная скидка 5%',
-			link: '/shop/product/spaklevka-gotovaya-sitrok-28-kg',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/0cd4304d4a0030c87bf95154fe6dbaf8.jpg'
-		},
-		{
-			id: '446',
-			action: 'Шпаклевка финишная "VETONIT LR+" (20 кг)',
-			price: '960',
-			description: 'При заказе через сайт дополнительная скидка 5%',
-			link: '/shop/product/spaklevka-finisnaya-vetonit-lr-20-kg',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B2%D0%B5%D1%82.jpg'
-		},
-		{
-			id: '1661',
-			action: 'Утеплитель Технониколь Роклайт 1200*600*50',
-			price: '1300',
-			description: 'При заказе через сайт дополнительная скидка 5%',
-			link: '/shop/product/uteplitel-texnonikol-roklait-120060050',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/c2eHGTqI7cLLb0g8nf4vlbuB6KENnH59Ukii45om.jpg'
-		},
-		{
-			id: '345',
-			action: 'Кабель ВВГ ПНГ-ls 2*2,5 гост плоский',
-			price: '65',
-			description: 'При заказе через сайт дополнительная скидка 5%',
-			link: '/shop/product/kabel-vvg-png-ls-225-gost-ploskii-arzamasskii-kabelnyi-zavod',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/2%D0%BD%D0%B02.5.jpeg'
-		},
-
-		{
-			id: '1654',
-			action: 'Труба д20 l-4m серая',
-			price: '185',
-			description: 'При заказе через сайт дополнительная скидка 5%',
-			link: '/shop/product/truba-d20-l-4m-seraya',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/ki77k2qf8lk4N8oWkfjflmkvOUhbn8CmX0TfEJ4A.jpg'
-		},
-
-		{
-			id: '1687',
-			action: 'Труба д25 l-4m. серая',
-			price: '472',
-			description: 'При заказе через сайт дополнительная скидка 5%',
-			link: '/shop/product/truba-d25-l-4m-seraya',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/vayfYRfvBskPU7aAU9eQ6TuEwa9zNehdHOLv14Zi.jpg'
-		},
-
-		{
-			id: '2958',
-			action: 'Краска моющаяся для наружных и внутренних работ Pelligrina',
-			price: '2715',
-			description: 'При заказе через сайт дополнительная скидка 5%',
-			link: '/shop/product/kraskka-peligrinna',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/peligrinnakraska.jpg'
-		},
-		{
-			id: '436',
-			action: 'Штукатурная смесь KNAUF ROTBAND белая (30 кг)',
-			price: '530',
-			description: 'При заказе через сайт дополнительная скидка 5%',
-			link: '/shop/product/stukaturnaya-smes-knauf-rotband-belaya-30-kg',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/020_original.jpg'
-		}
-
+		// {
+		// 	id: '954',
+		// 	action: 'Бетонконтакт "CERESIT CT 19" (15 кг)',
+		// 	price: '1750',
+		// 	description: 'При заказе через сайт дополнительная скидка 5%',
+		// 	link: '/shop/product/betonkontakt-cerezit-st-19-15-kg',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/betonokontakt_ceresit_st19_5_l.jpg'
+		// },
+		// {
+		// 	id: '456',
+		// 	action: 'Шпаклевка готовая "SHEETROCK" (28 кг)',
+		// 	price: '2600',
+		// 	description: 'При заказе через сайт дополнительная скидка 5%',
+		// 	link: '/shop/product/spaklevka-gotovaya-sitrok-28-kg',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/0cd4304d4a0030c87bf95154fe6dbaf8.jpg'
+		// },
+		// {
+		// 	id: '446',
+		// 	action: 'Шпаклевка финишная "VETONIT LR+" (20 кг)',
+		// 	price: '960',
+		// 	description: 'При заказе через сайт дополнительная скидка 5%',
+		// 	link: '/shop/product/spaklevka-finisnaya-vetonit-lr-20-kg',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B2%D0%B5%D1%82.jpg'
+		// },
+		// {
+		// 	id: '1661',
+		// 	action: 'Утеплитель Технониколь Роклайт 1200*600*50',
+		// 	price: '1300',
+		// 	description: 'При заказе через сайт дополнительная скидка 5%',
+		// 	link: '/shop/product/uteplitel-texnonikol-roklait-120060050',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/c2eHGTqI7cLLb0g8nf4vlbuB6KENnH59Ukii45om.jpg'
+		// },
+		// {
+		// 	id: '345',
+		// 	action: 'Кабель ВВГ ПНГ-ls 2*2,5 гост плоский',
+		// 	price: '65',
+		// 	description: 'При заказе через сайт дополнительная скидка 5%',
+		// 	link: '/shop/product/kabel-vvg-png-ls-225-gost-ploskii-arzamasskii-kabelnyi-zavod',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/2%D0%BD%D0%B02.5.jpeg'
+		// },
+		// {
+		// 	id: '1654',
+		// 	action: 'Труба д20 l-4m серая',
+		// 	price: '185',
+		// 	description: 'При заказе через сайт дополнительная скидка 5%',
+		// 	link: '/shop/product/truba-d20-l-4m-seraya',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/ki77k2qf8lk4N8oWkfjflmkvOUhbn8CmX0TfEJ4A.jpg'
+		// },
+		// {
+		// 	id: '1687',
+		// 	action: 'Труба д25 l-4m. серая',
+		// 	price: '472',
+		// 	description: 'При заказе через сайт дополнительная скидка 5%',
+		// 	link: '/shop/product/truba-d25-l-4m-seraya',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/vayfYRfvBskPU7aAU9eQ6TuEwa9zNehdHOLv14Zi.jpg'
+		// },
+		// {
+		// 	id: '2958',
+		// 	action: 'Краска моющаяся для наружных и внутренних работ Pelligrina',
+		// 	price: '2715',
+		// 	description: 'При заказе через сайт дополнительная скидка 5%',
+		// 	link: '/shop/product/kraskka-peligrinna',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/peligrinnakraska.jpg'
+		// },
+		// {
+		// 	id: '436',
+		// 	action: 'Штукатурная смесь KNAUF ROTBAND белая (30 кг)',
+		// 	price: '530',
+		// 	description: 'При заказе через сайт дополнительная скидка 5%',
+		// 	link: '/shop/product/stukaturnaya-smes-knauf-rotband-belaya-30-kg',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/020_original.jpg'
+		// }
 		// {
 		// 	id: '999',
 		// 	action: 'Вагонка евро ель (ав) (13*90*6000)',
@@ -303,14 +307,6 @@
 		// 	price: '1700',
 		// 	description: 'При заказе через сайт дополнительная скидка 5%',
 		// 	link: '/shop/product/linokrom-tkp-slanec-seryi-10-m',
-		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BB%D0%B8%D0%BD%D0%BE%D0%BA%D1%80%D0%BE%D0%BC.jpg'
-		// },
-		// {
-		// 	id: '123',
-		// 	action: 'Линокром тпп (15 м2)',
-		// 	price: '2340',
-		// 	description: 'При заказе через сайт дополнительная скидка 5%',
-		// 	link: '/shop/product/linokrom-tpp-15-m2',
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BB%D0%B8%D0%BD%D0%BE%D0%BA%D1%80%D0%BE%D0%BC.jpg'
 		// },
 		// {
@@ -472,7 +468,6 @@
 		// 	link: '/shop/product/kabel-vvg-png-ls-325-ploskii-gost-arzamasskii-kabelnyi-zavod',
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/2.5.jpg'
 		// }
-
 		// {
 		// 	id: '965',
 		// 	action: 'Эпп Технониколь 1180*580*50-l',
