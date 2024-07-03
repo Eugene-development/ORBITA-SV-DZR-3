@@ -51,7 +51,7 @@ const actions = [
 	{
 		id: '356',
 		action: 'Профиль направляющий 27/28 толщ. 0,5 мм (3 м)',
-		price: '105',
+		price: '217',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/profil-napravlyayushhii-2728-tolshh-05-mm-3-m',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/2728.jpg'
@@ -59,20 +59,12 @@ const actions = [
 	{
 		id: '365',
 		action: 'Профиль потолочный 60/27 толщ. 0,5 мм (3 м)',
-		price: '167',
+		price: '318',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/profil-potolocnyi-6027-tolshh-05-mm-3-m',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/6027.jpg'
 	},
-	{
-		id: '260',
-		action: 'ГКЛВ KNAUF 12,5 мм (1200*2500)',
-		price: '520',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/shop/product/gklv-knauf-125-mm-12002500',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BE%D0%BF%D1%82.webp'
-	},
-	{
+		{
 		id: '200',
 		action: 'Доска обрезная обработанная',
 		price: '17500',
@@ -81,6 +73,23 @@ const actions = [
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B4%D0%BE%D1%81%D0%BA%D0%B0.jpg'
 	},
 
+
+	{
+		id: '257',
+		action: 'ГКЛ KNAUF 9,5 мм (1200*2500)',
+		price: '359',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/shop/product/gklv-knauf-125-mm-12002500',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BE%D0%BF%D1%82.webp'
+	},
+	// {
+	// 	id: '260',
+	// 	action: 'ГКЛВ KNAUF 12,5 мм (1200*2500)',
+	// 	price: '520',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/gklv-knauf-125-mm-12002500',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BE%D0%BF%D1%82.webp'
+	// },
 	// {
 	// 	id: '261',
 	// 	action: 'ГВЛВ "Кнауф" 10 мм (1200*2500)',
