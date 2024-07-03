@@ -75,6 +75,14 @@
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/pena-pistoletnaya-kudo-home-65-vsesezonnaya',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/96cddb9d3879573617bbb8e8fdccfc3b.jpg'
+		},
+		{
+			id: '315',
+			action: 'Клей для плитки эластичный "Церезит СМ 16" (25 кг)',
+			price: '1173',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/klei-dlya-plitki-elasticnyi-cerezit-sm-16-25-kg',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%81%D0%BC16.jpeg'
 		}
 
 		// {
