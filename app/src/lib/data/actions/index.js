@@ -2,7 +2,7 @@ const actions = [
 	{
 		id: '2766',
 		action: 'Поликарбонат сотовый прозрачный (размер 12х2.1м, 4мм)',
-		price: '5800',
+		price: '5400',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/product/polikarbonat-sotovyi-prozracnyi-4mm',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/lSHy2nYTCubCyXeSrG38YM8CD4DPL88MeYQzrSSw.png'
@@ -23,14 +23,14 @@ const actions = [
 	// 	link: '/shop/product/spaklevka-finisnaya-knauf-rotband-pasta-18-kg',
 	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/3696355.jpg'
 	// },
-	// {
-	// 	id: '450',
-	// 	action: 'Шпаклевка "EK" VH80 фасадная белая (20 кг)',
-	// 	price: '',
-	// 	description: 'При заказе через сайт дополнительная скидка 5%',
-	// 	link: '/shop/product/spaklevka-ek-vh-80-fasadnaya-belaya-20-kg',
-	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-VH80.png'
-	// },
+	{
+		id: '450',
+		action: 'Шпаклевка "EK" VH80 фасадная белая (20 кг)',
+		price: '665',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/shop/product/spaklevka-ek-vh-80-fasadnaya-belaya-20-kg',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-VH80.png'
+	},
 	{
 		id: '234',
 		action: 'Фанера 8мм, сорт 3/4 (1,525*1,525)',
