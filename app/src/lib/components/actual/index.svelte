@@ -43,6 +43,22 @@
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/uteplitel-texnoblok-standart-120060050-mm-0288-m3',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/nt[yj,kjr.jpg'
+		},
+		{
+			id: '2393',
+			action: 'Мастика гидроизоляционная 20 кг. "Альфатехмаст"',
+			price: '2050',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/mastika-gidroizolyacionnaya-20-kg-alfatexmast',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/qxoqQpTjJzhnAIzNEo9kjXtMHpNxo5oXEOfRYwGq.jpg'
+		},
+		{
+			id: '2958',
+			action: 'Краска моющаяся для наружных и внутренних работ Pelligrina',
+			price: '2100',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/kraskka-peligrinna',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/peligrinnakraska.jpg'
 		}
 
 		// {
@@ -156,14 +172,6 @@
 		// 	description: 'При заказе через сайт дополнительная скидка 5%',
 		// 	link: '/shop/product/truba-d25-l-4m-seraya',
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/vayfYRfvBskPU7aAU9eQ6TuEwa9zNehdHOLv14Zi.jpg'
-		// },
-		// {
-		// 	id: '2958',
-		// 	action: 'Краска моющаяся для наружных и внутренних работ Pelligrina',
-		// 	price: '2715',
-		// 	description: 'При заказе через сайт дополнительная скидка 5%',
-		// 	link: '/shop/product/kraskka-peligrinna',
-		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/peligrinnakraska.jpg'
 		// },
 		// {
 		// 	id: '436',
@@ -356,14 +364,6 @@
 		// 	description: 'При заказе через сайт дополнительная скидка 5%',
 		// 	link: '/shop/product/smes-suxaya-universalnaya-m-150-25-kg',
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/m150-500x500.png'
-		// },
-		// {
-		// 	id: '2766',
-		// 	action: 'Мастика гидроизоляционная 20 кг. "Альфатехмаст"',
-		// 	price: '1750',
-		// 	description: 'При заказе через сайт дополнительная скидка 5%',
-		// 	link: '/shop/product/mastika-gidroizolyacionnaya-20-kg-alfatexmast',
-		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/qxoqQpTjJzhnAIzNEo9kjXtMHpNxo5oXEOfRYwGq.jpg'
 		// },
 		// {
 		// 	id: '',
