@@ -67,6 +67,14 @@
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/stukaturnaya-smes-ek-tt-30-fasadnaya-25-kg',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TT30.png'
+		},
+		{
+			id: '161',
+			action: 'Пена пистолетная "KUDO home 65" всесезонная',
+			price: '448',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/pena-pistoletnaya-kudo-home-65-vsesezonnaya',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/96cddb9d3879573617bbb8e8fdccfc3b.jpg'
 		}
 
 		// {
@@ -76,14 +84,6 @@
 		// 	description: 'При заказе через сайт дополнительная скидка 5%',
 		// 	link: '/shop/product/klei-dlya-plitki-knauf-flizenkleber-25-kg',
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%84%D0%BB%D0%B8%D0%B7%D0%B5%D0%BD.webp'
-		// },
-		// {
-		// 	id: '161',
-		// 	action: 'Пена пистолетная "KUDO home 65" всесезонная',
-		// 	price: '470',
-		// 	description: 'При заказе через сайт дополнительная скидка 5%',
-		// 	link: '/shop/product/pena-pistoletnaya-kudo-home-65-vsesezonnaya',
-		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/96cddb9d3879573617bbb8e8fdccfc3b.jpg'
 		// },
 		// {
 		// 	id: '1748',
@@ -475,14 +475,6 @@
 		// 	description: 'При заказе через сайт дополнительная скидка 5%',
 		// 	link: '/shop/product/plita-osb-3-250012506mm-kronospan-gost-vlagostoykaya',
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/YBbav3JxXOKl8hYDTen6CzCa1TUlMBagzDxTXlFO.png'
-		// },
-		// {
-		// 	id: '161',
-		// 	action: 'Пена пистолетная "KUDO Home 65" всесезонная',
-		// 	price: '464',
-		// 	description: 'При заказе через сайт дополнительная скидка 5%',
-		// 	link: '/shop/product/pena-pistoletnaya-kudo-home-65-vsesezonnaya',
-		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/96cddb9d3879573617bbb8e8fdccfc3b.jpg'
 		// },
 		// {
 		// 	id: '343',
