@@ -51,7 +51,7 @@
 	/>
 </svelte:head>
 
-<section class="py-4 lg:py-6">
+<section class="py-4 lg:py-12">
 	<div class="grid max-w-full px-4 lg:px-12 xl:px-24 mx-auto lg:gap-8 xl:gap-0  lg:grid-cols-12">
 		<div class="mr-auto place-self-center lg:col-span-7">
 			<div class="flex">
@@ -61,9 +61,9 @@
 					>
 						Весь МАЙ
 					</h2> -->
-					<p class=" mb-6 font-extrabold text-red-600 lg:my-4 text-6xl xl:text-7xl">Акция</p>
-					<p class=" mb-6 font-extrabold text-green-700 lg:my-4 text-6xl xl:text-7xl">Июль!!!</p>
-					<p class=" mb-6 font-extrabold text-cyan-700 lg:my-4 text-6xl xl:text-7xl">Суперцена</p>
+					<p class=" mb-6 font-extrabold text-red-600 lg:my-4 text-5xl xl:text-6xl">Акция</p>
+					<p class=" mb-6 font-extrabold text-green-700 lg:my-4 text-5xl xl:text-6xl">Июль!!!</p>
+					<p class=" mb-6 font-extrabold text-cyan-700 lg:my-4 text-5xl xl:text-6xl">Суперцена</p>
 					<!-- <p
 						class="max-w-3xl font-light text-gray-600 lg:my-8 text-sm md:text-base xl:text-lg dark:text-gray-500"
 					>
@@ -98,7 +98,7 @@
 				<!-- СРЕДНЯЯ ЧАСТЬ -->
 				<div class="hidden lg:block h-80 overflow-hidden ml-10">
 					<img
-						class="h-full w-full object-contain"
+						class="h-full w-full object-fill"
 						src="https://storage.yandexcloud.net/orbita/actions/17343.440%402x.jpg"
 						alt="Стройматериалы по акции"
 					/>
@@ -131,7 +131,7 @@
 		</div>
 		<div class="hidden lg:block px-16 lg:mt-0 lg:col-span-5 ">
 			<img
-				class="h-96"
+				class="h-80"
 				src="https://storage.yandexcloud.net/orbita/actions/cement430p.jpeg"
 				alt="скидка"
 			/>
