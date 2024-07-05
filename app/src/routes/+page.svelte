@@ -96,7 +96,7 @@
 				</div>
 
 				<!-- СРЕДНЯЯ ЧАСТЬ -->
-				<div class="hidden lg:block h-80 overflow-hidden ml-36">
+				<div class="hidden lg:block h-80 overflow-hidden ml-10">
 					<img
 						class="h-full w-full object-contain"
 						src="https://storage.yandexcloud.net/orbita/actions/17343.440%402x.jpg"
