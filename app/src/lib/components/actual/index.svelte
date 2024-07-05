@@ -131,6 +131,14 @@
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/penoplast-psb-s-15-10001000100',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BF%D0%B5%D0%BD%D0%BE%D0%BF%D0%BB%D0%B0%D1%81%D1%82.jpg'
+		},
+		{
+			id: '2959',
+			action: 'Клей для ячеистых блоков kleben block',
+			price: '312',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/lkey-dla-blokov',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/818304731.webp'
 		}
 
 		// {
