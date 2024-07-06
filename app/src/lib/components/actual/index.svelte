@@ -24,6 +24,7 @@
 			id: '123',
 			action: 'Линокром ТПП (15 м2)',
 			price: '2520',
+			unit: 'шт',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/linokrom-tpp-15-m2',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BB%D0%B8%D0%BD%D0%BE%D0%BA%D1%80%D0%BE%D0%BC.jpg'
@@ -32,6 +33,7 @@
 			id: '964',
 			action: 'Эпп Технониколь 1180*580*30-l',
 			price: '206',
+			unit: 'шт',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/epp-xps30-200-texnopleks-118058030-l',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/XPS-%D0%A2%D0%95%D0%A5%D0%9D%D0%9E%D0%9F%D0%9B%D0%95%D0%9A%D0%A1.png'
@@ -40,6 +42,7 @@
 			id: '69',
 			action: 'Утеплитель Техноблок 1200х600х50',
 			price: '1680',
+			unit: 'шт',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/uteplitel-texnoblok-standart-120060050-mm-0288-m3',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/nt[yj,kjr.jpg'
@@ -48,6 +51,7 @@
 			id: '2393',
 			action: 'Мастика гидроизоляционная 20 кг. "Альфатехмаст"',
 			price: '2050',
+			unit: 'шт',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/mastika-gidroizolyacionnaya-20-kg-alfatexmast',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/qxoqQpTjJzhnAIzNEo9kjXtMHpNxo5oXEOfRYwGq.jpg'
@@ -56,6 +60,7 @@
 			id: '2958',
 			action: 'Краска моющаяся для наружных и внутренних работ Pelligrina',
 			price: '2100',
+			unit: '15кг',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/kraskka-peligrinna',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/peligrinnakraska.jpg'
@@ -64,6 +69,7 @@
 			id: '434',
 			action: 'Штукатурная смесь "ЕК" TT 30 фасадная (25 кг)',
 			price: '315',
+			unit: 'шт',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/stukaturnaya-smes-ek-tt-30-fasadnaya-25-kg',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TT30.png'
@@ -72,6 +78,7 @@
 			id: '161',
 			action: 'Пена пистолетная "KUDO home 65" всесезонная',
 			price: '448',
+			unit: 'шт',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/pena-pistoletnaya-kudo-home-65-vsesezonnaya',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/96cddb9d3879573617bbb8e8fdccfc3b.jpg'
@@ -80,6 +87,7 @@
 			id: '315',
 			action: 'Клей для плитки эластичный "Церезит СМ 16" (25 кг)',
 			price: '1173',
+			unit: 'шт',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/klei-dlya-plitki-elasticnyi-cerezit-sm-16-25-kg',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%81%D0%BC16.jpeg'
@@ -88,6 +96,7 @@
 			id: '436',
 			action: 'Штукатурная смесь KNAUF ROTBAND белая (30 кг)',
 			price: '530',
+			unit: 'шт',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/stukaturnaya-smes-knauf-rotband-belaya-30-kg',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/020_original.jpg'
@@ -96,6 +105,7 @@
 			id: '200',
 			action: 'Доска обрезная обработанная',
 			price: '17500',
+			unit: 'м.куб.',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/products/doska-obreznaya-obrabotannaya',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B4%D0%BE%D1%81%D0%BA%D0%B0.jpg'
@@ -104,6 +114,7 @@
 			id: '345',
 			action: 'Кабель ВВГ ПНГ-ls 2*2,5 гост плоский',
 			price: '69',
+			unit: 'шт',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/kabel-vvg-png-ls-225-gost-ploskii-arzamasskii-kabelnyi-zavod',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/2%D0%BD%D0%B02.5.jpeg'
@@ -112,6 +123,7 @@
 			id: '1654',
 			action: 'Труба д20 l-4m серая',
 			price: '195',
+			unit: 'шт',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/truba-d20-l-4m-seraya',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/ki77k2qf8lk4N8oWkfjflmkvOUhbn8CmX0TfEJ4A.jpg'
@@ -120,6 +132,7 @@
 			id: '1687',
 			action: 'Труба д25 l-4m. серая',
 			price: '497',
+			unit: 'шт',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/truba-d25-l-4m-seraya',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/vayfYRfvBskPU7aAU9eQ6TuEwa9zNehdHOLv14Zi.jpg'
@@ -128,6 +141,7 @@
 			id: '91',
 			action: 'Пенопласт ПСБ-С-15 1000*1000*100',
 			price: '240',
+			unit: 'шт',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/penoplast-psb-s-15-10001000100',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BF%D0%B5%D0%BD%D0%BE%D0%BF%D0%BB%D0%B0%D1%81%D1%82.jpg'
@@ -136,11 +150,11 @@
 			id: '2959',
 			action: 'Клей для ячеистых блоков kleben block',
 			price: '312',
+			unit: 'шт',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/lkey-dla-blokov',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/818304731.webp'
 		}
-
 		// {
 		// 	id: '307',
 		// 	action: 'Клей для плитки KNAUF FLIESEN (25 кг)',
@@ -692,7 +706,7 @@
 		</p>
 
 		<div class="mt-8 grid grid-cols-1 gap-y-8 gap-x-6 sm:grid-cols-2 lg:grid-cols-5 xl:gap-x-8">
-			{#each actualProducts as { id, action, price, description, link, img }}
+			{#each actualProducts as { id, action, price, unit, img }}
 				<div
 					class="group rounded-md relative shadow-lg shadow-slate-400/50 p-3 border-2 transition ease-in-out hover:scale-105"
 				>
@@ -710,7 +724,8 @@
 						</div>
 					</div>
 					<p class="m-2 text-base font-medium text-gray-900">
-						{price} руб.{#if id === '200'}/м<sup>3</sup>{/if}
+						{price} руб/{unit}
+						<!-- {price} руб.{#if id === '200'}/м<sup>3</sup>{/if} -->
 					</p>
 
 					{#if browser && !InCart.some((arrVal) => id === arrVal)}
