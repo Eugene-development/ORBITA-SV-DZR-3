@@ -56,6 +56,8 @@ const actions = [
 		link: '/shop/product/knauf-profil-napravlaushii-27x28',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/profil-potolochnyj-napravlyayuschij-knauf-27h28-izomaxx-1000x1000.png'
 	},
+	
+	
 	{
 		id: '2960',
 		action: 'Knauf профиль потолочный (ПП)',
