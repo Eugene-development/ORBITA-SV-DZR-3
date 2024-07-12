@@ -51,10 +51,10 @@
 
 			<main class="mx-auto mt-10 max-w-7xl px-4 lg:px-8 sm:mt-8 sm:px-6 md:mt-10 lg:mt-6 xl:mt-12 ">
 				<div class="sm:text-center lg:text-left">
-					<h1 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-2xl md:text-2xl">
+					<span class="text-2xl font-bold tracking-tight text-gray-900 sm:text-2xl md:text-2xl">
 						<span class="block xl:inline">{dataSlider.action}</span> <br />
 						<!-- <span class="block text-cyan-700 xl:inline">{dataSlider.brand}</span> -->
-					</h1>
+					</span>
 					<p
 						class="mt-3 text-sm text-gray-700 sm:mx-auto sm:mt-2 sm:max-w-xl sm:text-base md:mt-2 lg:mx-0"
 					>

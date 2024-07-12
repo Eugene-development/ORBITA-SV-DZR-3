@@ -306,7 +306,7 @@
 									<h3 class="text-white">Джафарова Эля</h3>
 									<p class="text-indigo-400">менеджер</p>
 									<p class="text-indigo-400">8-902-303-36-54</p>
-									<p class="text-indigo-400">orbita.elnara85@mail.ru</p>
+									<p class="text-indigo-400">orbita.elnara@yandex.ru</p>
 								</div>
 							</div>
 						</div>
