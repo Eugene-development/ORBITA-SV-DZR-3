@@ -10,7 +10,7 @@
 		<div class="text-center">
 			<h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Наш блог</h2>
 			<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-				Интересные статьи на строительную тематику
+				Интересные статьи на тему строительных и отделочных материалов
 			</p>
 		</div>
 		<div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
