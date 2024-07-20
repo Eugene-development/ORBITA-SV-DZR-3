@@ -50,7 +50,7 @@
 			<div class="xl:grid xl:grid-cols-3 xl:gap-8">
 				<div class="grid grid-cols-2 gap-8 xl:col-span-2">
 					<div class="md:grid md:grid-cols-1">
-						<address>
+						<address class="not-italic">
 							<h3 class="text-lg font-semibold uppercase tracking-wider text-gray-400">
 								Контакты:
 							</h3>
