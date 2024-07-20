@@ -50,7 +50,7 @@
 			<div class="xl:grid xl:grid-cols-3 xl:gap-8">
 				<div class="grid grid-cols-2 gap-8 xl:col-span-2">
 					<div class="md:grid md:grid-cols-1">
-						<div>
+						<address>
 							<h3 class="text-lg font-semibold uppercase tracking-wider text-gray-400">
 								Контакты:
 							</h3>
@@ -136,7 +136,7 @@
 								<!--									vk.com/orbita_stroy-->
 								<!--								</a>-->
 							</div>
-						</div>
+						</address>
 					</div>
 
 					<div class="md:grid md:grid-cols-2 md:gap-8">
