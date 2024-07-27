@@ -15,10 +15,20 @@
 			"img": "https://kupisever.ru/image/post/66790/16478518936238397577247.jpg",
 			"alt": "",
 			"title": "Цемент в строительстве и ремонте",
-			"description": "Цемент – один из ключевых материалов, который широко применяется в строительстве и ремонте. Этот порошкообразный материал при смешивании с водой.. ",
+			"description": "Цемент – один из ключевых материалов, который широко применяется в строительстве и ремонте. Этот порошкообразный материал при смешивании с водой... ",
 			"avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
 			"author": "Евгений Че",
 			"date": "12 июля, 2024"
+		},
+		{
+			"id": 3,
+			"img": "https://tgorlovka.com/wp-content/uploads/2019/05/zalivka-fundamenta-poshagovaya-instrukciya-po-provedeniyu-stroitelnyh-rabot-53.jpg",
+			"alt": "",
+			"title": "Заливка фундамента вручную",
+			"description": " Заливка фундамента является одним из важнейших этапов строительства, определяющим прочность и долговечность всего здания. В некоторых случаях...",
+			"avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+			"author": "Евгений Че",
+			"date": "27 июля, 2024"
 		}
 	]
 }
