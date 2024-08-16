@@ -1,10 +1,10 @@
 <script>
-	import Information from './information/index.svelte';
+	// import Information from './information/index.svelte';
 	import { useInvert } from '$lib/functions/broker';
 	import { visibleMobileMenu, lengthCart } from '$lib/store/stores.js';
 	const { invert } = useInvert;
 
-	export let informationMenu;
+	// export let informationMenu;
 </script>
 
 <div class=" relative -mx-1 bg-gray-100">
@@ -83,18 +83,18 @@
 				<nav class="flex space-x-8 font-semibold">
 					<a class="text-base text-gray-800 hover:text-red-800" href="/">Главная</a>
 					<a class="text-base text-gray-800 hover:text-red-800" href="/about">Компания</a>
-					<Information {informationMenu} />
+					<!-- <Information {informationMenu} /> -->
 					<a class="text-base text-gray-800 hover:text-red-800" href="/blog"> Блог </a>
 					<a class="text-base text-gray-800 hover:text-red-800" href="/information/action">Акции</a>
 					<a class="text-base text-gray-800 hover:text-red-800" href="/contact"> Контакты </a>
 					<!-- svelte-ignore security-anchor-rel-noreferrer -->
-					<a
+					<!-- <a
 						class="text-base text-gray-800 hover:text-red-800"
 						href="https://vk.com/orbita_stroy"
 						target="_blank"
 					>
 						VK
-					</a>
+					</a> -->
 				</nav>
 				<div class="flex items-center md:ml-12">
 					<a
