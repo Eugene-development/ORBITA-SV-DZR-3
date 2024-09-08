@@ -29,6 +29,16 @@
 			"avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
 			"author": "Евгений Че",
 			"date": "27 июля, 2024"
+		},
+		{
+			"id": 4,
+			"img": "https://www.ricol.shop/upload/iblock/809/80951ed9ba552bb782831144163cc426.jpg",
+			"alt": "",
+			"title": "Выбор теплоизоляции",
+			"description": "При строительстве или ремонте дома правильный выбор утеплителя является одним из важнейших этапов. Ведь он влияет на комфорт в помещении, долговечность...",
+			"avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+			"author": "Евгений Че",
+			"date": "31 августа, 2024"
 		}
 	]
 }

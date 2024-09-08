@@ -25,7 +25,7 @@ const textHTML = `
                         <rect width="404" height="384" fill="url(#7a00fe67-0343-4a3c-8e81-c145097a3ce0)" />
                     </svg>
                     <div class="relative bg-gradient-to-b from-white via-white to-gray-50 md:p-6">
-                        <div class="lg:grid lg:grid-cols-2 lg:gap-12">
+                        <div class="lg:grid lg:grid-cols-1 lg:gap-12">
                             <div class="prose prose-indigo prose-lg text-gray-500 lg:max-w-none">
 
     <p>Заливка фундамента является одним из важнейших этапов строительства, определяющим прочность и долговечность всего здания. В некоторых случаях, особенно при возведении небольших построек, заливка фундамента вручную может быть более целесообразным и экономичным вариантом. В этой статье мы рассмотрим основные шаги и важные аспекты этого процесса.</p>
