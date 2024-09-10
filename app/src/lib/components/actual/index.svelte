@@ -104,7 +104,7 @@
 		{
 			id: '200',
 			action: 'Доска обрезная обработанная',
-			price: '17500',
+			price: '18500',
 			unit: 'м.куб.',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/products/doska-obreznaya-obrabotannaya',
