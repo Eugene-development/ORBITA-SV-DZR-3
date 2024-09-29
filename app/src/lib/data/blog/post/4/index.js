@@ -4,7 +4,7 @@ const textHTML = `
                 <div class="relative z-10 mb-8 md:mb-2 md:px-6">
                     <div class="text-base max-w-prose lg:max-w-none">
                         <h2 class="leading-6 text-sky-600 font-semibold tracking-wide uppercase">Пост от 27 июля 2024</h2>
-                        <h1 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Заливка фундамента вручную: пошаговое руководство</h1>
+                        <h1 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Как выбрать утеплитель для строительства: советы для домовладельцев</h1>
                     </div>
                 </div>
                 <div class="relative">
@@ -28,7 +28,6 @@ const textHTML = `
                         <div class="lg:grid lg:grid-cols-1 lg:gap-12">
                             <div class="prose prose-indigo prose-lg text-gray-500 lg:max-w-none">
 
-<h1>Как выбрать утеплитель для строительства: советы для домовладельцев</h1>
 
     <p>При строительстве или ремонте дома правильный выбор утеплителя является одним из важнейших этапов. Ведь он влияет на комфорт в помещении, долговечность конструкций и расходы на отопление. В этой статье мы рассмотрим основные типы утеплителей: <strong>минерально-базальтовые утеплители</strong>, <strong>джут</strong>, <strong>пенопласт</strong> и <strong>пенополистирол</strong>, а также разберём, какой из них лучше всего подойдёт для вашего дома.</p>
 
