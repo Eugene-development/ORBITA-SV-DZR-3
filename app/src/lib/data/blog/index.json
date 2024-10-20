@@ -49,6 +49,16 @@
 			"avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
 			"author": "Евгений Че",
 			"date": "30 сентября, 2024"
+		},
+		{
+			"id": 6,
+			"img": "https://instrumental.by/ru/files/news/image/1200/0/1611564267.jpg",
+			"alt": "",
+			"title": "Применение ручного инструмента",
+			"description": "Ремонтные работы – это неотъемлемая часть жизни, особенно когда речь идет о поддержании дома в хорошем состоянии или осуществлении масштабного...",
+			"avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+			"author": "Евгений Че",
+			"date": "12 октября, 2024"
 		}
 	]
 }
