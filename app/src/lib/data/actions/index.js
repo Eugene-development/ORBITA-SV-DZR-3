@@ -1,0 +1,176 @@
+const actions = [
+	{
+		id: '436',
+		action: 'Штукатурная смесь "Кнауф Ротбанд" белая (30 кг)',
+		price: '489',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/shop/product/stukaturnaya-smes-knauf-rotband-belaya-30-kg',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/020_original.jpg'
+	},
+	{
+		id: '447',
+		action: 'Шпаклевка гипсовая "ЕК" К 200 (20 кг)',
+		price: '457',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/shop/product/spaklevka-gipsovaya-ek-k-200-20-kg',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/ek20025kg-500x500.jpg'
+	},
+	{
+		id: '356',
+		action: 'Профиль направляющий 27/28 0,5 мм (3 м)',
+		price: '111',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/shop/product/profil-napravlyayushhii-2728-tolshh-05-mm-3-m',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/2728.jpg'
+	},
+	{
+		id: '365',
+		action: 'Профиль потолочный 60/27 0,5 мм (3 м)',
+		price: '176',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/shop/product/profil-potolocnyi-6027-tolshh-05-mm-3-m',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/6027.jpg'
+	},
+	{
+		id: '534',
+		action: 'Грунтовка для впит. оснований "Церезит СТ17" (10 л)',
+		price: '1040',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/shop/product/gruntovka-dlya-vpityvayushhix-osnovanii-cerezit-st-17-10-l',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/5.png'
+	},
+	{
+		id: '200',
+		action: 'Доска обрезная обработанная',
+		price: '18500',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/shop/products/doska-obreznaya-obrabotannaya',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B4%D0%BE%D1%81%D0%BA%D0%B0.jpg'
+	},
+	// {
+	// 	id: '2766',
+	// 	action: 'Поликарбонат сотовый прозрачный (размер 12х2.1м, 4мм)',
+	// 	price: '5400',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/polikarbonat-sotovyi-prozracnyi-4mm',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/lSHy2nYTCubCyXeSrG38YM8CD4DPL88MeYQzrSSw.png'
+	// },
+	// {
+	// 	id: '314',
+	// 	action: 'Клей для плитки и керамогранита "CERESIT CM 14 extra"',
+	// 	price: '765',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/klei-dlya-plitki-i-keramogranita-cerezit-sm-14-extra-dlya-ulicy-i-teplyx-polov-25-kg',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%81%D0%BC14.jpg'
+	// },
+	// {
+	// 	id: '655',
+	// 	action: 'Шпаклевка финишная "KNAUF ROTBAND" паста (18 кг)',
+	// 	price: '1595',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/spaklevka-finisnaya-knauf-rotband-pasta-18-kg',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/3696355.jpg'
+	// },
+	// {
+	// 	id: '450',
+	// 	action: 'Шпаклевка "EK" VH80 фасадная белая (20 кг)',
+	// 	price: '665',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/spaklevka-ek-vh-80-fasadnaya-belaya-20-kg',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-VH80.png'
+	// },
+	{
+		id: '234',
+		action: 'Фанера 8мм, сорт 3/4 (1,525*1,525)',
+		price: '780',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/shop/product/fanera-8mm-sort-34-15251525',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%84%D0%B0%D0%BD%D0%B5%D1%80%D0%B0.jpg'
+	}
+	// {
+	// 	id: '235',
+	// 	action: 'Фанера 10мм, сорт 3/4 (1,525*1,525)',
+	// 	price: '948',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/fanera-10mm-sort-34-15251525',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%84%D0%B0%D0%BD%D0%B5%D1%80%D0%B0.jpg'
+	// },
+
+	// {
+	// 	id: '2961',
+	// 	action: 'Knauf профиль направляющий 27х28 (3 метра) 0.6мм',
+	// 	price: '217',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/knauf-profil-napravlaushii-27x28',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/profil-potolochnyj-napravlyayuschij-knauf-27h28-izomaxx-1000x1000.png'
+	// },
+
+	// {
+	// 	id: '2960',
+	// 	action: 'Knauf профиль потолочный (ПП)',
+	// 	price: '318',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/knauf-profil-potolochni-pp',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/knauf_profil_pp_3000H60H27H06.png'
+	// },
+
+	// {
+	// 	id: '257',
+	// 	action: 'ГКЛ KNAUF 9,5 мм (1200*2500)',
+	// 	price: '359',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/gklv-knauf-125-mm-12002500',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BE%D0%BF%D1%82.webp'
+	// }
+	// {
+	// 	id: '260',
+	// 	action: 'ГКЛВ KNAUF 12,5 мм (1200*2500)',
+	// 	price: '520',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/gklv-knauf-125-mm-12002500',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BE%D0%BF%D1%82.webp'
+	// },
+	// {
+	// 	id: '261',
+	// 	action: 'ГВЛВ "Кнауф" 10 мм (1200*2500)',
+	// 	price: '749',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/gvlv-knauf-10-mm-12002500',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B3%D0%B2%D0%BB.jpg'
+	// },
+	// {
+	// 	id: '1543',
+	// 	action: 'Гклв "Кнауф" даногипс 12,5мм (1,2х2,5)',
+	// 	price: '528',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/gklv-knauf-danogips-125mm-12x25',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/lvfXJZnJe2ASRUHpI5X2dxVN30ZPHmVRFh0MDJyi.jpeg'
+	// },
+	// {
+	// 	id: '1661',
+	// 	action: 'Утеплитель Технониколь Роклайт 1200*600*50',
+	// 	price: '1160',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/uteplitel-texnonikol-roklait-120060050',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/c2eHGTqI7cLLb0g8nf4vlbuB6KENnH59Ukii45om.jpg'
+	// },
+	// {
+	// 	id: '312',
+	// 	action: 'Клей для керамгранита "Церезит СМ 11" (25 кг)',
+	// 	price: '507',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/klei-dlya-keramgranita-cerezit-sm-11-25-kg',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%81%D0%BC%2011%20%D0%BF%D0%BB.jpeg'
+	// },
+	// {
+	// 	id: '965',
+	// 	action: 'Эпп технониколь 1180*580*50-l',
+	// 	price: '338',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/epp-xps30-200-texnopleks-118058050-l',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/XPS-%D0%A2%D0%95%D0%A5%D0%9D%D0%9E%D0%9F%D0%9B%D0%95%D0%9A%D0%A1.png'
+	// }
+];
+export const contentActions = {
+	actions
+};

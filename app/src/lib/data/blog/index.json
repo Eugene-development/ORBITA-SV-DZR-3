@@ -1,0 +1,64 @@
+{
+	"posts": [
+		{
+			"id": 1,
+			"img": "https://fikusexpert.com/wp-content/uploads/2020/04/Pokupka-strojmaterialov.jpg",
+			"alt": "",
+			"title": "Стройматериалы в начале сезона",
+			"description": "Большинство людей занимается строительными и ремонтными работами в теплое время года: с начала весны до середины осени...",
+			"avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+			"author": "Евгений Че",
+			"date": "10 мая, 2023"
+		},
+		{
+			"id": 2,
+			"img": "https://kupisever.ru/image/post/66790/16478518936238397577247.jpg",
+			"alt": "",
+			"title": "Цемент в строительстве и ремонте",
+			"description": "Цемент – один из ключевых материалов, который широко применяется в строительстве и ремонте. Этот порошкообразный материал при смешивании с водой... ",
+			"avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+			"author": "Евгений Че",
+			"date": "12 июля, 2024"
+		},
+		{
+			"id": 3,
+			"img": "https://tgorlovka.com/wp-content/uploads/2019/05/zalivka-fundamenta-poshagovaya-instrukciya-po-provedeniyu-stroitelnyh-rabot-53.jpg",
+			"alt": "",
+			"title": "Заливка фундамента вручную",
+			"description": " Заливка фундамента является одним из важнейших этапов строительства, определяющим прочность и долговечность всего здания. В некоторых случаях...",
+			"avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+			"author": "Евгений Че",
+			"date": "27 июля, 2024"
+		},
+		{
+			"id": 4,
+			"img": "https://www.ricol.shop/upload/iblock/809/80951ed9ba552bb782831144163cc426.jpg",
+			"alt": "",
+			"title": "Выбор теплоизоляции",
+			"description": "При строительстве или ремонте дома правильный выбор утеплителя является одним из важнейших этапов. Ведь он влияет на комфорт в помещении, долговечность...",
+			"avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+			"author": "Евгений Че",
+			"date": "31 августа, 2024"
+		},
+		{
+			"id": 5,
+			"img": "https://i.postimg.cc/xT9Qm7vW/image.jpg",
+			"alt": "",
+			"title": "Подбор монтажной пены",
+			"description": "Монтажная пена – это незаменимый материал в строительстве и ремонте. Она используется для уплотнения швов, герметизации стыков, монтажа дверей и окон, а также...",
+			"avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+			"author": "Евгений Че",
+			"date": "30 сентября, 2024"
+		},
+		{
+			"id": 6,
+			"img": "https://instrumental.by/ru/files/news/image/1200/0/1611564267.jpg",
+			"alt": "",
+			"title": "Применение ручного инструмента",
+			"description": "Ремонтные работы – это неотъемлемая часть жизни, особенно когда речь идет о поддержании дома в хорошем состоянии или осуществлении масштабного...",
+			"avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+			"author": "Евгений Че",
+			"date": "12 октября, 2024"
+		}
+	]
+}
