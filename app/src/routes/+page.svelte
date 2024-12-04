@@ -62,7 +62,7 @@
 						Весь МАЙ
 					</h2> -->
 					<p class=" mb-6 font-extrabold text-red-600 lg:my-4 text-5xl xl:text-6xl">Акция</p>
-					<p class=" mb-6 font-extrabold text-green-700 lg:my-4 text-5xl xl:text-6xl">Ноябрь!!!</p>
+					<p class=" mb-6 font-extrabold text-green-700 lg:my-4 text-5xl xl:text-6xl">Декабрь!!!</p>
 					<p class=" mb-6 font-extrabold text-cyan-700 lg:my-4 text-5xl xl:text-6xl">Суперцена</p>
 					<!-- <p
 						class="max-w-3xl font-light text-gray-600 lg:my-8 text-sm md:text-base xl:text-lg dark:text-gray-500"
