@@ -50,7 +50,7 @@
 		{
 			id: '228',
 			action: 'Плита ОСБ-3 2500*1250*9мм Kronospan ГОСТ (влагостойкая)',
-			price: '710',
+			price: '749',
 			unit: 'шт',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/plita-osb-3-250012509mm-Kronospan-gost-vlagostoikaya',
@@ -782,7 +782,7 @@
 			Cтройматериалы в Дзержинске по низким ценам
 		</h1>
 		<p class="py-2 text-xl text-center tracking-tight text-gray-900">
-			Цены, которые вас приятно удивит в этом сезоне.
+			Цены, которые вас приятно удивят в этом сезоне.
 			<!-- Цены на стройматериалы указаны <span class="text-red-800">со скидкой 5%</span> -->
 		</p>
 
