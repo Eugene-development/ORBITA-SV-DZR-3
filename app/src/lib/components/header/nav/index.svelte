@@ -85,7 +85,7 @@
 					<a class="text-base text-gray-800 hover:text-red-800" href="/about">Компания</a>
 					<!-- <Information {informationMenu} /> -->
 					<a class="text-base text-gray-800 hover:text-red-800" href="/blog"> Блог </a>
-					<a class="text-base text-gray-800 hover:text-red-800" href="/information/action">Акции</a>
+					<!-- <a class="text-base text-gray-800 hover:text-red-800" href="/information/action">Акции</a> -->
 					<a class="text-base text-gray-800 hover:text-red-800" href="/contact"> Контакты </a>
 					<!-- svelte-ignore security-anchor-rel-noreferrer -->
 					<!-- <a
@@ -98,13 +98,18 @@
 				</nav>
 				<div class="flex items-center md:ml-12">
 					<a
-						href="/shop/discount"
+						href="/information/action"
 						class="rounded-md bg-red-700 px-3 py-2 text-sm font-semibold text-white  hover:bg-red-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 shadow-lg shadow-gray-900/50"
-						>Здесь все скидки!!!</a
+						>Акция завода Церезит</a
+					>
+					<a
+						href="/shop/discount"
+						class="rounded-md bg-red-700 ml-2 px-3 py-2 text-sm font-semibold text-white  hover:bg-red-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 shadow-lg shadow-gray-900/50"
+						>Здесь все скидки</a
 					>
 
 					<a
-						class="ml-8 inline-flex items-center justify-center rounded-md border border-transparent bg-cyan-900 px-4 py-1 text-base font-medium text-white shadow-lg shadow-gray-900/50 hover:bg-gray-800"
+						class="ml-6 inline-flex items-center justify-center rounded-md bg-cyan-800 px-3 py-2 text-sm font-semibold text-white shadow-lg shadow-gray-900/50 hover:bg-gray-800"
 						href="/shop/cart"
 					>
 						<svg
