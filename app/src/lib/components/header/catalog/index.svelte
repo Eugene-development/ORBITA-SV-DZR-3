@@ -88,7 +88,7 @@
 									</svg>
 
 									<span
-										class="ml-1 selection:delay-50 duration-50 order-2 text-base font-medium leading-6 tracking-wider text-red-900"
+										class="ml-1 selection:delay-50 duration-50 order-2 text-base font-medium leading-6 tracking-wider text-gray-900"
 									>
 										{name}
 									</span>

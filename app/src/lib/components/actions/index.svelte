@@ -14,7 +14,7 @@
     <div class="px-6 lg:px-0">
       <div class="sm:flex sm:items-center">
         <div class="sm:flex-auto">
-          <h1 class="text-4xl font-semibold text-gray-900">Акции завода Церезит</h1>
+          <h1 class="text-4xl font-semibold text-gray-900">Акции завода "Церезит"</h1>
           <p class="mt-2 text-base text-gray-700">Условия отгрузок и размер остатков уточняйте у наших менеджеров</p>
         </div>
       </div>
