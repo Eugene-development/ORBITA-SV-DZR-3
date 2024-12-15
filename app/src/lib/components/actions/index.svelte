@@ -11,10 +11,10 @@
         <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {#each actions as { action, price, description, link, img }}
             <div class="bg-white rounded-lg border border-gray-200 shadow-sm">
-                <div class="p-8">
-                    <img class="p-4 object-cover h-96 w-full rounded-lg" src={img} alt="Акция">
+                <div class="p-10">
+                    <img class="object-cover h-96 w-full rounded-lg" src={img} alt="Акция">
                 </div>
-                <div class="px-5 pb-5 ">
+                <div class="px-10 pb-5 ">
                     <h3 class="text-lg font-bold tracking-tight text-gray-900 h-24">
                         <a href="#">{action}</a>
                     </h3>
