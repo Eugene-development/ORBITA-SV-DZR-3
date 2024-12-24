@@ -5,6 +5,7 @@
 	import Testimonials from '$lib/components/testimonials/index.svelte';
 	import Message from '$lib/components/message/index.svelte';
 	import Article from '$lib/components/article/index.svelte';
+	import Holiday from '$lib/components/holiday/index.svelte';
 
 	// Import Swiper
 	import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
@@ -160,6 +161,7 @@
 		</div> -->
 	</div>
 </section>
+<Holiday />
 <Swiper
 	modules={[Pagination, Scrollbar, A11y, Autoplay]}
 	autoplay={{ delay: 6000 }}
