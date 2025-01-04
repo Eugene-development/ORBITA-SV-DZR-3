@@ -1,52 +1,103 @@
 const actions = [
 	{
-		id: '436',
-		action: 'Штукатурная смесь "Кнауф Ротбанд" белая (30 кг)',
-		price: '489',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/shop/product/stukaturnaya-smes-knauf-rotband-belaya-30-kg',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/020_original.jpg'
+		id: '1944',
+		action: 'ДВП 1220*2440*3,2',
+		price: '185',
+		link: '/shop/product/dvp-1220244032',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/W6E3RBdh7ybngPyTwrWYkc2WUh5P9ZDOUIT3iK4t.jpg'
 	},
 	{
-		id: '447',
-		action: 'Шпаклевка гипсовая "ЕК" К 200 (20 кг)',
-		price: '457',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/shop/product/spaklevka-gipsovaya-ek-k-200-20-kg',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/ek20025kg-500x500.jpg'
+		id: '',
+		action: '',
+		price: '',
+		link: '',
+		img: ''
 	},
 	{
-		id: '356',
-		action: 'Профиль направляющий 27/28 0,5 мм (3 м)',
-		price: '111',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/shop/product/profil-napravlyayushhii-2728-tolshh-05-mm-3-m',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/2728.jpg'
+		id: '348',
+		action: 'Кирпич керамический одинарный полнотел. М150',
+		price: '22',
+		link: '/shop/product/kirpic-pecnoi-m-150-294-stup',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BA%D0%B8%D1%80%D0%BF%20%D0%BF.jpg'
+	},
+	
+	{
+		id: '470',
+		action: 'Смесь сухая универсальная м-150 (25 кг) ПРЕСТИЖ',
+		price: '145',
+		link: '/shop/product/smes-suxaya-universalnaya-m-150-25-kg',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/m150-500x500.png'
 	},
 	{
-		id: '365',
-		action: 'Профиль потолочный 60/27 0,5 мм (3 м)',
-		price: '176',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/shop/product/profil-potolocnyi-6027-tolshh-05-mm-3-m',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/6027.jpg'
+		id: '370',
+		action: 'Профиль стоечный 50/50 толщ. 0,5 мм (3 м)',
+		price: '231',
+		link: '/shop/product/profil-stoecnyi-5050-tolshh-05-mm-3-m',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/5050.jpg'
 	},
 	{
-		id: '534',
-		action: 'Грунтовка для впит. оснований "Церезит СТ17" (10 л)',
-		price: '1040',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/shop/product/gruntovka-dlya-vpityvayushhix-osnovanii-cerezit-st-17-10-l',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/5.png'
+		id: '363',
+		action: 'ПРОФИЛЬ НАПРАВЛЯЮЩИЙ 50/40 ТОЛЩ. 0,5 ММ (3М)',
+		price: '182',
+		link: '/shop/product/profil-napravlyayushhii-5040-tolshh-05-mm-3m',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/5040.jpg'
 	},
 	{
-		id: '200',
-		action: 'Доска обрезная обработанная',
-		price: '18500',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/shop/products/doska-obreznaya-obrabotannaya',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B4%D0%BE%D1%81%D0%BA%D0%B0.jpg'
+		id: '2460',
+		action: 'Перчатки с пвх черные',
+		price: '14',
+		link: '/shop/product/percatki-s-pvx-cernye',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/K6x6Mc7FhaZ31HFKyBS1gNHsrSP60lCzfjikwyNL.jpg'
 	},
+
+	// {
+	// 	id: '436',
+	// 	action: 'Штукатурная смесь "Кнауф Ротбанд" белая (30 кг)',
+	// 	price: '489',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/stukaturnaya-smes-knauf-rotband-belaya-30-kg',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/020_original.jpg'
+	// },
+	// {
+	// 	id: '447',
+	// 	action: 'Шпаклевка гипсовая "ЕК" К 200 (20 кг)',
+	// 	price: '457',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/spaklevka-gipsovaya-ek-k-200-20-kg',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/ek20025kg-500x500.jpg'
+	// },
+	// {
+	// 	id: '356',
+	// 	action: 'Профиль направляющий 27/28 0,5 мм (3 м)',
+	// 	price: '111',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/profil-napravlyayushhii-2728-tolshh-05-mm-3-m',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/2728.jpg'
+	// },
+	// {
+	// 	id: '365',
+	// 	action: 'Профиль потолочный 60/27 0,5 мм (3 м)',
+	// 	price: '176',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/profil-potolocnyi-6027-tolshh-05-mm-3-m',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/6027.jpg'
+	// },
+	// {
+	// 	id: '534',
+	// 	action: 'Грунтовка для впит. оснований "Церезит СТ17" (10 л)',
+	// 	price: '1040',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/gruntovka-dlya-vpityvayushhix-osnovanii-cerezit-st-17-10-l',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/5.png'
+	// },
+	// {
+	// 	id: '200',
+	// 	action: 'Доска обрезная обработанная',
+	// 	price: '18500',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/products/doska-obreznaya-obrabotannaya',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B4%D0%BE%D1%81%D0%BA%D0%B0.jpg'
+	// },
 	// {
 	// 	id: '2766',
 	// 	action: 'Поликарбонат сотовый прозрачный (размер 12х2.1м, 4мм)',
@@ -79,14 +130,14 @@ const actions = [
 	// 	link: '/shop/product/spaklevka-ek-vh-80-fasadnaya-belaya-20-kg',
 	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-VH80.png'
 	// },
-	{
-		id: '234',
-		action: 'Фанера 8мм, сорт 3/4 (1,525*1,525)',
-		price: '780',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/shop/product/fanera-8mm-sort-34-15251525',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%84%D0%B0%D0%BD%D0%B5%D1%80%D0%B0.jpg'
-	}
+	// {
+	// 	id: '234',
+	// 	action: 'Фанера 8мм, сорт 3/4 (1,525*1,525)',
+	// 	price: '780',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/fanera-8mm-sort-34-15251525',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%84%D0%B0%D0%BD%D0%B5%D1%80%D0%B0.jpg'
+	// }
 	// {
 	// 	id: '235',
 	// 	action: 'Фанера 10мм, сорт 3/4 (1,525*1,525)',
