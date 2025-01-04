@@ -53,7 +53,7 @@
 </svelte:head>
 
 <section class="py-4 lg:py-12">
-	<div class="grid max-w-full px-4 lg:px-12 xl:px-24 mx-auto lg:gap-8 xl:gap-0  lg:grid-cols-12">
+	<div class="grid max-w-full px-4 lg:px-12 xl:px-12 mx-auto lg:gap-8 xl:gap-0  lg:grid-cols-12">
 		<div class="mr-auto place-self-center lg:col-span-7">
 			<div class="flex">
 				<div class="hidden lg:block mt-4">
@@ -62,9 +62,9 @@
 					>
 						Весь МАЙ
 					</h2> -->
-					<p class=" mb-6 font-extrabold text-red-600 lg:my-4 text-5xl xl:text-6xl">Акция</p>
-					<p class=" mb-6 font-extrabold text-green-700 lg:my-4 text-5xl xl:text-6xl">Декабрь!!!</p>
-					<p class=" mb-6 font-extrabold text-cyan-700 lg:my-4 text-5xl xl:text-6xl">Суперцена</p>
+					<p class=" pb-6 font-extrabold text-red-600 lg:my-4 text-5xl xl:text-6xl">Акция!!!</p>
+					<p class=" pb-6 font-extrabold text-green-700 lg:my-4 text-5xl xl:text-6xl">Январь!!!</p>
+					<p class=" pb-6 font-extrabold text-cyan-700 lg:my-4 text-5xl xl:text-6xl whitespace-nowrap">Сантехника -15%</p>
 					<!-- <p
 						class="max-w-3xl font-light text-gray-600 lg:my-8 text-sm md:text-base xl:text-lg dark:text-gray-500"
 					>
@@ -97,13 +97,20 @@
 				</div>
 
 				<!-- СРЕДНЯЯ ЧАСТЬ -->
-				<div class="hidden lg:block h-80 overflow-hidden ml-10">
+				<div class="hidden lg:block h-80 overflow-hidden pl-24">
+					<img
+						class="h-full w-full object-fill"
+						src="https://www.knauf.ru/upload/iblock/09c/xixblbnsiva2zlg7yenuc21iido7l53k/Rotband_30_1200x900_1.png"
+						alt="Стройматериалы по акции"
+					/>
+				</div>
+				<!-- <div class="hidden lg:block h-80 overflow-hidden ml-10">
 					<img
 						class="h-full w-full object-fill"
 						src="https://storage.yandexcloud.net/orbita/actions/20210517_132652.jpg"
 						alt="Стройматериалы по акции"
 					/>
-				</div>
+				</div> -->
 				<!-- <div class="hidden md:block h-80 overflow-hidden ">
 					<img
 						class="h-full w-full object-contain"
@@ -130,7 +137,12 @@
 				стройматериалов до 31 марта 2024 года.
 			</p> -->
 		</div>
-		<div class="hidden lg:block px-16 lg:mt-0 lg:col-span-5 ">
+		<div class="hidden lg:block pl-12 lg:mt-0 lg:col-span-5 ">
+			<!-- <img
+				class="h-80"
+				src="https://www.knauf.ru/upload/iblock/09c/xixblbnsiva2zlg7yenuc21iido7l53k/Rotband_30_1200x900_1.png"
+				alt="скидка"
+			/> -->
 			<img
 				class="h-80"
 				src="https://storage.yandexcloud.net/orbita/actions/actionNovember.jpeg"
