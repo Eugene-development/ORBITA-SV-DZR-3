@@ -7,11 +7,11 @@ const actions = [
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/W6E3RBdh7ybngPyTwrWYkc2WUh5P9ZDOUIT3iK4t.jpg'
 	},
 	{
-		id: '',
-		action: '',
-		price: '',
-		link: '',
-		img: ''
+		id: '2963',
+		action: 'Антиморозная добавка FARBITEX профи 5л',
+		price: '499',
+		link: '/shop/product/antimorozyaia-dobavka-farbitex-profi-5l',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/farbi_5l.png'
 	},
 	{
 		id: '348',
