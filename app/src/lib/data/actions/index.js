@@ -49,7 +49,6 @@ const actions = [
 		link: '/shop/product/percatki-s-pvx-cernye',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/K6x6Mc7FhaZ31HFKyBS1gNHsrSP60lCzfjikwyNL.jpg'
 	},
-
 	// {
 	// 	id: '436',
 	// 	action: 'Штукатурная смесь "Кнауф Ротбанд" белая (30 кг)',
