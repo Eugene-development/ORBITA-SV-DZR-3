@@ -858,9 +858,9 @@
 					class="group rounded-md relative shadow-lg shadow-slate-400/50 p-3 border-2 transition ease-in-out hover:scale-105"
 				>
 					<div
-						class="h-56 p-8 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md  group-hover:opacity-75 lg:aspect-none "
+						class="h-64 p-2 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md  group-hover:opacity-75 lg:aspect-none "
 					>
-						<img src={img} alt="" class="object-contain" />
+						<img src={img} alt={action} class="object-contain" />
 					</div>
 					<div class="h-8 mt-2 flex justify-between">
 						<div>
