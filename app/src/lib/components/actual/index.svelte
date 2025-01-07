@@ -86,12 +86,12 @@
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-3000-UNIVERSAL.png'
 		},
 		{
-			id: '',
-			action: '',
-			price: '',
+			id: '2964',
+			action: 'Клей кладочно-монтажный Юнис Униблок 25кг',
+			price: '380',
 			unit: 'шт',
-			link: '',
-			img: ''
+			link: '/shop/product/kliei-kladochno-montazhnyi-iunis-uniblok-25kgh',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/jf31dasaxfs1y2c2a9u1cm6wmqaja7l5.jpg'
 		},
 		{
 			id: '1488',
@@ -140,7 +140,7 @@
 			price: '448',
 			unit: 'шт',
 			link: '/shop/product/pena-pistoletnaya-kudo-zimnyaya-50',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TT30.png'
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/2c7c64b2c9b1bf29ebbb739dd2b76862.webp'
 		},
 
 
