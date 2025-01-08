@@ -544,7 +544,7 @@
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/m5NgzpdlHX02sqR1Mqu3YrUQJwqqDGUOuAeYV75Z.jpeg'
 		// },
 		// {
-		// 	id: '1543',
+		// 	id: '1542',
 		// 	action: 'Гклв "Кнауф" даногипс 12,5мм (1,2х2,5)',
 		// 	price: '423',
 		// 	description: 'При заказе через сайт дополнительная скидка 5%',

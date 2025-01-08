@@ -173,7 +173,7 @@
 		</div> -->
 	</div>
 </section>
-<Holiday />
+<!-- <Holiday /> -->
 <Swiper
 	modules={[Pagination, Scrollbar, A11y, Autoplay]}
 	autoplay={{ delay: 6000 }}

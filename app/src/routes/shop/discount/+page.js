@@ -69,16 +69,91 @@ export async function load() {
 			href: '/shop/product/uteplitel-texnoblok-standart-120060050-mm-0288-m3',
 			unit: 'шт.'
 		},
+		{
+			id: '1543',
+			value: 'ГКЛВ "Кнауф" ДАНОГИПС  9,5мм  (1,2х2,5)',
+			price: 515,
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/D2JsbwgeZcA0z4OLW242TuXbW5KFsDYQMR59VFSE.jpeg',
+			href: '/shop/product/gklv-knauf-danogips-95mm-12x25',
+			unit: 'шт.'
+		},
+		{
+			id: '1542',
+			value: 'Гклв "Кнауф" даногипс 12,5мм (1,2х2,5)',
+			price: 540,
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/lvfXJZnJe2ASRUHpI5X2dxVN30ZPHmVRFh0MDJyi.jpeg',
+			href: '/shop/product/gklv-knauf-danogips-125mm-12x25',
+			unit: 'шт.'
+		},
+		{
+			id: '154',
+			value: 'Пленка п/э шир 3м 100мкм/100м рукав',
+			price: 30,
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BF%D1%8D.jpg',
+			href: '/shop/product/plenka-pe-s-3m-100mkm100m-rukav',
+			unit: 'пог/м'
+		},
+		{
+			id: '2946',
+			value: 'Плита ОСБ-3 2500*1250* 6мм (107) МУРОМ',
+			price: 590,
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/YBbav3JxXOKl8hYDTen6CzCa1TUlMBagzDxTXlFO.png',
+			href: '/shop/product/plita-osb-3-250012506mm-kronospan-gost-vlagostoykaya',
+			unit: 'шт.'
+		},
+		{
+			id: '1487',
+			value: 'Керамзит мелкий (фракция 0-5 мм) 0,04 м3',
+			price: 196,
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/kera.jpg',
+			href: '/shop/product/keramzit-melkii-frakciya-0-5-mm-004-m3',
+			unit: 'меш.'
+		},
+		{
+			id: '401',
+			value: 'Сетка сварная Ф3 50*50*1*0,5',
+			price: 61,
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%81%D0%B5%D1%82%D0%BA%D0%B0.jpg',
+			href: '/shop/product/setka-svarnaya-f3-5050105',
+			unit: 'шт.'
+		},
+		{
+			id: '402',
+			value: 'Сетка сварная Ф3 50*50*2*0,5',
+			price: 117,
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%81%D0%B5%D1%82%D0%BA%D0%B0.jpg',
+			href: '/shop/product/setka-svarnaya-f3-5050205',
+			unit: 'шт.'
+		},
 
 		// {
-		// 	id: '69',
-		// 	action: 'Утеплитель Техноблок 1200х600х50',
-		// 	price: '1660',
+		// 	id: '2946',
+		// 	action: 'Плита осб-3 2500*1250*6мм Kronospan ГОСТ (влагостойкая)',
+		// 	price: '532',
+		// 	description: 'При заказе через сайт дополнительная скидка 5%',
+		// 	link: '/shop/product/plita-osb-3-250012506mm-kronospan-gost-vlagostoykaya',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/YBbav3JxXOKl8hYDTen6CzCa1TUlMBagzDxTXlFO.png'
+		// },
+
+				// {
+		// 	id: '1543',
+		// 	action: 'Гклв "Кнауф" даногипс 12,5мм (1,2х2,5)',
+		// 	price: '423',
+		// 	description: 'При заказе через сайт дополнительная скидка 5%',
+		// 	link: '/shop/product/gklv-knauf-danogips-125mm-12x25',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/lvfXJZnJe2ASRUHpI5X2dxVN30ZPHmVRFh0MDJyi.jpeg'
+		// },
+
+
+				// {
+		// 	id: '1543',
+		// 	action: 'ГКЛВ "Кнауф" ДАНОГИПС  9,5мм  (1,2х2,5)',
+		// 	price: '430',
 		// 	unit: 'шт',
 		// 	description: 'При заказе через сайт дополнительная скидка 5%',
-		// 	link: '/shop/product/uteplitel-texnoblok-standart-120060050-mm-0288-m3',
-		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/nt[yj,kjr.jpg'
-		// }
+		// 	link: '/shop/product/gklv-knauf-danogips-95mm-12x25',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/D2JsbwgeZcA0z4OLW242TuXbW5KFsDYQMR59VFSE.jpeg'
+		// },
 
 		// {
 		// 	value: 'Cмесь для пола "Юнис" Горизонт универсальный (20 кг)',
