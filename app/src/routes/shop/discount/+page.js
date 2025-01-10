@@ -103,7 +103,7 @@ export async function load() {
 		},
 		{
 			id: '1487',
-			value: 'Керамзит мелкий (фракция 0-5 мм) 0,04 м3',
+			value: 'Керамзит мелкий (фракция 0-5 мм) 0,03 м3',
 			price: 196,
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/kera.jpg',
 			href: '/shop/product/keramzit-melkii-frakciya-0-5-mm-004-m3',
