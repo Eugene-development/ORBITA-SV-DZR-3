@@ -71,17 +71,17 @@ export async function load() {
 		},
 		{
 			id: '1543',
-			value: 'ГКЛВ "Кнауф" ДАНОГИПС  9,5мм  (1,2х2,5)',
+			value: 'ГКЛВ "Кнауф" 9,5мм (1,2х2,5)',
 			price: 515,
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/D2JsbwgeZcA0z4OLW242TuXbW5KFsDYQMR59VFSE.jpeg',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/jh1ziprw55dtsg0fm7zxud05sgo608u8.jpeg',
 			href: '/shop/product/gklv-knauf-danogips-95mm-12x25',
 			unit: 'шт.'
 		},
 		{
 			id: '1542',
-			value: 'Гклв "Кнауф" даногипс 12,5мм (1,2х2,5)',
+			value: 'Гклв "Кнауф" 12,5мм (1,2х2,5)',
 			price: 540,
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/lvfXJZnJe2ASRUHpI5X2dxVN30ZPHmVRFh0MDJyi.jpeg',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/jh1ziprw55dtsg0fm7zxud05sgo608u8.jpeg',
 			href: '/shop/product/gklv-knauf-danogips-125mm-12x25',
 			unit: 'шт.'
 		},

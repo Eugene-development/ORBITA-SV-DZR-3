@@ -140,7 +140,7 @@
 			price: '448',
 			unit: 'шт',
 			link: '/shop/product/pena-pistoletnaya-kudo-zimnyaya-50',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/2c7c64b2c9b1bf29ebbb739dd2b76862.webp'
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/KUPP10W50.jpg'
 		},
 
 
