@@ -56,7 +56,7 @@
 	<div class="grid max-w-full px-4 lg:px-12 xl:px-12 mx-auto lg:gap-8 xl:gap-0  lg:grid-cols-12">
 		<div class="mr-auto place-self-center lg:col-span-8">
 			<div class="lg:flex">
-				<div class="p-4 rounded-xl bg-gray-100 sm:bg-white mt-4">
+				<div class="px-6 py-2 rounded-xl bg-gray-50 mt-2">
 					<!-- <h2
 						class="max-w-7xl mb-4 font-bold tracking-tight leading-none text-3xl md:text-5xl xl:text-7xl dark:text-green-600"
 					>
@@ -64,7 +64,7 @@
 					</h2> -->
 					<p class=" pb-3 font-extrabold text-red-600 lg:my-4 text-3xl xl:text-6xl">Акция!!!</p>
 					<p class=" pb-3 font-extrabold text-green-700 lg:my-4 text-3xl xl:text-6xl">Январь!!!</p>
-					<p class=" pb-3 font-extrabold text-cyan-700 lg:my-4 text-3xl xl:text-6xl whitespace-nowrap">Сантехника -15%</p>
+					<p class="font-extrabold text-cyan-700 lg:my-4 text-3xl xl:text-6xl whitespace-nowrap">Сантехника -15%</p>
 					<!-- <p
 						class="max-w-3xl font-light text-gray-600 lg:my-8 text-sm md:text-base xl:text-lg dark:text-gray-500"
 					>
