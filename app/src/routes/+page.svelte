@@ -62,7 +62,7 @@
 					>
 						Весь МАЙ
 					</h2> -->
-					<p class=" pb-3 font-extrabold text-red-600 lg:my-4 text-3xl sm:text-4xl xl:text-5xl">Акция!!!</p>
+					<p class="pb-3 font-extrabold text-red-600 lg:my-4 text-3xl sm:text-4xl xl:text-5xl">Акция!!!</p>
 					<p class=" pb-3 font-extrabold text-green-700 lg:my-4 text-3xl sm:text-4xl xl:text-5xl">Январь!!!</p>
 					<p class="font-extrabold text-cyan-700 lg:my-4 text-3xl sm:text-4xl xl:text-5xl whitespace-nowrap">Сантехника -15%</p>
 					<!-- <p
@@ -73,11 +73,7 @@
 							>8 (902) 303-36-54</span
 						>
 					</p> -->
-					<!-- <p
-						class="max-w-3xl font-light text-gray-600 lg:my-2 text-sm md:text-base xl:text-lg dark:text-gray-500"
-					>
-						Имеется услуга доставки стройматериалов до объекта.
-					</p> -->
+					
 					<!-- {#if browser && !InCart.some((arrVal) => '431' === arrVal)}
 						<div class="mt-4 md:mt-0">
 							<button
