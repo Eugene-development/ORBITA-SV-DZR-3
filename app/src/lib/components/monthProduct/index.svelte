@@ -30,10 +30,10 @@
 		</h3>
 	</div>
 </div> -->
-<div class="relative mt-2 overflow-hidden bg-white border-t-8 border-gray-100 ">
+<div class="relative mt-2 overflow-hidden bg-white border-t-8 border-gray-200 ">
 	<div class=" mx-auto max-w-full">
 		<div
-			class="pl-2 lg:pl-8 relative z-10 bg-gray-100 pb-8 sm:pb-8 md:pb-10 lg:pb-12 xl:pb-16 lg:w-full lg:max-w-3xl "
+			class="pl-2 lg:pl-8 relative z-10 bg-gray-200 pb-8 sm:pb-8 md:pb-10 lg:pb-12 xl:pb-16 lg:w-full lg:max-w-3xl "
 		>
 			<svg
 				class="absolute inset-y-0 right-0 hidden h-full w-40 translate-x-1/2 transform text-white lg:block"
@@ -105,7 +105,7 @@
 						<div class="mt-3 sm:mt-0 sm:ml-3">
 							<a
 								href={dataSlider.link}
-								class="flex w-full items-center justify-center rounded-md border border-transparent bg-cyan-50 px-8 py-1 text-base font-medium text-cyan-900 hover:bg-cyan-200 md:px-10 md:text-lg"
+								class="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-1 text-base font-medium text-cyan-900 hover:bg-cyan-200 md:px-10 md:text-lg"
 								>Подробнее</a
 							>
 						</div>

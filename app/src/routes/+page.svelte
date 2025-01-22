@@ -185,7 +185,7 @@
 <!-- <Hero /> -->
 <!-- <Actual {...data.contentActions} /> -->
 <Actual />
-<!-- <MonthProduct /> -->
+<!-- <MonthProduct /> -->x
 <!-- <Slider /> -->
 <Testimonials />
 <Message />
