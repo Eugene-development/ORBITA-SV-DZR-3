@@ -226,7 +226,7 @@ const actions = [
 		unit: 'шт',
 		description: '',
 		link: '',
-		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+		img: 'https://cdn1.ozone.ru/s3/multimedia-4/6638871028.jpg'
 	},
 	{
 		id: '',
@@ -248,66 +248,66 @@ const actions = [
 	},
 	{
 		id: '',
-		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
-		price: '2438',
-		unit: 'шт',
+		action: 'Клей для плитки "KNAUF" Флизенклебер (25kr)',
+		price: '434',
+		unit: 'меш',
 		description: '',
 		link: '',
-		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+		img: 'https://stroyseven.ru/image/cache/catalog/i/gg/fb/9b4c30663f154726961ae93df8a949a5-700x700.jpg'
 	},
 	{
 		id: '',
-		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
-		price: '2438',
-		unit: 'шт',
+		action: 'Клей для плитки "KNAUF" Флизенклебер ПЛЮС (25kr)',
+		price: '583',
+		unit: 'меш',
 		description: '',
 		link: '',
-		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+		img: 'https://cdn.lemanapro.ru/lmru/image/upload/f_auto/q_auto/dpr_2.0/c_pad/w_1000/h_1000/v1732106182/lmcode/leiaWH7ha0itj_ZtSSaovA/13606458.png'
 	},
 	{
 		id: '',
-		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
-		price: '2438',
+		action: 'Шпаклевка "Кнауф" РОТБАНД-ФИНИШ (25кг)',
+		price: '630',
 		unit: 'шт',
 		description: '',
 		link: '',
-		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+		img: 'https://glavsnab.net/media/catalog/product/cache/1/image/602f0fa2c1f0d1ba5e241f914e856ff9/_/2/_25_1__4.jpg?kar=1&kf=1&kt=1&co=1&rgb%5B0%5D=255&rgb%5B1%5D=255&rgb%5B2%5D=255&ang=ang&qua=90'
 	},
 	{
 		id: '',
-		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
-		price: '2438',
+		action: 'Шпаклевка "Кнауф" Унихард (25кг)',
+		price: '1054',
 		unit: 'шт',
 		description: '',
 		link: '',
-		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+		img: 'https://stroysmatom.ru/upload/tovari2_big/1-3-1-15_629f440a9ca3f.jpg'
 	},
 	{
 		id: '',
-		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
-		price: '2438',
-		unit: 'шт',
+		action: 'Шпаклевка "Кнауф" Фугенфюллер (25кг)',
+		price: '614',
+		unit: 'меш',
 		description: '',
 		link: '',
-		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+		img: 'https://stroyseven.ru/image/cache/catalog/i/ae/oc/de9936ce4f46da02408a84801df3054a-500x500.jpg'
 	},
 	{
 		id: '',
-		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
-		price: '2438',
+		action: 'Шпаклевка DANOGIPS SUPERFINISH 17л/28 кг',
+		price: '2491',
 		unit: 'шт',
 		description: '',
 		link: '',
-		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+		img: 'https://media.obi.ru/resize/780x780/media/catalog/product/1/9/1923911_1_f624.jpg'
 	},
 	{
 		id: '',
-		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
-		price: '2438',
+		action: 'Шпаклевка DANOGIPS SUPERFINISH 3л/5 кг',
+		price: '588',
 		unit: 'шт',
 		description: '',
 		link: '',
-		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+		img: 'https://cdn.lemanapro.ru/lmru/image/upload/f_auto/q_auto/dpr_2.0/c_pad/w_1000/h_1000/v1682509439/lmcode/xX4246U1e0iuejbF-8sovg/82512350.png'
 	},
 	{
 		id: '',
