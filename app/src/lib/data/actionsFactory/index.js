@@ -221,11 +221,12 @@
 const actions = [
 	{
 		id: '',
-		action: 'Клей для керамгранита "Церезит СМ 11 PRO" 25 кг.',
-		price: '487',
+		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
+		price: '2438',
+		unit: 'шт',
 		description: '',
 		link: '',
-		img: 'https://stroimaks.ru/wa-data/public/shop/products/92/49/14992/images/21246/21246.970.jpg'
+		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
 	},
 	
 ]
