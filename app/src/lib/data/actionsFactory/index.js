@@ -293,7 +293,7 @@ const actions = [
 	},
 	{
 		id: '',
-		action: 'Шпаклевка DANOGIPS SUPERFINISH 17л/28 кг',
+		action: 'Шпаклевка DANOGIPS SUPERFINISH 17л/28кг',
 		price: '2491',
 		unit: 'шт',
 		description: '',
@@ -302,7 +302,7 @@ const actions = [
 	},
 	{
 		id: '',
-		action: 'Шпаклевка DANOGIPS SUPERFINISH 3л/5 кг',
+		action: 'Шпаклевка DANOGIPS SUPERFINISH 3л/5кг',
 		price: '588',
 		unit: 'шт',
 		description: '',
@@ -311,48 +311,48 @@ const actions = [
 	},
 	{
 		id: '',
-		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
-		price: '2438',
+		action: 'Шпаклевка ФИНИШНАЯ "Кнауф" Ротбанд паста 18 кг.',
+		price: '1537',
 		unit: 'шт',
 		description: '',
 		link: '',
-		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+		img: 'https://stroysmatom.ru/upload/tovari2_osn/1-3-1-8_606edefba16f0.jpg'
 	},
 	{
 		id: '',
-		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
-		price: '2438',
+		action: 'Шпаклевка ФИНИШНАЯ "Кнауф" Ротбанд паста 5 кг.',
+		price: '689',
 		unit: 'шт',
 		description: '',
 		link: '',
-		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+		img: 'https://tekno-stroy.ru/upload/resize_cache/iblock/30f/368_368_1/23noa0sznsmdp41nvvq2xlk5w61h178p.jpg'
 	},
 	{
 		id: '',
-		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
-		price: '2438',
+		action: 'Штукатурная смесь "Кнауф" Ротбанд (30кг) БЕЛЫЙ Кубань',
+		price: '498',
 		unit: 'шт',
 		description: '',
 		link: '',
-		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+		img: 'https://stroysmatom.ru/upload/tovari2_osn/1-1-1-6_1_64c0f53d3d421_thumb_2264c0f53d3e1a7.jpg'
 	},
 	{
 		id: '',
-		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
-		price: '2438',
+		action: 'Штукатурная смесь "Кнауф"Диамант Короед 2,5мм 25кг',
+		price: '588',
 		unit: 'шт',
 		description: '',
 		link: '',
-		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+		img: 'https://glavsnab.net/media/catalog/product/cache/1/image/602f0fa2c1f0d1ba5e241f914e856ff9/_/2/_25_2_5_1_.jpg'
 	},
 	{
 		id: '',
-		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
-		price: '2438',
+		action: 'Элемент пола "Кнауф" 20мм (1,2х0,6) (0,72м2)',
+		price: '510',
 		unit: 'шт',
 		description: '',
 		link: '',
-		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+		img: 'https://avatars.mds.yandex.net/get-mpic/12252129/2a0000019017a5f22ec34c36cd219a48c92a/optimize'
 	},
 	{
 		id: '',
