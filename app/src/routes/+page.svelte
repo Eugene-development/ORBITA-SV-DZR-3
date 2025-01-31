@@ -54,7 +54,7 @@
 
 <section class="py-4 lg:py-12">
 	<div class="grid max-w-full px-4 lg:px-12 xl:px-12 mx-auto lg:gap-8 xl:gap-0  lg:grid-cols-12">
-		<div class="mr-auto place-self-center lg:col-span-8">
+		<div class="mr-auto place-self-center lg:col-span-5">
 			<div class="lg:flex">
 				<div class="px-6 py-2 rounded-xl bg-gray-50 mt-2">
 					<!-- <h2
@@ -93,13 +93,20 @@
 				</div>
 
 				<!-- СРЕДНЯЯ ЧАСТЬ -->
-				<div class="lg:pl-8 xl:pl-24">
+				<!-- <div class="mx-auto">
+					<img
+						class="h-48 lg:h-72"
+						src="https://baurex.ru/upload/resize_cache/600x600/bergauf/kley-montazhnyy-bergauf-isofix-25-kg_1.jpg"
+						alt="Стройматериалы по акции"
+					/>
+				</div> -->
+				<!-- <div class="lg:pl-8 xl:pl-24">
 					<img
 						class="h-48 lg:h-72"
 						src="https://www.knauf.ru/upload/iblock/09c/xixblbnsiva2zlg7yenuc21iido7l53k/Rotband_30_1200x900_1.png"
 						alt="Стройматериалы по акции"
 					/>
-				</div>
+				</div> -->
 				<!-- <div class="hidden lg:block h-80 overflow-hidden ml-10">
 					<img
 						class="h-full w-full object-fill"
@@ -133,7 +140,18 @@
 				стройматериалов до 31 марта 2024 года.
 			</p> -->
 		</div>
-		<div class=" pl-2 lg:mt-0 lg:col-span-4 ">
+		<div class="lg:col-span-3">
+			<img
+				class="h-48 lg:h-72"
+				src="https://baurex.ru/upload/resize_cache/600x600/bergauf/kley-montazhnyy-bergauf-isofix-25-kg_1.jpg"
+				alt="Стройматериалы по акции"
+			/>
+		</div>
+		<div class="pl-2 lg:mt-0 lg:col-span-4 ">
+
+			
+
+			
 			<!-- <img
 				class="h-80"
 				src="https://www.knauf.ru/upload/iblock/09c/xixblbnsiva2zlg7yenuc21iido7l53k/Rotband_30_1200x900_1.png"
@@ -141,7 +159,7 @@
 			/> -->
 			<img
 				class="h-48 lg:h-72"
-				src="https://storage.yandexcloud.net/mine2024/novostroy/promo/action2025-01.jpeg"
+				src="https://storage.yandexcloud.net/orbita/actions/action2025-02.jpeg"
 				alt="скидка"
 			/>
 			<!-- <img class="" src="https://utepliteli-77.ru/files/brands/unis-logo.png" alt="скидка" /> -->
