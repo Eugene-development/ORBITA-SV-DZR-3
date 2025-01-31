@@ -356,102 +356,102 @@ const actions = [
 	},
 	{
 		id: '',
-		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
-		price: '2438',
-		unit: 'шт',
+		action: 'ГКЛ "Кнауф" 9,5мм (1,2х2,5) (67л)',
+		price: '366',
+		unit: 'лист',
 		description: '',
 		link: '',
-		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+		img: 'https://stroyberi.pro/uploadedFiles/eshopimages/big/gklvapluk3000h1200h12_5_2.jpg'
 	},
 	{
 		id: '',
-		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
-		price: '2438',
-		unit: 'шт',
+		action: 'ГКЛ "Кнауф" 12,5мм (1,2×2,5) (52л)',
+		price: '387',
+		unit: 'лист',
 		description: '',
 		link: '',
-		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+		img: 'https://stroyberi.pro/uploadedFiles/eshopimages/big/gklvapluk3000h1200h12_5_2.jpg'
 	},
 	{
 		id: '',
-		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
-		price: '2438',
-		unit: 'шт',
+		action: 'ГКЛ "Кнауф" ДАНОГИПС 12,5мм (1,2×2,5) (68л)',
+		price: '316',
+		unit: 'лист',
 		description: '',
 		link: '',
-		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+		img: 'https://novostroy37.ru/upload/iblock/28b/ceug7xqadb6yeor6obrm296xvg86bema.jpeg'
 	},
 	{
 		id: '',
-		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
-		price: '2438',
-		unit: 'шт',
+		action: 'ГКЛ "Кнауф" ДАНОГИПС 9,5мм (1,2х2,5) (76л)',
+		price: '297',
+		unit: 'лист',
 		description: '',
 		link: '',
-		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+		img: 'https://novostroy37.ru/upload/iblock/28b/ceug7xqadb6yeor6obrm296xvg86bema.jpeg'
 	},
 	{
 		id: '',
-		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
-		price: '2438',
-		unit: 'шт',
+		action: 'ГКЛВ "Кнауф" 9,5мм (1,2×2,5) (68л)',
+		price: '514',
+		unit: 'лист',
 		description: '',
 		link: '',
-		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+		img: 'https://stroy-respublika.ru/wp-content/uploads/2024/06/gklv_a_pluk_2500h1200h9_5_5.png'
 	},
 	{
 		id: '',
-		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
-		price: '2438',
-		unit: 'шт',
+		action: 'ГКЛВ "Кнауф" 12,5мм (1,2×2,5) (52л)',
+		price: '540',
+		unit: 'лист',
 		description: '',
 		link: '',
-		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+		img: 'https://stroy-respublika.ru/wp-content/uploads/2024/06/gklv_a_pluk_2500h1200h9_5_5.png'
 	},
 	{
 		id: '',
-		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
-		price: '2438',
-		unit: 'шт',
+		action: 'ГКЛВ "Кнауф" ДАНОГИПС 12,5мм (1,2х2,5) (56л)',
+		price: '450',
+		unit: 'лист',
 		description: '',
 		link: '',
-		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+		img: 'https://sberstroi.ru/userfls/shop/editor_1000_1000/4/39774_gipsokartonnyy-list-knauf-2.jpg'
 	},
 	{
 		id: '',
-		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
-		price: '2438',
-		unit: 'шт',
+		action: 'ГКЛВ "Кнауф" ДАНОГИПС 9,5мм (1,2х2,5) (76л)',
+		price: '435',
+		unit: 'лист',
 		description: '',
 		link: '',
-		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+		img: 'https://sberstroi.ru/userfls/shop/editor_1000_1000/4/39774_gipsokartonnyy-list-knauf-2.jpg'
 	},
 	{
 		id: '',
-		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
-		price: '2438',
-		unit: 'шт',
+		action: 'ГВЛВ "Кнауф" 2500*1200*10',
+		price: '768',
+		unit: 'лист',
 		description: '',
 		link: '',
-		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+		img: 'https://regstroy.com/image/catalog/product/gvlv2500h1200h10pk(2).jpg'
 	},
 	{
 		id: '',
-		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
-		price: '2438',
-		unit: 'шт',
+		action: 'ГВЛВ "Кнауф" 2500*1200*12,5',
+		price: '852',
+		unit: 'лист',
 		description: '',
 		link: '',
-		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+		img: 'https://regstroy.com/image/catalog/product/gvlv2500h1200h10pk(2).jpg'
 	},
 	{
 		id: '',
-		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
-		price: '2438',
+		action: 'Грунтовка ТИФЕНГРУНД 10л. "Кнауф"',
+		price: '1160',
 		unit: 'шт',
 		description: '',
 		link: '',
-		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+		img: 'https://cdn.lemanapro.ru/lmru/image/upload/f_auto/q_auto/dpr_2.0/c_pad/w_1000/h_1000/v1724844826/lmcode/fIoRFvXtMka3npPJieavSA/85060727.png'
 	},
 	
 ]
