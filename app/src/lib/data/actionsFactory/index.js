@@ -228,6 +228,231 @@ const actions = [
 		link: '',
 		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
 	},
+	{
+		id: '',
+		action: 'Утеплитель КНАУФ для КОТТЕДЖА Термо Плита 037A (100)',
+		price: '2495',
+		unit: 'шт',
+		description: '',
+		link: '',
+		img: 'https://remonstr.ru/upload/iblock/277/o1lfwyg09e7asf6jhqmxso88wh4jhxsx.jpg'
+	},
+	{
+		id: '',
+		action: 'Утеплитель КНАУФ для КОТТЕДЖА Термо Плита 037A (50)',
+		price: '2495',
+		unit: 'шт',
+		description: '',
+		link: '',
+		img: 'https://www.stroyshopper.ru/upload/resize_cache/iblock/1f8/1199_857_12af2e92894e1f3bbcc4d913921caf13d/121bbde631ad11e2be2100155d016a1d_cadce61c045f11e68d0a00155d00890a.png'
+	},
+	{
+		id: '',
+		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
+		price: '2438',
+		unit: 'шт',
+		description: '',
+		link: '',
+		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+	},
+	{
+		id: '',
+		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
+		price: '2438',
+		unit: 'шт',
+		description: '',
+		link: '',
+		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+	},
+	{
+		id: '',
+		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
+		price: '2438',
+		unit: 'шт',
+		description: '',
+		link: '',
+		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+	},
+	{
+		id: '',
+		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
+		price: '2438',
+		unit: 'шт',
+		description: '',
+		link: '',
+		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+	},
+	{
+		id: '',
+		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
+		price: '2438',
+		unit: 'шт',
+		description: '',
+		link: '',
+		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+	},
+	{
+		id: '',
+		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
+		price: '2438',
+		unit: 'шт',
+		description: '',
+		link: '',
+		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+	},
+	{
+		id: '',
+		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
+		price: '2438',
+		unit: 'шт',
+		description: '',
+		link: '',
+		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+	},
+	{
+		id: '',
+		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
+		price: '2438',
+		unit: 'шт',
+		description: '',
+		link: '',
+		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+	},
+	{
+		id: '',
+		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
+		price: '2438',
+		unit: 'шт',
+		description: '',
+		link: '',
+		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+	},
+	{
+		id: '',
+		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
+		price: '2438',
+		unit: 'шт',
+		description: '',
+		link: '',
+		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+	},
+	{
+		id: '',
+		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
+		price: '2438',
+		unit: 'шт',
+		description: '',
+		link: '',
+		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+	},
+	{
+		id: '',
+		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
+		price: '2438',
+		unit: 'шт',
+		description: '',
+		link: '',
+		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+	},
+	{
+		id: '',
+		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
+		price: '2438',
+		unit: 'шт',
+		description: '',
+		link: '',
+		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+	},
+	{
+		id: '',
+		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
+		price: '2438',
+		unit: 'шт',
+		description: '',
+		link: '',
+		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+	},
+	{
+		id: '',
+		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
+		price: '2438',
+		unit: 'шт',
+		description: '',
+		link: '',
+		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+	},
+	{
+		id: '',
+		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
+		price: '2438',
+		unit: 'шт',
+		description: '',
+		link: '',
+		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+	},
+	{
+		id: '',
+		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
+		price: '2438',
+		unit: 'шт',
+		description: '',
+		link: '',
+		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+	},
+	{
+		id: '',
+		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
+		price: '2438',
+		unit: 'шт',
+		description: '',
+		link: '',
+		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+	},
+	{
+		id: '',
+		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
+		price: '2438',
+		unit: 'шт',
+		description: '',
+		link: '',
+		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+	},
+	{
+		id: '',
+		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
+		price: '2438',
+		unit: 'шт',
+		description: '',
+		link: '',
+		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+	},
+	{
+		id: '',
+		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
+		price: '2438',
+		unit: 'шт',
+		description: '',
+		link: '',
+		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+	},
+	{
+		id: '',
+		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
+		price: '2438',
+		unit: 'шт',
+		description: '',
+		link: '',
+		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+	},
+	{
+		id: '',
+		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
+		price: '2438',
+		unit: 'шт',
+		description: '',
+		link: '',
+		img: 'https://cdn1.ozone.ru/s3/multimedia-l/6470785053.jpg'
+	},
 	
 ]
 
