@@ -48,7 +48,7 @@
 		{
 			id: '314',
 			action:
-				'Клей для плитки и керамогранита "Церезит" см 14 extra" для улицы и теплых полов (25 кг)',
+				'Плиточный клей "Церезит" СМ 14"(25 кг)',
 			oldPrice: '864',
 			price: '763',
 			unit: 'шт',
@@ -893,6 +893,11 @@
 					</div>
 					<div class="flex justify-between">
 
+						<p class="m-2 text-base font-medium text-gray-800">
+							{price} руб/{unit}
+							<!-- {price} руб.{#if id === '200'}/м<sup>3</sup>{/if} -->
+						</p>
+
 					{#if oldPrice}
 					<p class="m-2 text-base font-medium text-gray-900 line-through">
 						{oldPrice} руб/{unit}
@@ -900,10 +905,7 @@
 					</p>
 					{/if}
 
-					<p class="m-2 text-base font-medium text-gray-50 rounded-xl bg-red-500 px-2 py-0.5">
-						{price} руб/{unit}
-						<!-- {price} руб.{#if id === '200'}/м<sup>3</sup>{/if} -->
-					</p>
+					
 
 					</div>
 					
@@ -912,7 +914,7 @@
 						<button
 							on:click|preventDefault|once={sendToCart(id)}
 							type="button"
-							class="mx-2 px-3 py-1 align-bottom rounded-xl text-base text-gray-100 bg-cyan-600 hover:bg-cyan-700"
+							class="mx-2  px-3 py-1 align-bottom rounded-xl text-base text-gray-100 bg-cyan-600 hover:bg-cyan-700"
 							>В корзину</button
 						>
 					{:else}
