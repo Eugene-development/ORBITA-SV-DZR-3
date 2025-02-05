@@ -46,21 +46,42 @@
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B2%D0%B5%D1%82.jpg'
 		},
 		{
-			id: '307',
-			action: 'Клей для плитки "Кнауф" флизенклебер (25 кг)',
-			price: '435',
+			id: '314',
+			action:
+				'Клей для плитки и керамогранита "Церезит" см 14 extra" для улицы и теплых полов (25 кг)',
+			oldPrice: '864',
+			price: '763',
 			unit: 'шт',
-			link: '/shop/product/klei-dlya-plitki-knauf-flizenkleber-25-kg',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%84%D0%BB%D0%B8%D0%B7%D0%B5%D0%BD.webp'
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/klei-dlya-plitki-i-keramogranita-cerezit-sm-14-extra-dlya-ulicy-i-teplyx-polov-25-kg',
+			img: 'https://abk-fasad.ru/assets/images/products/161/cm14-2.png'
 		},
+
+		// {
+		// 	id: '307',
+		// 	action: 'Клей для плитки "Кнауф" флизенклебер (25 кг)',
+		// 	price: '435',
+		// 	unit: 'шт',
+		// 	link: '/shop/product/klei-dlya-plitki-knauf-flizenkleber-25-kg',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%84%D0%BB%D0%B8%D0%B7%D0%B5%D0%BD.webp'
+		// },
 		{
-			id: '263',
-			action: 'Элемент пола "кнауф" 20 мм (1200*600)',
-			price: '510',
+			id: '312',
+			action: 'Клей для керамгранита "Церезит СМ 11" (25 кг)',
+			oldPrice: '552',
+			price: '488',
 			unit: 'шт',
-			link: '/shop/product/element-pola-knauf-20-mm-1200600',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%8D%D0%BB%20%D0%BF%D0%BE%D0%BB%D0%B0.jpg'
+			link: '/shop/product/klei-dlya-keramgranita-cerezit-sm-11-25-kg',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%81%D0%BC%2011%20%D0%BF%D0%BB.jpeg'
 		},
+		// {
+		// 	id: '263',
+		// 	action: 'Элемент пола "кнауф" 20 мм (1200*600)',
+		// 	price: '510',
+		// 	unit: 'шт',
+		// 	link: '/shop/product/element-pola-knauf-20-mm-1200600',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%8D%D0%BB%20%D0%BF%D0%BE%D0%BB%D0%B0.jpg'
+		// },
 		{
 			id: '228',
 			action: 'Плита ОСБ-3 2500*1250*9мм Kronospan ГОСТ (влагостойкая)',
@@ -853,7 +874,7 @@
 		</p>
 
 		<div class="mt-8 grid grid-cols-1 gap-y-8 gap-x-6 sm:grid-cols-2 lg:grid-cols-5 xl:gap-x-8">
-			{#each actualProducts as { id, action, price, unit, img }}
+			{#each actualProducts as { id, action, price, unit, img, oldPrice }}
 				<div
 					class="group rounded-md relative shadow-lg shadow-slate-400/50 p-3 border-2 transition ease-in-out hover:scale-105"
 				>
@@ -870,21 +891,33 @@
 							</h3>
 						</div>
 					</div>
-					<p class="m-2 text-base font-medium text-gray-900">
+					<div class="flex justify-between">
+
+					{#if oldPrice}
+					<p class="m-2 text-base font-medium text-gray-900 line-through">
+						{oldPrice} руб/{unit}
+						<!-- {price} руб.{#if id === '200'}/м<sup>3</sup>{/if} -->
+					</p>
+					{/if}
+
+					<p class="m-2 text-base font-medium text-gray-50 rounded-xl bg-red-500 px-2 py-0.5">
 						{price} руб/{unit}
 						<!-- {price} руб.{#if id === '200'}/м<sup>3</sup>{/if} -->
 					</p>
+
+					</div>
+					
 
 					{#if browser && !InCart.some((arrVal) => id === arrVal)}
 						<button
 							on:click|preventDefault|once={sendToCart(id)}
 							type="button"
-							class="mx-2 px-3 py-1 align-bottom rounded-md text-base text-gray-100 bg-cyan-600 hover:bg-cyan-700"
+							class="mx-2 px-3 py-1 align-bottom rounded-xl text-base text-gray-100 bg-cyan-600 hover:bg-cyan-700"
 							>В корзину</button
 						>
 					{:else}
 						<button
-							class="mx-2 px-3 py-1 align-bottom rounded-md text-base text-gray-100 bg-cyan-800 hover:bg-cyan-700"
+							class="mx-2 px-3 py-1 align-bottom rounded-xl text-base text-gray-100 bg-cyan-800 hover:bg-cyan-700"
 							>В корзине</button
 						>
 					{/if}

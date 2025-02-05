@@ -142,8 +142,8 @@
 		</div>
 		<div class="lg:col-span-3">
 			<img
-				class="h-48 lg:h-72"
-				src="https://baurex.ru/upload/resize_cache/600x600/bergauf/kley-montazhnyy-bergauf-isofix-25-kg_1.jpg"
+				class="h-48 lg:h-80"
+				src="https://vetonit.com/sites/default/files/styles/product_zoom/public/uploads/pim/images/16428/66ef7a12-6517-11ef-a518-e659bb18163c.png?itok=8W_IIcgD"
 				alt="Стройматериалы по акции"
 			/>
 		</div>
