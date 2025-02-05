@@ -35,7 +35,10 @@
 						/>
 						<div class="flex-auto relative">
 							<h3 class="text-lg/8 font-semibold tracking-tight text-gray-900">{item.value}</h3>
-							<p class="mt-2 text-base/7 text-gray-600">Цена: {item.price} р/{item.unit}</p>
+							{#if item.oldPrice}
+							<p class="mt-2 text-base/7 text-gray-600">Старая цена: <span class="line-through">{item.oldPrice} р/{item.unit}</span> </p>
+							{/if}
+							<p class="mt-1 text-base/7 text-gray-600">Цена: {item.price} р/{item.unit}</p>
 							<div class="absolute bottom-0">
 								<a
 									href={item.href}

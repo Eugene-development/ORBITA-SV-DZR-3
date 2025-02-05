@@ -70,28 +70,46 @@ export async function load() {
 			unit: 'шт.'
 		},
 		{
-			id: '1543',
-			value: 'ГКЛВ "Кнауф" 9,5мм (1,2х2,5)',
-			price: 515,
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/jh1ziprw55dtsg0fm7zxud05sgo608u8.jpeg',
-			href: '/shop/product/gklv-knauf-danogips-95mm-12x25',
+			id: '468',
+			value: 'Наливной пол самовыравнивающийся "Церезит" CN 175 (25 кг)',
+			oldPrice: '743',
+			price: '652',
+			img: 'https://ceresit-yauza.ru/assets/images/products/388/orig/cn175-25.jpg',
+			href: '/shop/product/nalivnoi-pol-samovyravnivayushhiisya-cerezit-cn-175-25-kg',
 			unit: 'шт.'
 		},
 		{
-			id: '1542',
-			value: 'Гклв "Кнауф" 12,5мм (1,2х2,5)',
-			price: 540,
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/jh1ziprw55dtsg0fm7zxud05sgo608u8.jpeg',
-			href: '/shop/product/gklv-knauf-danogips-125mm-12x25',
+			id: '534',
+			value: 'Грунтовка для впитывающих оснований "Церезит" CT 17" (10 л)',
+			price: '1020',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/5.png',
+			href: '/shop/product/gruntovka-dlya-vpityvayushhix-osnovanii-cerezit-st-17-10-l',
 			unit: 'шт.'
 		},
+
+		// {
+		// 	id: '1543',
+		// 	value: 'ГКЛВ "Кнауф" 9,5мм (1,2х2,5)',
+		// 	price: 515,
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/jh1ziprw55dtsg0fm7zxud05sgo608u8.jpeg',
+		// 	href: '/shop/product/gklv-knauf-danogips-95mm-12x25',
+		// 	unit: 'шт.'
+		// },
+		// {
+		// 	id: '1542',
+		// 	value: 'Гклв "Кнауф" 12,5мм (1,2х2,5)',
+		// 	price: 540,
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/jh1ziprw55dtsg0fm7zxud05sgo608u8.jpeg',
+		// 	href: '/shop/product/gklv-knauf-danogips-125mm-12x25',
+		// 	unit: 'шт.'
+		// },
 		{
 			id: '154',
 			value: 'Пленка п/э шир 3м 100мкм/100м рукав',
 			price: 30,
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BF%D1%8D.jpg',
 			href: '/shop/product/plenka-pe-s-3m-100mkm100m-rukav',
-			unit: 'пог/м'
+			unit: 'пог.м'
 		},
 		{
 			id: '2946',

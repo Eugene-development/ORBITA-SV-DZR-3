@@ -428,14 +428,6 @@
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/saRoC4NYpSCQwOak4vzX8D4hJeKuJ9ftTLfp6ixk.jpg'
 		// },
 		// {
-		// 	id: '534',
-		// 	action: 'Грунтовка для впитывающих оснований "CERESIT CT 17" (10 л)',
-		// 	price: '1020',
-		// 	description: 'При заказе через сайт дополнительная скидка 5%',
-		// 	link: '/shop/product/gruntovka-dlya-vpityvayushhix-osnovanii-cerezit-st-17-10-l',
-		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/5.png'
-		// },
-		// {
 		// 	id: '310',
 		// 	action: 'Клей для пеногазобетона "FINITEX KF 17" престиж (25 кг)',
 		// 	price: '260',
