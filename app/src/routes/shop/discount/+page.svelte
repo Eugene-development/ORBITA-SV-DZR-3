@@ -38,7 +38,7 @@
 							{#if item.oldPrice}
 							<p class="mt-2 text-base/7 text-gray-600">Старая цена: <span class="line-through">{item.oldPrice} р/{item.unit}</span> </p>
 							{/if}
-							<p class="mt-1 text-base/7 text-gray-600">Цена: {item.price} р/{item.unit}</p>
+							<p class="mt-1 text-base/7 {item.oldPrice ? 'text-red-700' : 'text-gray-600'}">Цена: {item.price} р/{item.unit}</p>
 							<div class="absolute bottom-0">
 								<a
 									href={item.href}

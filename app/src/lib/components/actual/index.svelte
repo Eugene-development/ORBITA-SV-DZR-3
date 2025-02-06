@@ -885,7 +885,7 @@
 					</div>
 					<div class="flex justify-between">
 
-						<p class="m-2 text-base font-medium text-gray-800">
+						<p class="m-2 text-base font-medium  {oldPrice ? 'text-red-700' : 'text-gray-800'}">
 							{price} руб/{unit}
 							<!-- {price} руб.{#if id === '200'}/м<sup>3</sup>{/if} -->
 						</p>
