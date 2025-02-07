@@ -877,13 +877,13 @@
 					</div>
 					<div class="h-8 mt-2 flex justify-between">
 						<div>
-							<h3 class="pl-2 text-xs text-gray-700">
+							<h3 class="pl-2 text-sm text-gray-700">
 								<span aria-hidden="true" class="inset-0" />
 								{action}
 							</h3>
 						</div>
 					</div>
-					<div class="flex justify-between">
+					<div class="flex mt-4 justify-between">
 
 						<p class="m-2 text-sm font-medium  {oldPrice ? 'text-red-700' : 'text-gray-800'}">
 							{price} руб/{unit}
