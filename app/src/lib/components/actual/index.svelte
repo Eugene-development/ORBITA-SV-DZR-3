@@ -885,13 +885,13 @@
 					</div>
 					<div class="flex justify-between">
 
-						<p class="m-2 text-base font-medium  {oldPrice ? 'text-red-700' : 'text-gray-800'}">
+						<p class="m-2 text-sm font-medium  {oldPrice ? 'text-red-700' : 'text-gray-800'}">
 							{price} руб/{unit}
 							<!-- {price} руб.{#if id === '200'}/м<sup>3</sup>{/if} -->
 						</p>
 
 					{#if oldPrice}
-					<p class="m-2 text-base font-medium text-gray-900 line-through">
+					<p class="m-2 text-sm font-medium text-gray-900 line-through">
 						{oldPrice} руб/{unit}
 						<!-- {price} руб.{#if id === '200'}/м<sup>3</sup>{/if} -->
 					</p>
@@ -906,12 +906,12 @@
 						<button
 							on:click|preventDefault|once={sendToCart(id)}
 							type="button"
-							class="mx-2  px-3 py-1 align-bottom rounded-xl text-base text-gray-100 bg-cyan-600 hover:bg-cyan-700"
+							class="mx-2  px-3 py-1 align-bottom rounded-xl text-sm text-gray-100 bg-cyan-600 hover:bg-cyan-700"
 							>В корзину</button
 						>
 					{:else}
 						<button
-							class="mx-2 px-3 py-1 align-bottom rounded-xl text-base text-gray-100 bg-cyan-800 hover:bg-cyan-700"
+							class="mx-2 px-3 py-1 align-bottom rounded-xl text-sm text-gray-100 bg-cyan-800 hover:bg-cyan-700"
 							>В корзине</button
 						>
 					{/if}
