@@ -114,7 +114,7 @@ export async function load() {
 		{
 			id: '2946',
 			value: 'Плита ОСБ-3 2500*1250* 6мм (107) МУРОМ',
-			price: 590,
+			price: 672,
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/YBbav3JxXOKl8hYDTen6CzCa1TUlMBagzDxTXlFO.png',
 			href: '/shop/product/plita-osb-3-250012506mm-kronospan-gost-vlagostoykaya',
 			unit: 'шт.'
