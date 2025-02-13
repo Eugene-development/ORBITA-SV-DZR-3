@@ -16,7 +16,7 @@ const actions = [
 	{
 		id: '348',
 		action: 'Кирпич керамический одинарный полнотел. М150',
-		price: '22',
+		price: '27',
 		link: '/shop/product/kirpic-pecnoi-m-150-294-stup',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BA%D0%B8%D1%80%D0%BF%20%D0%BF.jpg'
 	},

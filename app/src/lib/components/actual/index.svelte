@@ -115,13 +115,21 @@
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/jf31dasaxfs1y2c2a9u1cm6wmqaja7l5.jpg'
 		},
 		{
-			id: '1488',
-			action: 'Клей для плитки "Вебер Ветонит" изи фикс (25 кг)',
-			price: '380',
+			id: '2965',
+			action: 'Клей для плитки "UNIS" 3000 мах толстослоиный (25 кг)',
+			price: '390',
 			unit: 'шт',
-			link: '/shop/product/klei-dlya-plitki-veber-vetonit-izi-fiks-25-kg',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/c6e735aa_ef65_11e1_83b4_003048c9267c_91b621ee_c52b_11e3_ad43_003048c9267c.jpeg'
+			link: '/shop/product/kliei-dlia-plitki-iunis-3000-ma-kh-tolstosloinyi-25-kgh',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/0fc66aadfde42ad46846c2aa065c6c2a.jpg'
 		},
+		// {
+		// 	id: '1488',
+		// 	action: 'Клей для плитки "Вебер Ветонит" изи фикс (25 кг)',
+		// 	price: '380',
+		// 	unit: 'шт',
+		// 	link: '/shop/product/klei-dlya-plitki-veber-vetonit-izi-fiks-25-kg',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/c6e735aa_ef65_11e1_83b4_003048c9267c_91b621ee_c52b_11e3_ad43_003048c9267c.jpeg'
+		// },
 		{
 			id: '522',
 			action: 'Грунтовка универсальная "ЕК" G200 (10 л)',
@@ -158,7 +166,7 @@
 		{
 			id: '2730',
 			action: 'Пена пистолетная "KUDO PROF 50+" (ARKTIKA -18)',
-			price: '448',
+			price: '476',
 			unit: 'шт',
 			link: '/shop/product/pena-pistoletnaya-kudo-zimnyaya-50',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/KUPP10W50.jpg'

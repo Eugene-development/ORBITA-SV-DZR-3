@@ -28,7 +28,7 @@ export async function load() {
 		{
 			id: '235',
 			value: 'Фанера 10мм, сорт 3/4 (1,525*1,525)',
-			price: 948,
+			price: 998,
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%84%D0%B0%D0%BD%D0%B5%D1%80%D0%B0.jpg',
 			href: '/shop/product/fanera-10mm-sort-34-15251525',
 			unit: 'шт.'
