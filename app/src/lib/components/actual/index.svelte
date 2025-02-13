@@ -40,7 +40,7 @@
 		{
 			id: '446',
 			action: 'Шпаклевка финишная "VETONIT LR+" (22 кг)',
-			price: '954',
+			price: '962',
 			unit: 'шт',
 			link: '/shop/product/spaklevka-finisnaya-vetonit-lr-20-kg',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B2%D0%B5%D1%82.jpg'
