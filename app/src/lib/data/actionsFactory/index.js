@@ -217,7 +217,6 @@
 // 	},
 // ];
 
-
 const actions = [
 	{
 		id: '',
@@ -330,7 +329,7 @@ const actions = [
 	{
 		id: '',
 		action: 'Штукатурная смесь "Кнауф" Ротбанд (30кг) БЕЛЫЙ Кубань',
-		price: '498',
+		price: '493',
 		unit: 'шт',
 		description: '',
 		link: '',
@@ -338,7 +337,7 @@ const actions = [
 	},
 	{
 		id: '',
-		action: 'Штукатурная смесь "Кнауф"Диамант Короед 2,5мм 25кг',
+		action: 'Штукатурная смесь "Кнауф" Диамант Короед 2,5мм 25кг',
 		price: '588',
 		unit: 'шт',
 		description: '',
@@ -452,9 +451,8 @@ const actions = [
 		description: '',
 		link: '',
 		img: 'https://cdn.lemanapro.ru/lmru/image/upload/f_auto/q_auto/dpr_2.0/c_pad/w_1000/h_1000/v1724844826/lmcode/fIoRFvXtMka3npPJieavSA/85060727.png'
-	},
-	
-]
+	}
+];
 
 export const contentActions = {
 	actions

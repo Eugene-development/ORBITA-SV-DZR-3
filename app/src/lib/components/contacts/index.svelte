@@ -215,14 +215,14 @@
 					<div class="rounded-lg bg-gray-800 py-10 px-6 text-center xl:px-10 xl:text-left">
 						<div class="space-y-6 xl:space-y-10">
 							<img
-								class="mx-auto h-48 w-40 rounded-2xl xl:h-64 xl:w-56"
-								src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/team/CLYSLerEOhPlK8d56lxxUC21BQO7G1hezH64aGzp.jpeg"
+								class="mx-auto h-48 w-42 rounded-2xl xl:h-64 xl:w-60"
+								src="https://storage.yandexcloud.net/mine2024/orbita/contacts/2025-03-02%2013.27.48.jpg"
 								alt="Popova"
 							/>
 							<div class="space-y-2 xl:flex xl:items-center xl:justify-between">
 								<div class="space-y-1 text-lg font-medium leading-6">
-									<h3 class="text-white">Попова Анна</h3>
-									<p class="text-indigo-400">менеджер</p>
+									<h3 class="text-white">Попова Анна Евгеньевна</h3>
+									<p class="text-indigo-400">Руководитель отдела снабжения</p>
 									<p class="text-indigo-400">8-960-171-19-80</p>
 									<p class="text-indigo-400">orbita1407@yandex.ru</p>
 									<div class="flex justify-center space-x-5">

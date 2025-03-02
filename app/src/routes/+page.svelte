@@ -62,9 +62,17 @@
 					>
 						Весь МАЙ
 					</h2> -->
-					<p class="pb-3 font-extrabold text-red-600 lg:my-4 text-3xl sm:text-4xl xl:text-5xl">Акция!!!</p>
-					<p class=" pb-3 font-extrabold text-green-700 lg:my-4 text-3xl sm:text-4xl xl:text-5xl">Февраль!!!</p>
-					<p class="font-extrabold text-cyan-700 lg:my-4 text-3xl sm:text-4xl xl:text-5xl whitespace-nowrap">Сантехника -15%</p>
+					<p class="pb-3 font-extrabold text-red-600 lg:my-4 text-3xl sm:text-4xl xl:text-5xl">
+						Акция!!!
+					</p>
+					<p class=" pb-3 font-extrabold text-green-700 lg:my-4 text-3xl sm:text-4xl xl:text-5xl">
+						Март!!!
+					</p>
+					<p
+						class="font-extrabold text-cyan-700 lg:my-4 text-3xl sm:text-4xl xl:text-5xl whitespace-nowrap"
+					>
+						Сантехника -15%
+					</p>
 					<!-- <p
 						class="max-w-3xl font-light text-gray-600 lg:my-8 text-sm md:text-base xl:text-lg dark:text-gray-500"
 					>
@@ -73,7 +81,7 @@
 							>8 (902) 303-36-54</span
 						>
 					</p> -->
-					
+
 					<!-- {#if browser && !InCart.some((arrVal) => '431' === arrVal)}
 						<div class="mt-4 md:mt-0">
 							<button
@@ -142,16 +150,19 @@
 		</div>
 		<div class="lg:col-span-3">
 			<img
+				class="h-48 lg:h-72"
+				src="https://www.knauf.ru/upload/iblock/09c/xixblbnsiva2zlg7yenuc21iido7l53k/Rotband_30_1200x900_1.png"
+				alt="Стройматериалы по акции"
+			/>
+		</div>
+		<!-- <div class="lg:col-span-3">
+			<img
 				class="h-48 lg:h-80"
 				src="https://vetonit.com/sites/default/files/styles/product_zoom/public/uploads/pim/images/16428/66ef7a12-6517-11ef-a518-e659bb18163c.png?itok=8W_IIcgD"
 				alt="Стройматериалы по акции"
 			/>
-		</div>
+		</div> -->
 		<div class="pl-2 lg:mt-0 lg:col-span-4 ">
-
-			
-
-			
 			<!-- <img
 				class="h-80"
 				src="https://www.knauf.ru/upload/iblock/09c/xixblbnsiva2zlg7yenuc21iido7l53k/Rotband_30_1200x900_1.png"
@@ -159,7 +170,7 @@
 			/> -->
 			<img
 				class="h-48 lg:h-72"
-				src="https://storage.yandexcloud.net/orbita/actions/action2025-02.jpeg"
+				src="https://storage.yandexcloud.net/orbita/actions/action2025-03.jpeg"
 				alt="скидка"
 			/>
 			<!-- <img class="" src="https://utepliteli-77.ru/files/brands/unis-logo.png" alt="скидка" /> -->
