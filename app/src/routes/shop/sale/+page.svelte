@@ -23,7 +23,7 @@
 			<div class="mt-10 space-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16">
 				<div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8">
 					<div class="mt-6 lg:col-span-5 lg:mt-0 xl:col-span-4">
-						<h3 class="text-lg font-medium text-gray-900">Adventure-ready</h3>
+						<h3 class="text-2xl font-medium text-gray-900">Листовой материал</h3>
 						<p class="mt-2 text-sm text-gray-500">
 							The Drawstring Canister is water and tear resistant with durable canvas construction.
 							This bag holds up to the demands of daily use while keeping your snacks secure.
@@ -39,7 +39,7 @@
 				</div>
 				<div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8">
 					<div class="mt-6 lg:col-span-5 lg:mt-0 xl:col-span-4">
-						<h3 class="text-lg font-medium text-gray-900">Minimal and clean</h3>
+						<h3 class="text-2xl font-medium text-gray-900">Сухие смеси</h3>
 						<p class="mt-2 text-sm text-gray-500">
 							Everything you need, nothing you don&#039;t. This bag has the simple, contemporary
 							design that enables you to tell everyone you know about how essentialism is the only
@@ -56,7 +56,7 @@
 				</div>
 				<div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8">
 					<div class="mt-6 lg:col-span-5 lg:mt-0 xl:col-span-4">
-						<h3 class="text-lg font-medium text-gray-900">Organized</h3>
+						<h3 class="text-2xl font-medium text-gray-900">Лакокрасочные материалы</h3>
 						<p class="mt-2 text-sm text-gray-500">
 							Never lose your snacks again with our patent-pending snack stash pocket system. With
 							dedicated pouches for each of your snacking needs, the Drawstring Canister unlocks new
@@ -73,7 +73,7 @@
 				</div>
 				<div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8">
 					<div class="mt-6 lg:col-span-5 lg:mt-0 xl:col-span-4">
-						<h3 class="text-lg font-medium text-gray-900">Organized</h3>
+						<h3 class="text-2xl font-medium text-gray-900">Линолеум</h3>
 						<p class="mt-2 text-sm text-gray-500">
 							Never lose your snacks again with our patent-pending snack stash pocket system. With
 							dedicated pouches for each of your snacking needs, the Drawstring Canister unlocks new
