@@ -54,7 +54,7 @@
 <Holiday />
 
 <section class="py-4 lg:py-8">
-	<div class="grid max-w-full px-4 lg:px-12 xl:px-12 mx-auto lg:gap-8 xl:gap-0  lg:grid-cols-12">
+	<div class="grid max-w-full px-4 lg:px-12 xl:px-12 mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12">
 		<div class="mr-auto place-self-center lg:col-span-4">
 			<div class="lg:flex">
 				<div class="px-6 py-2 rounded-xl bg-gray-50 mt-2">
