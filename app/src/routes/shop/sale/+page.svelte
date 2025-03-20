@@ -15,8 +15,8 @@
 					Распродажа стройматериалов
 				</h2>
 				<p class="mt-4 text-gray-500">
-					The Drawstring Canister comes with multiple strap and handle options to adapt throughout
-					your day. Shoulder sling it, backpack it, or handy carry it.
+					Наша база стройматериалов предлагает вам выгодные цены на широкий ассортимент строительных
+					материалов по распродаже.
 				</p>
 			</div>
 
@@ -25,15 +25,16 @@
 					<div class="mt-6 lg:col-span-5 lg:mt-0 xl:col-span-4">
 						<h3 class="text-2xl font-medium text-gray-900">Листовой материал</h3>
 						<p class="mt-2 text-sm text-gray-500">
-							The Drawstring Canister is water and tear resistant with durable canvas construction.
-							This bag holds up to the demands of daily use while keeping your snacks secure.
+							Широкий выбор листовых материалов: гипсокартон, ОСБ, фанера, ДВП и ДСП. Идеально
+							подходят для отделки стен, потолков и создания перегородок. Различные размеры и
+							толщина для любых задач.
 						</p>
 					</div>
 					<div class="flex-auto lg:col-span-7 xl:col-span-8">
 						<img
 							src="https://domostroy161.ru/wp-content/uploads/2013/12/Gipsokarton.jpg"
 							alt=""
-							class="aspect-[3/2] w-full rounded-lg bg-gray-100 object-cover"
+							class="aspect-[3/2] mx-8 w-full rounded-lg bg-gray-100 object-cover"
 						/>
 					</div>
 				</div>
@@ -41,9 +42,9 @@
 					<div class="mt-6 lg:col-span-5 lg:mt-0 xl:col-span-4">
 						<h3 class="text-2xl font-medium text-gray-900">Сухие смеси</h3>
 						<p class="mt-2 text-sm text-gray-500">
-							Everything you need, nothing you don&#039;t. This bag has the simple, contemporary
-							design that enables you to tell everyone you know about how essentialism is the only
-							rational way to live life.
+							Качественные сухие строительные смеси для различных видов работ: штукатурки,
+							шпаклевки, клеи для плитки, ровнители для пола и кладочные растворы. Надежные составы
+							от проверенных производителей по выгодным ценам.
 						</p>
 					</div>
 					<div class="flex-auto lg:col-span-7 xl:col-span-8">
@@ -58,9 +59,8 @@
 					<div class="mt-6 lg:col-span-5 lg:mt-0 xl:col-span-4">
 						<h3 class="text-2xl font-medium text-gray-900">Лакокрасочные материалы</h3>
 						<p class="mt-2 text-sm text-gray-500">
-							Never lose your snacks again with our patent-pending snack stash pocket system. With
-							dedicated pouches for each of your snacking needs, the Drawstring Canister unlocks new
-							levels of efficiency and convenience.
+							Большой выбор лакокрасочных материалов для внутренних и наружных работ: краски, эмали,
+							лаки, грунтовки, пропитки. Широкая цветовая гамма и различные типы поверхностей.
 						</p>
 					</div>
 					<div class="flex-auto lg:col-span-7 xl:col-span-8">
@@ -75,9 +75,9 @@
 					<div class="mt-6 lg:col-span-5 lg:mt-0 xl:col-span-4">
 						<h3 class="text-2xl font-medium text-gray-900">Линолеум</h3>
 						<p class="mt-2 text-sm text-gray-500">
-							Never lose your snacks again with our patent-pending snack stash pocket system. With
-							dedicated pouches for each of your snacking needs, the Drawstring Canister unlocks new
-							levels of efficiency and convenience.
+							Практичный и долговечный линолеум различных расцветок и фактур. Подходит для жилых и
+							коммерческих помещений. Легко укладывается, прост в уходе, обладает хорошей звуко- и
+							теплоизоляцией, устойчив к истиранию.
 						</p>
 					</div>
 					<div class="flex-auto lg:col-span-7 xl:col-span-8">
