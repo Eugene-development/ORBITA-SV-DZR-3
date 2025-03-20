@@ -51,7 +51,7 @@
 						<img
 							src="https://www.rusgvozdi.ru/upload/iblock/d25/d25d265670f5e141f22d682dcb418da4.jpg"
 							alt="Double stitched black canvas hook loop."
-							class="aspect-[3/2] w-full rounded-lg bg-gray-100 object-cover"
+							class="aspect-[3/2] mx-8 w-full rounded-lg bg-gray-100 object-cover"
 						/>
 					</div>
 				</div>
@@ -67,14 +67,14 @@
 						<img
 							src="https://kraskinadom.ru/upload/iblock/aa0/moi336njtp1zd33iixg1327zbob8jh99.jpg"
 							alt="Black canvas body with chrome zipper and key ring."
-							class="aspect-[3/2] w-full rounded-lg bg-gray-100 object-cover"
+							class="aspect-[3/2] mx-8 w-full rounded-lg bg-gray-100 object-cover"
 						/>
 					</div>
 				</div>
 				<div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8">
 					<div class="mt-6 lg:col-span-5 lg:mt-0 xl:col-span-4">
 						<h3 class="text-2xl font-medium text-gray-900">Линолеум</h3>
-						<p class="mt-2 text-sm text-gray-500">
+						<p class="mt-2 text-base text-gray-500">
 							Практичный и долговечный линолеум различных расцветок и фактур. Подходит для жилых и
 							коммерческих помещений. Легко укладывается, прост в уходе, обладает хорошей звуко- и
 							теплоизоляцией, устойчив к истиранию.
@@ -84,7 +84,7 @@
 						<img
 							src="https://laminatepol.ru/wp-content/uploads/2022/03/eaf1c5e523d0d836b2118ebba70cc5fb-720x405.jpg"
 							alt="Black canvas body with chrome zipper and key ring."
-							class="aspect-[3/2] w-full rounded-lg bg-gray-100 object-cover"
+							class="aspect-[3/2] mx-8 w-full rounded-lg bg-gray-100 object-cover"
 						/>
 					</div>
 				</div>
