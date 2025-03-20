@@ -23,8 +23,8 @@
 					</div>
 					<div class="flex-auto lg:col-span-7 xl:col-span-8">
 						<img
-							src="https://tailwindcss.com/plus-assets/img/ecommerce-images/product-feature-04-detail-03.jpg"
-							alt="Printed photo of bag being tossed into the sky on top of grass."
+							src="https://domostroy161.ru/wp-content/uploads/2013/12/Gipsokarton.jpg"
+							alt=""
 							class="aspect-[5/2] w-full rounded-lg bg-gray-100 object-cover"
 						/>
 					</div>

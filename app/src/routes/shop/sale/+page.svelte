@@ -10,10 +10,10 @@
 	<div class="mx-auto max-w-7xl py-24 sm:px-2 sm:py-32 lg:px-4">
 		<div class="mx-auto max-w-2xl px-4 lg:max-w-none">
 			<div class="max-w-3xl">
-				<h2 class="font-semibold text-gray-500">Drawstring Canister</h2>
-				<p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-					Use it your way
-				</p>
+				<span class="font-semibold text-gray-500">Это выгодно</span>
+				<h2 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+					Распродажа стройматериалов
+				</h2>
 				<p class="mt-4 text-gray-500">
 					The Drawstring Canister comes with multiple strap and handle options to adapt throughout
 					your day. Shoulder sling it, backpack it, or handy carry it.
@@ -31,9 +31,9 @@
 					</div>
 					<div class="flex-auto lg:col-span-7 xl:col-span-8">
 						<img
-							src="https://tailwindcss.com/plus-assets/img/ecommerce-images/product-feature-04-detail-03.jpg"
-							alt="Printed photo of bag being tossed into the sky on top of grass."
-							class="aspect-[5/2] w-full rounded-lg bg-gray-100 object-cover"
+							src="https://domostroy161.ru/wp-content/uploads/2013/12/Gipsokarton.jpg"
+							alt=""
+							class="aspect-[3/2] w-full rounded-lg bg-gray-100 object-cover"
 						/>
 					</div>
 				</div>
@@ -48,9 +48,9 @@
 					</div>
 					<div class="flex-auto lg:col-span-7 xl:col-span-8">
 						<img
-							src="https://tailwindcss.com/plus-assets/img/ecommerce-images/product-feature-04-detail-01.jpg"
+							src="https://www.rusgvozdi.ru/upload/iblock/d25/d25d265670f5e141f22d682dcb418da4.jpg"
 							alt="Double stitched black canvas hook loop."
-							class="aspect-[5/2] w-full rounded-lg bg-gray-100 object-cover"
+							class="aspect-[3/2] w-full rounded-lg bg-gray-100 object-cover"
 						/>
 					</div>
 				</div>
@@ -65,9 +65,26 @@
 					</div>
 					<div class="flex-auto lg:col-span-7 xl:col-span-8">
 						<img
-							src="https://tailwindcss.com/plus-assets/img/ecommerce-images/product-feature-04-detail-02.jpg"
+							src="https://kraskinadom.ru/upload/iblock/aa0/moi336njtp1zd33iixg1327zbob8jh99.jpg"
 							alt="Black canvas body with chrome zipper and key ring."
-							class="aspect-[5/2] w-full rounded-lg bg-gray-100 object-cover"
+							class="aspect-[3/2] w-full rounded-lg bg-gray-100 object-cover"
+						/>
+					</div>
+				</div>
+				<div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8">
+					<div class="mt-6 lg:col-span-5 lg:mt-0 xl:col-span-4">
+						<h3 class="text-lg font-medium text-gray-900">Organized</h3>
+						<p class="mt-2 text-sm text-gray-500">
+							Never lose your snacks again with our patent-pending snack stash pocket system. With
+							dedicated pouches for each of your snacking needs, the Drawstring Canister unlocks new
+							levels of efficiency and convenience.
+						</p>
+					</div>
+					<div class="flex-auto lg:col-span-7 xl:col-span-8">
+						<img
+							src="https://laminatepol.ru/wp-content/uploads/2022/03/eaf1c5e523d0d836b2118ebba70cc5fb-720x405.jpg"
+							alt="Black canvas body with chrome zipper and key ring."
+							class="aspect-[3/2] w-full rounded-lg bg-gray-100 object-cover"
 						/>
 					</div>
 				</div>
