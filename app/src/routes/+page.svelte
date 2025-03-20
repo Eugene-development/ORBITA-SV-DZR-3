@@ -51,10 +51,11 @@
 		content="База Орбита Строй это качественные стройматериалы в Дзержинске. Наш интернет магазин стройматериалов в Дзержинске предложит вам широчайший ассортимент и низкие цены на продукцию и комплектующие. Есть стройбаза со складом в черте города. Если Вы за городом, то можете купить стройматериалы с доставкой по Дзержинску."
 	/>
 </svelte:head>
+<Holiday />
 
-<section class="py-4 lg:py-12">
+<section class="py-4 lg:py-8">
 	<div class="grid max-w-full px-4 lg:px-12 xl:px-12 mx-auto lg:gap-8 xl:gap-0  lg:grid-cols-12">
-		<div class="mr-auto place-self-center lg:col-span-5">
+		<div class="mr-auto place-self-center lg:col-span-4">
 			<div class="lg:flex">
 				<div class="px-6 py-2 rounded-xl bg-gray-50 mt-2">
 					<!-- <h2
@@ -62,14 +63,14 @@
 					>
 						Весь МАЙ
 					</h2> -->
-					<p class="pb-3 font-extrabold text-red-600 lg:my-4 text-3xl sm:text-4xl xl:text-5xl">
+					<p class="pb-3 font-extrabold text-red-600 lg:my-4 text-3xl sm:text-4xl xl:text-4xl">
 						Акция!!!
 					</p>
-					<p class=" pb-3 font-extrabold text-green-700 lg:my-4 text-3xl sm:text-4xl xl:text-5xl">
+					<p class=" pb-3 font-extrabold text-green-700 lg:my-4 text-3xl sm:text-4xl xl:text-4xl">
 						Март!!!
 					</p>
 					<p
-						class="font-extrabold text-cyan-700 lg:my-4 text-3xl sm:text-4xl xl:text-5xl whitespace-nowrap"
+						class="font-extrabold text-cyan-700 lg:my-4 text-3xl sm:text-4xl xl:text-4xl whitespace-nowrap"
 					>
 						Сантехника -15%
 					</p>
@@ -148,9 +149,9 @@
 				стройматериалов до 31 марта 2024 года.
 			</p> -->
 		</div>
-		<div class="lg:col-span-3">
+		<div class="lg:ml-8 lg:col-span-4">
 			<img
-				class="h-48 lg:h-72"
+				class="h-48 lg:h-64"
 				src="https://www.knauf.ru/upload/iblock/09c/xixblbnsiva2zlg7yenuc21iido7l53k/Rotband_30_1200x900_1.png"
 				alt="Стройматериалы по акции"
 			/>
@@ -169,7 +170,7 @@
 				alt="скидка"
 			/> -->
 			<img
-				class="h-48 lg:h-72"
+				class="h-48 lg:h-64"
 				src="https://storage.yandexcloud.net/orbita/actions/action2025-03.jpeg"
 				alt="скидка"
 			/>
@@ -198,7 +199,6 @@
 		</div> -->
 	</div>
 </section>
-<!-- <Holiday /> -->
 <Swiper
 	modules={[Pagination, Scrollbar, A11y, Autoplay]}
 	autoplay={{ delay: 6000 }}
