@@ -53,7 +53,7 @@
 </svelte:head>
 <Holiday />
 
-<section class="py-4 lg:py-16">
+<section class="py-4 lg:py-12">
 	<div class="grid max-w-full px-4 lg:px-12 xl:px-12 mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12">
 		<div class="mr-auto place-self-center lg:col-span-2">
 			<!-- <div class="lg:flex">

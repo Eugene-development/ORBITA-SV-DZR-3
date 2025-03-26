@@ -5,7 +5,7 @@
 				<h2 class="text-balance text-4xl font-semibold tracking-tight text-red-800 sm:text-5xl">
 					Специальное предложение на апрель!!!
 				</h2>
-				<p class="mt-4 text-xl text-gray-600">
+				<p class="mt-4  mx-auto text-xl text-gray-600 max-w-2xl">
 					Воспользуйтесь нашими спецпредложениями и получите значительную выгоду при покупке
 					стройматериалов.
 				</p>
