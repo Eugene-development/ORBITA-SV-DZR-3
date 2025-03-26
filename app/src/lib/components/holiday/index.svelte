@@ -1,13 +1,21 @@
-<div class="bg-white pt-4 sm:pt-6">
+<div class="bg-white pt-4 sm:pt-16">
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="mx-auto max-w-2xl lg:max-w-none">
 			<div class="text-center">
-				<h2 class="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-4xl">
-					Доставка стройматериалов
+				<h2 class="text-balance text-4xl font-semibold tracking-tight text-red-800 sm:text-5xl">
+					Специальное предложение на апрель!!!
 				</h2>
-				<p class="mt-4 text-lg/8 text-gray-600">
-					Доставка в сезон осуществляется день в день, либо на следующий день от заявки.
+				<p class="mt-4 text-xl text-gray-600">
+					Воспользуйтесь нашими спецпредложениями и получите значительную выгоду при покупке
+					стройматериалов.
 				</p>
+
+				<!-- <h2 class="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-4xl">
+					Доставка стройматериалов
+				</h2> -->
+				<!-- <p class="mt-4 text-lg/8 text-gray-600">
+					Доставка в сезон осуществляется день в день, либо на следующий день от заявки.
+				</p> -->
 			</div>
 			<!-- <dl
 				class="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4"

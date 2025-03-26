@@ -47,8 +47,7 @@
 		},
 		{
 			id: '314',
-			action:
-				'Плиточный клей "Церезит" СМ 14"(25 кг)',
+			action: 'Плиточный клей "Церезит" СМ 14"(25 кг)',
 			oldPrice: '864',
 			price: '763',
 			unit: 'шт',
@@ -85,7 +84,7 @@
 		{
 			id: '228',
 			action: 'Плита ОСБ-3 2500*1250*9мм Kronospan ГОСТ (влагостойкая)',
-			price: '811',
+			price: '775',
 			unit: 'шт',
 			link: '/shop/product/plita-osb-3-250012509mm-Kronospan-gost-vlagostoikaya',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/ilejI7dCV3zr72h4VudvlNrQLKBgHsrYwKd1HoAL.jpeg'
@@ -170,18 +169,7 @@
 			unit: 'шт',
 			link: '/shop/product/pena-pistoletnaya-kudo-zimnyaya-50',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/KUPP10W50.jpg'
-		},
-
-
-
-
-
-
-
-
-
-
-
+		}
 
 		// {
 		// 	id: '1543',
@@ -892,23 +880,18 @@
 						</div>
 					</div>
 					<div class="flex mt-4 justify-between">
-
 						<p class="m-2 text-sm font-medium  {oldPrice ? 'text-red-700' : 'text-gray-800'}">
 							{price} руб/{unit}
 							<!-- {price} руб.{#if id === '200'}/м<sup>3</sup>{/if} -->
 						</p>
 
-					{#if oldPrice}
-					<p class="m-2 text-sm font-medium text-gray-900 line-through">
-						{oldPrice} руб/{unit}
-						<!-- {price} руб.{#if id === '200'}/м<sup>3</sup>{/if} -->
-					</p>
-					{/if}
-
-					
-
+						{#if oldPrice}
+							<p class="m-2 text-sm font-medium text-gray-900 line-through">
+								{oldPrice} руб/{unit}
+								<!-- {price} руб.{#if id === '200'}/м<sup>3</sup>{/if} -->
+							</p>
+						{/if}
 					</div>
-					
 
 					{#if browser && !InCart.some((arrVal) => id === arrVal)}
 						<button

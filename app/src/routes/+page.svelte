@@ -53,16 +53,12 @@
 </svelte:head>
 <Holiday />
 
-<section class="py-4 lg:py-8">
+<section class="py-4 lg:py-16">
 	<div class="grid max-w-full px-4 lg:px-12 xl:px-12 mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12">
-		<div class="mr-auto place-self-center lg:col-span-4">
-			<div class="lg:flex">
+		<div class="mr-auto place-self-center lg:col-span-2">
+			<!-- <div class="lg:flex">
 				<div class="px-6 py-2 rounded-xl bg-gray-50 mt-2">
-					<!-- <h2
-						class="max-w-7xl mb-4 font-bold tracking-tight leading-none text-3xl md:text-5xl xl:text-7xl dark:text-green-600"
-					>
-						Весь МАЙ
-					</h2> -->
+					
 					<p class="pb-3 font-extrabold text-red-600 lg:my-4 text-3xl sm:text-4xl xl:text-4xl">
 						Акция!!!
 					</p>
@@ -74,16 +70,16 @@
 					>
 						Сантехника -15%
 					</p>
-					<!-- <p
+					<p
 						class="max-w-3xl font-light text-gray-600 lg:my-8 text-sm md:text-base xl:text-lg dark:text-gray-500"
 					>
 						Предлагаем приобрести продукцию производителя UNIS на нашей базе стройматериалов по
 						специальной цене. Телефон вашего менеджера <span class="text-green-600 font-bold"
 							>8 (902) 303-36-54</span
 						>
-					</p> -->
+					</p>
 
-					<!-- {#if browser && !InCart.some((arrVal) => '431' === arrVal)}
+					{#if browser && !InCart.some((arrVal) => '431' === arrVal)}
 						<div class="mt-4 md:mt-0">
 							<button
 								on:click|preventDefault|once={() => sendToCart('431')}
@@ -98,60 +94,14 @@
 								>В корзине</button
 							>
 						</div>
-					{/if} -->
+					{/if}
 				</div>
 
-				<!-- СРЕДНЯЯ ЧАСТЬ -->
-				<!-- <div class="mx-auto">
-					<img
-						class="h-48 lg:h-72"
-						src="https://baurex.ru/upload/resize_cache/600x600/bergauf/kley-montazhnyy-bergauf-isofix-25-kg_1.jpg"
-						alt="Стройматериалы по акции"
-					/>
-				</div> -->
-				<!-- <div class="lg:pl-8 xl:pl-24">
-					<img
-						class="h-48 lg:h-72"
-						src="https://www.knauf.ru/upload/iblock/09c/xixblbnsiva2zlg7yenuc21iido7l53k/Rotband_30_1200x900_1.png"
-						alt="Стройматериалы по акции"
-					/>
-				</div> -->
-				<!-- <div class="hidden lg:block h-80 overflow-hidden ml-10">
-					<img
-						class="h-full w-full object-fill"
-						src="https://storage.yandexcloud.net/orbita/actions/20210517_132652.jpg"
-						alt="Стройматериалы по акции"
-					/>
-				</div> -->
-				<!-- <div class="hidden md:block h-80 overflow-hidden ">
-					<img
-						class="h-full w-full object-contain"
-						src="https://utepliteli-77.ru/files/brands/unis-logo.png"
-						alt="Стройматериалы по акции"
-					/>
-				</div> -->
-				<!-- <div class="hidden md:block h-80 overflow-hidden ">
-					<img
-						class="h-full w-full object-contain"
-						src="https://storage.yandexcloud.net/orbita/actions/37520-1000x1000%20(1).jpg"
-						alt="Стройматериалы по акции"
-					/>
-				</div> -->
-			</div>
-
-			<!-- <p
-				class="max-w-4xl mb-6 font-light text-gray-600 lg:my-8 md:text-lg lg:text-lg dark:text-gray-500"
-			>
-				Отзывчивость к нашим клиентам и стремление быть максимально клиентоориентированными
-				подтолкнули нас к решению продлить акцию. Теперь вы можете воспользоваться <span
-					class="text-red-800">скидкой в 5 процентов</span
-				> не только посетив нашу базу строительных материалов, но и делая заказы через наш интернет-магазин
-				стройматериалов до 31 марта 2024 года.
-			</p> -->
+			</div> -->
 		</div>
-		<div class="lg:ml-8 lg:col-span-4">
+		<div class="lg:ml-0 lg:col-span-4">
 			<img
-				class="h-48 lg:h-64"
+				class="h-48 lg:h-96"
 				src="https://www.knauf.ru/upload/iblock/09c/xixblbnsiva2zlg7yenuc21iido7l53k/Rotband_30_1200x900_1.png"
 				alt="Стройматериалы по акции"
 			/>
@@ -163,14 +113,14 @@
 				alt="Стройматериалы по акции"
 			/>
 		</div> -->
-		<div class="pl-2 lg:mt-0 lg:col-span-4 ">
+		<div class="pl-24 lg:mt-0 lg:col-span-6 ">
 			<!-- <img
 				class="h-80"
 				src="https://www.knauf.ru/upload/iblock/09c/xixblbnsiva2zlg7yenuc21iido7l53k/Rotband_30_1200x900_1.png"
 				alt="скидка"
 			/> -->
 			<img
-				class="h-48 lg:h-64"
+				class="h-48 lg:h-96"
 				src="https://storage.yandexcloud.net/orbita/actions/action2025-03.jpeg"
 				alt="скидка"
 			/>
@@ -219,3 +169,49 @@
 <Testimonials />
 <Message />
 <Article />
+
+<!-- СРЕДНЯЯ ЧАСТЬ -->
+<!-- <div class="mx-auto">
+					<img
+						class="h-48 lg:h-72"
+						src="https://baurex.ru/upload/resize_cache/600x600/bergauf/kley-montazhnyy-bergauf-isofix-25-kg_1.jpg"
+						alt="Стройматериалы по акции"
+					/>
+				</div> -->
+<!-- <div class="lg:pl-8 xl:pl-24">
+					<img
+						class="h-48 lg:h-72"
+						src="https://www.knauf.ru/upload/iblock/09c/xixblbnsiva2zlg7yenuc21iido7l53k/Rotband_30_1200x900_1.png"
+						alt="Стройматериалы по акции"
+					/>
+				</div> -->
+<!-- <div class="hidden lg:block h-80 overflow-hidden ml-10">
+					<img
+						class="h-full w-full object-fill"
+						src="https://storage.yandexcloud.net/orbita/actions/20210517_132652.jpg"
+						alt="Стройматериалы по акции"
+					/>
+				</div> -->
+<!-- <div class="hidden md:block h-80 overflow-hidden ">
+					<img
+						class="h-full w-full object-contain"
+						src="https://utepliteli-77.ru/files/brands/unis-logo.png"
+						alt="Стройматериалы по акции"
+					/>
+				</div> -->
+<!-- <div class="hidden md:block h-80 overflow-hidden ">
+					<img
+						class="h-full w-full object-contain"
+						src="https://storage.yandexcloud.net/orbita/actions/37520-1000x1000%20(1).jpg"
+						alt="Стройматериалы по акции"
+					/>
+				</div> -->
+<!-- <p
+				class="max-w-4xl mb-6 font-light text-gray-600 lg:my-8 md:text-lg lg:text-lg dark:text-gray-500"
+			>
+				Отзывчивость к нашим клиентам и стремление быть максимально клиентоориентированными
+				подтолкнули нас к решению продлить акцию. Теперь вы можете воспользоваться <span
+					class="text-red-800">скидкой в 5 процентов</span
+				> не только посетив нашу базу строительных материалов, но и делая заказы через наш интернет-магазин
+				стройматериалов до 31 марта 2024 года.
+			</p> -->
