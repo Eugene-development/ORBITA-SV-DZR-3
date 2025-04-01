@@ -1,54 +1,60 @@
 const actions = [
 	{
-		id: '1944',
-		action: 'ДВП 1220*2440*3,2',
-		price: '185',
-		link: '/shop/product/dvp-1220244032',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/W6E3RBdh7ybngPyTwrWYkc2WUh5P9ZDOUIT3iK4t.jpg'
-	},
-	{
-		id: '2963',
-		action: 'Антиморозная добавка FARBITEX профи 5л',
-		price: '499',
-		link: '/shop/product/antimorozyaia-dobavka-farbitex-profi-5l',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/farbi_5l.png'
-	},
-	{
-		id: '348',
-		action: 'Кирпич керамический одинарный полнотел. М150',
-		price: '27',
-		link: '/shop/product/kirpic-pecnoi-m-150-294-stup',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BA%D0%B8%D1%80%D0%BF%20%D0%BF.jpg'
-	},
-	
-	{
-		id: '470',
-		action: 'Смесь сухая универсальная м-150 (25 кг) ПРЕСТИЖ',
-		price: '145',
-		link: '/shop/product/smes-suxaya-universalnaya-m-150-25-kg',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/m150-500x500.png'
-	},
-	{
-		id: '370',
-		action: 'Профиль стоечный 50/50 толщ. 0,5 мм (3 м)',
-		price: '231',
-		link: '/shop/product/profil-stoecnyi-5050-tolshh-05-mm-3-m',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/5050.jpg'
-	},
-	{
-		id: '363',
-		action: 'ПРОФИЛЬ НАПРАВЛЯЮЩИЙ 50/40 ТОЛЩ. 0,5 ММ (3М)',
-		price: '182',
-		link: '/shop/product/profil-napravlyayushhii-5040-tolshh-05-mm-3m',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/5040.jpg'
-	},
-	{
-		id: '2460',
-		action: 'Перчатки с пвх черные',
-		price: '14',
-		link: '/shop/product/percatki-s-pvx-cernye',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/K6x6Mc7FhaZ31HFKyBS1gNHsrSP60lCzfjikwyNL.jpg'
-	},
+		id: '2966',
+		action: 'Антисептик для древесины "АПРИЛ" 10л',
+		price: '1350',
+		link: '/shop/product/antisieptik-dlia-drieviesiny-april-10l',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/26e974220b6abba47d2904b3c15a13fd.jpg'
+	}
+	// {
+	// 	id: '1944',
+	// 	action: 'ДВП 1220*2440*3,2',
+	// 	price: '185',
+	// 	link: '/shop/product/dvp-1220244032',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/W6E3RBdh7ybngPyTwrWYkc2WUh5P9ZDOUIT3iK4t.jpg'
+	// },
+	// {
+	// 	id: '2963',
+	// 	action: 'Антиморозная добавка FARBITEX профи 5л',
+	// 	price: '499',
+	// 	link: '/shop/product/antimorozyaia-dobavka-farbitex-profi-5l',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/farbi_5l.png'
+	// },
+	// {
+	// 	id: '348',
+	// 	action: 'Кирпич керамический одинарный полнотел. М150',
+	// 	price: '27',
+	// 	link: '/shop/product/kirpic-pecnoi-m-150-294-stup',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BA%D0%B8%D1%80%D0%BF%20%D0%BF.jpg'
+	// },
+	// {
+	// 	id: '470',
+	// 	action: 'Смесь сухая универсальная м-150 (25 кг) ПРЕСТИЖ',
+	// 	price: '145',
+	// 	link: '/shop/product/smes-suxaya-universalnaya-m-150-25-kg',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/m150-500x500.png'
+	// },
+	// {
+	// 	id: '370',
+	// 	action: 'Профиль стоечный 50/50 толщ. 0,5 мм (3 м)',
+	// 	price: '231',
+	// 	link: '/shop/product/profil-stoecnyi-5050-tolshh-05-mm-3-m',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/5050.jpg'
+	// },
+	// {
+	// 	id: '363',
+	// 	action: 'ПРОФИЛЬ НАПРАВЛЯЮЩИЙ 50/40 ТОЛЩ. 0,5 ММ (3М)',
+	// 	price: '182',
+	// 	link: '/shop/product/profil-napravlyayushhii-5040-tolshh-05-mm-3m',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/5040.jpg'
+	// },
+	// {
+	// 	id: '2460',
+	// 	action: 'Перчатки с пвх черные',
+	// 	price: '14',
+	// 	link: '/shop/product/percatki-s-pvx-cernye',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/K6x6Mc7FhaZ31HFKyBS1gNHsrSP60lCzfjikwyNL.jpg'
+	// },
 	// {
 	// 	id: '436',
 	// 	action: 'Штукатурная смесь "Кнауф Ротбанд" белая (30 кг)',
@@ -145,7 +151,6 @@ const actions = [
 	// 	link: '/shop/product/fanera-10mm-sort-34-15251525',
 	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%84%D0%B0%D0%BD%D0%B5%D1%80%D0%B0.jpg'
 	// },
-
 	// {
 	// 	id: '2961',
 	// 	action: 'Knauf профиль направляющий 27х28 (3 метра) 0.6мм',
@@ -154,7 +159,6 @@ const actions = [
 	// 	link: '/shop/product/knauf-profil-napravlaushii-27x28',
 	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/profil-potolochnyj-napravlyayuschij-knauf-27h28-izomaxx-1000x1000.png'
 	// },
-
 	// {
 	// 	id: '2960',
 	// 	action: 'Knauf профиль потолочный (ПП)',
@@ -163,7 +167,6 @@ const actions = [
 	// 	link: '/shop/product/knauf-profil-potolochni-pp',
 	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/knauf_profil_pp_3000H60H27H06.png'
 	// },
-
 	// {
 	// 	id: '257',
 	// 	action: 'ГКЛ KNAUF 9,5 мм (1200*2500)',
