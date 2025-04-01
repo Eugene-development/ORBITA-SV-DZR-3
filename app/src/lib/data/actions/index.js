@@ -14,32 +14,35 @@ const actions = [
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/49684fae-dba7-11e5-a26c-1867b054bc98_7550deb3-7beb-11e6-a067-000c29378178.resize1.png'
 	},
 	{
-		id: '',
-		action: '',
-		price: '',
-		link: '',
-		img: ''
+		id: '355',
+		action: 'Профиль направляющий 27/28 толщ. 0,4 мм (3 м)',
+		price: '98',
+		link: '/shop/product/profil-napravlyayushhii-2728-tolshh-04-mm-3-m',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/2728.jpg'
 	},
 	{
-		id: '',
-		action: '',
-		price: '',
-		link: '',
-		img: ''
+		id: '365',
+		action: 'Профиль потолочный 60/27 0,5 мм (3 м)',
+		price: '157',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/shop/product/profil-potolocnyi-6027-tolshh-05-mm-3-m',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/6027.jpg'
+	},
+
+	{
+		id: '378',
+		action: 'Подвес прямой ПП 60/27 0,7 мм',
+		price: '10',
+		link: '/shop/product/podves-pryamoi-pp-6027-07-mm',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BF%D0%BF.jpg'
 	},
 	{
-		id: '',
-		action: '',
-		price: '',
-		link: '',
-		img: ''
-	},
-	{
-		id: '',
-		action: '',
-		price: '',
-		link: '',
-		img: ''
+		id: '2766',
+		action: 'Поликарбонат сотовый прозрачный (размер 12х2.1м, 4мм)',
+		price: '5000',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/shop/product/polikarbonat-sotovyi-prozracnyi-4mm',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/lSHy2nYTCubCyXeSrG38YM8CD4DPL88MeYQzrSSw.png'
 	}
 	// {
 	// 	id: '1944',
@@ -113,14 +116,6 @@ const actions = [
 	// 	description: 'При заказе через сайт дополнительная скидка 5%',
 	// 	link: '/shop/product/profil-napravlyayushhii-2728-tolshh-05-mm-3-m',
 	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/2728.jpg'
-	// },
-	// {
-	// 	id: '365',
-	// 	action: 'Профиль потолочный 60/27 0,5 мм (3 м)',
-	// 	price: '176',
-	// 	description: 'При заказе через сайт дополнительная скидка 5%',
-	// 	link: '/shop/product/profil-potolocnyi-6027-tolshh-05-mm-3-m',
-	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/6027.jpg'
 	// },
 	// {
 	// 	id: '534',
