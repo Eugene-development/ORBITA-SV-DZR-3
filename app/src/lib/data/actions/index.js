@@ -5,6 +5,41 @@ const actions = [
 		price: '1350',
 		link: '/shop/product/antisieptik-dlia-drieviesiny-april-10l',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/26e974220b6abba47d2904b3c15a13fd.jpg'
+	},
+	{
+		id: '1485',
+		action: 'Арматура стеклопластиковая композитная АСК-10 мм',
+		price: '20',
+		link: '/shop/product/armatura-stekloplastikovaya-kompozitnaya-ask-10-mm-50-mp',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/49684fae-dba7-11e5-a26c-1867b054bc98_7550deb3-7beb-11e6-a067-000c29378178.resize1.png'
+	},
+	{
+		id: '',
+		action: '',
+		price: '',
+		link: '',
+		img: ''
+	},
+	{
+		id: '',
+		action: '',
+		price: '',
+		link: '',
+		img: ''
+	},
+	{
+		id: '',
+		action: '',
+		price: '',
+		link: '',
+		img: ''
+	},
+	{
+		id: '',
+		action: '',
+		price: '',
+		link: '',
+		img: ''
 	}
 	// {
 	// 	id: '1944',
