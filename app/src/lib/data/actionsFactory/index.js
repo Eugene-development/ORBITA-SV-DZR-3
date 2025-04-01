@@ -1,3 +1,126 @@
+const actions = [
+	{
+		action: 'ЭПП ХРS30-200 Стандарт 1180*580*30-L(13шт/уп)',
+		price: '203',
+		unit: 'шт',
+		img: 'https://cdn1.ozone.ru/s3/multimedia-o/6348697500.jpg'
+	},
+	{
+		action: 'ЭПП XPS30-200 Стандарт 1180*580*50-L(8шт./уп)',
+		price: '314',
+		unit: 'шт',
+		img: 'https://arttn.ru/upload/iblock/368/6dni1o42d3lb9tw38dw93y0h3ko9xqal/carbon_2.png'
+	},
+	{
+		action: 'ЭПП ХРS30-200 Стандарт 1200*600*20-L(20шт./уп)',
+		price: '136',
+		unit: 'шт',
+		img: 'https://msk.tophouse.ru/images/price/teploizolyatsiya/tehnonikol-xps-ekstrudirovannyiy-penopolistirol/101462-4-2.jpg'
+	},
+	{
+		action: 'Утеплитель РокЛайт (1,2*0,6*100) 4,32 м2,0,432 м3',
+		price: '1988',
+		unit: 'шт',
+		img: 'https://rezar.ru/upload/iblock/4bc/cbn2wlmrp4sh61r2kvn6lzn6olp0zjny.jpg'
+	},
+	{
+		action: 'Утеплитель Роклайт (1,2×0,6×50мм) 0,288м3, 5,76 м3',
+		price: '1320',
+		unit: 'шт',
+		img: 'https://stroymag.su/upload/iblock/bb4/yidvgml3anq2ljbp9pogmr9fleklwfxo.jpg'
+	},
+	{
+		action: 'Утеплитель ТЕХНОАКУСТИК (1,2*0,6*50мм) 0,288м3',
+		price: '1940',
+		unit: 'шт',
+		img: 'https://cdn.vseinstrumenti.ru/images/goods/stroitelnye-materialy/izolyatsionnye-materialy/2741780/560x504/59831202.jpg'
+	},
+	{
+		action: 'Утеплитель ТехновентСтандарт 1200х600×50 (0,216м3)',
+		price: '2704',
+		unit: 'шт',
+		img: 'https://khabarovsk.tstn.ru/upload/resize_cache/iblock/58b/fgl7cowejx9uh083qf5xc1zi0i4418dl/1200_1200_140cd750bba9870f18aada2478b24840a/469115_1.jpg'
+	},
+	{
+		action: 'Утеплитель ТехновентСтандарт 1200х600×50 (0,288м3)',
+		price: '3604',
+		unit: 'шт',
+		img: 'https://img.abc.lv/infopage/photos/b/4/kompanija-avotini-sia_b4tlb_006_2000x1500.jpg'
+	},
+	{
+		action: 'УтеплительТЕХНОБЛОК СТАНДАРТ 1.2х0.6х50мм(0.288м3)',
+		price: '1680',
+		unit: 'шт',
+		img: 'https://n-dom.com/upload/ammina.optimizer/jpeg-webp/q80/upload/iblock/0bc/0bc449f54da9201e3b32fcdb62f667c5.webp'
+	},
+	{
+		action: 'УтеплительТЕХНОБЛОК СТАНДАРТ 1.2х0.6х50мм(0.288м3)',
+		price: '1680',
+		unit: 'шт',
+		img: 'https://n-dom.com/upload/ammina.optimizer/jpeg-webp/q80/upload/iblock/0bc/0bc449f54da9201e3b32fcdb62f667c5.webp'
+	},
+	{
+		action: '',
+		price: '',
+		unit: 'шт',
+		img: ''
+	},
+	{
+		action: '',
+		price: '',
+		unit: 'шт',
+		img: ''
+	},
+	{
+		action: '',
+		price: '',
+		unit: 'шт',
+		img: ''
+	},
+	{
+		action: '',
+		price: '',
+		unit: 'шт',
+		img: ''
+	},
+	{
+		action: '',
+		price: '',
+		unit: 'шт',
+		img: ''
+	},
+	{
+		action: '',
+		price: '',
+		unit: 'шт',
+		img: ''
+	},
+	{
+		action: '',
+		price: '',
+		unit: 'шт',
+		img: ''
+	},
+	{
+		action: '',
+		price: '',
+		unit: 'шт',
+		img: ''
+	},
+	{
+		action: '',
+		price: '',
+		unit: 'шт',
+		img: ''
+	},
+	{
+		action: '',
+		price: '',
+		unit: 'шт',
+		img: ''
+	}
+];
+
 // const actions = [
 //   {
 // 		id: '',
@@ -217,242 +340,242 @@
 // 	},
 // ];
 
-const actions = [
-	{
-		id: '',
-		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
-		price: '2438',
-		unit: 'шт',
-		description: '',
-		link: '',
-		img: 'https://cdn1.ozone.ru/s3/multimedia-4/6638871028.jpg'
-	},
-	{
-		id: '',
-		action: 'Утеплитель КНАУФ для КОТТЕДЖА Термо Плита 037A (100)',
-		price: '2495',
-		unit: 'шт',
-		description: '',
-		link: '',
-		img: 'https://remonstr.ru/upload/iblock/277/o1lfwyg09e7asf6jhqmxso88wh4jhxsx.jpg'
-	},
-	{
-		id: '',
-		action: 'Утеплитель КНАУФ для КОТТЕДЖА Термо Плита 037A (50)',
-		price: '2495',
-		unit: 'шт',
-		description: '',
-		link: '',
-		img: 'https://www.stroyshopper.ru/upload/resize_cache/iblock/1f8/1199_857_12af2e92894e1f3bbcc4d913921caf13d/121bbde631ad11e2be2100155d016a1d_cadce61c045f11e68d0a00155d00890a.png'
-	},
-	{
-		id: '',
-		action: 'Клей для плитки "KNAUF" Флизенклебер (25kr)',
-		price: '434',
-		unit: 'меш',
-		description: '',
-		link: '',
-		img: 'https://stroyseven.ru/image/cache/catalog/i/gg/fb/9b4c30663f154726961ae93df8a949a5-700x700.jpg'
-	},
-	{
-		id: '',
-		action: 'Клей для плитки "KNAUF" Флизенклебер ПЛЮС (25kr)',
-		price: '583',
-		unit: 'меш',
-		description: '',
-		link: '',
-		img: 'https://cdn.lemanapro.ru/lmru/image/upload/f_auto/q_auto/dpr_2.0/c_pad/w_1000/h_1000/v1732106182/lmcode/leiaWH7ha0itj_ZtSSaovA/13606458.png'
-	},
-	{
-		id: '',
-		action: 'Шпаклевка "Кнауф" РОТБАНД-ФИНИШ (25кг)',
-		price: '630',
-		unit: 'шт',
-		description: '',
-		link: '',
-		img: 'https://glavsnab.net/media/catalog/product/cache/1/image/602f0fa2c1f0d1ba5e241f914e856ff9/_/2/_25_1__4.jpg?kar=1&kf=1&kt=1&co=1&rgb%5B0%5D=255&rgb%5B1%5D=255&rgb%5B2%5D=255&ang=ang&qua=90'
-	},
-	{
-		id: '',
-		action: 'Шпаклевка "Кнауф" Унихард (25кг)',
-		price: '1054',
-		unit: 'шт',
-		description: '',
-		link: '',
-		img: 'https://stroysmatom.ru/upload/tovari2_big/1-3-1-15_629f440a9ca3f.jpg'
-	},
-	{
-		id: '',
-		action: 'Шпаклевка "Кнауф" Фугенфюллер (25кг)',
-		price: '614',
-		unit: 'меш',
-		description: '',
-		link: '',
-		img: 'https://stroyseven.ru/image/cache/catalog/i/ae/oc/de9936ce4f46da02408a84801df3054a-500x500.jpg'
-	},
-	{
-		id: '',
-		action: 'Шпаклевка DANOGIPS SUPERFINISH 17л/28кг',
-		price: '2491',
-		unit: 'шт',
-		description: '',
-		link: '',
-		img: 'https://media.obi.ru/resize/780x780/media/catalog/product/1/9/1923911_1_f624.jpg'
-	},
-	{
-		id: '',
-		action: 'Шпаклевка DANOGIPS SUPERFINISH 3л/5кг',
-		price: '588',
-		unit: 'шт',
-		description: '',
-		link: '',
-		img: 'https://cdn.lemanapro.ru/lmru/image/upload/f_auto/q_auto/dpr_2.0/c_pad/w_1000/h_1000/v1682509439/lmcode/xX4246U1e0iuejbF-8sovg/82512350.png'
-	},
-	{
-		id: '',
-		action: 'Шпаклевка ФИНИШНАЯ "Кнауф" Ротбанд паста 18 кг.',
-		price: '1537',
-		unit: 'шт',
-		description: '',
-		link: '',
-		img: 'https://stroysmatom.ru/upload/tovari2_osn/1-3-1-8_606edefba16f0.jpg'
-	},
-	{
-		id: '',
-		action: 'Шпаклевка ФИНИШНАЯ "Кнауф" Ротбанд паста 5 кг.',
-		price: '689',
-		unit: 'шт',
-		description: '',
-		link: '',
-		img: 'https://tekno-stroy.ru/upload/resize_cache/iblock/30f/368_368_1/23noa0sznsmdp41nvvq2xlk5w61h178p.jpg'
-	},
-	{
-		id: '',
-		action: 'Штукатурная смесь "Кнауф" Ротбанд (30кг) БЕЛЫЙ Кубань',
-		price: '493',
-		unit: 'шт',
-		description: '',
-		link: '',
-		img: 'https://stroysmatom.ru/upload/tovari2_osn/1-1-1-6_1_64c0f53d3d421_thumb_2264c0f53d3e1a7.jpg'
-	},
-	{
-		id: '',
-		action: 'Штукатурная смесь "Кнауф" Диамант Короед 2,5мм 25кг',
-		price: '588',
-		unit: 'шт',
-		description: '',
-		link: '',
-		img: 'https://glavsnab.net/media/catalog/product/cache/1/image/602f0fa2c1f0d1ba5e241f914e856ff9/_/2/_25_2_5_1_.jpg'
-	},
-	{
-		id: '',
-		action: 'Элемент пола "Кнауф" 20мм (1,2х0,6) (0,72м2)',
-		price: '510',
-		unit: 'шт',
-		description: '',
-		link: '',
-		img: 'https://avatars.mds.yandex.net/get-mpic/12252129/2a0000019017a5f22ec34c36cd219a48c92a/optimize'
-	},
-	{
-		id: '',
-		action: 'ГКЛ "Кнауф" 9,5мм (1,2х2,5) (67л)',
-		price: '366',
-		unit: 'лист',
-		description: '',
-		link: '',
-		img: 'https://stroyberi.pro/uploadedFiles/eshopimages/big/gklvapluk3000h1200h12_5_2.jpg'
-	},
-	{
-		id: '',
-		action: 'ГКЛ "Кнауф" 12,5мм (1,2×2,5) (52л)',
-		price: '387',
-		unit: 'лист',
-		description: '',
-		link: '',
-		img: 'https://stroyberi.pro/uploadedFiles/eshopimages/big/gklvapluk3000h1200h12_5_2.jpg'
-	},
-	{
-		id: '',
-		action: 'ГКЛ "Кнауф" ДАНОГИПС 12,5мм (1,2×2,5) (68л)',
-		price: '316',
-		unit: 'лист',
-		description: '',
-		link: '',
-		img: 'https://novostroy37.ru/upload/iblock/28b/ceug7xqadb6yeor6obrm296xvg86bema.jpeg'
-	},
-	{
-		id: '',
-		action: 'ГКЛ "Кнауф" ДАНОГИПС 9,5мм (1,2х2,5) (76л)',
-		price: '297',
-		unit: 'лист',
-		description: '',
-		link: '',
-		img: 'https://novostroy37.ru/upload/iblock/28b/ceug7xqadb6yeor6obrm296xvg86bema.jpeg'
-	},
-	{
-		id: '',
-		action: 'ГКЛВ "Кнауф" 9,5мм (1,2×2,5) (68л)',
-		price: '514',
-		unit: 'лист',
-		description: '',
-		link: '',
-		img: 'https://stroy-respublika.ru/wp-content/uploads/2024/06/gklv_a_pluk_2500h1200h9_5_5.png'
-	},
-	{
-		id: '',
-		action: 'ГКЛВ "Кнауф" 12,5мм (1,2×2,5) (52л)',
-		price: '540',
-		unit: 'лист',
-		description: '',
-		link: '',
-		img: 'https://stroy-respublika.ru/wp-content/uploads/2024/06/gklv_a_pluk_2500h1200h9_5_5.png'
-	},
-	{
-		id: '',
-		action: 'ГКЛВ "Кнауф" ДАНОГИПС 12,5мм (1,2х2,5) (56л)',
-		price: '450',
-		unit: 'лист',
-		description: '',
-		link: '',
-		img: 'https://sberstroi.ru/userfls/shop/editor_1000_1000/4/39774_gipsokartonnyy-list-knauf-2.jpg'
-	},
-	{
-		id: '',
-		action: 'ГКЛВ "Кнауф" ДАНОГИПС 9,5мм (1,2х2,5) (76л)',
-		price: '435',
-		unit: 'лист',
-		description: '',
-		link: '',
-		img: 'https://sberstroi.ru/userfls/shop/editor_1000_1000/4/39774_gipsokartonnyy-list-knauf-2.jpg'
-	},
-	{
-		id: '',
-		action: 'ГВЛВ "Кнауф" 2500*1200*10',
-		price: '768',
-		unit: 'лист',
-		description: '',
-		link: '',
-		img: 'https://regstroy.com/image/catalog/product/gvlv2500h1200h10pk(2).jpg'
-	},
-	{
-		id: '',
-		action: 'ГВЛВ "Кнауф" 2500*1200*12,5',
-		price: '852',
-		unit: 'лист',
-		description: '',
-		link: '',
-		img: 'https://regstroy.com/image/catalog/product/gvlv2500h1200h10pk(2).jpg'
-	},
-	{
-		id: '',
-		action: 'Грунтовка ТИФЕНГРУНД 10л. "Кнауф"',
-		price: '1160',
-		unit: 'шт',
-		description: '',
-		link: '',
-		img: 'https://cdn.lemanapro.ru/lmru/image/upload/f_auto/q_auto/dpr_2.0/c_pad/w_1000/h_1000/v1724844826/lmcode/fIoRFvXtMka3npPJieavSA/85060727.png'
-	}
-];
+// const actions = [
+// 	{
+// 		id: '',
+// 		action: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
+// 		price: '2438',
+// 		unit: 'шт',
+// 		description: '',
+// 		link: '',
+// 		img: 'https://cdn1.ozone.ru/s3/multimedia-4/6638871028.jpg'
+// 	},
+// 	{
+// 		id: '',
+// 		action: 'Утеплитель КНАУФ для КОТТЕДЖА Термо Плита 037A (100)',
+// 		price: '2495',
+// 		unit: 'шт',
+// 		description: '',
+// 		link: '',
+// 		img: 'https://remonstr.ru/upload/iblock/277/o1lfwyg09e7asf6jhqmxso88wh4jhxsx.jpg'
+// 	},
+// 	{
+// 		id: '',
+// 		action: 'Утеплитель КНАУФ для КОТТЕДЖА Термо Плита 037A (50)',
+// 		price: '2495',
+// 		unit: 'шт',
+// 		description: '',
+// 		link: '',
+// 		img: 'https://www.stroyshopper.ru/upload/resize_cache/iblock/1f8/1199_857_12af2e92894e1f3bbcc4d913921caf13d/121bbde631ad11e2be2100155d016a1d_cadce61c045f11e68d0a00155d00890a.png'
+// 	},
+// 	{
+// 		id: '',
+// 		action: 'Клей для плитки "KNAUF" Флизенклебер (25kr)',
+// 		price: '434',
+// 		unit: 'меш',
+// 		description: '',
+// 		link: '',
+// 		img: 'https://stroyseven.ru/image/cache/catalog/i/gg/fb/9b4c30663f154726961ae93df8a949a5-700x700.jpg'
+// 	},
+// 	{
+// 		id: '',
+// 		action: 'Клей для плитки "KNAUF" Флизенклебер ПЛЮС (25kr)',
+// 		price: '583',
+// 		unit: 'меш',
+// 		description: '',
+// 		link: '',
+// 		img: 'https://cdn.lemanapro.ru/lmru/image/upload/f_auto/q_auto/dpr_2.0/c_pad/w_1000/h_1000/v1732106182/lmcode/leiaWH7ha0itj_ZtSSaovA/13606458.png'
+// 	},
+// 	{
+// 		id: '',
+// 		action: 'Шпаклевка "Кнауф" РОТБАНД-ФИНИШ (25кг)',
+// 		price: '630',
+// 		unit: 'шт',
+// 		description: '',
+// 		link: '',
+// 		img: 'https://glavsnab.net/media/catalog/product/cache/1/image/602f0fa2c1f0d1ba5e241f914e856ff9/_/2/_25_1__4.jpg?kar=1&kf=1&kt=1&co=1&rgb%5B0%5D=255&rgb%5B1%5D=255&rgb%5B2%5D=255&ang=ang&qua=90'
+// 	},
+// 	{
+// 		id: '',
+// 		action: 'Шпаклевка "Кнауф" Унихард (25кг)',
+// 		price: '1054',
+// 		unit: 'шт',
+// 		description: '',
+// 		link: '',
+// 		img: 'https://stroysmatom.ru/upload/tovari2_big/1-3-1-15_629f440a9ca3f.jpg'
+// 	},
+// 	{
+// 		id: '',
+// 		action: 'Шпаклевка "Кнауф" Фугенфюллер (25кг)',
+// 		price: '614',
+// 		unit: 'меш',
+// 		description: '',
+// 		link: '',
+// 		img: 'https://stroyseven.ru/image/cache/catalog/i/ae/oc/de9936ce4f46da02408a84801df3054a-500x500.jpg'
+// 	},
+// 	{
+// 		id: '',
+// 		action: 'Шпаклевка DANOGIPS SUPERFINISH 17л/28кг',
+// 		price: '2491',
+// 		unit: 'шт',
+// 		description: '',
+// 		link: '',
+// 		img: 'https://media.obi.ru/resize/780x780/media/catalog/product/1/9/1923911_1_f624.jpg'
+// 	},
+// 	{
+// 		id: '',
+// 		action: 'Шпаклевка DANOGIPS SUPERFINISH 3л/5кг',
+// 		price: '588',
+// 		unit: 'шт',
+// 		description: '',
+// 		link: '',
+// 		img: 'https://cdn.lemanapro.ru/lmru/image/upload/f_auto/q_auto/dpr_2.0/c_pad/w_1000/h_1000/v1682509439/lmcode/xX4246U1e0iuejbF-8sovg/82512350.png'
+// 	},
+// 	{
+// 		id: '',
+// 		action: 'Шпаклевка ФИНИШНАЯ "Кнауф" Ротбанд паста 18 кг.',
+// 		price: '1537',
+// 		unit: 'шт',
+// 		description: '',
+// 		link: '',
+// 		img: 'https://stroysmatom.ru/upload/tovari2_osn/1-3-1-8_606edefba16f0.jpg'
+// 	},
+// 	{
+// 		id: '',
+// 		action: 'Шпаклевка ФИНИШНАЯ "Кнауф" Ротбанд паста 5 кг.',
+// 		price: '689',
+// 		unit: 'шт',
+// 		description: '',
+// 		link: '',
+// 		img: 'https://tekno-stroy.ru/upload/resize_cache/iblock/30f/368_368_1/23noa0sznsmdp41nvvq2xlk5w61h178p.jpg'
+// 	},
+// 	{
+// 		id: '',
+// 		action: 'Штукатурная смесь "Кнауф" Ротбанд (30кг) БЕЛЫЙ Кубань',
+// 		price: '493',
+// 		unit: 'шт',
+// 		description: '',
+// 		link: '',
+// 		img: 'https://stroysmatom.ru/upload/tovari2_osn/1-1-1-6_1_64c0f53d3d421_thumb_2264c0f53d3e1a7.jpg'
+// 	},
+// 	{
+// 		id: '',
+// 		action: 'Штукатурная смесь "Кнауф" Диамант Короед 2,5мм 25кг',
+// 		price: '588',
+// 		unit: 'шт',
+// 		description: '',
+// 		link: '',
+// 		img: 'https://glavsnab.net/media/catalog/product/cache/1/image/602f0fa2c1f0d1ba5e241f914e856ff9/_/2/_25_2_5_1_.jpg'
+// 	},
+// 	{
+// 		id: '',
+// 		action: 'Элемент пола "Кнауф" 20мм (1,2х0,6) (0,72м2)',
+// 		price: '510',
+// 		unit: 'шт',
+// 		description: '',
+// 		link: '',
+// 		img: 'https://avatars.mds.yandex.net/get-mpic/12252129/2a0000019017a5f22ec34c36cd219a48c92a/optimize'
+// 	},
+// 	{
+// 		id: '',
+// 		action: 'ГКЛ "Кнауф" 9,5мм (1,2х2,5) (67л)',
+// 		price: '366',
+// 		unit: 'лист',
+// 		description: '',
+// 		link: '',
+// 		img: 'https://stroyberi.pro/uploadedFiles/eshopimages/big/gklvapluk3000h1200h12_5_2.jpg'
+// 	},
+// 	{
+// 		id: '',
+// 		action: 'ГКЛ "Кнауф" 12,5мм (1,2×2,5) (52л)',
+// 		price: '387',
+// 		unit: 'лист',
+// 		description: '',
+// 		link: '',
+// 		img: 'https://stroyberi.pro/uploadedFiles/eshopimages/big/gklvapluk3000h1200h12_5_2.jpg'
+// 	},
+// 	{
+// 		id: '',
+// 		action: 'ГКЛ "Кнауф" ДАНОГИПС 12,5мм (1,2×2,5) (68л)',
+// 		price: '316',
+// 		unit: 'лист',
+// 		description: '',
+// 		link: '',
+// 		img: 'https://novostroy37.ru/upload/iblock/28b/ceug7xqadb6yeor6obrm296xvg86bema.jpeg'
+// 	},
+// 	{
+// 		id: '',
+// 		action: 'ГКЛ "Кнауф" ДАНОГИПС 9,5мм (1,2х2,5) (76л)',
+// 		price: '297',
+// 		unit: 'лист',
+// 		description: '',
+// 		link: '',
+// 		img: 'https://novostroy37.ru/upload/iblock/28b/ceug7xqadb6yeor6obrm296xvg86bema.jpeg'
+// 	},
+// 	{
+// 		id: '',
+// 		action: 'ГКЛВ "Кнауф" 9,5мм (1,2×2,5) (68л)',
+// 		price: '514',
+// 		unit: 'лист',
+// 		description: '',
+// 		link: '',
+// 		img: 'https://stroy-respublika.ru/wp-content/uploads/2024/06/gklv_a_pluk_2500h1200h9_5_5.png'
+// 	},
+// 	{
+// 		id: '',
+// 		action: 'ГКЛВ "Кнауф" 12,5мм (1,2×2,5) (52л)',
+// 		price: '540',
+// 		unit: 'лист',
+// 		description: '',
+// 		link: '',
+// 		img: 'https://stroy-respublika.ru/wp-content/uploads/2024/06/gklv_a_pluk_2500h1200h9_5_5.png'
+// 	},
+// 	{
+// 		id: '',
+// 		action: 'ГКЛВ "Кнауф" ДАНОГИПС 12,5мм (1,2х2,5) (56л)',
+// 		price: '450',
+// 		unit: 'лист',
+// 		description: '',
+// 		link: '',
+// 		img: 'https://sberstroi.ru/userfls/shop/editor_1000_1000/4/39774_gipsokartonnyy-list-knauf-2.jpg'
+// 	},
+// 	{
+// 		id: '',
+// 		action: 'ГКЛВ "Кнауф" ДАНОГИПС 9,5мм (1,2х2,5) (76л)',
+// 		price: '435',
+// 		unit: 'лист',
+// 		description: '',
+// 		link: '',
+// 		img: 'https://sberstroi.ru/userfls/shop/editor_1000_1000/4/39774_gipsokartonnyy-list-knauf-2.jpg'
+// 	},
+// 	{
+// 		id: '',
+// 		action: 'ГВЛВ "Кнауф" 2500*1200*10',
+// 		price: '768',
+// 		unit: 'лист',
+// 		description: '',
+// 		link: '',
+// 		img: 'https://regstroy.com/image/catalog/product/gvlv2500h1200h10pk(2).jpg'
+// 	},
+// 	{
+// 		id: '',
+// 		action: 'ГВЛВ "Кнауф" 2500*1200*12,5',
+// 		price: '852',
+// 		unit: 'лист',
+// 		description: '',
+// 		link: '',
+// 		img: 'https://regstroy.com/image/catalog/product/gvlv2500h1200h10pk(2).jpg'
+// 	},
+// 	{
+// 		id: '',
+// 		action: 'Грунтовка ТИФЕНГРУНД 10л. "Кнауф"',
+// 		price: '1160',
+// 		unit: 'шт',
+// 		description: '',
+// 		link: '',
+// 		img: 'https://cdn.lemanapro.ru/lmru/image/upload/f_auto/q_auto/dpr_2.0/c_pad/w_1000/h_1000/v1724844826/lmcode/fIoRFvXtMka3npPJieavSA/85060727.png'
+// 	}
+// ];
 
 export const contentActions = {
 	actions
