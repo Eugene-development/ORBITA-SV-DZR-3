@@ -3,7 +3,7 @@ const actions = [
 		action: 'ЭПП ХРS30-200 Стандарт 1180*580*30-L(13шт/уп)',
 		price: '203',
 		unit: 'шт',
-		img: 'https://cdn1.ozone.ru/s3/multimedia-o/6348697500.jpg'
+		img: 'https://www.tstn.ru/upload/iblock/e86/tekhnopleks.jpg'
 	},
 	{
 		action: 'ЭПП XPS30-200 Стандарт 1180*580*50-L(8шт./уп)',
@@ -60,64 +60,64 @@ const actions = [
 		img: 'https://n-dom.com/upload/ammina.optimizer/jpeg-webp/q80/upload/iblock/0bc/0bc449f54da9201e3b32fcdb62f667c5.webp'
 	},
 	{
-		action: '',
-		price: '',
+		action: 'Линокром ТКП сланец серый',
+		price: '2050',
 		unit: 'шт',
-		img: ''
+		img: 'https://стройбаза-ларионово.рф/files/gallery/1098/big/3gstqgkhpb6s47zloibs43b0a_1676636085.jpg'
 	},
 	{
-		action: '',
-		price: '',
+		action: 'Линокром ТПП 15м',
+		price: '2792',
 		unit: 'шт',
-		img: ''
+		img: 'https://stroysmatom.ru/upload/pl_plugin_2/7-2-93-25.jpg'
 	},
 	{
-		action: '',
-		price: '',
+		action: 'Стеклоизол ТКП 3,5 сланец серый (10 кв.м.)',
+		price: '1250',
 		unit: 'шт',
-		img: ''
+		img: 'https://cdn.vseinstrumenti.ru/images/goods/stroitelnye-materialy/krovelnye-materialy/2029158/560x504/54134454.jpg'
 	},
 	{
-		action: '',
-		price: '',
+		action: 'Стеклоизол ТПП 10м',
+		price: '1125',
 		unit: 'шт',
-		img: ''
+		img: 'https://www.tstn.ru/upload/iblock/49e/225890_1.jpg'
 	},
 	{
-		action: '',
-		price: '',
+		action: 'Мастика битумная AquaMast для фундамента (18кг)',
+		price: '2650',
 		unit: 'шт',
-		img: ''
+		img: 'https://www.tstn.ru/upload/iblock/8fc/cv1z02qlz7fb2ufeg01pkjp317zy5pmi/393547_1.jpg'
 	},
 	{
-		action: '',
-		price: '',
+		action: 'Мастика битумная-рез. AquaMast для кровли (10кг)',
+		price: '2360',
 		unit: 'шт',
-		img: ''
+		img: 'https://www.tstn.ru/upload/iblock/6d0/393548_1.jpg'
 	},
 	{
-		action: '',
-		price: '',
+		action: 'Мастика битумная-рез. AquaMast для кровли (18кг)',
+		price: '2933',
 		unit: 'шт',
-		img: ''
+		img: 'https://tstn.ru/upload/iblock/8fc/cv1z02qlz7fb2ufeg01pkjp317zy5pmi/393547_1.jpg'
 	},
 	{
-		action: '',
-		price: '',
+		action: 'Черепица гибкая ТЕХНОНИКОЛЬ ОПТИМА Коричневый 3м2',
+		price: '1320',
 		unit: 'шт',
-		img: ''
+		img: 'https://tstn.ru/upload/iblock/929/678533_1.jpg'
 	},
 	{
-		action: '',
-		price: '',
+		action: 'Биполь ТПП',
+		price: '3262',
 		unit: 'шт',
-		img: ''
+		img: 'https://tstn.ru/upload/iblock/c61/000057_1.jpg'
 	},
 	{
-		action: '',
-		price: '',
+		action: 'Биполь ТКП сланец серый',
+		price: '2329',
 		unit: 'шт',
-		img: ''
+		img: 'https://progress-polymer.ru/uploads/webp/product/1500/1583/1607871621_2020-12-13_18-00-21.webp'
 	}
 ];
 
