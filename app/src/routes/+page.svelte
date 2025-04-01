@@ -53,7 +53,7 @@
 </svelte:head>
 <Holiday />
 
-<section class="py-4 lg:py-12">
+<section class="py-4 lg:py-2 -mt-2">
 	<div class="grid max-w-full px-4 lg:px-12 xl:px-12 mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12">
 		<div class="mr-auto place-self-center lg:col-span-2">
 			<!-- <div class="lg:flex">
@@ -101,11 +101,18 @@
 		</div>
 		<div class="lg:ml-0 lg:col-span-4">
 			<img
+				class="h-48 lg:h-[36rem] object-cover"
+				src="https://www.kgsnab.ru/upload/iblock/764/764775626c9f841847648937cf438672.jpg"
+				alt="Стройматериалы по акции"
+			/>
+		</div>
+		<!-- <div class="lg:ml-0 lg:col-span-4">
+			<img
 				class="h-48 lg:h-96"
 				src="https://www.knauf.ru/upload/iblock/09c/xixblbnsiva2zlg7yenuc21iido7l53k/Rotband_30_1200x900_1.png"
 				alt="Стройматериалы по акции"
 			/>
-		</div>
+		</div> -->
 		<!-- <div class="lg:col-span-3">
 			<img
 				class="h-48 lg:h-80"
@@ -113,7 +120,7 @@
 				alt="Стройматериалы по акции"
 			/>
 		</div> -->
-		<div class="pl-24 lg:mt-0 lg:col-span-6 ">
+		<div class="pl-24 lg:mt-12 lg:col-span-6 ">
 			<!-- <img
 				class="h-80"
 				src="https://www.knauf.ru/upload/iblock/09c/xixblbnsiva2zlg7yenuc21iido7l53k/Rotband_30_1200x900_1.png"

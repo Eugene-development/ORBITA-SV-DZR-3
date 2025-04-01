@@ -1,13 +1,13 @@
-<div class="bg-white pt-4 sm:pt-16">
+<div class="bg-white pt-4 sm:pt-12">
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="mx-auto max-w-2xl lg:max-w-none">
 			<div class="text-center">
-				<h2 class="text-balance text-4xl font-semibold tracking-tight text-red-800 sm:text-5xl">
-					Специальное предложение на апрель!!!
+				<h2 class="text-balance text-4xl font-semibold tracking-tight text-red-800 sm:text-7xl">
+					Апрельские суперцены!!!
 				</h2>
-				<p class="mt-4  mx-auto text-xl text-gray-600 max-w-2xl">
+				<p class="mt-4  mx-auto text-xl text-gray-600 max-w-3xl">
 					Воспользуйтесь нашими спецпредложениями и получите значительную выгоду при покупке
-					стройматериалов.
+					стройматериалов в этом сезоне.
 				</p>
 
 				<!-- <h2 class="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-4xl">
