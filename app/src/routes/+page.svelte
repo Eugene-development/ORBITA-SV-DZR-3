@@ -120,7 +120,7 @@
 				alt="Стройматериалы по акции"
 			/>
 		</div> -->
-		<div class="pl-24 lg:mt-12 lg:col-span-6 ">
+		<div class="pl-24 lg:mt-12 lg:col-span-6">
 			<!-- <img
 				class="h-80"
 				src="https://www.knauf.ru/upload/iblock/09c/xixblbnsiva2zlg7yenuc21iido7l53k/Rotband_30_1200x900_1.png"
@@ -128,7 +128,7 @@
 			/> -->
 			<img
 				class="h-48 lg:h-96"
-				src="https://storage.yandexcloud.net/orbita/actions/action2025-03.jpeg"
+				src="https://storage.yandexcloud.net/orbita/actions/action2025-04.jpeg"
 				alt="скидка"
 			/>
 			<!-- <img class="" src="https://utepliteli-77.ru/files/brands/unis-logo.png" alt="скидка" /> -->
