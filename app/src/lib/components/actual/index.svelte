@@ -102,6 +102,50 @@
 			unit: 'шт',
 			link: '/shop/product/cmes-dlya-pola-yunis-gorizont-universalnyi-20-kg',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%8E%D1%83.jpg'
+		},
+		{
+			id: '307',
+			action: 'Клей для плитки "Кнауф" флизенклебер (25 кг)',
+			price: '435',
+			unit: 'шт',
+			link: '/shop/product/klei-dlya-plitki-knauf-flizenkleber-25-kg',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%84%D0%BB%D0%B8%D0%B7%D0%B5%D0%BD.webp'
+		},
+		{
+			id: '314',
+			action:
+				'Клей для плитки и керамогранита "Церезит" см 14 extra" для улицы и теплых полов (25 кг)',
+			price: '782',
+			unit: 'шт',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/klei-dlya-plitki-i-keramogranita-cerezit-sm-14-extra-dlya-ulicy-i-teplyx-polov-25-kg',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%81%D0%BC14.jpg'
+		},
+		{
+			id: '1488',
+			action: 'Клей для плитки "Вебер Ветонит" изи фикс (25 кг)',
+			price: '387',
+			unit: 'шт',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/klei-dlya-plitki-veber-vetonit-izi-fiks-25-kg',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/c6e735aa_ef65_11e1_83b4_003048c9267c_91b621ee_c52b_11e3_ad43_003048c9267c.jpeg'
+		},
+		{
+			id: '2964',
+			action: 'Клей кладочно-монтажный Юнис Униблок 25кг',
+			price: '382',
+			unit: 'шт',
+			link: '/shop/product/kliei-kladochno-montazhnyi-iunis-uniblok-25kgh',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/jf31dasaxfs1y2c2a9u1cm6wmqaja7l5.jpg'
+		},
+		{
+			id: '261',
+			action: 'ГВЛВ "Кнауф" 10 мм (1200*2500)',
+			price: '768',
+			unit: 'шт',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/gvlv-knauf-10-mm-12002500',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B3%D0%B2%D0%BB.jpg'
 		}
 
 		// {
@@ -122,14 +166,6 @@
 		// 	link: '/shop/product/klei-dlya-plitki-i-keramogranita-cerezit-sm-14-extra-dlya-ulicy-i-teplyx-polov-25-kg',
 		// 	img: 'https://abk-fasad.ru/assets/images/products/161/cm14-2.png'
 		// },
-		// // {
-		// // 	id: '307',
-		// // 	action: 'Клей для плитки "Кнауф" флизенклебер (25 кг)',
-		// // 	price: '435',
-		// // 	unit: 'шт',
-		// // 	link: '/shop/product/klei-dlya-plitki-knauf-flizenkleber-25-kg',
-		// // 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%84%D0%BB%D0%B8%D0%B7%D0%B5%D0%BD.webp'
-		// // },
 		// {
 		// 	id: '312',
 		// 	action: 'Клей для керамгранита "Церезит СМ 11" (25 кг)',
@@ -154,14 +190,6 @@
 		// 	unit: 'шт',
 		// 	link: '/shop/product/klei-dlya-plitki-ek-3000-25kg',
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-3000-UNIVERSAL.png'
-		// },
-		// {
-		// 	id: '2964',
-		// 	action: 'Клей кладочно-монтажный Юнис Униблок 25кг',
-		// 	price: '380',
-		// 	unit: 'шт',
-		// 	link: '/shop/product/kliei-kladochno-montazhnyi-iunis-uniblok-25kgh',
-		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/jf31dasaxfs1y2c2a9u1cm6wmqaja7l5.jpg'
 		// },
 		// {
 		// 	id: '2965',
@@ -222,15 +250,6 @@
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/m5NgzpdlHX02sqR1Mqu3YrUQJwqqDGUOuAeYV75Z.jpeg'
 		// },
 		// {
-		// 	id: '261',
-		// 	action: 'ГВЛВ "Кнауф" 10 мм (1200*2500)',
-		// 	price: '740',
-		// 	unit: 'шт',
-		// 	description: 'При заказе через сайт дополнительная скидка 5%',
-		// 	link: '/shop/product/gvlv-knauf-10-mm-12002500',
-		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B3%D0%B2%D0%BB.jpg'
-		// },
-		// {
 		// 	id: '1661',
 		// 	action: 'Утеплитель Технониколь роклайт 1200*600*50',
 		// 	price: '1330',
@@ -274,15 +293,6 @@
 		// 	description: 'При заказе через сайт дополнительная скидка 5%',
 		// 	link: '/shop/product/betonkontakt-cerezit-st-19-15-kg',
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/betonokontakt_ceresit_st19_5_l.jpg'
-		// },
-		// {
-		// 	id: '1488',
-		// 	action: 'Клей для плитки "Вебер Ветонит" изи фикс (25 кг)',
-		// 	price: '378',
-		// 	unit: 'шт',
-		// 	description: 'При заказе через сайт дополнительная скидка 5%',
-		// 	link: '/shop/product/klei-dlya-plitki-veber-vetonit-izi-fiks-25-kg',
-		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/c6e735aa_ef65_11e1_83b4_003048c9267c_91b621ee_c52b_11e3_ad43_003048c9267c.jpeg'
 		// },
 		// {
 		// 	id: '2958',
@@ -698,15 +708,6 @@
 		// 	description: 'При заказе через сайт дополнительная скидка 5%',
 		// 	link: '/shop/product/cmes-dlya-pola-yunis-gorizont-universalnyi-20-kg',
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%8E%D1%83.jpg'
-		// },
-		// {
-		// 	id: '314',
-		// 	action:
-		// 		'Клей для плитки и керамогранита "Церезит" см 14 extra" для улицы и теплых полов (25 кг)',
-		// 	price: '760',
-		// 	description: 'При заказе через сайт дополнительная скидка 5%',
-		// 	link: '/shop/product/klei-dlya-plitki-i-keramogranita-cerezit-sm-14-extra-dlya-ulicy-i-teplyx-polov-25-kg',
-		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%81%D0%BC14.jpg'
 		// },
 		// {
 		// 	id: '520',
