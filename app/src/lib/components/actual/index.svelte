@@ -21,137 +21,12 @@
 
 	export let actualProducts = [
 		{
-			id: '432',
-			action: 'Штукатурная смесь "ЕК" TG 40 (30кг) white',
-			price: '488',
-			unit: 'шт',
-			link: '/shop/product/stukaturnaya-smes-ek-tg-40-waite-30-kg',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TG40-WHITE.png'
-		},
-		{
-			id: '448',
-			action: 'Шпаклевка гипсовая "ЕК" К 300 (20 кг)',
-			price: '490',
-			unit: 'шт',
-			link: '/shop/product/spaklevka-gipsovaya-ek-k-300-20-kg',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-K300.png'
-		},
-
-		{
-			id: '446',
-			action: 'Шпаклевка финишная "VETONIT LR+" (22 кг)',
-			price: '962',
-			unit: 'шт',
-			link: '/shop/product/spaklevka-finisnaya-vetonit-lr-20-kg',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B2%D0%B5%D1%82.jpg'
-		},
-		{
-			id: '314',
-			action: 'Плиточный клей "Церезит" СМ 14"(25 кг)',
-			oldPrice: '864',
-			price: '763',
-			unit: 'шт',
-			description: 'При заказе через сайт дополнительная скидка 5%',
-			link: '/shop/product/klei-dlya-plitki-i-keramogranita-cerezit-sm-14-extra-dlya-ulicy-i-teplyx-polov-25-kg',
-			img: 'https://abk-fasad.ru/assets/images/products/161/cm14-2.png'
-		},
-
-		// {
-		// 	id: '307',
-		// 	action: 'Клей для плитки "Кнауф" флизенклебер (25 кг)',
-		// 	price: '435',
-		// 	unit: 'шт',
-		// 	link: '/shop/product/klei-dlya-plitki-knauf-flizenkleber-25-kg',
-		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%84%D0%BB%D0%B8%D0%B7%D0%B5%D0%BD.webp'
-		// },
-		{
-			id: '312',
-			action: 'Клей для керамгранита "Церезит СМ 11" (25 кг)',
-			oldPrice: '552',
-			price: '488',
-			unit: 'шт',
-			link: '/shop/product/klei-dlya-keramgranita-cerezit-sm-11-25-kg',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%81%D0%BC%2011%20%D0%BF%D0%BB.jpeg'
-		},
-		// {
-		// 	id: '263',
-		// 	action: 'Элемент пола "кнауф" 20 мм (1200*600)',
-		// 	price: '510',
-		// 	unit: 'шт',
-		// 	link: '/shop/product/element-pola-knauf-20-mm-1200600',
-		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%8D%D0%BB%20%D0%BF%D0%BE%D0%BB%D0%B0.jpg'
-		// },
-		{
-			id: '228',
-			action: 'Плита ОСБ-3 2500*1250*9мм Kronospan ГОСТ (влагостойкая)',
-			price: '775',
-			unit: 'шт',
-			link: '/shop/product/plita-osb-3-250012509mm-Kronospan-gost-vlagostoikaya',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/ilejI7dCV3zr72h4VudvlNrQLKBgHsrYwKd1HoAL.jpeg'
-		},
-		{
 			id: '1817',
 			action: 'Профлист С-10 RAL 6005 1160*2000',
-			price: '1343',
+			price: '1346',
 			unit: 'шт',
 			link: '/shop/product/profnastil-s-10-ral-6005-11602000',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/UBIUdMNsg6uvyzpK0K4C2JWhj8syYYM5o0bFMoby.jpg'
-		},
-		{
-			id: '267',
-			action: 'Клей для плитки "ЕК" 3000 (25кг)',
-			price: '372',
-			unit: 'шт',
-			link: '/shop/product/klei-dlya-plitki-ek-3000-25kg',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-3000-UNIVERSAL.png'
-		},
-		{
-			id: '2964',
-			action: 'Клей кладочно-монтажный Юнис Униблок 25кг',
-			price: '380',
-			unit: 'шт',
-			link: '/shop/product/kliei-kladochno-montazhnyi-iunis-uniblok-25kgh',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/jf31dasaxfs1y2c2a9u1cm6wmqaja7l5.jpg'
-		},
-		{
-			id: '2965',
-			action: 'Клей для плитки "UNIS" 3000 мах толстослоиный (25 кг)',
-			price: '390',
-			unit: 'шт',
-			link: '/shop/product/kliei-dlia-plitki-iunis-3000-ma-kh-tolstosloinyi-25-kgh',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/0fc66aadfde42ad46846c2aa065c6c2a.jpg'
-		},
-		// {
-		// 	id: '1488',
-		// 	action: 'Клей для плитки "Вебер Ветонит" изи фикс (25 кг)',
-		// 	price: '380',
-		// 	unit: 'шт',
-		// 	link: '/shop/product/klei-dlya-plitki-veber-vetonit-izi-fiks-25-kg',
-		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/c6e735aa_ef65_11e1_83b4_003048c9267c_91b621ee_c52b_11e3_ad43_003048c9267c.jpeg'
-		// },
-		{
-			id: '522',
-			action: 'Грунтовка универсальная "ЕК" G200 (10 л)',
-			price: '690',
-			unit: 'шт',
-			link: '/shop/product/gruntovka-universalnaya-ek-g200-10-l',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-G200.png'
-		},
-		{
-			id: '463',
-			action: 'Наливной пол "ЕК" level 2.0 быстротвердеющий (20 кг)',
-			price: '354',
-			unit: 'шт',
-			link: '/shop/product/nalivnoi-pol-ek-level-20-bystrotverdeyushhii-vlagostoikii-20-kg',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-level-2.0.png'
-		},
-		{
-			id: '464',
-			action: 'Смесь для пола "ЕК" LEVEL 2.1 БЫСТРОТВЕРДЕЮЩИЙ (20 кг)',
-			price: '368',
-			unit: 'шт',
-			link: '/shop/product/nalivnoi-pol-ek-level-21-bystrotverdeyushhii-20-kg',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-level-2.1.png'
 		},
 		{
 			id: '434',
@@ -161,16 +36,137 @@
 			link: '/shop/product/stukaturnaya-smes-ek-tt-30-fasadnaya-25-kg',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TT30.png'
 		},
-
 		{
-			id: '2730',
-			action: 'Пена пистолетная "KUDO PROF 50+" (ARKTIKA -18)',
-			price: '476',
+			id: '432',
+			action: 'Штукатурная смесь "ЕК" TG 40 (30кг) white',
+			price: '488',
 			unit: 'шт',
-			link: '/shop/product/pena-pistoletnaya-kudo-zimnyaya-50',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/KUPP10W50.jpg'
+			link: '/shop/product/stukaturnaya-smes-ek-tg-40-waite-30-kg',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TG40-WHITE.png'
 		}
-
+		// {
+		// 	id: '448',
+		// 	action: 'Шпаклевка гипсовая "ЕК" К 300 (20 кг)',
+		// 	price: '490',
+		// 	unit: 'шт',
+		// 	link: '/shop/product/spaklevka-gipsovaya-ek-k-300-20-kg',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-K300.png'
+		// },
+		// {
+		// 	id: '446',
+		// 	action: 'Шпаклевка финишная "VETONIT LR+" (22 кг)',
+		// 	price: '962',
+		// 	unit: 'шт',
+		// 	link: '/shop/product/spaklevka-finisnaya-vetonit-lr-20-kg',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B2%D0%B5%D1%82.jpg'
+		// },
+		// {
+		// 	id: '314',
+		// 	action: 'Плиточный клей "Церезит" СМ 14"(25 кг)',
+		// 	oldPrice: '864',
+		// 	price: '763',
+		// 	unit: 'шт',
+		// 	description: 'При заказе через сайт дополнительная скидка 5%',
+		// 	link: '/shop/product/klei-dlya-plitki-i-keramogranita-cerezit-sm-14-extra-dlya-ulicy-i-teplyx-polov-25-kg',
+		// 	img: 'https://abk-fasad.ru/assets/images/products/161/cm14-2.png'
+		// },
+		// // {
+		// // 	id: '307',
+		// // 	action: 'Клей для плитки "Кнауф" флизенклебер (25 кг)',
+		// // 	price: '435',
+		// // 	unit: 'шт',
+		// // 	link: '/shop/product/klei-dlya-plitki-knauf-flizenkleber-25-kg',
+		// // 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%84%D0%BB%D0%B8%D0%B7%D0%B5%D0%BD.webp'
+		// // },
+		// {
+		// 	id: '312',
+		// 	action: 'Клей для керамгранита "Церезит СМ 11" (25 кг)',
+		// 	oldPrice: '552',
+		// 	price: '488',
+		// 	unit: 'шт',
+		// 	link: '/shop/product/klei-dlya-keramgranita-cerezit-sm-11-25-kg',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%81%D0%BC%2011%20%D0%BF%D0%BB.jpeg'
+		// },
+		// // {
+		// // 	id: '263',
+		// // 	action: 'Элемент пола "кнауф" 20 мм (1200*600)',
+		// // 	price: '510',
+		// // 	unit: 'шт',
+		// // 	link: '/shop/product/element-pola-knauf-20-mm-1200600',
+		// // 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%8D%D0%BB%20%D0%BF%D0%BE%D0%BB%D0%B0.jpg'
+		// // },
+		// {
+		// 	id: '228',
+		// 	action: 'Плита ОСБ-3 2500*1250*9мм Kronospan ГОСТ (влагостойкая)',
+		// 	price: '775',
+		// 	unit: 'шт',
+		// 	link: '/shop/product/plita-osb-3-250012509mm-Kronospan-gost-vlagostoikaya',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/ilejI7dCV3zr72h4VudvlNrQLKBgHsrYwKd1HoAL.jpeg'
+		// },
+		// {
+		// 	id: '267',
+		// 	action: 'Клей для плитки "ЕК" 3000 (25кг)',
+		// 	price: '372',
+		// 	unit: 'шт',
+		// 	link: '/shop/product/klei-dlya-plitki-ek-3000-25kg',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-3000-UNIVERSAL.png'
+		// },
+		// {
+		// 	id: '2964',
+		// 	action: 'Клей кладочно-монтажный Юнис Униблок 25кг',
+		// 	price: '380',
+		// 	unit: 'шт',
+		// 	link: '/shop/product/kliei-kladochno-montazhnyi-iunis-uniblok-25kgh',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/jf31dasaxfs1y2c2a9u1cm6wmqaja7l5.jpg'
+		// },
+		// {
+		// 	id: '2965',
+		// 	action: 'Клей для плитки "UNIS" 3000 мах толстослоиный (25 кг)',
+		// 	price: '390',
+		// 	unit: 'шт',
+		// 	link: '/shop/product/kliei-dlia-plitki-iunis-3000-ma-kh-tolstosloinyi-25-kgh',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/0fc66aadfde42ad46846c2aa065c6c2a.jpg'
+		// },
+		// // {
+		// // 	id: '1488',
+		// // 	action: 'Клей для плитки "Вебер Ветонит" изи фикс (25 кг)',
+		// // 	price: '380',
+		// // 	unit: 'шт',
+		// // 	link: '/shop/product/klei-dlya-plitki-veber-vetonit-izi-fiks-25-kg',
+		// // 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/c6e735aa_ef65_11e1_83b4_003048c9267c_91b621ee_c52b_11e3_ad43_003048c9267c.jpeg'
+		// // },
+		// {
+		// 	id: '522',
+		// 	action: 'Грунтовка универсальная "ЕК" G200 (10 л)',
+		// 	price: '690',
+		// 	unit: 'шт',
+		// 	link: '/shop/product/gruntovka-universalnaya-ek-g200-10-l',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-G200.png'
+		// },
+		// {
+		// 	id: '463',
+		// 	action: 'Наливной пол "ЕК" level 2.0 быстротвердеющий (20 кг)',
+		// 	price: '354',
+		// 	unit: 'шт',
+		// 	link: '/shop/product/nalivnoi-pol-ek-level-20-bystrotverdeyushhii-vlagostoikii-20-kg',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-level-2.0.png'
+		// },
+		// {
+		// 	id: '464',
+		// 	action: 'Смесь для пола "ЕК" LEVEL 2.1 БЫСТРОТВЕРДЕЮЩИЙ (20 кг)',
+		// 	price: '368',
+		// 	unit: 'шт',
+		// 	link: '/shop/product/nalivnoi-pol-ek-level-21-bystrotverdeyushhii-20-kg',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-level-2.1.png'
+		// },
+		// {
+		// 	id: '2730',
+		// 	action: 'Пена пистолетная "KUDO PROF 50+" (ARKTIKA -18)',
+		// 	price: '476',
+		// 	unit: 'шт',
+		// 	link: '/shop/product/pena-pistoletnaya-kudo-zimnyaya-50',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/KUPP10W50.jpg'
+		// }
 		// {
 		// 	id: '1543',
 		// 	action: 'ГКЛВ "Кнауф" ДАНОГИПС  9,5мм  (1,2х2,5)',
@@ -234,7 +230,6 @@
 		// 	link: '/shop/product/linokrom-tkp-slanec-seryi-10-m',
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BB%D0%B8%D0%BD%D0%BE%D0%BA%D1%80%D0%BE%D0%BC.jpg'
 		// },
-
 		// {
 		// 	id: '954',
 		// 	action: 'Бетонконтакт "CERESIT CT 19" (15 кг)',
@@ -307,7 +302,6 @@
 		// 	link: '/shop/product/epp-xps30-200-texnopleks-118058030-l',
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/XPS-%D0%A2%D0%95%D0%A5%D0%9D%D0%9E%D0%9F%D0%9B%D0%95%D0%9A%D0%A1.png'
 		// },
-
 		// {
 		// 	id: '2393',
 		// 	action: 'Мастика гидроизоляционная 20 кг. "Альфатехмаст"',
@@ -439,7 +433,6 @@
 		// 	link: '/shop/product/csp-32001250-10mm',
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/wZELb17Oyadmk5gfUtaMK39XagKoWwt6iCw2ROpv.jpeg'
 		// },
-
 		// {
 		// 	id: '456',
 		// 	action: 'Шпаклевка готовая "SHEETROCK" (28 кг)',
@@ -576,7 +569,6 @@
 		// 	link: '/shop/product/gvlv-knauf-10-mm-12002500',
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B3%D0%B2%D0%BB.jpg'
 		// },
-
 		// {
 		// 	id: '235',
 		// 	action: 'Фанера 10мм, сорт 3/4 (1,525*1,525)',
@@ -609,7 +601,6 @@
 		// 	link: '/shop/product/profnastil-s-21-ral-8017-10542000',
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/rvvzF15GbXg2v7TOeDZIyunJBLtXDBSHCaI1NQEJ.jpg'
 		// }
-
 		// {
 		// 	id: '1421',
 		// 	action: 'Плита ОСБ-3 2500*1250*12мм Kronospan ГОСТ (влагостойкая)',
@@ -672,7 +663,6 @@
 		// 	link: '/shop/product/cmes-dlya-pola-yunis-gorizont-universalnyi-20-kg',
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%8E%D1%83.jpg'
 		// },
-
 		// {
 		// 	id: '314',
 		// 	action:

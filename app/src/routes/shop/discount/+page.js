@@ -8,7 +8,29 @@ export async function load() {
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/YJr9o5oV0tsDG9HCE1u55fet3E4orBDgAjH7gE0J.png',
 			href: '/shop/product/uteplitel-knauf-tisma-r44mr-50x1200x8300-2-st-1992m2-1m3',
 			unit: 'шт.'
+		},
+		{
+			value: 'Штукатурная смесь "ЕК" ТТ 30 фасадная (25кг)',
+			price: 333,
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TT30.png',
+			href: '/shop/product/stukaturnaya-smes-ek-tt-30-fasadnaya-25-kg',
+			unit: 'шт.'
+		},
+		{
+			value: '',
+			price: 0,
+			img: '',
+			href: '',
+			unit: 'шт.'
+		},
+		{
+			value: '',
+			price: 0,
+			img: '',
+			href: '',
+			unit: 'шт.'
 		}
+
 		// {
 		// 	value: 'Плита "Байкал" 600*600*12 мм',
 		// 	price: 183,
