@@ -9,13 +9,13 @@ export async function load() {
 			href: '/shop/product/uteplitel-knauf-tisma-r44mr-50x1200x8300-2-st-1992m2-1m3',
 			unit: 'шт.'
 		},
-		{
-			value: 'Штукатурная смесь "ЕК" ТТ 30 фасадная (25кг)',
-			price: 333,
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TT30.png',
-			href: '/shop/product/stukaturnaya-smes-ek-tt-30-fasadnaya-25-kg',
-			unit: 'шт.'
-		},
+		// {
+		// 	value: 'Штукатурная смесь "ЕК" ТТ 30 фасадная (25кг)',
+		// 	price: 333,
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TT30.png',
+		// 	href: '/shop/product/stukaturnaya-smes-ek-tt-30-fasadnaya-25-kg',
+		// 	unit: 'шт.'
+		// },
 		{
 			value: '',
 			price: 0,

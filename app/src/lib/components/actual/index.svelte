@@ -43,15 +43,67 @@
 			unit: 'шт',
 			link: '/shop/product/stukaturnaya-smes-ek-tg-40-waite-30-kg',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TG40-WHITE.png'
+		},
+		{
+			id: '448',
+			action: 'Шпаклевка гипсовая "ЕК" К 300 (20 кг)',
+			price: '488',
+			unit: 'шт',
+			link: '/shop/product/spaklevka-gipsovaya-ek-k-300-20-kg',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-K300.png'
+		},
+		{
+			id: '228',
+			action: 'Плита ОСБ-3 2500*1250*9мм Kronospan ГОСТ (влагостойкая)',
+			price: '820',
+			unit: 'шт',
+			unit: 'шт',
+			link: '/shop/product/plita-osb-3-250012509mm-Kronospan-gost-vlagostoikaya',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/ilejI7dCV3zr72h4VudvlNrQLKBgHsrYwKd1HoAL.jpeg'
+		},
+		{
+			id: '473',
+			action: 'Пескобетон м-300 (25 кг) Престиж',
+			price: '162',
+			unit: 'шт',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/peskobeton-m-300-25-kg',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BF%D0%B5%D1%81.jpg'
+		},
+		{
+			id: '1501',
+			action: 'Штукатурная смесь "ТТ 40 Ветонит" (25 кг)',
+			price: '345',
+			unit: 'шт',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/stukaturnaya-smes-tt-40-vetonit-25-kg',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/rXeE9qQsn7EpDT15h34D1bj0Y7tMalVrKb2vtm7w.jpeg'
+		},
+		{
+			id: '464',
+			action: 'Смесь для пола "ЕК" LEVEL 2.1 БЫСТРОТВЕРДЕЮЩИЙ (20 кг)',
+			price: '354',
+			unit: 'шт',
+			link: '/shop/product/nalivnoi-pol-ek-level-21-bystrotverdeyushhii-20-kg',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-level-2.1.png'
+		},
+		{
+			id: '468',
+			action: 'Смесь для пола "Церезит CN175/25" самовыр.25кг',
+			price: '678',
+			unit: 'шт',
+			link: '/shop/product/nalivnoi-pol-samovyravnivayushhiisya-cerezit-cn-175-25-kg',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%81%D0%BD.png'
+		},
+		{
+			id: '466',
+			action: 'Смесь для пола "Юнис" Горизонт универсальный (20кг).',
+			price: '418',
+			unit: 'шт',
+			link: '/shop/product/cmes-dlya-pola-yunis-gorizont-universalnyi-20-kg',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%8E%D1%83.jpg'
 		}
-		// {
-		// 	id: '448',
-		// 	action: 'Шпаклевка гипсовая "ЕК" К 300 (20 кг)',
-		// 	price: '490',
-		// 	unit: 'шт',
-		// 	link: '/shop/product/spaklevka-gipsovaya-ek-k-300-20-kg',
-		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-K300.png'
-		// },
+
 		// {
 		// 	id: '446',
 		// 	action: 'Шпаклевка финишная "VETONIT LR+" (22 кг)',
@@ -95,14 +147,6 @@
 		// // 	link: '/shop/product/element-pola-knauf-20-mm-1200600',
 		// // 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%8D%D0%BB%20%D0%BF%D0%BE%D0%BB%D0%B0.jpg'
 		// // },
-		// {
-		// 	id: '228',
-		// 	action: 'Плита ОСБ-3 2500*1250*9мм Kronospan ГОСТ (влагостойкая)',
-		// 	price: '775',
-		// 	unit: 'шт',
-		// 	link: '/shop/product/plita-osb-3-250012509mm-Kronospan-gost-vlagostoikaya',
-		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/ilejI7dCV3zr72h4VudvlNrQLKBgHsrYwKd1HoAL.jpeg'
-		// },
 		// {
 		// 	id: '267',
 		// 	action: 'Клей для плитки "ЕК" 3000 (25кг)',
@@ -150,14 +194,6 @@
 		// 	unit: 'шт',
 		// 	link: '/shop/product/nalivnoi-pol-ek-level-20-bystrotverdeyushhii-vlagostoikii-20-kg',
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-level-2.0.png'
-		// },
-		// {
-		// 	id: '464',
-		// 	action: 'Смесь для пола "ЕК" LEVEL 2.1 БЫСТРОТВЕРДЕЮЩИЙ (20 кг)',
-		// 	price: '368',
-		// 	unit: 'шт',
-		// 	link: '/shop/product/nalivnoi-pol-ek-level-21-bystrotverdeyushhii-20-kg',
-		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-level-2.1.png'
 		// },
 		// {
 		// 	id: '2730',
@@ -671,14 +707,6 @@
 		// 	description: 'При заказе через сайт дополнительная скидка 5%',
 		// 	link: '/shop/product/klei-dlya-plitki-i-keramogranita-cerezit-sm-14-extra-dlya-ulicy-i-teplyx-polov-25-kg',
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%81%D0%BC14.jpg'
-		// },
-		// {
-		// 	id: '473',
-		// 	action: 'Пескобетон м-300 (25 кг) Престиж',
-		// 	price: '180',
-		// 	description: 'При заказе через сайт дополнительная скидка 5%',
-		// 	link: '/shop/product/peskobeton-m-300-25-kg',
-		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BF%D0%B5%D1%81.jpg'
 		// },
 		// {
 		// 	id: '520',
