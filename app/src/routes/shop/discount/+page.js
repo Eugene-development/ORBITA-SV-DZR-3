@@ -87,15 +87,15 @@ export async function load() {
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/818304731.webp',
 			href: '/shop/product/lkey-dla-blokov',
 			unit: 'шт.'
-		},
-
-		{
-			value: '',
-			price: 0,
-			img: '',
-			href: '',
-			unit: 'шт.'
 		}
+
+		// {
+		// 	value: '',
+		// 	price: 0,
+		// 	img: '',
+		// 	href: '',
+		// 	unit: 'шт.'
+		// }
 
 		// {
 		// 	value: 'Плита "Байкал" 600*600*12 мм',
