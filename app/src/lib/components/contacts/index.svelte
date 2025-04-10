@@ -342,7 +342,7 @@
 									<h3 class="text-white">Толокольникова Екатерина</h3>
 									<p class="text-indigo-400">менеджер</p>
 									<p class="text-indigo-400">8-961-637-53-81</p>
-									<p class="text-indigo-400">orbitastroi.ek@gmail.ru</p>
+									<p class="text-indigo-400">orbitastroi.ek@gmail.com</p>
 									<div class="flex justify-center space-x-5">
 										<div>
 											<a
