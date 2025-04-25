@@ -44,13 +44,13 @@ export async function load() {
 			href: '/shop/product/uteplitel-akustiknauf-12206150',
 			unit: 'шт.'
 		},
-		{
-			value: 'Бетонконтакт "Церезит СТ 19/15 кг."',
-			price: 1838,
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/betonokontakt_ceresit_st19_5_l.jpg',
-			href: '/shop/product/betonkontakt-cerezit-st-19-15-kg',
-			unit: 'шт.'
-		},
+		// {
+		// 	value: 'Бетонконтакт "Церезит СТ 19/15 кг."',
+		// 	price: 1838,
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/betonokontakt_ceresit_st19_5_l.jpg',
+		// 	href: '/shop/product/betonkontakt-cerezit-st-19-15-kg',
+		// 	unit: 'шт.'
+		// },
 		{
 			value: 'Рубероид РПП 300 (0)',
 			price: 525,

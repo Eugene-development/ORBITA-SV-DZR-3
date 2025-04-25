@@ -36,14 +36,14 @@
 			link: '/shop/product/stukaturnaya-smes-ek-tt-30-fasadnaya-25-kg',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TT30.png'
 		},
-		{
-			id: '432',
-			action: 'Штукатурная смесь "ЕК" TG 40 (30кг) white',
-			price: '488',
-			unit: 'шт',
-			link: '/shop/product/stukaturnaya-smes-ek-tg-40-waite-30-kg',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TG40-WHITE.png'
-		},
+		// {
+		// 	id: '432',
+		// 	action: 'Штукатурная смесь "ЕК" TG 40 (30кг) white',
+		// 	price: '488',
+		// 	unit: 'шт',
+		// 	link: '/shop/product/stukaturnaya-smes-ek-tg-40-waite-30-kg',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TG40-WHITE.png'
+		// },
 		{
 			id: '448',
 			action: 'Шпаклевка гипсовая "ЕК" К 300 (20 кг)',
