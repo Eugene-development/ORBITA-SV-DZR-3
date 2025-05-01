@@ -101,10 +101,15 @@
 		</div>
 		<div class="lg:ml-0 lg:col-span-4">
 			<img
+				class="h-48 lg:h-[32rem] object-cover mt-8"
+				src="https://stroyintech.ru/image/cache/catalog/product/1/7abc3b307a0f11ed8202005056af8669_5440d725d51e11ed8215005056af8669-1200x800.jpg"
+				alt="Стройматериалы по акции"
+			/>
+			<!-- <img
 				class="h-48 lg:h-[36rem] object-cover"
 				src="https://www.kgsnab.ru/upload/iblock/764/764775626c9f841847648937cf438672.jpg"
 				alt="Стройматериалы по акции"
-			/>
+			/> -->
 		</div>
 		<!-- <div class="lg:ml-0 lg:col-span-4">
 			<img
