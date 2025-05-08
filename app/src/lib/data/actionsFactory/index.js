@@ -46,6 +46,36 @@ const actions = [
 		price: '3600',
 		unit: 'шт',
 		img: 'https://img.abc.lv/infopage/photos/b/4/kompanija-avotini-sia_b4tlb_006_2000x1500.jpg'
+	},
+	{
+		action: 'УтеплительТЕХНОБЛОК СТАНДАРТ 1.2х0.6х50мм(0.288м3)',
+		price: '1647',
+		unit: 'шт',
+		img: 'https://n-dom.com/upload/ammina.optimizer/jpeg-webp/q80/upload/iblock/0bc/0bc449f54da9201e3b32fcdb62f667c5.webp'
+	},
+	{
+		action: 'УтеплительТЕХНОБЛОК СТАНДАРТ 1.2х0.6х100мм(0.288м3)',
+		price: '1650',
+		unit: 'шт',
+		img: 'https://n-dom.com/upload/ammina.optimizer/jpeg-webp/q80/upload/iblock/0bc/0bc449f54da9201e3b32fcdb62f667c5.webp'
+	},
+	{
+		action: 'Мастика битумная AquaMast для фундамента (18кг)',
+		price: '2650',
+		unit: 'шт',
+		img: 'https://www.tstn.ru/upload/iblock/8fc/cv1z02qlz7fb2ufeg01pkjp317zy5pmi/393547_1.jpg'
+	},
+	{
+		action: 'Мастика битумная-рез. AquaMast для кровли (10кг)',
+		price: '1924',
+		unit: 'шт',
+		img: 'https://www.tstn.ru/upload/iblock/6d0/393548_1.jpg'
+	},
+	{
+		action: 'Мастика битумная-рез. AquaMast для кровли (18кг)',
+		price: '2933',
+		unit: 'шт',
+		img: 'https://tstn.ru/upload/iblock/8fc/cv1z02qlz7fb2ufeg01pkjp317zy5pmi/393547_1.jpg'
 	}
 
 	// {
@@ -54,18 +84,7 @@ const actions = [
 	// 	unit: 'шт',
 	// 	img: 'https://cdn.vseinstrumenti.ru/images/goods/stroitelnye-materialy/izolyatsionnye-materialy/2741780/560x504/59831202.jpg'
 	// },
-	// {
-	// 	action: 'УтеплительТЕХНОБЛОК СТАНДАРТ 1.2х0.6х50мм(0.288м3)',
-	// 	price: '1680',
-	// 	unit: 'шт',
-	// 	img: 'https://n-dom.com/upload/ammina.optimizer/jpeg-webp/q80/upload/iblock/0bc/0bc449f54da9201e3b32fcdb62f667c5.webp'
-	// },
-	// {
-	// 	action: 'УтеплительТЕХНОБЛОК СТАНДАРТ 1.2х0.6х50мм(0.288м3)',
-	// 	price: '1680',
-	// 	unit: 'шт',
-	// 	img: 'https://n-dom.com/upload/ammina.optimizer/jpeg-webp/q80/upload/iblock/0bc/0bc449f54da9201e3b32fcdb62f667c5.webp'
-	// },
+
 	// {
 	// 	action: 'Линокром ТКП сланец серый',
 	// 	price: '2050',
@@ -89,24 +108,6 @@ const actions = [
 	// 	price: '1125',
 	// 	unit: 'шт',
 	// 	img: 'https://www.tstn.ru/upload/iblock/49e/225890_1.jpg'
-	// },
-	// {
-	// 	action: 'Мастика битумная AquaMast для фундамента (18кг)',
-	// 	price: '2650',
-	// 	unit: 'шт',
-	// 	img: 'https://www.tstn.ru/upload/iblock/8fc/cv1z02qlz7fb2ufeg01pkjp317zy5pmi/393547_1.jpg'
-	// },
-	// {
-	// 	action: 'Мастика битумная-рез. AquaMast для кровли (10кг)',
-	// 	price: '2360',
-	// 	unit: 'шт',
-	// 	img: 'https://www.tstn.ru/upload/iblock/6d0/393548_1.jpg'
-	// },
-	// {
-	// 	action: 'Мастика битумная-рез. AquaMast для кровли (18кг)',
-	// 	price: '2933',
-	// 	unit: 'шт',
-	// 	img: 'https://tstn.ru/upload/iblock/8fc/cv1z02qlz7fb2ufeg01pkjp317zy5pmi/393547_1.jpg'
 	// },
 	// {
 	// 	action: 'Черепица гибкая ТЕХНОНИКОЛЬ ОПТИМА Коричневый 3м2',
