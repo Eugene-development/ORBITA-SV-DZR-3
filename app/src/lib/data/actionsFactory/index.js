@@ -1,9 +1,15 @@
 const actions = [
 	{
+		action: 'ЭПП ХРS30-200 Стандарт 1200*600*20-L(20шт./уп)',
+		price: '136',
+		unit: 'шт',
+		img: 'https://msk.tophouse.ru/images/price/teploizolyatsiya/tehnonikol-xps-ekstrudirovannyiy-penopolistirol/101462-4-2.jpg'
+	},
+	{
 		action: 'ЭПП ХРS30-200 Стандарт 1180*580*30-L(13шт/уп)',
 		price: '203',
 		unit: 'шт',
-		img: 'https://www.tstn.ru/upload/iblock/e86/tekhnopleks.jpg'
+		img: 'https://cdn1.ozone.ru/s3/multimedia-o/6348697500.jpg'
 	},
 	{
 		action: 'ЭПП XPS30-200 Стандарт 1180*580*50-L(8шт./уп)',
@@ -12,28 +18,22 @@ const actions = [
 		img: 'https://arttn.ru/upload/iblock/368/6dni1o42d3lb9tw38dw93y0h3ko9xqal/carbon_2.png'
 	},
 	{
-		action: 'ЭПП ХРS30-200 Стандарт 1200*600*20-L(20шт./уп)',
-		price: '136',
+		action: 'ЭПП XPS30-200 Стандарт 1180*580*100-L(4шт./уп)',
+		price: '660',
 		unit: 'шт',
-		img: 'https://msk.tophouse.ru/images/price/teploizolyatsiya/tehnonikol-xps-ekstrudirovannyiy-penopolistirol/101462-4-2.jpg'
+		img: 'https://valles.ru/upload/iblock/254/254814_2.jpg'
 	},
 	{
 		action: 'Утеплитель РокЛайт (1,2*0,6*100) 4,32 м2,0,432 м3',
-		price: '1988',
+		price: '1976',
 		unit: 'шт',
 		img: 'https://rezar.ru/upload/iblock/4bc/cbn2wlmrp4sh61r2kvn6lzn6olp0zjny.jpg'
 	},
 	{
 		action: 'Утеплитель Роклайт (1,2×0,6×50мм) 0,288м3, 5,76 м3',
-		price: '1320',
+		price: '1317',
 		unit: 'шт',
 		img: 'https://stroymag.su/upload/iblock/bb4/yidvgml3anq2ljbp9pogmr9fleklwfxo.jpg'
-	},
-	{
-		action: 'Утеплитель ТЕХНОАКУСТИК (1,2*0,6*50мм) 0,288м3',
-		price: '1940',
-		unit: 'шт',
-		img: 'https://cdn.vseinstrumenti.ru/images/goods/stroitelnye-materialy/izolyatsionnye-materialy/2741780/560x504/59831202.jpg'
 	},
 	{
 		action: 'Утеплитель ТехновентСтандарт 1200х600×50 (0,216м3)',
@@ -43,82 +43,89 @@ const actions = [
 	},
 	{
 		action: 'Утеплитель ТехновентСтандарт 1200х600×50 (0,288м3)',
-		price: '3604',
+		price: '3600',
 		unit: 'шт',
 		img: 'https://img.abc.lv/infopage/photos/b/4/kompanija-avotini-sia_b4tlb_006_2000x1500.jpg'
-	},
-	{
-		action: 'УтеплительТЕХНОБЛОК СТАНДАРТ 1.2х0.6х50мм(0.288м3)',
-		price: '1680',
-		unit: 'шт',
-		img: 'https://n-dom.com/upload/ammina.optimizer/jpeg-webp/q80/upload/iblock/0bc/0bc449f54da9201e3b32fcdb62f667c5.webp'
-	},
-	{
-		action: 'УтеплительТЕХНОБЛОК СТАНДАРТ 1.2х0.6х50мм(0.288м3)',
-		price: '1680',
-		unit: 'шт',
-		img: 'https://n-dom.com/upload/ammina.optimizer/jpeg-webp/q80/upload/iblock/0bc/0bc449f54da9201e3b32fcdb62f667c5.webp'
-	},
-	{
-		action: 'Линокром ТКП сланец серый',
-		price: '2050',
-		unit: 'шт',
-		img: 'https://стройбаза-ларионово.рф/files/gallery/1098/big/3gstqgkhpb6s47zloibs43b0a_1676636085.jpg'
-	},
-	{
-		action: 'Линокром ТПП 15м',
-		price: '2792',
-		unit: 'шт',
-		img: 'https://stroysmatom.ru/upload/pl_plugin_2/7-2-93-25.jpg'
-	},
-	{
-		action: 'Стеклоизол ТКП 3,5 сланец серый (10 кв.м.)',
-		price: '1250',
-		unit: 'шт',
-		img: 'https://cdn.vseinstrumenti.ru/images/goods/stroitelnye-materialy/krovelnye-materialy/2029158/560x504/54134454.jpg'
-	},
-	{
-		action: 'Стеклоизол ТПП 10м',
-		price: '1125',
-		unit: 'шт',
-		img: 'https://www.tstn.ru/upload/iblock/49e/225890_1.jpg'
-	},
-	{
-		action: 'Мастика битумная AquaMast для фундамента (18кг)',
-		price: '2650',
-		unit: 'шт',
-		img: 'https://www.tstn.ru/upload/iblock/8fc/cv1z02qlz7fb2ufeg01pkjp317zy5pmi/393547_1.jpg'
-	},
-	{
-		action: 'Мастика битумная-рез. AquaMast для кровли (10кг)',
-		price: '2360',
-		unit: 'шт',
-		img: 'https://www.tstn.ru/upload/iblock/6d0/393548_1.jpg'
-	},
-	{
-		action: 'Мастика битумная-рез. AquaMast для кровли (18кг)',
-		price: '2933',
-		unit: 'шт',
-		img: 'https://tstn.ru/upload/iblock/8fc/cv1z02qlz7fb2ufeg01pkjp317zy5pmi/393547_1.jpg'
-	},
-	{
-		action: 'Черепица гибкая ТЕХНОНИКОЛЬ ОПТИМА Коричневый 3м2',
-		price: '1320',
-		unit: 'шт',
-		img: 'https://tstn.ru/upload/iblock/929/678533_1.jpg'
-	},
-	{
-		action: 'Биполь ТПП',
-		price: '3262',
-		unit: 'шт',
-		img: 'https://tstn.ru/upload/iblock/c61/000057_1.jpg'
-	},
-	{
-		action: 'Биполь ТКП сланец серый',
-		price: '2329',
-		unit: 'шт',
-		img: 'https://progress-polymer.ru/uploads/webp/product/1500/1583/1607871621_2020-12-13_18-00-21.webp'
 	}
+
+	// {
+	// 	action: 'Утеплитель ТЕХНОАКУСТИК (1,2*0,6*50мм) 0,288м3',
+	// 	price: '1940',
+	// 	unit: 'шт',
+	// 	img: 'https://cdn.vseinstrumenti.ru/images/goods/stroitelnye-materialy/izolyatsionnye-materialy/2741780/560x504/59831202.jpg'
+	// },
+	// {
+	// 	action: 'УтеплительТЕХНОБЛОК СТАНДАРТ 1.2х0.6х50мм(0.288м3)',
+	// 	price: '1680',
+	// 	unit: 'шт',
+	// 	img: 'https://n-dom.com/upload/ammina.optimizer/jpeg-webp/q80/upload/iblock/0bc/0bc449f54da9201e3b32fcdb62f667c5.webp'
+	// },
+	// {
+	// 	action: 'УтеплительТЕХНОБЛОК СТАНДАРТ 1.2х0.6х50мм(0.288м3)',
+	// 	price: '1680',
+	// 	unit: 'шт',
+	// 	img: 'https://n-dom.com/upload/ammina.optimizer/jpeg-webp/q80/upload/iblock/0bc/0bc449f54da9201e3b32fcdb62f667c5.webp'
+	// },
+	// {
+	// 	action: 'Линокром ТКП сланец серый',
+	// 	price: '2050',
+	// 	unit: 'шт',
+	// 	img: 'https://стройбаза-ларионово.рф/files/gallery/1098/big/3gstqgkhpb6s47zloibs43b0a_1676636085.jpg'
+	// },
+	// {
+	// 	action: 'Линокром ТПП 15м',
+	// 	price: '2792',
+	// 	unit: 'шт',
+	// 	img: 'https://stroysmatom.ru/upload/pl_plugin_2/7-2-93-25.jpg'
+	// },
+	// {
+	// 	action: 'Стеклоизол ТКП 3,5 сланец серый (10 кв.м.)',
+	// 	price: '1250',
+	// 	unit: 'шт',
+	// 	img: 'https://cdn.vseinstrumenti.ru/images/goods/stroitelnye-materialy/krovelnye-materialy/2029158/560x504/54134454.jpg'
+	// },
+	// {
+	// 	action: 'Стеклоизол ТПП 10м',
+	// 	price: '1125',
+	// 	unit: 'шт',
+	// 	img: 'https://www.tstn.ru/upload/iblock/49e/225890_1.jpg'
+	// },
+	// {
+	// 	action: 'Мастика битумная AquaMast для фундамента (18кг)',
+	// 	price: '2650',
+	// 	unit: 'шт',
+	// 	img: 'https://www.tstn.ru/upload/iblock/8fc/cv1z02qlz7fb2ufeg01pkjp317zy5pmi/393547_1.jpg'
+	// },
+	// {
+	// 	action: 'Мастика битумная-рез. AquaMast для кровли (10кг)',
+	// 	price: '2360',
+	// 	unit: 'шт',
+	// 	img: 'https://www.tstn.ru/upload/iblock/6d0/393548_1.jpg'
+	// },
+	// {
+	// 	action: 'Мастика битумная-рез. AquaMast для кровли (18кг)',
+	// 	price: '2933',
+	// 	unit: 'шт',
+	// 	img: 'https://tstn.ru/upload/iblock/8fc/cv1z02qlz7fb2ufeg01pkjp317zy5pmi/393547_1.jpg'
+	// },
+	// {
+	// 	action: 'Черепица гибкая ТЕХНОНИКОЛЬ ОПТИМА Коричневый 3м2',
+	// 	price: '1320',
+	// 	unit: 'шт',
+	// 	img: 'https://tstn.ru/upload/iblock/929/678533_1.jpg'
+	// },
+	// {
+	// 	action: 'Биполь ТПП',
+	// 	price: '3262',
+	// 	unit: 'шт',
+	// 	img: 'https://tstn.ru/upload/iblock/c61/000057_1.jpg'
+	// },
+	// {
+	// 	action: 'Биполь ТКП сланец серый',
+	// 	price: '2329',
+	// 	unit: 'шт',
+	// 	img: 'https://progress-polymer.ru/uploads/webp/product/1500/1583/1607871621_2020-12-13_18-00-21.webp'
+	// }
 ];
 
 // const actions = [
