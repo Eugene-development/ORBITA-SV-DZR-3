@@ -76,6 +76,42 @@ const actions = [
 		price: '2933',
 		unit: 'шт',
 		img: 'https://tstn.ru/upload/iblock/8fc/cv1z02qlz7fb2ufeg01pkjp317zy5pmi/393547_1.jpg'
+	},
+	{
+		action: 'Линокром ТКП сланец серый',
+		price: '2004',
+		unit: 'шт',
+		img: 'https://стройбаза-ларионово.рф/files/gallery/1098/big/3gstqgkhpb6s47zloibs43b0a_1676636085.jpg'
+	},
+	{
+		action: 'Линокром ТПП 15м',
+		price: '2790',
+		unit: 'шт',
+		img: 'https://stroysmatom.ru/upload/pl_plugin_2/7-2-93-25.jpg'
+	},
+	{
+		action: 'Стеклоизол ТКП 3,5 сланец серый (10 кв.м.)',
+		price: '1246',
+		unit: 'шт',
+		img: 'https://cdn.vseinstrumenti.ru/images/goods/stroitelnye-materialy/krovelnye-materialy/2029158/560x504/54134454.jpg'
+	},
+	{
+		action: 'Стеклоизол ТПП 10м',
+		price: '1130',
+		unit: 'шт',
+		img: 'https://www.tstn.ru/upload/iblock/49e/225890_1.jpg'
+	},
+	{
+		action: 'Стеклоизол ХКП 3,5 10м гранулят',
+		price: '1050',
+		unit: 'шт',
+		img: 'https://stroy-comfort66.ru/wa-data/public/shop/products/87/05/587/images/923/923.970.jpg'
+	},
+	{
+		action: 'Черепица гибкая ТЕХНОНИКОЛЬ ОПТИМА Коричневый 3м2',
+		price: '1320',
+		unit: 'шт',
+		img: 'https://tstn.ru/upload/iblock/929/678533_1.jpg'
 	}
 
 	// {
@@ -85,36 +121,6 @@ const actions = [
 	// 	img: 'https://cdn.vseinstrumenti.ru/images/goods/stroitelnye-materialy/izolyatsionnye-materialy/2741780/560x504/59831202.jpg'
 	// },
 
-	// {
-	// 	action: 'Линокром ТКП сланец серый',
-	// 	price: '2050',
-	// 	unit: 'шт',
-	// 	img: 'https://стройбаза-ларионово.рф/files/gallery/1098/big/3gstqgkhpb6s47zloibs43b0a_1676636085.jpg'
-	// },
-	// {
-	// 	action: 'Линокром ТПП 15м',
-	// 	price: '2792',
-	// 	unit: 'шт',
-	// 	img: 'https://stroysmatom.ru/upload/pl_plugin_2/7-2-93-25.jpg'
-	// },
-	// {
-	// 	action: 'Стеклоизол ТКП 3,5 сланец серый (10 кв.м.)',
-	// 	price: '1250',
-	// 	unit: 'шт',
-	// 	img: 'https://cdn.vseinstrumenti.ru/images/goods/stroitelnye-materialy/krovelnye-materialy/2029158/560x504/54134454.jpg'
-	// },
-	// {
-	// 	action: 'Стеклоизол ТПП 10м',
-	// 	price: '1125',
-	// 	unit: 'шт',
-	// 	img: 'https://www.tstn.ru/upload/iblock/49e/225890_1.jpg'
-	// },
-	// {
-	// 	action: 'Черепица гибкая ТЕХНОНИКОЛЬ ОПТИМА Коричневый 3м2',
-	// 	price: '1320',
-	// 	unit: 'шт',
-	// 	img: 'https://tstn.ru/upload/iblock/929/678533_1.jpg'
-	// },
 	// {
 	// 	action: 'Биполь ТПП',
 	// 	price: '3262',
