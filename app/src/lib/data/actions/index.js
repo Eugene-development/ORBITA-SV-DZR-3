@@ -33,7 +33,16 @@ const actions = [
 		price: '486',
 		link: '/shop/product/grunt-emal-po-rzhavchinie-sieraia-1-8kgh-ts-ari-ts-yno',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/320_original.jpg'
+	},
+	{
+		id: '200',
+		action: 'Доска обрезная обработанная',
+		price: '19000',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/shop/products/doska-obreznaya-obrabotannaya',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B4%D0%BE%D1%81%D0%BA%D0%B0.jpg'
 	}
+
 	// {
 	// 	id: '2966',
 	// 	action: 'Антисептик для древесины "АПРИЛ" 10л',
@@ -158,14 +167,6 @@ const actions = [
 	// 	description: 'При заказе через сайт дополнительная скидка 5%',
 	// 	link: '/shop/product/gruntovka-dlya-vpityvayushhix-osnovanii-cerezit-st-17-10-l',
 	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/5.png'
-	// },
-	// {
-	// 	id: '200',
-	// 	action: 'Доска обрезная обработанная',
-	// 	price: '18500',
-	// 	description: 'При заказе через сайт дополнительная скидка 5%',
-	// 	link: '/shop/products/doska-obreznaya-obrabotannaya',
-	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B4%D0%BE%D1%81%D0%BA%D0%B0.jpg'
 	// },
 	// {
 	// 	id: '2766',
