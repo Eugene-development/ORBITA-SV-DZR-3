@@ -53,32 +53,32 @@ export async function load() {
 		},
 		{
 			value: 'Профлист C-10 1160*2000 RAL 8017 Коричневый',
-			price: 0,
-			img: '',
-			href: '',
+			price: 1346,
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/TfWAbfR7ER3eRdwtVouuQbbFNNTlgmcincCjCcOn.jpg',
+			href: '/shop/product/profnastil-s-10-ral-8017-11602000',
 			unit: 'лист'
 		},
 		{
 			value: 'Профлист С-21 1050*2000 Оцинкованный',
-			price: 0,
-			img: '',
-			href: '',
+			price: 1100,
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/8b1cf388494bcdfad01ded2b396bfcc8.webp',
+			href: '/shop/product/proflist-s-21-1050-2000-otsinkovannyi',
 			unit: 'лист'
 		},
-		{
-			value: 'Пена пистолетная огнестойкая DONEWELL 65',
-			price: 0,
-			img: '',
-			href: '',
-			unit: 'шт.'
-		},
-		{
-			value: 'Пена пистолетная Желтая "SOUDAL" (750мл) (12)',
-			price: 0,
-			img: '',
-			href: '',
-			unit: 'шт.'
-		},
+		// {
+		// 	value: 'Пена пистолетная огнестойкая DONEWELL 65',
+		// 	price: 0,
+		// 	img: '',
+		// 	href: '',
+		// 	unit: 'шт.'
+		// },
+		// {
+		// 	value: 'Пена пистолетная Желтая "SOUDAL" (750мл) (12)',
+		// 	price: 0,
+		// 	img: '',
+		// 	href: '',
+		// 	unit: 'шт.'
+		// },
 		{
 			value: 'Грунтовка "ЕК" G100 (10л)',
 			price: 1156,
