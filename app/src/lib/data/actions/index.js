@@ -14,6 +14,13 @@ const actions = [
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/7ca2da74-175b-4361-825a-343837a62fa3.webp'
 	},
 	{
+		id: '347',
+		action: 'Газобетонный блок "Poritep" 625*100*250мм (0,016м3)',
+		price: '135',
+		link: '/shop/product/gazobetonnyi-blok-poritep-625100250-0016m3',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/hExr43D7fAdC1mXJMcQZP6eRurZ6GN45uSkzVApO.png'
+	},
+	{
 		id: '',
 		action: '',
 		price: '',
