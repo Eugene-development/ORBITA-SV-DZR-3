@@ -17,10 +17,10 @@ export async function load() {
 			unit: 'шт.'
 		},
 		{
-			value: '',
-			price: 0,
-			img: '',
-			href: '',
+			value: 'Утеплитель РОКВУЛ АКУСТИК (1*0,6*50мм)/0,3м3/10шт',
+			price: 2534,
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/5371d627d2b5621bcad2de32ff8b2cbc.png',
+			href: '/shop/product/uteplitel-rokvul-akustik-bats-100060050-mm',
 			unit: 'шт.'
 		},
 		{
@@ -38,17 +38,17 @@ export async function load() {
 			unit: 'шт.'
 		},
 		{
-			value: '',
-			price: 0,
-			img: '',
-			href: '',
+			value: 'Клей для плитки "ЕК" 3000 (25кг)',
+			price: 374,
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-3000-UNIVERSAL.png',
+			href: '/shop/product/klei-dlya-plitki-ek-3000-25kg',
 			unit: 'шт.'
 		},
 		{
-			value: '',
-			price: 0,
-			img: '',
-			href: '',
+			value: 'Клей для плитки "ЕК" 2000 (25кг)',
+			price: 337,
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-2000-KERAMIK.png',
+			href: '/shop/product/klei-dlya-plitki-ek-2000-25kg',
 			unit: 'шт.'
 		},
 		{
