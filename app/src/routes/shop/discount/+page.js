@@ -3,6 +3,34 @@
 export async function load() {
 	const discountProducts = [
 		{
+			value: 'Рубероид РКК 350 ТУ 10 кв.м',
+			price: 579,
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/ruberoid-rpp-rkp-rkk.jpg',
+			href: '/shop/product/ruberoid-rkk-350-tu-texnonikol-10-m2',
+			unit: 'шт.'
+		},
+		{
+			value: 'Рубероид РПП 300 (0)',
+			price: 526,
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/ruberoid-rpp-rkp-rkk.jpg',
+			href: '/shop/product/ruberoid-rpp-300-tu-texnonikol-15-m2',
+			unit: 'шт.'
+		},
+		{
+			value: '',
+			price: 0,
+			img: '',
+			href: '',
+			unit: 'шт.'
+		},
+		{
+			value: 'Утеплитель Акустик Кнауф 037 12м2 (1,23*0,61*50)',
+			price: 2534,
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/5ekFCWz7W8moX1h34iwRSU7xKwXUgBGp2C0Kuluj.jpg',
+			href: '/shop/product/uteplitel-akustiknauf-12206150',
+			unit: 'шт.'
+		},
+		{
 			value: 'Утеплитель КНАУФ ТИСМА Aquastatik(1.2*8.3*2)50мм',
 			price: 2438,
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/YJr9o5oV0tsDG9HCE1u55fet3E4orBDgAjH7gE0J.png',
@@ -10,40 +38,119 @@ export async function load() {
 			unit: 'шт.'
 		},
 		{
-			value: 'Клей для плитки "Юнис Гранит" (25кг)',
-			price: 730,
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/mWb8GjYf8j2yrX91WbX9LXuiVyQhfomCgRKupTjI.png',
-			href: '/shop/product/klei-dlya-plitki-yunis-granit',
+			value: '',
+			price: 0,
+			img: '',
+			href: '',
 			unit: 'шт.'
 		},
 		{
-			value: 'Пена пистолетная "KUDO PROF 65+" 1000мл(12)',
-			price: 472,
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/nDi3dslKCa65E5yCwPJNymIdnrd2SejMPoFp65Ng.jpg',
-			href: '/shop/product/pena-pistoletnaya-kudo-proff-65-arktika',
+			value: '',
+			price: 0,
+			img: '',
+			href: '',
 			unit: 'шт.'
 		},
 		{
-			value: 'ПЕНОПЛАСТ ПСБ-С-15 1000*1000*100',
-			price: 239,
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BF%D0%B5%D0%BD%D0%BE%D0%BF%D0%BB%D0%B0%D1%81%D1%82.jpg',
-			href: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BF%D0%B5%D0%BD%D0%BE%D0%BF%D0%BB%D0%B0%D1%81%D1%82.jpg',
+			value: 'Профлист C-10 1160*2000 RAL 8017 Коричневый',
+			price: 0,
+			img: '',
+			href: '',
+			unit: 'лист'
+		},
+		{
+			value: 'Профлист С-21 1050*2000 Оцинкованный',
+			price: 0,
+			img: '',
+			href: '',
+			unit: 'лист'
+		},
+		{
+			value: 'Пена пистолетная огнестойкая DONEWELL 65',
+			price: 0,
+			img: '',
+			href: '',
 			unit: 'шт.'
 		},
 		{
-			value: 'ПЕНОПЛАСТ ПСБ-С-15 1000*1000*50',
-			price: 120,
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BF%D0%B5%D0%BD%D0%BE%D0%BF%D0%BB%D0%B0%D1%81%D1%82.jpg',
-			href: '/shop/product/penoplast-psb-s-15-1000100050',
+			value: 'Пена пистолетная Желтая "SOUDAL" (750мл) (12)',
+			price: 0,
+			img: '',
+			href: '',
 			unit: 'шт.'
 		},
 		{
-			value: 'Утеплитель АкустиКнауф 037 12м2 (1,23*0,61*50)',
-			price: 2597,
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/5ekFCWz7W8moX1h34iwRSU7xKwXUgBGp2C0Kuluj.jpg',
-			href: '/shop/product/uteplitel-akustiknauf-12206150',
+			value: 'Грунтовка "ЕК" G100 (10л)',
+			price: 1156,
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-G100.png',
+			href: '/shop/product/gruntovka-universalnaya-koncentrirovannaya-ek-g100-10-l',
 			unit: 'шт.'
 		},
+		{
+			value: 'Грунтовка "ЕК" G200 (10л)',
+			price: 692,
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-G200.png',
+			href: '/shop/product/gruntovka-universalnaya-ek-g200-10-l',
+			unit: 'шт.'
+		},
+		{
+			value: 'Смесь для пола "ЕК" LEVEL 2.0 (20кг) влагостойкая и быстротвердеющая',
+			price: 355,
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-level-2.0.png',
+			href: '/shop/product/nalivnoi-pol-ek-level-20-bystrotverdeyushhii-vlagostoikii-20-kg',
+			unit: 'шт.'
+		},
+		{
+			value: 'Смесь для пола "EK" LEVEL 2.1 (20кг) быстротвердеющая',
+			price: 367,
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-level-2.1.png',
+			href: '/shop/product/nalivnoi-pol-ek-level-21-bystrotverdeyushhii-20-kg',
+			unit: 'шт.'
+		},
+		{
+			value: 'Смесь для пола "Юнис" Горизонт универсальный (20кг)',
+			price: 416,
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%8E%D1%83.jpg',
+			href: '/shop/product/cmes-dlya-pola-yunis-gorizont-universalnyi-20-kg',
+			unit: 'шт.'
+		},
+		{
+			value: 'Смесь сухая универсальная Престиж М-150(25кг)',
+			price: 160,
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/m150-500x500.png',
+			href: '/shop/product/smes-suxaya-universalnaya-m-150-25-kg',
+			unit: 'шт.'
+		}
+
+		// {
+		// 	value: 'Клей для плитки "Юнис Гранит" (25кг)',
+		// 	price: 730,
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/mWb8GjYf8j2yrX91WbX9LXuiVyQhfomCgRKupTjI.png',
+		// 	href: '/shop/product/klei-dlya-plitki-yunis-granit',
+		// 	unit: 'шт.'
+		// },
+		// {
+		// 	value: 'Пена пистолетная "KUDO PROF 65+" 1000мл(12)',
+		// 	price: 472,
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/nDi3dslKCa65E5yCwPJNymIdnrd2SejMPoFp65Ng.jpg',
+		// 	href: '/shop/product/pena-pistoletnaya-kudo-proff-65-arktika',
+		// 	unit: 'шт.'
+		// },
+		// {
+		// 	value: 'ПЕНОПЛАСТ ПСБ-С-15 1000*1000*100',
+		// 	price: 239,
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BF%D0%B5%D0%BD%D0%BE%D0%BF%D0%BB%D0%B0%D1%81%D1%82.jpg',
+		// 	href: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BF%D0%B5%D0%BD%D0%BE%D0%BF%D0%BB%D0%B0%D1%81%D1%82.jpg',
+		// 	unit: 'шт.'
+		// },
+		// {
+		// 	value: 'ПЕНОПЛАСТ ПСБ-С-15 1000*1000*50',
+		// 	price: 120,
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BF%D0%B5%D0%BD%D0%BE%D0%BF%D0%BB%D0%B0%D1%81%D1%82.jpg',
+		// 	href: '/shop/product/penoplast-psb-s-15-1000100050',
+		// 	unit: 'шт.'
+		// },
+
 		// {
 		// 	value: 'Бетонконтакт "Церезит СТ 19/15 кг."',
 		// 	price: 1838,
@@ -51,44 +158,28 @@ export async function load() {
 		// 	href: '/shop/product/betonkontakt-cerezit-st-19-15-kg',
 		// 	unit: 'шт.'
 		// },
-		{
-			value: 'Рубероид РПП 300 (0)',
-			price: 525,
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/ruberoid-rpp-rkp-rkk.jpg',
-			href: '/shop/product/ruberoid-rpp-300-tu-texnonikol-15-m2',
-			unit: 'шт.'
-		},
-		{
-			id: '534',
-			value: 'Грунтовка для впитывающих оснований "Церезит" CT 17" (10 л)',
-			price: '1049',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/5.png',
-			href: '/shop/product/gruntovka-dlya-vpityvayushhix-osnovanii-cerezit-st-17-10-l',
-			unit: 'шт.'
-		},
-		{
-			value: 'Кирпич силикатный (336 шт./п.)',
-			price: 24,
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/kirpich-silikatniy-stroitelniy-lipeckiy-1-4-polnoteliy.jpg',
-			href: '/shop/product/kirpic-silikatnyi-312-stup',
-			unit: 'шт.'
-		},
-		{
-			value: 'Клей д/пенополистерола ЕК THERMEX 25 кг.',
-			price: 508,
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-THERMEX.png',
-			href: 'shop/product/klei-dlya-penopolistirola-ek-thermex-25-kg',
-			unit: 'шт.'
-		},
 
-		{
-			value: 'Клей д/блоков Бергауф Клебен Блок 25кг',
-			price: 348,
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/818304731.webp',
-			href: '/shop/product/lkey-dla-blokov',
-			unit: 'шт.'
-		}
-
+		// {
+		// 	value: 'Кирпич силикатный (336 шт./п.)',
+		// 	price: 24,
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/kirpich-silikatniy-stroitelniy-lipeckiy-1-4-polnoteliy.jpg',
+		// 	href: '/shop/product/kirpic-silikatnyi-312-stup',
+		// 	unit: 'шт.'
+		// },
+		// {
+		// 	value: 'Клей д/пенополистерола ЕК THERMEX 25 кг.',
+		// 	price: 508,
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-THERMEX.png',
+		// 	href: 'shop/product/klei-dlya-penopolistirola-ek-thermex-25-kg',
+		// 	unit: 'шт.'
+		// },
+		// {
+		// 	value: 'Клей д/блоков Бергауф Клебен Блок 25кг',
+		// 	price: 348,
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/818304731.webp',
+		// 	href: '/shop/product/lkey-dla-blokov',
+		// 	unit: 'шт.'
+		// }
 		// {
 		// 	value: '',
 		// 	price: 0,
@@ -96,7 +187,6 @@ export async function load() {
 		// 	href: '',
 		// 	unit: 'шт.'
 		// }
-
 		// {
 		// 	value: 'Плита "Байкал" 600*600*12 мм',
 		// 	price: 183,
@@ -181,7 +271,6 @@ export async function load() {
 		// 	href: '/shop/product/gruntovka-dlya-vpityvayushhix-osnovanii-cerezit-st-17-10-l',
 		// 	unit: 'шт.'
 		// }
-
 		// {
 		// 	id: '1543',
 		// 	value: 'ГКЛВ "Кнауф" 9,5мм (1,2х2,5)',
@@ -238,7 +327,6 @@ export async function load() {
 		// 	href: '/shop/product/setka-svarnaya-f3-5050205',
 		// 	unit: 'шт.'
 		// },
-
 		// {
 		// 	id: '2946',
 		// 	action: 'Плита осб-3 2500*1250*6мм Kronospan ГОСТ (влагостойкая)',
@@ -247,7 +335,6 @@ export async function load() {
 		// 	link: '/shop/product/plita-osb-3-250012506mm-kronospan-gost-vlagostoykaya',
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/YBbav3JxXOKl8hYDTen6CzCa1TUlMBagzDxTXlFO.png'
 		// },
-
 		// {
 		// 	id: '1543',
 		// 	action: 'Гклв "Кнауф" даногипс 12,5мм (1,2х2,5)',
@@ -256,7 +343,6 @@ export async function load() {
 		// 	link: '/shop/product/gklv-knauf-danogips-125mm-12x25',
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/lvfXJZnJe2ASRUHpI5X2dxVN30ZPHmVRFh0MDJyi.jpeg'
 		// },
-
 		// {
 		// 	id: '1543',
 		// 	action: 'ГКЛВ "Кнауф" ДАНОГИПС  9,5мм  (1,2х2,5)',
@@ -266,7 +352,6 @@ export async function load() {
 		// 	link: '/shop/product/gklv-knauf-danogips-95mm-12x25',
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/D2JsbwgeZcA0z4OLW242TuXbW5KFsDYQMR59VFSE.jpeg'
 		// },
-
 		// {
 		// 	value: 'Cмесь для пола "Юнис" Горизонт универсальный (20 кг)',
 		// 	price: 415,
@@ -346,13 +431,6 @@ export async function load() {
 		// 	unit: 'шт.'
 		// },
 		// {
-		// 	value: 'Профлист C-10 1160*2000 RAL 3005 Вишня',
-		// 	price: 1342,
-		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/LEoXvZkdeqrjHKHAmrPQQ2RzFo7DMDLpT948VWKw.jpg',
-		// 	href: '/shop/product/profnastil-s-10-ral-3005-11602000',
-		// 	unit: 'лист'
-		// },
-		// {
 		// 	value: 'Профлист С-10 1160*3000 Оцинкованный',
 		// 	price: 1640,
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/o233615480a6fded9690ecb346.jpg',
@@ -364,13 +442,6 @@ export async function load() {
 		// 	price: 525,
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/ruberoid-rpp-rkp-rkk.jpg',
 		// 	href: '/shop/product/ruberoid-rpp-300-tu-texnonikol-15-m2',
-		// 	unit: 'шт.'
-		// },
-		// {
-		// 	value: 'Рубероид РКК 350 ТУ 10 кв.м',
-		// 	price: 578,
-		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/ruberoid-rpp-rkp-rkk.jpg',
-		// 	href: '/shop/product/ruberoid-rkk-350-tu-texnonikol-10-m2',
 		// 	unit: 'шт.'
 		// },
 		// {
