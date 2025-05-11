@@ -26,6 +26,13 @@ const actions = [
 		price: '1620',
 		link: '/shop/product/gieotiekstil-izolaik-geo-150mkm-40m2',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/364e236ac986b82bb9be731b85a49c43.jpg'
+	},
+	{
+		id: '2980',
+		action: 'Грунт-эмаль по ржавчине серая 1,8кг ЦАРИЦЫНО',
+		price: '486',
+		link: '/shop/product/grunt-emal-po-rzhavchinie-sieraia-1-8kgh-ts-ari-ts-yno',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/320_original.jpg'
 	}
 	// {
 	// 	id: '2966',
