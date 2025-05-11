@@ -21,11 +21,11 @@ const actions = [
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/hExr43D7fAdC1mXJMcQZP6eRurZ6GN45uSkzVApO.png'
 	},
 	{
-		id: '',
-		action: '',
-		price: '',
-		link: '',
-		img: ''
+		id: '2979',
+		action: 'Геотекстиль Изолайк GEO 150мкм 40м2',
+		price: '1620',
+		link: '/shop/product/gieotiekstil-izolaik-geo-150mkm-40m2',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/364e236ac986b82bb9be731b85a49c43.jpg'
 	}
 	// {
 	// 	id: '2966',
