@@ -1,49 +1,55 @@
 const actions = [
 	{
-		id: '2966',
-		action: 'Антисептик для древесины "АПРИЛ" 10л',
-		price: '1350',
-		link: '/shop/product/antisieptik-dlia-drieviesiny-april-10l',
+		id: '1483',
+		action: 'Арматура композитная АСК-6 мм (100м.п.)',
+		price: '13',
+		link: '/shop/product/armatura-stekloplastikovaya-kompozitnaya-ask-6-mm-50-mp',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/26e974220b6abba47d2904b3c15a13fd.jpg'
-	},
-	{
-		id: '1485',
-		action: 'Арматура стеклопластиковая композитная АСК-10 мм',
-		price: '20',
-		link: '/shop/product/armatura-stekloplastikovaya-kompozitnaya-ask-10-mm-50-mp',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/49684fae-dba7-11e5-a26c-1867b054bc98_7550deb3-7beb-11e6-a067-000c29378178.resize1.png'
-	},
-	{
-		id: '355',
-		action: 'Профиль направляющий 27/28 толщ. 0,4 мм (3 м)',
-		price: '98',
-		link: '/shop/product/profil-napravlyayushhii-2728-tolshh-04-mm-3-m',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/2728.jpg'
-	},
-	{
-		id: '365',
-		action: 'Профиль потолочный 60/27 0,5 мм (3 м)',
-		price: '157',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/shop/product/profil-potolocnyi-6027-tolshh-05-mm-3-m',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/6027.jpg'
-	},
-
-	{
-		id: '378',
-		action: 'Подвес прямой ПП 60/27 0,7 мм',
-		price: '10',
-		link: '/shop/product/podves-pryamoi-pp-6027-07-mm',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BF%D0%BF.jpg'
-	},
-	{
-		id: '2766',
-		action: 'Поликарбонат сотовый прозрачный (размер 12х2.1м, 4мм)',
-		price: '5700',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/shop/product/polikarbonat-sotovyi-prozracnyi-4mm',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/lSHy2nYTCubCyXeSrG38YM8CD4DPL88MeYQzrSSw.png'
 	}
+	// {
+	// 	id: '2966',
+	// 	action: 'Антисептик для древесины "АПРИЛ" 10л',
+	// 	price: '1350',
+	// 	link: '/shop/product/antisieptik-dlia-drieviesiny-april-10l',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/26e974220b6abba47d2904b3c15a13fd.jpg'
+	// },
+	// {
+	// 	id: '1485',
+	// 	action: 'Арматура стеклопластиковая композитная АСК-10 мм',
+	// 	price: '20',
+	// 	link: '/shop/product/armatura-stekloplastikovaya-kompozitnaya-ask-10-mm-50-mp',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/49684fae-dba7-11e5-a26c-1867b054bc98_7550deb3-7beb-11e6-a067-000c29378178.resize1.png'
+	// },
+	// {
+	// 	id: '355',
+	// 	action: 'Профиль направляющий 27/28 толщ. 0,4 мм (3 м)',
+	// 	price: '98',
+	// 	link: '/shop/product/profil-napravlyayushhii-2728-tolshh-04-mm-3-m',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/2728.jpg'
+	// },
+	// {
+	// 	id: '365',
+	// 	action: 'Профиль потолочный 60/27 0,5 мм (3 м)',
+	// 	price: '157',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/profil-potolocnyi-6027-tolshh-05-mm-3-m',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/6027.jpg'
+	// },
+	// {
+	// 	id: '378',
+	// 	action: 'Подвес прямой ПП 60/27 0,7 мм',
+	// 	price: '10',
+	// 	link: '/shop/product/podves-pryamoi-pp-6027-07-mm',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BF%D0%BF.jpg'
+	// },
+	// {
+	// 	id: '2766',
+	// 	action: 'Поликарбонат сотовый прозрачный (размер 12х2.1м, 4мм)',
+	// 	price: '5700',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/shop/product/polikarbonat-sotovyi-prozracnyi-4mm',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/lSHy2nYTCubCyXeSrG38YM8CD4DPL88MeYQzrSSw.png'
+	// }
 	// {
 	// 	id: '1944',
 	// 	action: 'ДВП 1220*2440*3,2',
