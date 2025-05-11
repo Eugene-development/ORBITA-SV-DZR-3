@@ -4,7 +4,21 @@ const actions = [
 		action: 'Арматура композитная АСК-6 мм (100м.п.)',
 		price: '13',
 		link: '/shop/product/armatura-stekloplastikovaya-kompozitnaya-ask-6-mm-50-mp',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/26e974220b6abba47d2904b3c15a13fd.jpg'
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/49684fae-dba7-11e5-a26c-1867b054bc98_7550deb3-7beb-11e6-a067-000c29378178.resize1.png'
+	},
+	{
+		id: '2978',
+		action: 'БИОТЕКС мореный дуб 2,7л',
+		price: '1215',
+		link: '/shop/product/biot-ie-ks-morienyi-dub-2-7-l',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/7ca2da74-175b-4361-825a-343837a62fa3.webp'
+	},
+	{
+		id: '',
+		action: '',
+		price: '',
+		link: '',
+		img: ''
 	}
 	// {
 	// 	id: '2966',
