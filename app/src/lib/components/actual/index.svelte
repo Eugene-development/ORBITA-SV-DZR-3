@@ -19,7 +19,7 @@
 							// Отправляем цель в Яндекс Метрику
 							if (window.ym) {
 								window.ym(82181533, 'reachGoal', 'actual_section_viewed');
-								console.log('Яндекс Метрика: цель actual_section_viewed достигнута');
+								// console.log('Яндекс Метрика: цель actual_section_viewed достигнута');
 							}
 						}
 					});
