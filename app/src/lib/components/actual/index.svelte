@@ -1,9 +1,41 @@
 <script>
 	import { browser } from '$app/environment';
 	import { lengthCart, idProductsInCart } from '$lib/store/stores.js';
+	import { onMount } from 'svelte';
 
 	let InCart;
 	idProductsInCart.subscribe((value) => (InCart = value));
+
+	let actualSection;
+	let goalReached = false;
+
+	onMount(() => {
+		if (browser && actualSection) {
+			const observer = new IntersectionObserver(
+				(entries) => {
+					entries.forEach((entry) => {
+						if (entry.isIntersecting && !goalReached) {
+							goalReached = true;
+							// Отправляем цель в Яндекс Метрику
+							if (window.ym) {
+								window.ym(82181533, 'reachGoal', 'actual_section_viewed');
+								console.log('Яндекс Метрика: цель actual_section_viewed достигнута');
+							}
+						}
+					});
+				},
+				{
+					threshold: 0.1 // Срабатывает когда 10% компонента видно
+				}
+			);
+
+			observer.observe(actualSection);
+
+			return () => {
+				observer.disconnect();
+			};
+		}
+	});
 
 	const sendToCart = async (id) => {
 		if (browser && localStorage.getItem('inCart') === null) {
@@ -924,7 +956,7 @@
 	];
 </script>
 
-<div class="bg-white">
+<div class="bg-white" bind:this={actualSection}>
 	<div class="mx-auto max-w-2xl py-8 px-4 sm:py-12 sm:px-6 lg:max-w-full lg:px-8">
 		<h1 class="py-4 text-3xl md:text-5xl text-center font-bold tracking-tight text-gray-900">
 			Cтройматериалы в Дзержинске по низким ценам
