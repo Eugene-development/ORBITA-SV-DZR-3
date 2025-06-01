@@ -163,8 +163,6 @@
 	</div>
 </section>
 
-<Tinting />
-
 <Swiper
 	modules={[Pagination, Scrollbar, A11y, Autoplay]}
 	autoplay={{ delay: 6000 }}
@@ -176,6 +174,8 @@
 		<SwiperSlide><MonthProduct {dataSlider} /></SwiperSlide>
 	{/each}
 </Swiper>
+
+<Tinting />
 
 <!-- <ActionProduct /> -->
 <!-- <Hero /> -->

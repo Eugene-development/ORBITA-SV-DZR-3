@@ -10,38 +10,42 @@
 			class="mx-auto max-w-2xl px-4 pb-24 pt-16 sm:px-6 sm:pb-32 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8 lg:pt-32"
 		>
 			<div class="lg:col-start-2">
-				<h2 id="features-heading" class="font-medium text-gray-500">Leatherbound Daily Journal</h2>
-				<p class="mt-4 text-4xl font-bold tracking-tight text-gray-900">All in the Details</p>
+				<h2 id="features-heading" class="font-medium text-gray-500">Колеровка красок</h2>
+				<p class="mt-4 text-4xl font-bold tracking-tight text-gray-900">
+					Идеальный цвет для вашего интерьера
+				</p>
 				<p class="mt-4 text-gray-500">
-					We've obsessed over every detail of this handcrafted journal to bring you the best
-					materials for daily use.
+					Мы предлагаем профессиональную колеровку красок, которая позволит вам подобрать идеальный
+					оттенок для вашего интерьера или экстерьера.
 				</p>
 
 				<dl class="mt-10 grid grid-cols-1 gap-x-8 gap-y-10 text-sm sm:grid-cols-2">
 					<div>
-						<dt class="font-medium text-gray-900">Durable</dt>
+						<dt class="font-medium text-gray-900">Точность оттенков</dt>
 						<dd class="mt-2 text-gray-500">
-							The leather cover and machined steel disc binding stand up to daily use for years to
-							come.
+							Современное оборудование гарантирует точное соответствие выбранному цвету по
+							каталогам.
 						</dd>
 					</div>
 					<div>
-						<dt class="font-medium text-gray-900">Refillable</dt>
+						<dt class="font-medium text-gray-900">Широкий выбор</dt>
 						<dd class="mt-2 text-gray-500">
-							Buy it once and refill as often as you need. Subscribe and save on routine refills.
+							Тысячи оттенков для внутренних и фасадных работ, матовые и глянцевые покрытия на любой
+							вкус.
 						</dd>
 					</div>
 					<div>
-						<dt class="font-medium text-gray-900">Thoughtfully designed</dt>
+						<dt class="font-medium text-gray-900">Профессиональный подход</dt>
 						<dd class="mt-2 text-gray-500">
-							The comfortable disc binding allows you to quickly rearrange pages or combine lined,
-							graph, and blank refills.
+							Наши специалисты помогут подобрать оптимальный вариант с учетом особенностей помещения
+							и освещения.
 						</dd>
 					</div>
 					<div>
-						<dt class="font-medium text-gray-900">Locally made</dt>
+						<dt class="font-medium text-gray-900">Быстрое исполнение</dt>
 						<dd class="mt-2 text-gray-500">
-							Responsibly and sustainably made real close to wherever you are, somehow.
+							Колеровка выполняется в течение короткого времени с использованием современного
+							оборудования.
 						</dd>
 					</div>
 				</dl>

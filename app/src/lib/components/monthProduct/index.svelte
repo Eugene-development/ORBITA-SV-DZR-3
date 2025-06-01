@@ -30,10 +30,10 @@
 		</h3>
 	</div>
 </div> -->
-<div class="relative mt-2 overflow-hidden bg-white border-t-8 border-gray-200 ">
+<div class="relative my-8  overflow-hidden bg-white border-t-8 border-gray-100 ">
 	<div class=" mx-auto max-w-full">
 		<div
-			class="pl-2 lg:pl-8 relative z-10 bg-gray-200 pb-8 sm:pb-8 md:pb-10 lg:pb-12 xl:pb-16 lg:w-full lg:max-w-3xl "
+			class="pl-2 lg:pl-8 relative z-10 bg-gray-100 py-8 sm:py-8 md:py-10 lg:py-12 xl:py-16 lg:w-full lg:max-w-3xl "
 		>
 			<svg
 				class="absolute inset-y-0 right-0 hidden h-full w-40 translate-x-1/2 transform text-white lg:block"
@@ -49,7 +49,7 @@
 				<div class="relative px-4 pt-2 sm:px-6 lg:px-8" />
 			</div>
 
-			<main class="mx-auto mt-10 max-w-7xl px-4 lg:px-8 sm:mt-8 sm:px-6 md:mt-10 lg:mt-6 xl:mt-12 ">
+			<main class="mx-auto py-12 max-w-7xl px-4 lg:px-8  ">
 				<div class="sm:text-center lg:text-left">
 					<span class="text-2xl font-bold tracking-tight text-gray-900 sm:text-2xl md:text-2xl">
 						<span class="block xl:inline">{dataSlider.action}</span> <br />
@@ -116,7 +116,7 @@
 	</div>
 	<div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
 		<img
-			class="pt-0.5 h-56 w-full object-contain sm:h-56 md:h-72 lg:h-full lg:w-full hidden xl:block"
+			class="py-4 h-56 w-full object-contain sm:h-56 md:h-72 lg:h-full lg:w-full hidden xl:block"
 			src={dataSlider.img}
 			alt={dataSlider.action}
 		/>
