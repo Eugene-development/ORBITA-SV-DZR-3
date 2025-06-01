@@ -1,4 +1,11 @@
 const actions = [
+	// {
+	// 	id: '',
+	// 	action: 'Колеровка краски',
+	// 	price: '',
+	// 	link: '',
+	// 	img: 'https://kraskinadom.ru/upload/iblock/ee9/ee9c85bc7802a99355edbaa788f959be.jpg'
+	// },
 	{
 		id: '1483',
 		action: 'Арматура композитная АСК-6 мм (100м.п.)',

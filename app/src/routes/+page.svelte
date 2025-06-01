@@ -6,6 +6,7 @@
 	import Message from '$lib/components/message/index.svelte';
 	import Article from '$lib/components/article/index.svelte';
 	import Holiday from '$lib/components/holiday/index.svelte';
+	import Tinting from '$lib/components/tinting/index.svelte';
 
 	// Import Swiper
 	import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
@@ -161,6 +162,9 @@
 		</div> -->
 	</div>
 </section>
+
+<Tinting />
+
 <Swiper
 	modules={[Pagination, Scrollbar, A11y, Autoplay]}
 	autoplay={{ delay: 6000 }}
@@ -172,6 +176,7 @@
 		<SwiperSlide><MonthProduct {dataSlider} /></SwiperSlide>
 	{/each}
 </Swiper>
+
 <!-- <ActionProduct /> -->
 <!-- <Hero /> -->
 <!-- <Actual {...data.contentActions} /> -->
