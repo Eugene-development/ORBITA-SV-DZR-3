@@ -1,6 +1,19 @@
 <script>
+	import { onMount } from 'svelte';
+	import { browser } from '$app/environment';
+
 	/** @type {import('./$types').PageData} */
 	export let data;
+
+	onMount(() => {
+		if (browser) {
+			// Отправляем цель в Яндекс Метрику при посещении страницы rubric
+			if (window.ym) {
+				window.ym(82181533, 'reachGoal', 'rubric_page_visited');
+				console.log('Яндекс Метрика: цель rubric_page_visited достигнута');
+			}
+		}
+	});
 </script>
 
 <svelte:head>
