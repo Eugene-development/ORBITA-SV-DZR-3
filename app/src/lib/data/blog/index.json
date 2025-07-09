@@ -59,6 +59,66 @@
 			"avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
 			"author": "Евгений Че",
 			"date": "12 октября, 2024"
+		},
+		{
+			"id": 7,
+			"img": "https://www.starateli.ru/images/ckeditor/2021/06/02/shukaturka_title.jpg",
+			"alt": "",
+			"title": "Секреты применения штукатурки",
+			"description": "Штукатурка – это один из важнейших этапов отделочных работ, от качества выполнения которого зависит долговечность и эстетичный вид всего помещения...",
+			"avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+			"author": "Евгений Че",
+			"date": "15 января, 2025"
+		},
+		{
+			"id": 8,
+			"img": "https://stroykan.com.ua/image/catalog/1-2/shpaklevka-vidy-i-tonkosti-naneseniya.jpg",
+			"alt": "",
+			"title": "Шпаклёвка. Материалы и способы нанесения",
+			"description": "Шпаклёвка является завершающим этапом выравнивания поверхностей перед финишной отделкой. От правильного выбора материала и техники нанесения зависит качество всех последующих работ...",
+			"avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+			"author": "Евгений Че",
+			"date": "25 января, 2025"
+		},
+		{
+			"id": 9,
+			"img": "https://bck.superrielt.ru/images/upload/59131dd0a0c34.jpg",
+			"alt": "",
+			"title": "Системы канализации: материалы и технологии монтажа",
+			"description": "Надёжная канализационная система является основой комфорта в любом здании. От правильного выбора материалов и качества монтажа зависит долговечность, бесперебойная работа...",
+			"avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+			"author": "Евгений Че",
+			"date": "5 февраля, 2025"
+		},
+		{
+			"id": 10,
+			"img": "https://pochemychki.com.ua/wp-content/uploads/2025/04/1-1-31.webp",
+			"alt": "",
+			"title": "Электротовары: выбор, монтаж и безопасность",
+			"description": "Электроснабжение современного дома требует качественных материалов и компонентов. От правильного выбора электротоваров зависит не только функциональность системы, но и безопасность...",
+			"avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+			"author": "Евгений Че",
+			"date": "15 мая, 2025"
+		},
+		{
+			"id": 11,
+			"img": "https://stroymat-opt.ru/wp-content/uploads/2020/05/3-53.jpg",
+			"alt": "",
+			"title": "Листовые материалы в строительстве: виды, характеристики и применение",
+			"description": "Листовые материалы играют ключевую роль в современном строительстве и отделке. Они позволяют быстро создавать ровные поверхности, возводить перегородки, выполнять обшивку...",
+			"avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+			"author": "Евгений Че",
+			"date": "20 июня, 2025"
+		},
+		{
+			"id": 12,
+			"img": "https://stroitesnami.com/userfls/clauses/large/2006_stroitelnye-bloki-i-kirpi.jpg",
+			"alt": "",
+			"title": "Блоки и кирпичи: выбор материалов для качественной кладки",
+			"description": "Блоки и кирпичи являются основными материалами для возведения стен в современном строительстве. От правильного выбора зависят прочность, долговечность, энергоэффективность...",
+			"avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+			"author": "Евгений Че",
+			"date": "8 июля, 2025"
 		}
 	]
 }
