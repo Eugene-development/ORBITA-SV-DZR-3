@@ -148,7 +148,7 @@
 								<li class="flow-root">
 									<a
 										class="-m-3 flex items-center rounded-md py-2 text-base font-medium text-gray-900"
-										href="/information/partner/yurlica"
+										href="/information/partner"
 									>
 										<!-- Heroicon name: information-circle -->
 										<svg
