@@ -53,7 +53,7 @@
 				</p>
 			</div>
 			<div
-				class="absolute inset-y-0 right-0 flex items-start pt-1 pr-1 sm:items-start sm:pt-1 sm:pr-2"
+				class="absolute hidden md:block inset-y-0 right-0  items-start pt-1 pr-1 sm:items-start sm:pt-1 sm:pr-2"
 			>
 				<iframe
 					src="https://yandex.ru/sprav/widget/rating-badge/1263170947?type=rating&theme=dark"
