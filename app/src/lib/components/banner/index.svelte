@@ -55,13 +55,18 @@
 			<div
 				class="absolute inset-y-0 right-0 flex items-start pt-1 pr-1 sm:items-start sm:pt-1 sm:pr-2"
 			>
-				<button
+				<iframe
+					src="https://yandex.ru/sprav/widget/rating-badge/1263170947?type=rating&theme=dark"
+					width="150"
+					height="30"
+					frameborder="0"
+				/>
+				<!-- <button
 					type="button"
 					on:click={() => banner.update(invertToFalse)}
 					class="flex rounded-md p-2 hover:bg-red-500 focus:outline-none focus:ring-2 focus:ring-white"
 				>
 					<span class="sr-only">Dismiss</span>
-					<!-- Heroicon name: outline/x -->
 					<svg
 						class="h-3 w-3 text-white"
 						xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +78,7 @@
 					>
 						<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
 					</svg>
-				</button>
+				</button> -->
 			</div>
 		</div>
 	</div>

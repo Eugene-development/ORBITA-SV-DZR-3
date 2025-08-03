@@ -145,7 +145,7 @@
 						</button>
 					</div>
 
-					<button
+					<!-- <button
 						class="ml-8 flex-shrink-0 rounded-full bg-red-700 p-1 text-gray-50 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
 						type="button"
 					>
@@ -165,7 +165,7 @@
 								stroke-width="2"
 							/>
 						</svg>
-					</button>
+					</button> -->
 
 					<!-- Profile dropdown -->
 					<div class="relative ml-4 flex-shrink-0">
