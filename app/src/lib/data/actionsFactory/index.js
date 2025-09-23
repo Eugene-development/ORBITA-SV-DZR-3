@@ -39,13 +39,13 @@ const actions = [
 		action: 'Утеплитель ТехновентСтандарт 1200х600×50 (0,216м3)',
 		price: '2704',
 		unit: 'шт',
-		img: 'https://khabarovsk.tstn.ru/upload/resize_cache/iblock/58b/fgl7cowejx9uh083qf5xc1zi0i4418dl/1200_1200_140cd750bba9870f18aada2478b24840a/469115_1.jpg'
+		img: 'https://avatars.mds.yandex.net/i?id=dc13b96de0b04d8b570bebda7ea816ff_l-4576013-images-thumbs&n=13'
 	},
 	{
 		action: 'Утеплитель ТехновентСтандарт 1200х600×50 (0,288м3)',
 		price: '3600',
 		unit: 'шт',
-		img: 'https://img.abc.lv/infopage/photos/b/4/kompanija-avotini-sia_b4tlb_006_2000x1500.jpg'
+		img: 'https://avatars.mds.yandex.net/i?id=dc13b96de0b04d8b570bebda7ea816ff_l-4576013-images-thumbs&n=13'
 	},
 	{
 		action: 'УтеплительТЕХНОБЛОК СТАНДАРТ 1.2х0.6х50мм(0.288м3)',
@@ -63,19 +63,19 @@ const actions = [
 		action: 'Мастика битумная AquaMast для фундамента (18кг)',
 		price: '2650',
 		unit: 'шт',
-		img: 'https://www.tstn.ru/upload/iblock/8fc/cv1z02qlz7fb2ufeg01pkjp317zy5pmi/393547_1.jpg'
+		img: 'https://color16.ru/upload/iblock/5e1/4oj5c6i45y4142916l39nitfwc41dmiw.jpg'
 	},
 	{
 		action: 'Мастика битумная-рез. AquaMast для кровли (10кг)',
 		price: '1924',
 		unit: 'шт',
-		img: 'https://www.tstn.ru/upload/iblock/6d0/393548_1.jpg'
+		img: 'https://img.promportal.su/foto/good_fotos/645/6453055/mastika-bitumnaya-aquamast-dlya-krovli-vedro-10-kg_foto_largest.jpg'
 	},
 	{
 		action: 'Мастика битумная-рез. AquaMast для кровли (18кг)',
 		price: '2933',
 		unit: 'шт',
-		img: 'https://tstn.ru/upload/iblock/8fc/cv1z02qlz7fb2ufeg01pkjp317zy5pmi/393547_1.jpg'
+		img: 'https://img.promportal.su/foto/good_fotos/645/6453055/mastika-bitumnaya-aquamast-dlya-krovli-vedro-10-kg_foto_largest.jpg'
 	},
 	{
 		action: 'Линокром ТКП сланец серый',
@@ -99,7 +99,7 @@ const actions = [
 		action: 'Стеклоизол ТПП 10м',
 		price: '1130',
 		unit: 'шт',
-		img: 'https://www.tstn.ru/upload/iblock/49e/225890_1.jpg'
+		img: 'https://avatars.mds.yandex.net/get-mpic/5283122/2a00000194692667297df5fe41e1c8ecf4c5/orig'
 	},
 	{
 		action: 'Стеклоизол ХКП 3,5 10м гранулят',
@@ -111,7 +111,7 @@ const actions = [
 		action: 'Черепица гибкая ТЕХНОНИКОЛЬ ОПТИМА Коричневый 3м2',
 		price: '1320',
 		unit: 'шт',
-		img: 'https://tstn.ru/upload/iblock/929/678533_1.jpg'
+		img: 'https://avatars.mds.yandex.net/get-marketpic/5115066/pic650aa04f259f04a8f9e15385546ce2a2/orig'
 	}
 
 	// {
