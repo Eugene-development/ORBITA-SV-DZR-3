@@ -53,13 +53,17 @@
 				</p>
 			</div>
 			<div
-				class="absolute hidden md:block inset-y-0 right-0  items-start pt-1 pr-1 sm:items-start sm:pt-1 sm:pr-2"
+				class="absolute hidden md:block inset-y-0 right-0  items-start pt-1 pr-1 sm:items-start sm:pt-1 sm:pr-2 overflow-hidden"
 			>
 				<iframe
 					src="https://yandex.ru/sprav/widget/rating-badge/1263170947?type=rating&theme=dark"
 					width="150"
 					height="30"
 					frameborder="0"
+					scrolling="no"
+					loading="lazy"
+					title="Yandex rating badge"
+					style="border:0; overflow:hidden; display:block;"
 				/>
 				<!-- <button
 					type="button"
