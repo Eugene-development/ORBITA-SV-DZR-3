@@ -1,7 +1,7 @@
 const catalog = [
 	{
 		id: 1,
-		name: 'Стройматериалы',
+		name: 'Материалы',
 		slug: 'stroymaterialy'
 	},
 	{
