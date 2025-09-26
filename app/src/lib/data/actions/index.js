@@ -7,40 +7,47 @@ const actions = [
 	// 	img: 'https://kraskinadom.ru/upload/iblock/ee9/ee9c85bc7802a99355edbaa788f959be.jpg'
 	// },
 	{
+		id: '1173',
+		action: 'Арматура рифленая А 500 С 8*6000',
+		price: '174',
+		link: '/shop/product/armatura-riflenaya-a-500-s-85850',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/arm_d8-700x700.jpg'
+	},
+	{
 		id: '1483',
 		action: 'Арматура композитная АСК-6 мм (100м.п.)',
-		price: '13',
+		price: '15',
 		link: '/shop/product/armatura-stekloplastikovaya-kompozitnaya-ask-6-mm-50-mp',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/49684fae-dba7-11e5-a26c-1867b054bc98_7550deb3-7beb-11e6-a067-000c29378178.resize1.png'
 	},
 	{
 		id: '2978',
 		action: 'БИОТЕКС мореный дуб 2,7л',
-		price: '1215',
+		price: '1210',
 		link: '/shop/product/biot-ie-ks-morienyi-dub-2-7-l',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/7ca2da74-175b-4361-825a-343837a62fa3.webp'
 	},
 	{
 		id: '347',
-		action: 'Газобетонный блок "Poritep" 625*100*250мм (0,016м3)',
-		price: '135',
+		action: 'Газобетонный блок "Poritep" 625*75*250мм (0,016м3)',
+		price: '92',
 		link: '/shop/product/gazobetonnyi-blok-poritep-625100250-0016m3',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/hExr43D7fAdC1mXJMcQZP6eRurZ6GN45uSkzVApO.png'
 	},
 	{
 		id: '2979',
 		action: 'Геотекстиль Изолайк GEO 150мкм 40м2',
-		price: '1620',
+		price: '1440',
 		link: '/shop/product/gieotiekstil-izolaik-geo-150mkm-40m2',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/364e236ac986b82bb9be731b85a49c43.jpg'
 	},
-	{
-		id: '2980',
-		action: 'Грунт-эмаль по ржавчине серая 1,8кг ЦАРИЦЫНО',
-		price: '486',
-		link: '/shop/product/grunt-emal-po-rzhavchinie-sieraia-1-8kgh-ts-ari-ts-yno',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/320_original.jpg'
-	},
+	// {
+	// 	id: '2980',
+	// 	action: 'Грунт-эмаль по ржавчине серая 1,8кг ЦАРИЦЫНО',
+	// 	price: '486',
+	// 	link: '/shop/product/grunt-emal-po-rzhavchinie-sieraia-1-8kgh-ts-ari-ts-yno',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/320_original.jpg'
+	// },
 	{
 		id: '200',
 		action: 'Доска обрезная обработанная',
