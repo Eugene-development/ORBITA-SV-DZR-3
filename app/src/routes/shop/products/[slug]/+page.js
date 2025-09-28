@@ -6,7 +6,7 @@ export async function load({ data }) {
 	const { category } = data;
 	const title =
 		data.category.category_one.value +
-		' по ценам ниже конкурентов. Купите товар "' +
+		' по ценам ниже конкурентов. Купите "' +
 		data.category.category_one.value +
 		'" в Дзержинске с нашего склада.';
 	const description =

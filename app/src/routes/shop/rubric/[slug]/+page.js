@@ -4,7 +4,7 @@ import { pageH1 } from '$lib/store/stores.js';
 export async function load({ data }) {
 	const { catalog } = data;
 	const title =
-		"База строительных материалов 'Орбита-Строй' | Купите товар " +
+		"База строительных материалов 'Орбита-Строй' | Купите " +
 		data.catalog.catalog_one.value +
 		' по низкой цене в Дзержинске';
 	const description =

@@ -92,8 +92,8 @@
 				{data.rubric.rubric_one.value}
 			</h1>
 			<p class="max-w-3xl text-xl mx-auto text-slate-800">
-				Купите товар "{data.rubric.rubric_one.value}" в Дзержинске по низкой цене с доставкой или
-				самовывозом с нашего склада
+				{data.rubric.rubric_one.value} в Дзержинске по низкой цене с доставкой или самовывозом с нашего
+				склада
 			</p>
 		</div>
 	</div>
