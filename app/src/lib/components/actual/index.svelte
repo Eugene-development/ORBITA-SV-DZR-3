@@ -69,6 +69,14 @@
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TG40-WHITE.png'
 		},
 		{
+			id: '435',
+			action: 'ШТУКАТУРНАЯ СМЕСЬ "ЕК" TТ 50 ФАСАДНАЯ (25 КГ)',
+			price: '387',
+			unit: 'шт',
+			link: '/shop/product/stukaturnaya-smes-ek-tt-50-fasadnaya-25-kg',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TT50.png'
+		},
+		{
 			id: '436',
 			action: 'Штукатурная смесь "Кнауф Ротбанд" белая (30 кг)',
 			price: '498',
@@ -78,7 +86,7 @@
 		},
 		{
 			id: '450',
-			action: 'Шпаклевка "ек" vh-80 фасадная белая (20 кг)',
+			action: 'Шпаклевка "EK" VH-80 фасадная белая (20 кг)',
 			price: '619',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/spaklevka-ek-vh-80-fasadnaya-belaya-20-kg',
@@ -95,11 +103,20 @@
 		},
 		{
 			id: '1488',
-			action: 'Клей для плитки "Вебер Ветонит" изи фикс (25 кг)',
+			action: 'Клей для плитки "Вебер Ветонит" Изи Фикс (25 кг)',
 			price: '412',
 			unit: 'шт',
 			link: '/shop/product/klei-dlya-plitki-veber-vetonit-izi-fiks-25-kg',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/c6e735aa_ef65_11e1_83b4_003048c9267c_91b621ee_c52b_11e3_ad43_003048c9267c.jpeg'
+		},
+		{
+			id: '315',
+			action: 'Клей для плитки эластичный "Церезит СМ 16" (25 кг)',
+			price: '1275',
+			unit: 'шт',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/klei-dlya-plitki-elasticnyi-cerezit-sm-16-25-kg',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%81%D0%BC16.jpeg'
 		},
 		{
 			id: '954',
@@ -112,11 +129,35 @@
 		},
 		{
 			id: '2810',
-			action: 'Цемент м500 Евроцемент 40 кг',
+			action: 'Цемент М500 Евроцемент 40 кг',
 			price: '440',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/cement-m500-evrocement-40-kg',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/AdAW50jMkTFDo4nUhEaxZUdxUkShNu2kf6HS4cMo.png'
+		},
+		{
+			id: '2810',
+			action: 'Цемент М500 Евроцемент 40 кг',
+			price: '440',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/cement-m500-evrocement-40-kg',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/AdAW50jMkTFDo4nUhEaxZUdxUkShNu2kf6HS4cMo.png'
+		},
+		{
+			id: '2804',
+			action: 'Клей для плитки "Юнис Гранит" (25кг)',
+			price: '750',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/klei-dlya-plitki-yunis-granit',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/mWb8GjYf8j2yrX91WbX9LXuiVyQhfomCgRKupTjI.png'
+		},
+		{
+			id: '2965',
+			action: 'Клей для плитки "UNIS" 3000 мах толстослоиный (25 кг)',
+			price: '395',
+			unit: 'шт',
+			link: '/shop/product/kliei-dlia-plitki-iunis-3000-ma-kh-tolstosloinyi-25-kgh',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/0fc66aadfde42ad46846c2aa065c6c2a.jpg'
 		}
 
 		// {
@@ -323,14 +364,6 @@
 		// 	link: '/shop/product/klei-dlya-plitki-ek-3000-25kg',
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-3000-UNIVERSAL.png'
 		// },
-		// {
-		// 	id: '2965',
-		// 	action: 'Клей для плитки "UNIS" 3000 мах толстослоиный (25 кг)',
-		// 	price: '390',
-		// 	unit: 'шт',
-		// 	link: '/shop/product/kliei-dlia-plitki-iunis-3000-ma-kh-tolstosloinyi-25-kgh',
-		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/0fc66aadfde42ad46846c2aa065c6c2a.jpg'
-		// },
 
 		// {
 		// 	id: '522',
@@ -490,15 +523,6 @@
 		// 	description: 'При заказе через сайт дополнительная скидка 5%',
 		// 	link: '/shop/product/pena-pistoletnaya-kudo-home-65-vsesezonnaya',
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/96cddb9d3879573617bbb8e8fdccfc3b.jpg'
-		// },
-		// {
-		// 	id: '315',
-		// 	action: 'Клей для плитки эластичный "Церезит СМ 16" (25 кг)',
-		// 	price: '1173',
-		// 	unit: 'шт',
-		// 	description: 'При заказе через сайт дополнительная скидка 5%',
-		// 	link: '/shop/product/klei-dlya-plitki-elasticnyi-cerezit-sm-16-25-kg',
-		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%81%D0%BC16.jpeg'
 		// },
 		// {
 		// 	id: '436',
