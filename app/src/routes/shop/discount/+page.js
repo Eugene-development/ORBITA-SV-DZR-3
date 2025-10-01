@@ -120,6 +120,14 @@ export async function load() {
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/m150-500x500.png',
 			href: '/shop/product/smes-suxaya-universalnaya-m-150-25-kg',
 			unit: 'шт.'
+		},
+		{
+			id: '534',
+			value: 'Грунтовка для впитывающих оснований "Церезит" CT 17" (10 л)',
+			price: '1245',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/5.png',
+			href: '/shop/product/gruntovka-dlya-vpityvayushhix-osnovanii-cerezit-st-17-10-l',
+			unit: 'шт.'
 		}
 
 		// {
@@ -263,14 +271,6 @@ export async function load() {
 		// 	href: '/shop/product/nalivnoi-pol-samovyravnivayushhiisya-cerezit-cn-175-25-kg',
 		// 	unit: 'шт.'
 		// },
-		// {
-		// 	id: '534',
-		// 	value: 'Грунтовка для впитывающих оснований "Церезит" CT 17" (10 л)',
-		// 	price: '1020',
-		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/5.png',
-		// 	href: '/shop/product/gruntovka-dlya-vpityvayushhix-osnovanii-cerezit-st-17-10-l',
-		// 	unit: 'шт.'
-		// }
 		// {
 		// 	id: '1543',
 		// 	value: 'ГКЛВ "Кнауф" 9,5мм (1,2х2,5)',

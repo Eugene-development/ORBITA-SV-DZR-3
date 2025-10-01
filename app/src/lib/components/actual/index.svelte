@@ -60,62 +60,10 @@
 			link: '/shop/product/plita-osb-3-250012509mm-Kronospan-gost-vlagostoikaya',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/ilejI7dCV3zr72h4VudvlNrQLKBgHsrYwKd1HoAL.jpeg'
 		},
-
-		{
-			id: '306',
-			action: 'Клей д/пенополистерола ЕК THERMEX 25 кг.',
-			price: '509',
-			unit: 'шт',
-			link: '/shop/product/klei-dlya-penopolistirola-ek-thermex-25-kg',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-THERMEX.png'
-		},
-		{
-			id: '314',
-			action:
-				'Клей для плитки и керамогранита "Церезит" см 14 extra" для улицы и теплых полов (25 кг)',
-			price: '816',
-			unit: 'шт',
-			description: 'При заказе через сайт дополнительная скидка 5%',
-			link: '/shop/product/klei-dlya-plitki-i-keramogranita-cerezit-sm-14-extra-dlya-ulicy-i-teplyx-polov-25-kg',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%81%D0%BC14.jpg'
-		},
-		{
-			id: '1488',
-			action: 'Клей для плитки "Вебер Ветонит" изи фикс (25 кг)',
-			price: '387',
-			unit: 'шт',
-			link: '/shop/product/klei-dlya-plitki-veber-vetonit-izi-fiks-25-kg',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/c6e735aa_ef65_11e1_83b4_003048c9267c_91b621ee_c52b_11e3_ad43_003048c9267c.jpeg'
-		},
-		{
-			id: '2964',
-			action: 'Клей кладочно-монтажный Юнис Униблок 25кг',
-			price: '440',
-			unit: 'шт',
-			link: '/shop/product/kliei-kladochno-montazhnyi-iunis-uniblok-25kgh',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/jf31dasaxfs1y2c2a9u1cm6wmqaja7l5.jpg'
-		},
-		{
-			id: '1543',
-			action: 'Гклв "Кнауф" даногипс 9,5мм (1,2х2,5)',
-			price: '514',
-			description: 'При заказе через сайт дополнительная скидка 5%',
-			link: '/shop/product/gklv-knauf-danogips-95mm-12x25',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/D2JsbwgeZcA0z4OLW242TuXbW5KFsDYQMR59VFSE.jpeg'
-		},
-		{
-			id: '261',
-			action: 'ГВЛВ "Кнауф" 10 мм (1200*2500)',
-			price: '768',
-			unit: 'шт',
-			description: 'При заказе через сайт дополнительная скидка 5%',
-			link: '/shop/product/gvlv-knauf-10-mm-12002500',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B3%D0%B2%D0%BB.jpg'
-		},
 		{
 			id: '432',
 			action: 'Штукатурная смесь "ЕК" TG 40 (30кг) white',
-			price: '460',
+			price: '458',
 			unit: 'шт',
 			link: '/shop/product/stukaturnaya-smes-ek-tg-40-waite-30-kg',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TG40-WHITE.png'
@@ -129,45 +77,131 @@
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/020_original.jpg'
 		},
 		{
-			id: '2075',
-			action: 'Штукатурная смесь минерал. СТ35/25 2,5мм (короед)',
-			price: '1206',
-			unit: 'шт',
-			link: '/shop/product/stukaturnaya-smes-st-35',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/hGIz35zZFRVuMASmVghNtnlN968MtwJZoRu9cNK2.jpg'
+			id: '450',
+			action: 'Шпаклевка "ек" vh-80 фасадная белая (20 кг)',
+			price: '619',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/spaklevka-ek-vh-80-fasadnaya-belaya-20-kg',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-VH80.png'
 		},
 		{
-			id: '534',
-			action: 'Грунтовка для впит,основ "Церезит СТ 17" ЗИМА 10л.',
-			price: '1098',
+			id: '473',
+			action: 'Пескобетон м-300 (25 кг) Престиж',
+			price: '162',
 			unit: 'шт',
-			link: '/shop/product/gruntovka-dlya-vpityvayushhix-osnovanii-cerezit-st-17-10-l',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/5.png'
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/peskobeton-m-300-25-kg',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BF%D0%B5%D1%81.jpg'
 		},
 		{
-			id: '1944',
-			action: 'ДВП 1220*2440*3.2',
-			price: '196',
+			id: '1488',
+			action: 'Клей для плитки "Вебер Ветонит" изи фикс (25 кг)',
+			price: '412',
 			unit: 'шт',
-			link: '/shop/product/dvp-1220244032',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/W6E3RBdh7ybngPyTwrWYkc2WUh5P9ZDOUIT3iK4t.jpg'
+			link: '/shop/product/klei-dlya-plitki-veber-vetonit-izi-fiks-25-kg',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/c6e735aa_ef65_11e1_83b4_003048c9267c_91b621ee_c52b_11e3_ad43_003048c9267c.jpeg'
 		},
 		{
-			id: '1548',
-			action: 'ПП 60/27 "Кнауф" (3м) (12)',
-			price: '333',
+			id: '954',
+			action: 'Бетонконтакт "CERESIT CT 19" (15 кг)',
+			price: '1920',
 			unit: 'шт',
-			link: '/shop/product/profil-potolocnyi-knauf-6027-tolshh-06-mm-3-m',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/fP6qERpplBYG9CRXINoXc23B3VBR8wQoH6W80cGC.jpeg'
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/betonkontakt-cerezit-st-19-15-kg',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/betonokontakt_ceresit_st19_5_l.jpg'
 		},
 		{
-			id: '2961',
-			action: 'ПН 27*28*3000 "Кнауф" (16)',
-			price: '227',
-			unit: 'шт',
-			link: '/shop/product/knauf-profil-napravlaushii-27x28',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/profil-potolochnyj-napravlyayuschij-knauf-27h28-izomaxx-1000x1000.png'
+			id: '2810',
+			action: 'Цемент м500 Евроцемент 40 кг',
+			price: '440',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/cement-m500-evrocement-40-kg',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/AdAW50jMkTFDo4nUhEaxZUdxUkShNu2kf6HS4cMo.png'
 		}
+
+		// {
+		// 	id: '306',
+		// 	action: 'Клей д/пенополистерола ЕК THERMEX 25 кг.',
+		// 	price: '509',
+		// 	unit: 'шт',
+		// 	link: '/shop/product/klei-dlya-penopolistirola-ek-thermex-25-kg',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-THERMEX.png'
+		// },
+		// {
+		// 	id: '314',
+		// 	action:
+		// 		'Клей для плитки и керамогранита "Церезит" см 14 extra" для улицы и теплых полов (25 кг)',
+		// 	price: '816',
+		// 	unit: 'шт',
+		// 	description: 'При заказе через сайт дополнительная скидка 5%',
+		// 	link: '/shop/product/klei-dlya-plitki-i-keramogranita-cerezit-sm-14-extra-dlya-ulicy-i-teplyx-polov-25-kg',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%81%D0%BC14.jpg'
+		// },
+		// {
+		// 	id: '2964',
+		// 	action: 'Клей кладочно-монтажный Юнис Униблок 25кг',
+		// 	price: '440',
+		// 	unit: 'шт',
+		// 	link: '/shop/product/kliei-kladochno-montazhnyi-iunis-uniblok-25kgh',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/jf31dasaxfs1y2c2a9u1cm6wmqaja7l5.jpg'
+		// },
+		// {
+		// 	id: '1543',
+		// 	action: 'Гклв "Кнауф" даногипс 9,5мм (1,2х2,5)',
+		// 	price: '514',
+		// 	description: 'При заказе через сайт дополнительная скидка 5%',
+		// 	link: '/shop/product/gklv-knauf-danogips-95mm-12x25',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/D2JsbwgeZcA0z4OLW242TuXbW5KFsDYQMR59VFSE.jpeg'
+		// },
+		// {
+		// 	id: '261',
+		// 	action: 'ГВЛВ "Кнауф" 10 мм (1200*2500)',
+		// 	price: '768',
+		// 	unit: 'шт',
+		// 	description: 'При заказе через сайт дополнительная скидка 5%',
+		// 	link: '/shop/product/gvlv-knauf-10-mm-12002500',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B3%D0%B2%D0%BB.jpg'
+		// },
+		// {
+		// 	id: '2075',
+		// 	action: 'Штукатурная смесь минерал. СТ35/25 2,5мм (короед)',
+		// 	price: '1206',
+		// 	unit: 'шт',
+		// 	link: '/shop/product/stukaturnaya-smes-st-35',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/hGIz35zZFRVuMASmVghNtnlN968MtwJZoRu9cNK2.jpg'
+		// },
+		// {
+		// 	id: '534',
+		// 	action: 'Грунтовка для впит,основ "Церезит СТ 17" ЗИМА 10л.',
+		// 	price: '1098',
+		// 	unit: 'шт',
+		// 	link: '/shop/product/gruntovka-dlya-vpityvayushhix-osnovanii-cerezit-st-17-10-l',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/5.png'
+		// },
+		// {
+		// 	id: '1944',
+		// 	action: 'ДВП 1220*2440*3.2',
+		// 	price: '196',
+		// 	unit: 'шт',
+		// 	link: '/shop/product/dvp-1220244032',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/W6E3RBdh7ybngPyTwrWYkc2WUh5P9ZDOUIT3iK4t.jpg'
+		// },
+		// {
+		// 	id: '1548',
+		// 	action: 'ПП 60/27 "Кнауф" (3м) (12)',
+		// 	price: '333',
+		// 	unit: 'шт',
+		// 	link: '/shop/product/profil-potolocnyi-knauf-6027-tolshh-06-mm-3-m',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/fP6qERpplBYG9CRXINoXc23B3VBR8wQoH6W80cGC.jpeg'
+		// },
+		// {
+		// 	id: '2961',
+		// 	action: 'ПН 27*28*3000 "Кнауф" (16)',
+		// 	price: '227',
+		// 	unit: 'шт',
+		// 	link: '/shop/product/knauf-profil-napravlaushii-27x28',
+		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/profil-potolochnyj-napravlyayuschij-knauf-27h28-izomaxx-1000x1000.png'
+		// }
 
 		// {
 		// 	id: '1817',
@@ -193,15 +227,6 @@
 		// 	unit: 'шт',
 		// 	link: '/shop/product/spaklevka-gipsovaya-ek-k-300-20-kg',
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-K300.png'
-		// },
-		// {
-		// 	id: '473',
-		// 	action: 'Пескобетон м-300 (25 кг) Престиж',
-		// 	price: '162',
-		// 	unit: 'шт',
-		// 	description: 'При заказе через сайт дополнительная скидка 5%',
-		// 	link: '/shop/product/peskobeton-m-300-25-kg',
-		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BF%D0%B5%D1%81.jpg'
 		// },
 		// {
 		// 	id: '1501',
@@ -384,15 +409,6 @@
 		// 	description: 'При заказе через сайт дополнительная скидка 5%',
 		// 	link: '/shop/product/linokrom-tkp-slanec-seryi-10-m',
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BB%D0%B8%D0%BD%D0%BE%D0%BA%D1%80%D0%BE%D0%BC.jpg'
-		// },
-		// {
-		// 	id: '954',
-		// 	action: 'Бетонконтакт "CERESIT CT 19" (15 кг)',
-		// 	price: '1732',
-		// 	unit: 'шт',
-		// 	description: 'При заказе через сайт дополнительная скидка 5%',
-		// 	link: '/shop/product/betonkontakt-cerezit-st-19-15-kg',
-		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/betonokontakt_ceresit_st19_5_l.jpg'
 		// },
 		// {
 		// 	id: '2958',
@@ -618,22 +634,6 @@
 		// 	description: 'При заказе через сайт дополнительная скидка 5%',
 		// 	link: '/shop/product/imitaciya-brusa-el-av-185216000',
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/Imitacija-Brusa-copy.jpg'
-		// },
-		// {
-		// 	id: '450',
-		// 	action: 'Шпаклевка "ек" vh-80 фасадная белая (20 кг)',
-		// 	price: '597',
-		// 	description: 'При заказе через сайт дополнительная скидка 5%',
-		// 	link: '/shop/product/spaklevka-ek-vh-80-fasadnaya-belaya-20-kg',
-		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-VH80.png'
-		// },
-		// {
-		// 	id: '2810',
-		// 	action: 'Цемент м500 Евроцемент 40 кг',
-		// 	price: '368',
-		// 	description: 'При заказе через сайт дополнительная скидка 5%',
-		// 	link: '/shop/product/cement-m500-evrocement-40-kg',
-		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/AdAW50jMkTFDo4nUhEaxZUdxUkShNu2kf6HS4cMo.png'
 		// },
 		// {
 		// 	id: '965',
