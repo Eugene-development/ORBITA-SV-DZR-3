@@ -131,6 +131,7 @@
 			id: '2810',
 			action: 'Цемент М500 Евроцемент 40 кг',
 			price: '440',
+			unit: 'шт',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/cement-m500-evrocement-40-kg',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/AdAW50jMkTFDo4nUhEaxZUdxUkShNu2kf6HS4cMo.png'
@@ -139,6 +140,7 @@
 			id: '2810',
 			action: 'Цемент М500 Евроцемент 40 кг',
 			price: '440',
+			unit: 'шт',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/cement-m500-evrocement-40-kg',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/AdAW50jMkTFDo4nUhEaxZUdxUkShNu2kf6HS4cMo.png'
@@ -147,6 +149,7 @@
 			id: '2804',
 			action: 'Клей для плитки "Юнис Гранит" (25кг)',
 			price: '750',
+			unit: 'шт',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/klei-dlya-plitki-yunis-granit',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/mWb8GjYf8j2yrX91WbX9LXuiVyQhfomCgRKupTjI.png'

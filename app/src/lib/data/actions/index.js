@@ -10,6 +10,7 @@ const actions = [
 		id: '1173',
 		action: 'Арматура рифленая А 500 С 8*6000',
 		price: '174',
+		unit: 'шт',
 		link: '/shop/product/armatura-riflenaya-a-500-s-85850',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/arm_d8-700x700.jpg'
 	},
@@ -17,6 +18,7 @@ const actions = [
 		id: '1483',
 		action: 'Арматура композитная АСК-6 мм (100м.п.)',
 		price: '15',
+		unit: 'м.п.',
 		link: '/shop/product/armatura-stekloplastikovaya-kompozitnaya-ask-6-mm-50-mp',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/49684fae-dba7-11e5-a26c-1867b054bc98_7550deb3-7beb-11e6-a067-000c29378178.resize1.png'
 	},
@@ -24,6 +26,7 @@ const actions = [
 		id: '2978',
 		action: 'БИОТЕКС мореный дуб 2,7л',
 		price: '1210',
+		unit: 'шт',
 		link: '/shop/product/biot-ie-ks-morienyi-dub-2-7-l',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/7ca2da74-175b-4361-825a-343837a62fa3.webp'
 	},
@@ -31,6 +34,7 @@ const actions = [
 		id: '347',
 		action: 'Газобетонный блок "Poritep" 625*75*250мм (0,016м3)',
 		price: '92',
+		unit: 'шт',
 		link: '/shop/product/gazobetonnyi-blok-poritep-625100250-0016m3',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/hExr43D7fAdC1mXJMcQZP6eRurZ6GN45uSkzVApO.png'
 	},
@@ -38,6 +42,7 @@ const actions = [
 		id: '2979',
 		action: 'Геотекстиль Изолайк GEO 150мкм 40м2',
 		price: '1440',
+		unit: 'шт',
 		link: '/shop/product/gieotiekstil-izolaik-geo-150mkm-40m2',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/364e236ac986b82bb9be731b85a49c43.jpg'
 	},
@@ -52,6 +57,7 @@ const actions = [
 		id: '200',
 		action: 'Доска обрезная обработанная',
 		price: '19000',
+		unit: 'м3',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/shop/products/doska-obreznaya-obrabotannaya',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B4%D0%BE%D1%81%D0%BA%D0%B0.jpg'
