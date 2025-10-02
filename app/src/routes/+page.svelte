@@ -162,6 +162,7 @@
 		</div> -->
 	</div>
 </section>
+<Actual />
 
 <Swiper
 	modules={[Pagination, Scrollbar, A11y, Autoplay]}
@@ -180,7 +181,6 @@
 <!-- <ActionProduct /> -->
 <!-- <Hero /> -->
 <!-- <Actual {...data.contentActions} /> -->
-<Actual />
 <!-- <MonthProduct /> -->
 <!-- <Slider /> -->
 <Testimonials />
