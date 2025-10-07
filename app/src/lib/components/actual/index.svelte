@@ -85,6 +85,14 @@
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/020_original.jpg'
 		},
 		{
+			id: '2981',
+			action: 'Штукатурка КНАУФ ДИАМАНТ КОРОЕД 2,5 мм (25 кг)',
+			price: '590',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/shtukaturka-knauf-diamant-koroed-25-mm-25-kg',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/knauf-koroed-870x664.jpg'
+		},
+		{
 			id: '450',
 			action: 'Шпаклевка "EK" VH-80 фасадная белая (20 кг)',
 			price: '619',
@@ -119,6 +127,15 @@
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%81%D0%BC16.jpeg'
 		},
 		{
+			id: '2982',
+			action: 'Профлист С8 оцинк. 2мм (2000)',
+			price: '1120',
+			unit: 'шт',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/proflist-s8-ocink-2mm-2000',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/profnastil2000.png'
+		},
+		{
 			id: '954',
 			action: 'Бетонконтакт "CERESIT CT 19" (15 кг)',
 			price: '1920',
@@ -126,15 +143,6 @@
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/betonkontakt-cerezit-st-19-15-kg',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/betonokontakt_ceresit_st19_5_l.jpg'
-		},
-		{
-			id: '2810',
-			action: 'Цемент М500 Евроцемент 40 кг',
-			price: '440',
-			unit: 'шт',
-			description: 'При заказе через сайт дополнительная скидка 5%',
-			link: '/shop/product/cement-m500-evrocement-40-kg',
-			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/AdAW50jMkTFDo4nUhEaxZUdxUkShNu2kf6HS4cMo.png'
 		},
 		{
 			id: '2810',
