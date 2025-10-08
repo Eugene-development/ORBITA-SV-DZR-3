@@ -136,6 +136,15 @@
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/profnastil2000.png'
 		},
 		{
+			id: '2983',
+			action: 'Штукатурка цементная Юнис Силин унив. армир. 25кг',
+			price: '399',
+			unit: 'шт',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/shtukaturka-cementnaya-yunis-silin-univ-armir-25kg',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/jwzscn0qzr4tuqgsp5o1n4bbm9nki2j.jpg'
+		},
+		{
 			id: '954',
 			action: 'Бетонконтакт "CERESIT CT 19" (15 кг)',
 			price: '1920',
