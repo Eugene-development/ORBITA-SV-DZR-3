@@ -3,7 +3,7 @@
 		<div class="mx-auto max-w-2xl lg:max-w-none">
 			<div class="text-center">
 				<h2 class="text-balance text-4xl font-semibold tracking-tight text-red-800 sm:text-7xl">
-					Суперцены октября!!!
+					Суперцены ноября!!!
 				</h2>
 				<p class="mt-4  mx-auto text-xl text-gray-600 max-w-3xl">
 					Воспользуйтесь нашими спецпредложениями и получите значительную выгоду при покупке

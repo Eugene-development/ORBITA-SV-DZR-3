@@ -62,7 +62,7 @@
 		},
 		{
 			id: '432',
-			action: 'Штукатурная смесь "ЕК" TG 40 (30кг) white',
+			action: 'Штукатурная смесь "ЕК" TG 40 (30кг)',
 			price: '458',
 			unit: 'шт',
 			link: '/shop/product/stukaturnaya-smes-ek-tg-40-waite-30-kg',
