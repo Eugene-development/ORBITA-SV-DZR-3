@@ -61,9 +61,9 @@
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/ilejI7dCV3zr72h4VudvlNrQLKBgHsrYwKd1HoAL.jpeg'
 		},
 		{
-			id: '432',
+			id: '431',
 			action: 'Штукатурная смесь "ЕК" TG 40 (30кг)',
-			price: '458',
+			price: '410',
 			unit: 'шт',
 			link: '/shop/product/stukaturnaya-smes-ek-tg-40-waite-30-kg',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TG40-WHITE.png'
@@ -156,7 +156,7 @@
 		{
 			id: '2810',
 			action: 'Цемент М500 Евроцемент 40 кг',
-			price: '440',
+			price: '410',
 			unit: 'шт',
 			description: 'При заказе через сайт дополнительная скидка 5%',
 			link: '/shop/product/cement-m500-evrocement-40-kg',
@@ -178,6 +178,24 @@
 			unit: 'шт',
 			link: '/shop/product/kliei-dlia-plitki-iunis-3000-ma-kh-tolstosloinyi-25-kgh',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/0fc66aadfde42ad46846c2aa065c6c2a.jpg'
+		},
+		{
+			id: '314',
+			action: 'Плиточный клей "Церезит" СМ 14 (25 кг)',
+			price: '771',
+			unit: 'шт',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/klei-dlya-plitki-i-keramogranita-cerezit-sm-14-extra-dlya-ulicy-i-teplyx-polov-25-kg',
+			img: 'https://abk-fasad.ru/assets/images/products/161/cm14-2.png'
+		},
+		{
+			id: '1661',
+			action: 'Утеплитель Технониколь роклайт 1200*600*50',
+			price: '1000',
+			unit: 'шт',
+			description: 'При заказе через сайт дополнительная скидка 5%',
+			link: '/shop/product/uteplitel-texnonikol-roklait-120060050',
+			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/c2eHGTqI7cLLb0g8nf4vlbuB6KENnH59Ukii45om.jpg'
 		}
 
 		// {
@@ -426,15 +444,6 @@
 		// 	description: 'При заказе через сайт дополнительная скидка 5%',
 		// 	link: '/shop/product/gkl-knauf-danogips-95mm-12x25',
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/m5NgzpdlHX02sqR1Mqu3YrUQJwqqDGUOuAeYV75Z.jpeg'
-		// },
-		// {
-		// 	id: '1661',
-		// 	action: 'Утеплитель Технониколь роклайт 1200*600*50',
-		// 	price: '1330',
-		// 	unit: 'шт',
-		// 	description: 'При заказе через сайт дополнительная скидка 5%',
-		// 	link: '/shop/product/uteplitel-texnonikol-roklait-120060050',
-		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/c2eHGTqI7cLLb0g8nf4vlbuB6KENnH59Ukii45om.jpg'
 		// },
 		// {
 		// 	id: '1952',
