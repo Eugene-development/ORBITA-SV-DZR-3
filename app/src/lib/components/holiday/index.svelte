@@ -24,7 +24,7 @@
 							class="mx-auto flex max-w-2xl flex-col gap-16 bg-white/75  shadow-lg ring-1 ring-gray-900/5 sm:rounded-3xl  lg:mx-0 lg:max-w-none lg:flex-row lg:items-center xl:gap-x-20 "
 						>
 							<img
-								src="https://storage.yandexcloud.net/orbita/actions/reklama12.jpg"
+								src="https://storage.yandexcloud.net/orbita/actions/rek12.jpg"
 								alt="reklama"
 								class="w-full h-full rounded-2xl object-cover"
 							/>
