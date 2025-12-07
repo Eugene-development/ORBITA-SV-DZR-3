@@ -1,10 +1,10 @@
 const informationMenu = [
 	{
 		left: [
-			{
-				displayName: 'Акции',
-				href: '/information/action'
-			},
+			// {
+			// 	displayName: 'Акции',
+			// 	href: '/information/action'
+			// },
 			{
 				displayName: 'Оплата',
 				href: '/information/payment'
@@ -16,33 +16,33 @@ const informationMenu = [
 			{
 				displayName: 'Грузчики',
 				href: '/information/movers'
-			},
-			{
-				displayName: 'Документы',
-				href: '/information/documents'
 			}
+			// {
+			// 	displayName: 'Документы',
+			// 	href: '/information/documents'
+			// }
 		],
 		right: [
-			{
-				displayName: 'Цены',
-				href: '/information/price'
-			},
-			{
-				displayName: 'Отзывы',
-				href: '/information/testimonials'
-			},
-			{
-				displayName: 'Гарантии',
-				href: '/information/guarantees'
-			},
-			{
-				displayName: 'Партнёрство',
-				href: '/information/partner'
-			},
-			{
-				displayName: 'Сертификаты',
-				href: '/information/certificates'
-			}
+			// {
+			// 	displayName: 'Цены',
+			// 	href: '/information/price'
+			// },
+			// {
+			// 	displayName: 'Отзывы',
+			// 	href: '/information/testimonials'
+			// },
+			// {
+			// 	displayName: 'Гарантии',
+			// 	href: '/information/guarantees'
+			// },
+			// {
+			// 	displayName: 'Партнёрство',
+			// 	href: '/information/partner'
+			// },
+			// {
+			// 	displayName: 'Сертификаты',
+			// 	href: '/information/certificates'
+			// }
 		]
 	}
 ];
