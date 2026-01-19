@@ -63,7 +63,7 @@
 		{
 			id: '431',
 			action: 'Штукатурная смесь "ЕК" TG 40 (30кг)',
-			price: '410',
+			price: '418',
 			unit: 'шт',
 			link: '/shop/product/stukaturnaya-smes-ek-tg-40-waite-30-kg',
 			img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TG40-WHITE.png'
