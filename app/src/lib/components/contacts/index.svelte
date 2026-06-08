@@ -32,6 +32,8 @@
 					</div>
 
 					<div class="mt-12">
+						<p class="mb-4 text-black text-lg">Отдел продаж:</p>
+
 						<div class="flex">
 							<div class="flex-shrink-0">
 								<!-- Heroicon name: phone -->
@@ -53,6 +55,9 @@
 							</div>
 							<div class="ml-3 text-base">
 								<p>8 (8314) 23-70-96</p>
+							</div>
+							<div class="ml-3 text-base">
+								<p>8 (987) 082-64-23</p>
 							</div>
 						</div>
 						<div class="mt-6 flex">
@@ -78,26 +83,77 @@
 								<p>info@orbita-stroy.com</p>
 							</div>
 						</div>
-						<div class="mt-6 flex">
-							<div class="flex-shrink-0">
-								<!-- Heroicon name: mail -->
-								<svg
-									class="h-6 w-6"
-									xmlns="http://www.w3.org/2000/svg"
-									fill="none"
-									viewBox="0 0 24 24"
-									stroke="currentColor"
-								>
-									<path
-										stroke-divnecap="round"
-										stroke-divnejoin="round"
-										stroke-width="2"
-										d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-									/>
-								</svg>
+
+						<div class="mt-6">
+							<p class="my-4 text-black text-lg">Отдел снабжения:</p>
+
+							<div class="flex">
+								<div class="flex-shrink-0">
+									<!-- Heroicon name: phone -->
+									<svg
+										class="h-6 w-6"
+										xmlns="http://www.w3.org/2000/svg"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+										aria-hidden="true"
+									>
+										<path
+											stroke-divnecap="round"
+											stroke-divnejoin="round"
+											stroke-width="2"
+											d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+										/>
+									</svg>
+								</div>
+								<div class="ml-3 text-base">
+									<p>8 (910) 899-05-05</p>
+								</div>
 							</div>
-							<div class="ml-3 text-base ">
-								<p>Режим работы: Пн-Пт 8:00-17:30; Сб 9:00-16:00</p>
+							<div class="mt-6 flex">
+								<div class="flex-shrink-0">
+									<!-- Heroicon name: mail -->
+									<svg
+										class="h-6 w-6"
+										xmlns="http://www.w3.org/2000/svg"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+										aria-hidden="true"
+									>
+										<path
+											stroke-divnecap="round"
+											stroke-divnejoin="round"
+											stroke-width="2"
+											d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+										/>
+									</svg>
+								</div>
+								<div class="ml-3 text-base ">
+									<p>elvira.nevmyanova@yandex.ru</p>
+								</div>
+							</div>
+							<div class="mt-12 flex">
+								<div class="flex-shrink-0">
+									<!-- Heroicon name: mail -->
+									<svg
+										class="h-6 w-6"
+										xmlns="http://www.w3.org/2000/svg"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+									>
+										<path
+											stroke-divnecap="round"
+											stroke-divnejoin="round"
+											stroke-width="2"
+											d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+										/>
+									</svg>
+								</div>
+								<div class="ml-3  text-base ">
+									<p>Режим работы: Пн-Пт 8:00-17:30; Сб 9:00-16:00</p>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -161,7 +217,6 @@
 						</div>
 						<div class="mt-6 flex">
 							<div class="flex-shrink-0">
-								<!-- Heroicon name: mail -->
 								<svg
 									class="h-6 w-6"
 									xmlns="http://www.w3.org/2000/svg"
@@ -202,7 +257,7 @@
 	</div>
 
 	<!-- This example requires Tailwind CSS v2.0+ -->
-	<div class="bg-gray-900">
+	<!-- <div class="bg-gray-900">
 		<div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8 lg:py-24">
 			<div class="space-y-12">
 				<div class="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
@@ -253,7 +308,7 @@
 							</div>
 						</div>
 					</div>
-					<!-- <div class="rounded-lg bg-gray-800 py-10 px-6 text-center xl:px-10 xl:text-left">
+					<div class="rounded-lg bg-gray-800 py-10 px-6 text-center xl:px-10 xl:text-left">
 						<div class="space-y-6 xl:space-y-10">
 							<img
 								class="mx-auto h-48 w-40 rounded-2xl xl:h-64 xl:w-56"
@@ -293,7 +348,7 @@
 								</div>
 							</div>
 						</div>
-					</div> -->
+					</div>
 					<div class="rounded-lg bg-gray-800 py-10 px-6 text-center xl:px-10 xl:text-left">
 						<div class="space-y-6 xl:space-y-10">
 							<img
@@ -311,7 +366,7 @@
 							</div>
 						</div>
 					</div>
-					<!-- <div class="rounded-lg bg-gray-800 py-10 px-6 text-center xl:px-10 xl:text-left">
+					<div class="rounded-lg bg-gray-800 py-10 px-6 text-center xl:px-10 xl:text-left">
 						<div class="space-y-6 xl:space-y-10">
 							<img
 								class="mx-auto h-48 w-40 rounded-2xl xl:h-64 xl:w-56"
@@ -328,7 +383,7 @@
 								</div>
 							</div>
 						</div>
-					</div> -->
+					</div>
 
 					<div class="rounded-lg bg-gray-800 py-10 px-6 text-center xl:px-10 xl:text-left">
 						<div class="space-y-6 xl:space-y-10">
@@ -440,5 +495,5 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 </div>
