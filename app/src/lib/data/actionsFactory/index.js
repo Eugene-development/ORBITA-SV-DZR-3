@@ -1,139 +1,240 @@
+// Акции Церезит: отмеченные позиции из накладной №8281 от 30.09.26.
 const actions = [
 	{
-		action: 'ЭПП ХРS30-200 Стандарт 1200*600*20-L(20шт./уп)',
-		price: '136',
+		action: 'Клей для керамогранита Церезит CM 11 PRO, 25 кг',
+		price: '539',
 		unit: 'шт',
-		img: 'https://msk.tophouse.ru/images/price/teploizolyatsiya/tehnonikol-xps-ekstrudirovannyiy-penopolistirol/101462-4-2.jpg'
+		img: 'https://www.ceresit.ru/upload/resize_cache/iblock/cc2/400_400_1/ksptk0iy30r1lz8ss0wgjvsxj070njnk.webp'
 	},
 	{
-		action: 'ЭПП ХРS30-200 Стандарт 1180*580*30-L(13шт/уп)',
-		price: '203',
+		action: 'Клей для плитки и керамогранита Церезит CM 14 EXTRA для улицы и тёплых полов, 25 кг',
+		price: '864',
 		unit: 'шт',
-		img: 'https://cdn1.ozone.ru/s3/multimedia-o/6348697500.jpg'
+		img: 'https://www.ceresit.ru/upload/resize_cache/iblock/fc2/d63bmn0ycxsq8c4gowmzo2t35l4s3ccp/400_400_1/CM14_25kg_front_2000_2000.webp'
 	},
 	{
-		action: 'ЭПП XPS30-200 Стандарт 1180*580*50-L(8шт./уп)',
-		price: '314',
+		action: 'Гидроизоляция Церезит CR 65, 20 кг',
+		price: '1415',
 		unit: 'шт',
-		img: 'https://arttn.ru/upload/iblock/368/6dni1o42d3lb9tw38dw93y0h3ko9xqal/carbon_2.png'
+		img: 'https://www.ceresit.ru/upload/resize_cache/iblock/825/ukf0ol9lpgn5l5g1tzzgs29re6syyrhc/400_400_1/CR65_20kg_front_2000_2000.webp'
 	},
 	{
-		action: 'ЭПП XPS30-200 Стандарт 1180*580*100-L(4шт./уп)',
-		price: '660',
+		action: 'Грунтовка для впитывающих оснований Церезит CT 17, 10 л',
+		price: '1173',
 		unit: 'шт',
-		img: 'https://valles.ru/upload/iblock/254/254814_2.jpg'
+		img: 'https://www.ceresit.ru/upload/resize_cache/iblock/5b8/xzmnx4slx0f7hyuxhcvsxepr9r6nz2we/400_400_1/CT17_PRO_10L_front_2000_2000.webp'
 	},
 	{
-		action: 'Утеплитель РокЛайт (1,2*0,6*100) 4,32 м2,0,432 м3',
-		price: '1976',
+		action: 'Грунтовка для впитывающих оснований Церезит CT 17, 5 л',
+		price: '642',
 		unit: 'шт',
-		img: 'https://rezar.ru/upload/iblock/4bc/cbn2wlmrp4sh61r2kvn6lzn6olp0zjny.jpg'
+		img: 'https://ceresit-spb.ru/sites/default/files/styles/prodcard/public/ct17_pro_leto_5l_1.jpg'
 	},
 	{
-		action: 'Утеплитель Роклайт (1,2×0,6×50мм) 0,288м3, 5,76 м3',
-		price: '1317',
+		action: 'Бетонконтакт Церезит CT 19, 3 кг',
+		price: '566',
 		unit: 'шт',
-		img: 'https://stroymag.su/upload/iblock/bb4/yidvgml3anq2ljbp9pogmr9fleklwfxo.jpg'
+		img: 'https://kolorit.ru/upload/iblock/e64/184dwum5whzvot0h2s0x6is6uhu30wnx.jpg'
 	},
 	{
-		action: 'Утеплитель ТехновентСтандарт 1200х600×50 (0,216м3)',
-		price: '2704',
+		action: 'Бетонконтакт Церезит CT 19, 5 кг',
+		price: '800',
 		unit: 'шт',
-		img: 'https://avatars.mds.yandex.net/i?id=dc13b96de0b04d8b570bebda7ea816ff_l-4576013-images-thumbs&n=13'
+		img: 'https://www.albia.ru/wa-data/public/shop/products/01/41/4101/images/142327/142327.750x0.jpg'
 	},
 	{
-		action: 'Утеплитель ТехновентСтандарт 1200х600×50 (0,288м3)',
-		price: '3600',
+		action: 'Бетонконтакт Церезит CT 19, 15 кг',
+		price: '2055',
 		unit: 'шт',
-		img: 'https://avatars.mds.yandex.net/i?id=dc13b96de0b04d8b570bebda7ea816ff_l-4576013-images-thumbs&n=13'
+		img: 'https://www.ceresit.ru/upload/resize_cache/iblock/ca1/iardks7evls64dsbk6nnufq0le96900c/400_400_1/CT19_15kg_front_2000_2000.webp'
 	},
 	{
-		action: 'УтеплительТЕХНОБЛОК СТАНДАРТ 1.2х0.6х50мм(0.288м3)',
-		price: '1647',
+		action: 'Затирка для швов Церезит CE 33, №01 белая, 2 кг',
+		price: '278',
 		unit: 'шт',
-		img: 'https://n-dom.com/upload/ammina.optimizer/jpeg-webp/q80/upload/iblock/0bc/0bc449f54da9201e3b32fcdb62f667c5.webp'
+		img: 'https://www.ceresit.ru/upload/resize_cache/iblock/8a0/4xzic5iz5eesvz3r3n6zxu7l70egwmwx/400_400_1/CE33_2kg_front_2000_2000.webp'
 	},
 	{
-		action: 'УтеплительТЕХНОБЛОК СТАНДАРТ 1.2х0.6х100мм(0.288м3)',
-		price: '1650',
+		action: 'Затирка для швов Церезит CE 33, №43 Багамы, 2 кг',
+		price: '300',
 		unit: 'шт',
-		img: 'https://n-dom.com/upload/ammina.optimizer/jpeg-webp/q80/upload/iblock/0bc/0bc449f54da9201e3b32fcdb62f667c5.webp'
+		img: 'https://www.ceresit.ru/upload/resize_cache/iblock/8a0/4xzic5iz5eesvz3r3n6zxu7l70egwmwx/400_400_1/CE33_2kg_front_2000_2000.webp'
 	},
 	{
-		action: 'Мастика битумная AquaMast для фундамента (18кг)',
-		price: '2650',
+		action: 'Затирка для швов водоотталкивающая Церезит CE 40, белая, 2 кг',
+		price: '475',
 		unit: 'шт',
-		img: 'https://color16.ru/upload/iblock/5e1/4oj5c6i45y4142916l39nitfwc41dmiw.jpg'
+		img: 'https://www.ceresit.ru/upload/resize_cache/iblock/113/t81kpj71szu7pomoxht4cpnbxuw9q1do/400_400_1/CE40_2kg_front_2000_2000.webp'
 	},
 	{
-		action: 'Мастика битумная-рез. AquaMast для кровли (10кг)',
-		price: '1924',
+		action: 'Затирка для швов водоотталкивающая Церезит CE 40, Багама, 2 кг',
+		price: '502',
 		unit: 'шт',
-		img: 'https://img.promportal.su/foto/good_fotos/645/6453055/mastika-bitumnaya-aquamast-dlya-krovli-vedro-10-kg_foto_largest.jpg'
+		img: 'https://www.ceresit.ru/upload/resize_cache/iblock/113/t81kpj71szu7pomoxht4cpnbxuw9q1do/400_400_1/CE40_2kg_front_2000_2000.webp'
 	},
 	{
-		action: 'Мастика битумная-рез. AquaMast для кровли (18кг)',
-		price: '2933',
+		action: 'Затирка для швов Церезит CE 33, №16 графит, 2 кг',
+		price: '370',
 		unit: 'шт',
-		img: 'https://img.promportal.su/foto/good_fotos/645/6453055/mastika-bitumnaya-aquamast-dlya-krovli-vedro-10-kg_foto_largest.jpg'
+		img: 'https://www.ceresit.ru/upload/resize_cache/iblock/8a0/4xzic5iz5eesvz3r3n6zxu7l70egwmwx/400_400_1/CE33_2kg_front_2000_2000.webp'
 	},
 	{
-		action: 'Линокром ТКП сланец серый',
-		price: '2004',
+		action: 'Герметик акриловый белый Церезит CS 11, 280 мл',
+		price: '278',
 		unit: 'шт',
-		img: 'https://стройбаза-ларионово.рф/files/gallery/1098/big/3gstqgkhpb6s47zloibs43b0a_1676636085.jpg'
+		img: 'https://www.ceresit.ru/upload/resize_cache/iblock/99a/91but7zh0zw68n7uow36ixjxlaszbchn/400_400_1/CS11_White_280ml_front_2000_2000.webp'
 	},
 	{
-		action: 'Линокром ТПП 15м',
-		price: '2790',
+		action: 'Герметик санитарный белый Церезит CS 15, 280 мл',
+		price: '530',
 		unit: 'шт',
-		img: 'https://stroysmatom.ru/upload/pl_plugin_2/7-2-93-25.jpg'
+		img: 'https://www.ceresit.ru/upload/resize_cache/iblock/eba/3neiwc9q4kwjtqihf34ijo1ubemed44h/400_400_1/CS15_White_280ml_front_2000_2000.webp'
 	},
 	{
-		action: 'Стеклоизол ТКП 3,5 сланец серый (10 кв.м.)',
-		price: '1246',
+		action: 'Герметик санитарный прозрачный Церезит CS 15, 280 мл',
+		price: '610',
 		unit: 'шт',
-		img: 'https://cdn.vseinstrumenti.ru/images/goods/stroitelnye-materialy/krovelnye-materialy/2029158/560x504/54134454.jpg'
-	},
-	{
-		action: 'Стеклоизол ТПП 10м',
-		price: '1130',
-		unit: 'шт',
-		img: 'https://avatars.mds.yandex.net/get-mpic/5283122/2a00000194692667297df5fe41e1c8ecf4c5/orig'
-	},
-	{
-		action: 'Стеклоизол ХКП 3,5 10м гранулят',
-		price: '1050',
-		unit: 'шт',
-		img: 'https://stroy-comfort66.ru/wa-data/public/shop/products/87/05/587/images/923/923.970.jpg'
-	},
-	{
-		action: 'Черепица гибкая ТЕХНОНИКОЛЬ ОПТИМА Коричневый 3м2',
-		price: '1320',
-		unit: 'шт',
-		img: 'https://avatars.mds.yandex.net/get-marketpic/5115066/pic650aa04f259f04a8f9e15385546ce2a2/orig'
+		img: 'https://www.albia.ru/wa-data/public/shop/products/72/68/6872/images/167285/167285.750x0.jpg'
 	}
-
-	// {
-	// 	action: 'Утеплитель ТЕХНОАКУСТИК (1,2*0,6*50мм) 0,288м3',
-	// 	price: '1940',
-	// 	unit: 'шт',
-	// 	img: 'https://cdn.vseinstrumenti.ru/images/goods/stroitelnye-materialy/izolyatsionnye-materialy/2741780/560x504/59831202.jpg'
-	// },
-
-	// {
-	// 	action: 'Биполь ТПП',
-	// 	price: '3262',
-	// 	unit: 'шт',
-	// 	img: 'https://tstn.ru/upload/iblock/c61/000057_1.jpg'
-	// },
-	// {
-	// 	action: 'Биполь ТКП сланец серый',
-	// 	price: '2329',
-	// 	unit: 'шт',
-	// 	img: 'https://progress-polymer.ru/uploads/webp/product/1500/1583/1607871621_2020-12-13_18-00-21.webp'
-	// }
 ];
+
+// Предыдущие акции завода Технониколь (сохранены для повторного использования).
+// const actions = [
+// 	{
+// 		action: 'ЭПП ХРS30-200 Стандарт 1200*600*20-L(20шт./уп)',
+// 		price: '136',
+// 		unit: 'шт',
+// 		img: 'https://msk.tophouse.ru/images/price/teploizolyatsiya/tehnonikol-xps-ekstrudirovannyiy-penopolistirol/101462-4-2.jpg'
+// 	},
+// 	{
+// 		action: 'ЭПП ХРS30-200 Стандарт 1180*580*30-L(13шт/уп)',
+// 		price: '203',
+// 		unit: 'шт',
+// 		img: 'https://cdn1.ozone.ru/s3/multimedia-o/6348697500.jpg'
+// 	},
+// 	{
+// 		action: 'ЭПП XPS30-200 Стандарт 1180*580*50-L(8шт./уп)',
+// 		price: '314',
+// 		unit: 'шт',
+// 		img: 'https://arttn.ru/upload/iblock/368/6dni1o42d3lb9tw38dw93y0h3ko9xqal/carbon_2.png'
+// 	},
+// 	{
+// 		action: 'ЭПП XPS30-200 Стандарт 1180*580*100-L(4шт./уп)',
+// 		price: '660',
+// 		unit: 'шт',
+// 		img: 'https://valles.ru/upload/iblock/254/254814_2.jpg'
+// 	},
+// 	{
+// 		action: 'Утеплитель РокЛайт (1,2*0,6*100) 4,32 м2,0,432 м3',
+// 		price: '1976',
+// 		unit: 'шт',
+// 		img: 'https://rezar.ru/upload/iblock/4bc/cbn2wlmrp4sh61r2kvn6lzn6olp0zjny.jpg'
+// 	},
+// 	{
+// 		action: 'Утеплитель Роклайт (1,2×0,6×50мм) 0,288м3, 5,76 м3',
+// 		price: '1317',
+// 		unit: 'шт',
+// 		img: 'https://stroymag.su/upload/iblock/bb4/yidvgml3anq2ljbp9pogmr9fleklwfxo.jpg'
+// 	},
+// 	{
+// 		action: 'Утеплитель ТехновентСтандарт 1200х600×50 (0,216м3)',
+// 		price: '2704',
+// 		unit: 'шт',
+// 		img: 'https://avatars.mds.yandex.net/i?id=dc13b96de0b04d8b570bebda7ea816ff_l-4576013-images-thumbs&n=13'
+// 	},
+// 	{
+// 		action: 'Утеплитель ТехновентСтандарт 1200х600×50 (0,288м3)',
+// 		price: '3600',
+// 		unit: 'шт',
+// 		img: 'https://avatars.mds.yandex.net/i?id=dc13b96de0b04d8b570bebda7ea816ff_l-4576013-images-thumbs&n=13'
+// 	},
+// 	{
+// 		action: 'УтеплительТЕХНОБЛОК СТАНДАРТ 1.2х0.6х50мм(0.288м3)',
+// 		price: '1647',
+// 		unit: 'шт',
+// 		img: 'https://n-dom.com/upload/ammina.optimizer/jpeg-webp/q80/upload/iblock/0bc/0bc449f54da9201e3b32fcdb62f667c5.webp'
+// 	},
+// 	{
+// 		action: 'УтеплительТЕХНОБЛОК СТАНДАРТ 1.2х0.6х100мм(0.288м3)',
+// 		price: '1650',
+// 		unit: 'шт',
+// 		img: 'https://n-dom.com/upload/ammina.optimizer/jpeg-webp/q80/upload/iblock/0bc/0bc449f54da9201e3b32fcdb62f667c5.webp'
+// 	},
+// 	{
+// 		action: 'Мастика битумная AquaMast для фундамента (18кг)',
+// 		price: '2650',
+// 		unit: 'шт',
+// 		img: 'https://color16.ru/upload/iblock/5e1/4oj5c6i45y4142916l39nitfwc41dmiw.jpg'
+// 	},
+// 	{
+// 		action: 'Мастика битумная-рез. AquaMast для кровли (10кг)',
+// 		price: '1924',
+// 		unit: 'шт',
+// 		img: 'https://img.promportal.su/foto/good_fotos/645/6453055/mastika-bitumnaya-aquamast-dlya-krovli-vedro-10-kg_foto_largest.jpg'
+// 	},
+// 	{
+// 		action: 'Мастика битумная-рез. AquaMast для кровли (18кг)',
+// 		price: '2933',
+// 		unit: 'шт',
+// 		img: 'https://img.promportal.su/foto/good_fotos/645/6453055/mastika-bitumnaya-aquamast-dlya-krovli-vedro-10-kg_foto_largest.jpg'
+// 	},
+// 	{
+// 		action: 'Линокром ТКП сланец серый',
+// 		price: '2004',
+// 		unit: 'шт',
+// 		img: 'https://стройбаза-ларионово.рф/files/gallery/1098/big/3gstqgkhpb6s47zloibs43b0a_1676636085.jpg'
+// 	},
+// 	{
+// 		action: 'Линокром ТПП 15м',
+// 		price: '2790',
+// 		unit: 'шт',
+// 		img: 'https://stroysmatom.ru/upload/pl_plugin_2/7-2-93-25.jpg'
+// 	},
+// 	{
+// 		action: 'Стеклоизол ТКП 3,5 сланец серый (10 кв.м.)',
+// 		price: '1246',
+// 		unit: 'шт',
+// 		img: 'https://cdn.vseinstrumenti.ru/images/goods/stroitelnye-materialy/krovelnye-materialy/2029158/560x504/54134454.jpg'
+// 	},
+// 	{
+// 		action: 'Стеклоизол ТПП 10м',
+// 		price: '1130',
+// 		unit: 'шт',
+// 		img: 'https://avatars.mds.yandex.net/get-mpic/5283122/2a00000194692667297df5fe41e1c8ecf4c5/orig'
+// 	},
+// 	{
+// 		action: 'Стеклоизол ХКП 3,5 10м гранулят',
+// 		price: '1050',
+// 		unit: 'шт',
+// 		img: 'https://stroy-comfort66.ru/wa-data/public/shop/products/87/05/587/images/923/923.970.jpg'
+// 	},
+// 	{
+// 		action: 'Черепица гибкая ТЕХНОНИКОЛЬ ОПТИМА Коричневый 3м2',
+// 		price: '1320',
+// 		unit: 'шт',
+// 		img: 'https://avatars.mds.yandex.net/get-marketpic/5115066/pic650aa04f259f04a8f9e15385546ce2a2/orig'
+// 	}
+//
+// 	// {
+// 	// 	action: 'Утеплитель ТЕХНОАКУСТИК (1,2*0,6*50мм) 0,288м3',
+// 	// 	price: '1940',
+// 	// 	unit: 'шт',
+// 	// 	img: 'https://cdn.vseinstrumenti.ru/images/goods/stroitelnye-materialy/izolyatsionnye-materialy/2741780/560x504/59831202.jpg'
+// 	// },
+//
+// 	// {
+// 	// 	action: 'Биполь ТПП',
+// 	// 	price: '3262',
+// 	// 	unit: 'шт',
+// 	// 	img: 'https://tstn.ru/upload/iblock/c61/000057_1.jpg'
+// 	// },
+// 	// {
+// 	// 	action: 'Биполь ТКП сланец серый',
+// 	// 	price: '2329',
+// 	// 	unit: 'шт',
+// 	// 	img: 'https://progress-polymer.ru/uploads/webp/product/1500/1583/1607871621_2020-12-13_18-00-21.webp'
+// 	// }
+// ];
 
 // const actions = [
 //   {

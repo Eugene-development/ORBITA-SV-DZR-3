@@ -101,7 +101,7 @@
 					<a
 						href="/information/action"
 						class="rounded-md bg-red-800 px-3 py-2 text-sm font-semibold text-white  hover:bg-red-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 shadow-lg shadow-gray-900/50"
-						>Акции Технониколь</a
+						>Акции Церезит</a
 					>
 					<a
 						href="/shop/discount"

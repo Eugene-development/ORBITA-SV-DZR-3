@@ -3,7 +3,7 @@
 		<div class="mx-auto max-w-2xl lg:max-w-none">
 			<div class="text-center">
 				<h2 class="text-balance text-4xl font-semibold tracking-tight text-red-700 sm:text-7xl">
-					Суперцены месяца!!!
+					Шок цена!!!
 				</h2>
 				<p class="mt-4  mx-auto text-xl text-gray-600 max-w-3xl">
 					Воспользуйтесь нашими спецпредложениями и получите значительную выгоду при покупке
@@ -24,7 +24,7 @@
 							class="mx-auto flex max-w-2xl flex-col gap-16 bg-white/75  shadow-lg ring-1 ring-gray-900/5 sm:rounded-3xl  lg:mx-0 lg:max-w-none lg:flex-row lg:items-center xl:gap-x-20 "
 						>
 							<img
-								src="https://storage.yandexcloud.net/orbita/actions/rek12.jpg"
+								src="/images/banner_tehnonikol_utepliteli_1920x720.webp"
 								alt="reklama"
 								class="w-full h-full rounded-2xl object-cover"
 							/>
