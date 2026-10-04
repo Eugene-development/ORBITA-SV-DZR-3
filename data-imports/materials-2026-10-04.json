@@ -1,6 +1,5 @@
 {
-  "status": "pending_database_creation",
-  "error": "createProduct: No query results for model [App\\Models\\Product]",
+  "status": "created_and_verified",
   "bucket": "lumen-image-bucket",
   "existingProduct": {
     "invoiceRow": 42,
@@ -327,5 +326,148 @@
         }
       }
     }
-  ]
+  ],
+  "lastApiCheck": {
+    "checkedAt": "2026-10-04T11:06:25.040Z",
+    "minimalCreate": "createProduct failed without price/unit/image fields",
+    "adminFormatCreate": [
+      {
+        "message": "Internal server error",
+        "detail": "No query results for model [App\\Models\\Product]."
+      }
+    ],
+    "readBack": {
+      "product_one": null
+    }
+  },
+  "adminCheck": {
+    "url": "https://larux.ru/content/product",
+    "login": "confirmed",
+    "api": "https://gost-remont.com/graphql/",
+    "createAttempt": {
+      "invoiceRow": 7,
+      "value": "Шпаклёвка Ветонит LR+, 20 кг",
+      "price": 998
+    },
+    "imageUploadEndpoint": "https://larux.ru:7741/upload-image",
+    "browserError": "Network Error during image upload",
+    "result": "New product did not appear in the category list."
+  },
+  "lastApiRetry": {
+    "checkedAt": "2026-10-04T11:40:43.800Z",
+    "error": "createProduct: No query results for model [App\\Models\\Product]",
+    "confirmedProducts": []
+  },
+  "adminRetryAfterImageServiceRestore": {
+    "checkedAt": "2026-10-04T11:48:09.895693+00:00",
+    "invoiceRow": 7,
+    "value": "Шпаклёвка Ветонит LR+, 20 кг",
+    "price": 998,
+    "result": "Internal server error from GraphQL mutation; product did not appear in category list",
+    "browserErrorTimestamp": "2026-10-04T11:47:22.465Z"
+  },
+  "localBackend": {
+    "project": "/Users/evgenijcelnokov/Work/BACKEND/CRUD/CRUD-LH-2023-2",
+    "api": "http://127.0.0.1:7795/graphql/",
+    "status": "running",
+    "databaseConnection": "connected",
+    "runtimeOverride": "/tmp/orbita-crud-runtime/compose.local.yml",
+    "writesPerformed": true,
+    "tlsCertificate": "/var/www/src/cert/root.crt",
+    "tlsCertificateReadable": true
+  },
+  "creationMethod": "Local Laravel transaction with explicit IDs in legacy tables without AUTO_INCREMENT; database schema unchanged",
+  "createdProducts": [
+    {
+      "invoiceRow": 7,
+      "id": "2984",
+      "value": "Шпаклёвка Ветонит LR+, 20 кг",
+      "slug": "shpaklevka-vetonit-lr-plus-20-kg",
+      "publicUrl": "https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/shpaklevka-vetonit-lr-plus-20-kg.jpg"
+    },
+    {
+      "invoiceRow": 10,
+      "id": "2985",
+      "value": "Штукатурная смесь Ветонит TT 30 лайт, 25 кг",
+      "slug": "shtukaturnaya-smes-vetonit-tt-30-light-25-kg",
+      "publicUrl": "https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/shtukaturnaya-smes-vetonit-tt-30-light-25-kg.png"
+    },
+    {
+      "invoiceRow": 30,
+      "id": "2986",
+      "value": "Клей для плитки Юнис ПЛЮС, 25 кг",
+      "slug": "kley-dlya-plitki-yunis-plus-25-kg",
+      "publicUrl": "https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/kley-dlya-plitki-yunis-plus-25-kg.png"
+    },
+    {
+      "invoiceRow": 34,
+      "id": "2987",
+      "value": "Эмаль ПФ-115 Царицыно белая, 20 кг",
+      "slug": "emal-pf-115-caricyno-belaya-20-kg",
+      "publicUrl": "https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/emal-pf-115-caricyno-belaya-20-kg.jpg"
+    },
+    {
+      "invoiceRow": 35,
+      "id": "2988",
+      "value": "Эмаль ПФ-115 Текс Оптимум светло-серая, 0,9 кг",
+      "slug": "emal-pf-115-teks-optimum-svetlo-seraya-09-kg",
+      "publicUrl": "https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/emal-pf-115-teks-optimum-svetlo-seraya-09-kg.png"
+    },
+    {
+      "invoiceRow": 36,
+      "id": "2989",
+      "value": "Эмаль ПФ-115 Текс Оптимум тёмно-синяя, 1,9 кг",
+      "slug": "emal-pf-115-teks-optimum-temno-sinyaya-19-kg",
+      "publicUrl": "https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/emal-pf-115-teks-optimum-temno-sinyaya-19-kg.webp"
+    },
+    {
+      "invoiceRow": 39,
+      "id": "2990",
+      "value": "ЭПП XPS30-200 Стандарт, 1200×600×20-L, 20 шт./уп.",
+      "slug": "epp-xps30-200-standart-120060020-l",
+      "publicUrl": "https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/epp-xps30-200-standart-120060020-l.jpg"
+    },
+    {
+      "invoiceRow": 41,
+      "id": "2991",
+      "value": "Утеплитель ИЗОВЕР Тёплые стены, 610×1000×100 мм, 3,05 м²",
+      "slug": "uteplitel-izover-teplye-steny-6101000100mm-305m2",
+      "publicUrl": "https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/uteplitel-izover-teplye-steny-6101000100mm-305m2.jpg"
+    },
+    {
+      "invoiceRow": 50,
+      "id": "2992",
+      "value": "Клей для плитки эластичный Церезит CM 16 белый, 25 кг",
+      "slug": "kley-dlya-plitki-cerezit-cm16-belyy-25-kg",
+      "publicUrl": "https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/kley-dlya-plitki-cerezit-cm16-belyy-25-kg.webp"
+    },
+    {
+      "invoiceRow": 51,
+      "id": "2993",
+      "value": "Клей для плитки эластичный Церезит CM 17, 25 кг",
+      "slug": "kley-dlya-plitki-cerezit-cm17-25-kg",
+      "publicUrl": "https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/kley-dlya-plitki-cerezit-cm17-25-kg.webp"
+    },
+    {
+      "invoiceRow": 65,
+      "id": "2994",
+      "value": "Утеплитель Техноблок Стандарт, 1,2×0,6×0,1 м, 0,288 м³",
+      "slug": "uteplitel-tehnoblok-standart-1200600100mm-0288-m3",
+      "publicUrl": "https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/uteplitel-tehnoblok-standart-1200600100mm-0288-m3.jpg"
+    }
+  ],
+  "verifiedAt": "2026-10-04T17:30:44.821Z",
+  "apiVerification": {
+    "local": "http://127.0.0.1:7795/graphql/",
+    "public": "https://gost-remont.com/graphql/",
+    "productCount": 11,
+    "checks": [
+      "ID",
+      "price",
+      "unit",
+      "image",
+      "active status",
+      "public image availability"
+    ]
+  }
 }

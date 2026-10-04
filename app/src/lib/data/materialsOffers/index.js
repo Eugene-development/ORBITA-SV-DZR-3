@@ -41,6 +41,8 @@ const materials = [
 		action: 'Шпаклёвка Ветонит LR+, 20 кг',
 		price: '998',
 		unit: 'шт',
+		id: '2984',
+		link: '/shop/product/shpaklevka-vetonit-lr-plus-20-kg',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/shpaklevka-vetonit-lr-plus-20-kg.jpg'
 	},
 	{
@@ -66,6 +68,8 @@ const materials = [
 		action: 'Штукатурная смесь Ветонит TT 30 лайт, 25 кг',
 		price: '335',
 		unit: 'шт',
+		id: '2985',
+		link: '/shop/product/shtukaturnaya-smes-vetonit-tt-30-light-25-kg',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/shtukaturnaya-smes-vetonit-tt-30-light-25-kg.png'
 	},
 	{
@@ -217,6 +221,8 @@ const materials = [
 		action: 'Клей для плитки Юнис ПЛЮС, 25 кг',
 		price: '588',
 		unit: 'меш',
+		id: '2986',
+		link: '/shop/product/kley-dlya-plitki-yunis-plus-25-kg',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/kley-dlya-plitki-yunis-plus-25-kg.png'
 	},
 	{
@@ -251,6 +257,8 @@ const materials = [
 		action: 'Эмаль ПФ-115 Царицыно белая, 20 кг',
 		price: '3500',
 		unit: 'шт',
+		id: '2987',
+		link: '/shop/product/emal-pf-115-caricyno-belaya-20-kg',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/emal-pf-115-caricyno-belaya-20-kg.jpg'
 	},
 	{
@@ -258,6 +266,8 @@ const materials = [
 		action: 'Эмаль ПФ-115 Текс Оптимум светло-серая, 0,9 кг',
 		price: '305',
 		unit: 'шт',
+		id: '2988',
+		link: '/shop/product/emal-pf-115-teks-optimum-svetlo-seraya-09-kg',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/emal-pf-115-teks-optimum-svetlo-seraya-09-kg.png'
 	},
 	{
@@ -265,6 +275,8 @@ const materials = [
 		action: 'Эмаль ПФ-115 Текс Оптимум тёмно-синяя, 1,9 кг',
 		price: '644',
 		unit: 'шт',
+		id: '2989',
+		link: '/shop/product/emal-pf-115-teks-optimum-temno-sinyaya-19-kg',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/emal-pf-115-teks-optimum-temno-sinyaya-19-kg.webp'
 	},
 	{
@@ -290,6 +302,8 @@ const materials = [
 		action: 'ЭПП XPS30-200 Стандарт, 1200×600×20-L, 20 шт./уп.',
 		price: '137',
 		unit: 'шт',
+		id: '2990',
+		link: '/shop/product/epp-xps30-200-standart-120060020-l',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/epp-xps30-200-standart-120060020-l.jpg'
 	},
 	{
@@ -306,6 +320,8 @@ const materials = [
 		action: 'Утеплитель ИЗОВЕР Тёплые стены, 610×1000×100 мм, 3,05 м²',
 		price: '1210',
 		unit: 'шт',
+		id: '2991',
+		link: '/shop/product/uteplitel-izover-teplye-steny-6101000100mm-305m2',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/uteplitel-izover-teplye-steny-6101000100mm-305m2.jpg'
 	},
 	{
@@ -385,6 +401,8 @@ const materials = [
 		action: 'Клей для плитки эластичный Церезит CM 16 белый, 25 кг',
 		price: '1674',
 		unit: 'шт',
+		id: '2992',
+		link: '/shop/product/kley-dlya-plitki-cerezit-cm16-belyy-25-kg',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/kley-dlya-plitki-cerezit-cm16-belyy-25-kg.webp'
 	},
 	{
@@ -392,6 +410,8 @@ const materials = [
 		action: 'Клей для плитки эластичный Церезит CM 17, 25 кг',
 		price: '2210',
 		unit: 'шт',
+		id: '2993',
+		link: '/shop/product/kley-dlya-plitki-cerezit-cm17-25-kg',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/kley-dlya-plitki-cerezit-cm17-25-kg.webp'
 	},
 	{
@@ -417,6 +437,8 @@ const materials = [
 		action: 'Утеплитель Техноблок Стандарт, 1,2×0,6×0,1 м, 0,288 м³',
 		price: '1474',
 		unit: 'упак',
+		id: '2994',
+		link: '/shop/product/uteplitel-tehnoblok-standart-1200600100mm-0288-m3',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/uteplitel-tehnoblok-standart-1200600100mm-0288-m3.jpg'
 	},
 	{
