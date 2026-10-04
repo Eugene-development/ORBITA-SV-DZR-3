@@ -1,7 +1,6 @@
 <script>
 	/** @type {import('./$types').PageData} */
 
-	
 	export let data;
 </script>
 
@@ -33,21 +32,27 @@
 						<img
 							class=" w-52 flex-none rounded-2xl object-contain"
 							src={item.img}
-							alt="Стройматериалы со скидкой"
+							alt={item.value}
 						/>
 						<div class="flex-auto relative">
 							<h3 class="text-lg/8 font-semibold tracking-tight text-gray-900">{item.value}</h3>
 							{#if item.oldPrice}
-							<p class="mt-2 text-sm text-gray-600">Старая цена: <span class="line-through">{item.oldPrice} р/{item.unit}</span> </p>
+								<p class="mt-2 text-sm text-gray-600">
+									Старая цена: <span class="line-through">{item.oldPrice} р/{item.unit}</span>
+								</p>
 							{/if}
-							<p class="mt-1 text-sm {item.oldPrice ? 'text-red-700' : 'text-gray-600'}">Цена: {item.price} р/{item.unit}</p>
-							<div class="absolute bottom-0">
-								<a
-									href={item.href}
-									class="rounded bg-red-700 px-4 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-red-800"
-									>Подробнее</a
-								>
-							</div>
+							<p class="mt-1 text-sm {item.oldPrice ? 'text-red-700' : 'text-gray-600'}">
+								Цена: {item.price} р/{item.unit}
+							</p>
+							{#if item.href}
+								<div class="mt-4">
+									<a
+										href={item.href}
+										class="rounded bg-red-700 px-4 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-red-800"
+										>Подробнее</a
+									>
+								</div>
+							{/if}
 						</div>
 					</li>
 				{/each}

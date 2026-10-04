@@ -5,7 +5,7 @@
 				<h2 class="text-balance text-4xl font-semibold tracking-tight text-red-700 sm:text-7xl">
 					Шок цена!!!
 				</h2>
-				<p class="mt-4  mx-auto text-xl text-gray-600 max-w-3xl">
+				<p class="hidden sm:block mt-4  mx-auto text-xl text-gray-600 max-w-3xl">
 					Воспользуйтесь нашими спецпредложениями и получите значительную выгоду при покупке
 					стройматериалов в этом сезоне.
 				</p>

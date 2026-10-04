@@ -1,6 +1,10 @@
+import { discountProducts } from '$lib/data/materialsOffers';
+
 /** @type {import('./$types').PageLoad} */
 
 export async function load() {
+	// Предыдущая подборка скидок.
+	/*
 	const discountProducts = [
 		{
 			value: 'Рубероид РКК 350 ТУ 10 кв.м',
@@ -494,6 +498,7 @@ export async function load() {
 		// 	unit: 'шт.'
 		// },
 	];
+	*/
 
 	return { discountProducts };
 }

@@ -1,4 +1,5 @@
 <script>
+	import { homeProducts } from '$lib/data/materialsOffers';
 	import { browser } from '$app/environment';
 	import { lengthCart, idProductsInCart } from '$lib/store/stores.js';
 	import { onMount } from 'svelte';
@@ -51,6 +52,10 @@
 		idProductsInCart.update(() => productsInCart);
 	};
 
+	export let actualProducts = homeProducts;
+
+	// Предыдущая подборка материалов.
+	/*
 	export let actualProducts = [
 		{
 			id: '228',
@@ -1007,6 +1012,7 @@
 		// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-level-2.0.png'
 		// },
 	];
+	*/
 </script>
 
 <div class="bg-white" bind:this={actualSection}>
