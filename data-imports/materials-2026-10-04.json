@@ -1,0 +1,331 @@
+{
+  "status": "pending_database_creation",
+  "error": "createProduct: No query results for model [App\\Models\\Product]",
+  "bucket": "lumen-image-bucket",
+  "existingProduct": {
+    "invoiceRow": 42,
+    "id": "2769"
+  },
+  "products": [
+    {
+      "invoiceRow": 7,
+      "imageUrl": "https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/shpaklevka-vetonit-lr-plus-20-kg.jpg",
+      "input": {
+        "key": "1",
+        "value": "Шпаклёвка Ветонит LR+, 20 кг",
+        "slug": "shpaklevka-vetonit-lr-plus-20-kg",
+        "parentable_type": "category",
+        "parentable_id": 12,
+        "price": {
+          "create": {
+            "key": "1",
+            "value": "998"
+          }
+        },
+        "unit": {
+          "create": {
+            "key": "1",
+            "value": "шт."
+          }
+        },
+        "image": {
+          "create": {
+            "key": "1",
+            "hash": "shpaklevka-vetonit-lr-plus-20-kg.jpg"
+          }
+        }
+      }
+    },
+    {
+      "invoiceRow": 10,
+      "imageUrl": "https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/shtukaturnaya-smes-vetonit-tt-30-light-25-kg.png",
+      "input": {
+        "key": "1",
+        "value": "Штукатурная смесь Ветонит TT 30 лайт, 25 кг",
+        "slug": "shtukaturnaya-smes-vetonit-tt-30-light-25-kg",
+        "parentable_type": "category",
+        "parentable_id": 11,
+        "price": {
+          "create": {
+            "key": "1",
+            "value": "335"
+          }
+        },
+        "unit": {
+          "create": {
+            "key": "1",
+            "value": "шт."
+          }
+        },
+        "image": {
+          "create": {
+            "key": "1",
+            "hash": "shtukaturnaya-smes-vetonit-tt-30-light-25-kg.png"
+          }
+        }
+      }
+    },
+    {
+      "invoiceRow": 30,
+      "imageUrl": "https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/kley-dlya-plitki-yunis-plus-25-kg.png",
+      "input": {
+        "key": "1",
+        "value": "Клей для плитки Юнис ПЛЮС, 25 кг",
+        "slug": "kley-dlya-plitki-yunis-plus-25-kg",
+        "parentable_type": "category",
+        "parentable_id": 16,
+        "price": {
+          "create": {
+            "key": "1",
+            "value": "588"
+          }
+        },
+        "unit": {
+          "create": {
+            "key": "1",
+            "value": "меш."
+          }
+        },
+        "image": {
+          "create": {
+            "key": "1",
+            "hash": "kley-dlya-plitki-yunis-plus-25-kg.png"
+          }
+        }
+      }
+    },
+    {
+      "invoiceRow": 34,
+      "imageUrl": "https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/emal-pf-115-caricyno-belaya-20-kg.jpg",
+      "input": {
+        "key": "1",
+        "value": "Эмаль ПФ-115 Царицыно белая, 20 кг",
+        "slug": "emal-pf-115-caricyno-belaya-20-kg",
+        "parentable_type": "category",
+        "parentable_id": 41,
+        "price": {
+          "create": {
+            "key": "1",
+            "value": "3500"
+          }
+        },
+        "unit": {
+          "create": {
+            "key": "1",
+            "value": "шт."
+          }
+        },
+        "image": {
+          "create": {
+            "key": "1",
+            "hash": "emal-pf-115-caricyno-belaya-20-kg.jpg"
+          }
+        }
+      }
+    },
+    {
+      "invoiceRow": 35,
+      "imageUrl": "https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/emal-pf-115-teks-optimum-svetlo-seraya-09-kg.png",
+      "input": {
+        "key": "1",
+        "value": "Эмаль ПФ-115 Текс Оптимум светло-серая, 0,9 кг",
+        "slug": "emal-pf-115-teks-optimum-svetlo-seraya-09-kg",
+        "parentable_type": "category",
+        "parentable_id": 41,
+        "price": {
+          "create": {
+            "key": "1",
+            "value": "305"
+          }
+        },
+        "unit": {
+          "create": {
+            "key": "1",
+            "value": "шт."
+          }
+        },
+        "image": {
+          "create": {
+            "key": "1",
+            "hash": "emal-pf-115-teks-optimum-svetlo-seraya-09-kg.png"
+          }
+        }
+      }
+    },
+    {
+      "invoiceRow": 36,
+      "imageUrl": "https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/emal-pf-115-teks-optimum-temno-sinyaya-19-kg.webp",
+      "input": {
+        "key": "1",
+        "value": "Эмаль ПФ-115 Текс Оптимум тёмно-синяя, 1,9 кг",
+        "slug": "emal-pf-115-teks-optimum-temno-sinyaya-19-kg",
+        "parentable_type": "category",
+        "parentable_id": 41,
+        "price": {
+          "create": {
+            "key": "1",
+            "value": "644"
+          }
+        },
+        "unit": {
+          "create": {
+            "key": "1",
+            "value": "шт."
+          }
+        },
+        "image": {
+          "create": {
+            "key": "1",
+            "hash": "emal-pf-115-teks-optimum-temno-sinyaya-19-kg.webp"
+          }
+        }
+      },
+      "imageNote": "Общий вид упаковки линейки Оптимум 1,9 кг; цвет указан в названии товара."
+    },
+    {
+      "invoiceRow": 39,
+      "imageUrl": "https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/epp-xps30-200-standart-120060020-l.jpg",
+      "input": {
+        "key": "1",
+        "value": "ЭПП XPS30-200 Стандарт, 1200×600×20-L, 20 шт./уп.",
+        "slug": "epp-xps30-200-standart-120060020-l",
+        "parentable_type": "category",
+        "parentable_id": 117,
+        "price": {
+          "create": {
+            "key": "1",
+            "value": "137"
+          }
+        },
+        "unit": {
+          "create": {
+            "key": "1",
+            "value": "шт."
+          }
+        },
+        "image": {
+          "create": {
+            "key": "1",
+            "hash": "epp-xps30-200-standart-120060020-l.jpg"
+          }
+        }
+      }
+    },
+    {
+      "invoiceRow": 41,
+      "imageUrl": "https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/uteplitel-izover-teplye-steny-6101000100mm-305m2.jpg",
+      "input": {
+        "key": "1",
+        "value": "Утеплитель ИЗОВЕР Тёплые стены, 610×1000×100 мм, 3,05 м²",
+        "slug": "uteplitel-izover-teplye-steny-6101000100mm-305m2",
+        "parentable_type": "category",
+        "parentable_id": 113,
+        "price": {
+          "create": {
+            "key": "1",
+            "value": "1210"
+          }
+        },
+        "unit": {
+          "create": {
+            "key": "1",
+            "value": "шт."
+          }
+        },
+        "image": {
+          "create": {
+            "key": "1",
+            "hash": "uteplitel-izover-teplye-steny-6101000100mm-305m2.jpg"
+          }
+        }
+      }
+    },
+    {
+      "invoiceRow": 50,
+      "imageUrl": "https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/kley-dlya-plitki-cerezit-cm16-belyy-25-kg.webp",
+      "input": {
+        "key": "1",
+        "value": "Клей для плитки эластичный Церезит CM 16 белый, 25 кг",
+        "slug": "kley-dlya-plitki-cerezit-cm16-belyy-25-kg",
+        "parentable_type": "category",
+        "parentable_id": 16,
+        "price": {
+          "create": {
+            "key": "1",
+            "value": "1674"
+          }
+        },
+        "unit": {
+          "create": {
+            "key": "1",
+            "value": "шт."
+          }
+        },
+        "image": {
+          "create": {
+            "key": "1",
+            "hash": "kley-dlya-plitki-cerezit-cm16-belyy-25-kg.webp"
+          }
+        }
+      }
+    },
+    {
+      "invoiceRow": 51,
+      "imageUrl": "https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/kley-dlya-plitki-cerezit-cm17-25-kg.webp",
+      "input": {
+        "key": "1",
+        "value": "Клей для плитки эластичный Церезит CM 17, 25 кг",
+        "slug": "kley-dlya-plitki-cerezit-cm17-25-kg",
+        "parentable_type": "category",
+        "parentable_id": 16,
+        "price": {
+          "create": {
+            "key": "1",
+            "value": "2210"
+          }
+        },
+        "unit": {
+          "create": {
+            "key": "1",
+            "value": "шт."
+          }
+        },
+        "image": {
+          "create": {
+            "key": "1",
+            "hash": "kley-dlya-plitki-cerezit-cm17-25-kg.webp"
+          }
+        }
+      }
+    },
+    {
+      "invoiceRow": 65,
+      "imageUrl": "https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/uteplitel-tehnoblok-standart-1200600100mm-0288-m3.jpg",
+      "input": {
+        "key": "1",
+        "value": "Утеплитель Техноблок Стандарт, 1,2×0,6×0,1 м, 0,288 м³",
+        "slug": "uteplitel-tehnoblok-standart-1200600100mm-0288-m3",
+        "parentable_type": "category",
+        "parentable_id": 113,
+        "price": {
+          "create": {
+            "key": "1",
+            "value": "1474"
+          }
+        },
+        "unit": {
+          "create": {
+            "key": "1",
+            "value": "упак."
+          }
+        },
+        "image": {
+          "create": {
+            "key": "1",
+            "hash": "uteplitel-tehnoblok-standart-1200600100mm-0288-m3.jpg"
+          }
+        }
+      }
+    }
+  ]
+}
